@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JOHN PRITT HARLEY,<note>John Pritt Harley (1786-1858; <hi rend="italic">Dictionary of National Biography</hi>), actor and singer. Stage-manager and leading comedian at St James's Theatre from Sep 1836; chiefly celebrated for his Shakespearean clowns. CD's sister Fanny had played at his benefits, Drury Lane 1827 and 1828; but there is no evidence that he and CD met before 1836, when at John Braham's request the part of Martin Stokes was added for him to CD's comic operetta <hi rend="italic">The Village Coquettes</hi> (which CD dedicated to Harley).</note> [7 FEBRUARY] 1837</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-28</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile on eBay, Aug 2020. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="theatre|Is She His Wife? The Strange Gentleman">theatre|Is She His Wife? The Strange Gentleman</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+	<address>	
+	<addrLine>J.P. Harley Esquire | Upper Gower Street
+
+Furnivals Inn 
+	</addrLine>
+	</address>
+		<placeName></placeName>
+               <date when="1837-02-07">Tuesday Evening</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>Don't be frightened about the "Loaf".<note>A package containing the manuscript of CD's one-act farce Is She His Wife? For the delay in Harley's receipt of the package see <hi rend="italic">To</hi> Harley, [6 Feb 1837], in Pilgrim <hi rend="italic">Letters</hi> 1, pp. 233-4. The play was first performed at St James's Theatre on 6 March 1837</note> It shall be delivered in the course of a day or so; I have altered it; it only wants the song,<note>One of the many songs, sung by Harley in his lead role as Felix Tapkins in <hi rend="italic">Is She His Wife</hi>; is reproduced as part of the Lord Chamberlain's copies of CD's plays, in Pilgrim Letters 1, pp. 699-700.</note> and copying. I shall be going out of town on Saturday Morning,<note>CD made several visits in February to Mrs Nash's, the cottage in Chalk, near Gravesend, where he and Catherine spent their honeymoon.</note> but will see you at the Theatre on Friday Night. I have made you Felix Tapkins Esqre (formerly of the India House)<note>“Felix Tapkins, Esq. (formerly of the India House, Leadenhall Street, and Prospect Place, Poplar; but now of the Rustic Lodge, near Reading)”. A good-natured bachelor with whom Mrs Lovetown flirts to make her husband jealous, leading to the confusion of the play's title; Tapkins comes to believe she is married to someone else, while the jealous husband schemes to entrap his wife and her lover.</note> –</p>
+<p>P.S. Have the goodness to let one of the Theatre Messengers<note>At St James's Theatre, London; Harley was a member of the company.</note> bring home my "Strange Gentleman" portmanteau.<note>The character of the "Strange Gentleman" carries a portmanteau (and refuses to be parted from it) in Act 1 Scene 1 of CD's play.</note> I want to pack it.</p>
+         <closer>
+            <salute>Believe me (in haste)| Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

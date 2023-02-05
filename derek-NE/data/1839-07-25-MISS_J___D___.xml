@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MISS J____ D___,<note>Unidentified; but Miss D____'s first initial is revealed in To Miss J____ D____, 17 June 1839. <hi rend="italic">The Glasgow Evening Citizen</hi> expands on the history of the addressee: "Miss D____ got back to Glasgow, where she was married, and in such a position of comfort, that on Mr. Dickens's first visit to this city [in July 1841], she found him out, and desired him to accept repayment of the sums he had advanced, at which, in her own simple phrase, 'he only laughed.' Now [1870], however, somewhat advanced in years, her husband completely invalided, and herself broken down in health, she is again in need of aid. These original letters of Mr. Dickens, which she has so long treasured, she is now anxious to dispose of to any benevolent admirer of the distinguished author, and it will afford a curious illustration of the fruitfulness of good actions, if they should prove, once more, a source of hope and relief, to one who seems a thoroughly deserving, if a somewhat romantic and unfortunate person. The letters may be seen at our office."</note> 25 JULY 1839 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from <hi rend="italic">TGlasgow Evening Citizen</hi>, 15 June 1870, p. 3.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="charity|social issues">charity|social issues</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Elm Cottage, Petersham<note>CD had rented Elm Cottage from 30 Apr to 31 Aug 1839.</note></placeName>
+               <date when="1839-07-25">Thursday, July 25th, 1839. </date>
+            </dateline>
+            <salute>Miss D­­­____,</salute>
+         </opener>
+         <p>  I have been too constantly occupied since I received your letter to write any letters at all, and even if I had not been I candidly confess to you that I should have had very great difficulty in knowing how to answer yours.</p>
+<p> I will not inquire again how it is that you come to be alone in London without any friends or relations who can assist or advise you. You appear to wish to remain silent on that point, and although you need not to have feared to find in me a very lenient and mild judge, I have no wish to become one – further than as your confidence on this point might have assisted me in assisting you.</p>
+<p> I need not tell you that in any ordinary case I should have felt it my first duty to institute a strict inquiry into your personal history: not to condemn it, but merely to ascertain that you were really in want of help. I have no wish whatever to do so, as I see by your letters that you are far too sensitive already to struggle against the adversity with which you have to contend, and I should be sorry for a moment to increase the delicacy or sorrow of your position. I regret to say that I have not, nor am likely to have, any means of helping you to a situation; but I must remind you that if I had, and even felt that confidence in you which I am disposed from your letters to entertain, I could not possibly hope to convey it to anybody else unless I could at the same time tell them far more about you than at this time I know myself. The letters of recommendation which you have sent me (and which I now return) are ridiculous – conceived and expressed in a manner which could not fail to do you injury with any one to whom you showed them. You have done quite right, I think, to keep them to yourself.</p>
+<p>   In this position, with so many other claims of a similar kind constantly made upon me, and not seeing how I can assist you permanently (which is, what I would wish to do), I do not know at present that I can serve you more efficiently than by repeating the enclosed trifle once every fortnight;<note>Probably sent by postal order, rather than by cheque: there is no record in CD's account of a payment to a Miss D___ in the summer of 1839 (MS Messrs Coutts). According to <hi rend="italic">A Guide to the Unprotected in Every-Day Matters Relating to Property and Income</hi>. By a Banker's Daughter (London, 1863), it would have been discourteous to the bank to write a cheque for such a small amount.</note> this, added to what you may earn, will I hope increase your comforts in some slight degree; and if you can ever show me that the expenditure of a few pounds will be likely to do you lasting and permanent good, I will (if I justly can, and am quite assured of the fact) advance them to promote your prospects</p>
+<p>If – either now, or at any future time – you could, by seeing me, put me better in possession of anything you wish to communicate than by writing (as I think you could), and will tell me so by note, and mention on what days and at what hours you are usually disengaged, I will appoint a time at which you can see me alone, at my house in Doughty Street.<note>There is no evidence that such a meeting at Doughty Street ever took place.</note> Meanwhile I would impress upon you that there is no station in life in which we must not exert ourselves both mentally and bodily, if we would live and be ever so moderately happy. The life of which you speak in your last letter may be (and I know is) a very hard one, but it is in your power to make it harder and more laborious even than it really is; and I almost fear that a nervous sensibility, and the absence of a bold determination to bear misfortune and adversity, and look forward the while to something better, have perhaps led in some degree to your present distress. — I am, yours truly,
+
+</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

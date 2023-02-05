@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> W. H. WILLS, 4 MAY 1855</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS The Free Library of Philadelphia.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="|publishing|Household Words|Bleak House|editing">|publishing|Household Words|Bleak House|editing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when=“1855-05-04”>Fourth May 1855</date>
+            </dateline>
+            <salute>My Dear Wills</salute>
+         </opener>
+         <p>I omitted two points yesterday. First, will you remind Morley at any odd time, of the History of the Sappers and Miners by the Quartermaster Sergeant.<note>See <hi rend="italic">To</hi> T.W.J. Connolly, 14 Apr 55.</note> Secondly, will you specially ask him if he will try to do any little fanciful thing in reference to the accompanying book of Leigh Hunt’s,<note>James Henry Leigh Hunt (1784-1859; <hi rend="italic">Dictionary of National Biography</hi>), essayist, critic and poet: see Pilgrim Letters 1, p. 341n and later vols. The original of Skimpole in <hi rend="italic">Bleak House</hi>: see Pilgrim <hi rend="italic">Letters</hi> 4, pp. 623 & n, 628 & n, Pilgrim <hi rend="italic">Letters</hi> 7, p. 460 & <hi rend="italic">nn</hi>. Stories in Verse, a gathering of verse tales, was published 30 Apr</note> that may do it a service? I am anxious about this, for reasons.<note>CD may have wanted to make some reparation for his portrayal of Hunt as Skimpole.</note> As it is a sort of Railway book, he might perhaps, under some such title as an extraordinary Railway Ride, describe the chief things in it as circling about him during a Railway journey and changing an ugly ride (say, along the fenny Eastern Counties for instance) into something sunny and beautiful.<note>Henry Morley’s “By Rail to Parnassus”, <hi rend="italic">Household Words</hi>, 16 June 55, XI, 477, takes the form of an account by a poor clerk of the diversion Hunt’s book provides on a train from Waterloo to Southampton (it was issued by Routledge in their Railway Library).</note> Don’t lose time about this, for I believe Hunt’s race on this side of the Moon to be nearly ended.<note>I.e. “his earthly life is nearly over”: although he survived until 1859, Hunt described himself in a letter, Feb 55, as “a bundle of clothes sitting by a fire”: see Pilgrim <hi rend="italic">Letters</hi> 7, p. 609, <hi rend="italic">n</hi>.6.</note></p>
+         <closer>
+            <salute>Faithfully alwys 
+            </salute>
+            <signed>
+               <persName> CD<note>Wills sent CD’s letter to Morley with the note: “Will you attend to the enclosed”.</note></persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">TO</hi> GEORGE DOLBY,<note>George Dolby (d. 1900), CD’s reading tour manager from 1866.</note> 17 FEBRUARY 1869</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Facsimile in Profiles in History catalogue, May 2013</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">public readings,health</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Great Western Hotel<note>In Conduit St East, Paddington.
+</note></placeName>
+               <date when="1869-02-17">Wednesday Seventeenth February 1869 </date>
+            </dateline>
+            <salute>My Dear Dolby </salute>
+         </opener>
+         <p>I was in severe pain all last night, and Scott<note>Henry Scott, CD’s valet and dresser.</note> (the best of nurses) poulticed and fermented the unhappy foot, all the night through. It had looked in the evening as though it were taking a decided turn for the better; but it came out afterwards as I tell you. </p>
+<p>I am so clouded to day by opium and Beard’s<note>Francis Carr Beard (1814-93), FRCS, CD’s regular physician from 1859; youngest brother of CD’s lifelong friend Thomas Beard.</note> other medicines, that I hardly know which part of the general confusion is foot, and which head. But I think<note>Doubly underlined.
+</note> the inflammation is subsiding. </p>
+<p>Of the probabilities as to Saturday,<note>For the first of his farewell readings in Edinburgh, the <hi rend="italic">Scotsman</hi>, 18 Feb, announced that they were postponed to 24 and 26 Feb (with no third reading) because of his inflamed foot.</note> I can as yet say nothing. You know how earnestly I hope to get sword in hand again that soon, and fight it out. You shall hear again by tomorrow night’s post how I go on. I am as restless as if I were behind bars in the Zoological Gardens; and if I could afford it, would wear a part of my mane away, as the lion has done, by rubbing against the windows of my cage. 
+</p>
+         <closer>
+            <salute>Ever affectionately 
+            </salute>
+            <signed>
+               <persName>CD</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

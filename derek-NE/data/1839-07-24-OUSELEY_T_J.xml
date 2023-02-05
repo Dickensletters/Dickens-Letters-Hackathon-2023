@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> T. J. OUSELEY,<note>Thomas John Ouseley (d. 1874), minor poet and for a short time publisher and editor of the Manx Punch: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 526n.</note> 24 JULY 1839</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-21</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="books|literary culture|public recognition|celebrity|gifts|editing">books|literary culture|public recognition|celebrity|gifts|editing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+		<addrLine>T. J. Ouseley Esquire | 6 Exeter Row. | Birmingham. PM Richmond 23 JY 1839.
+		</addrLine>
+	</address>
+            <dateline>
+               <placeName>Elm Cottage, Petersham, Surrey.<note>CD had taken Elm Cottage for four months from 30 April.</note></placeName>
+               <date when="1839-07-24">July 24th. 1839.</date>
+            </dateline>
+            <salute>My Dear Sir.</salute>
+         </opener>
+         <p>Let me thank you heartily for your elegant volume<note><hi rend="italic">A Vision of Death’s Destruction, and Other Poems</hi>, 1839 (3rd edn). The 1844 Devonshire Terrace Inventory lists two copies of poems by Ouseley (Pilgrim <hi rend="italic">Letters</hi> 4, p. 713); Ouseley sent CD an inscribed copy of Poems, 1870 (<hi rend="italic">Catalogue of the Library of CD</hi>, ed. J.H.Stonehouse, 1935).</note> and for your dedication of it to myself. Let me thank you too for the more than pleasure I have derived from the perusal of it, and for the delight it has afforded me. I should have acknowledged the receipt of your kind communication sooner, but that I am residing out of town for the Summer and only receive letters and parcels from London now and then. This was the cause of some delay before it reached me, and I was unwilling to write to you until I had read your book.</p>
+<p>I have sent your parcels to the different gentlemen to whom they were directed, and I wish—with reference to Mr. Bentley<note>Richard Bentley (1794-1871; <hi rend="italic">Dictionary of National Biography</hi>), publisher: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 164n.</note>—that I could expedite the appearance of “The Dream of the Dying Girl.”<note>Not published in <hi rend="italic">Bentley’s Miscellany</hi>, though eight other poems by Ouseley were, 1840-4.</note> I may mention to you, however, that the postponements, delays, excuses, promises, and equivocations which would seem to be an essential part of Magazine publishing and editing very speedily disgusted me with that one with which I was connected, and that I never experienced in my life a greater relief than when I was enabled to retire from it.<note>CD, editor of <hi rend="italic">Bentley’s Miscellany</hi> from Nov 1836, had resigned 31 Jan 39: see Pilgrim <hi rend="italic">Letters</hi> 1, 496n.</note></p>
+<p>T. J. Ouseley Esquire<note>Written at the bottom of the first page below “speedily disgusted” and not, as usual, at foot of letter after CD’s signature.</note></p>
+         <closer>
+            <salute>Always believe me | My Dear Sir | Faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

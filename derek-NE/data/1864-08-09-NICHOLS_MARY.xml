@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To MARY NICHOLS,<note>Mrs Mary Sargeant Neal Gove Nichols (1810-84; <hi rend="italic">Dictionary of American Biography</hi>), miscellaneous writer, reformer and water-cure practitioner; advocated mesmerism, temperance and dress reform. Published Experience in <hi rend="italic">Water-Cure</hi>, New York, 1849, and several novels. With her second husband, Thomas Low Nichols (see Pilgrim <hi rend="italic">Letters</hi>, 21 Apr 64, fn), established Nichols' <hi rend="italic">Journal of Health</hi> (Cincinnati) 1853, advocating free love, spiritualism and health reform. They published jointly <hi rend="italic">Marriage: Its History, Character, and Results</hi>, 1854. Settled in England on outbreak of American Civil War and conducted jointly a water-cure establishment in Great Malvern 1867-75; 1875-86 ed. jointly the <hi rend="italic">London Herald of Health</hi>.</note> 9 AUGUST 1864<note>Printed in Pilgrim Letters, following Nonesuch Letters, as two letters, with <hi rend="italic">bb</hi> under the date [?16 Aug 64], Pilgrim <hi rend="italic">Letters</hi> 10 p. 420.</note></title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Huntington Library.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="editing|All the Year Round">editing|All the Year Round</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>(a) GAD’S HILL PLACE,
+
+HIGHAM BY ROCHESTER, KENT.</placeName>
+               <date when="1864-08-09">Tuesday Ninth August, 1864</date>
+            </dateline>
+            <salute>Dear Mrs. Nichols</salute>
+         </opener>
+         <p>The chapter of your Unholy Land<note>Part of the material additional to “A Trip in the Unholy Land” (><hi rend="italic"> To</hi> Mrs Nichols, 25 July 1863); this chapter renamed by CD “On the Mississippi” (><hi rend="italic"> All the Year Round</hi>, 27 Aug, XII, 58).</note> that I had before the receipt of your letter, is in type. The chapter to which you refer in your said letter,<note>The chapter most likely, but not certainly, another part of “A Trip”.</note> I have not, because it has (no doubt) gone to Mr. Wills to be entered in the regular book and way of the office. Assuming it to be at the office, I will return it to you at the end of the week. Even though we were not going to run, for some weeks, two serial stories together,<note>Compare <hi rend="italic">To</hi> Mrs Nichols, 25 July 1863. From August, <hi rend="italic">All the Year Round</hi>, XII, continued to run Sala’s <hi rend="italic">Quite Alone</hi> and began <hi rend="italic">Percy Fitzgerald’s Never Forgotten</hi>.</note> I should still be indisposed to proceed with this series:- for the reason that I believe your countrymen are not now in the mood to be told anything from this side of the water concerning themselves,<note>i.e. during the Civil War.</note> and that they would unconsciously misrepresent the intention, and that we should do more [than]<note>Crossed out by CD.</note> harm than good. (a)</p>
+<p>(b) Ben’s Beaver,<note>An account of a Canadian settler’s pet beaver: <hi rend="italic">All the Year Round</hi>, 20 Aug, XII, 35.</note> I placed in the last No. I made up. I am much concerned to receive your sad account of your young daughter.<note>Mary Wilhelmina, born 1850; she died in London, aged 14.</note> As you say nothing of your own health, I hope it is better. I am well and working hard.</p>
+<p>The enclosed very good and true.<note>Presumably “Backwoods Life in Canada”, <hi rend="italic">All the Year Round</hi>, 1 Oct, XII, 190, named in <hi rend="italic">To</hi> Mrs Nichols, 15 Aug.</note> In the passage you have lined out, you anticipate what I would have erased. (b)</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

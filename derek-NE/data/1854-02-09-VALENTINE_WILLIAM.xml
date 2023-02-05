@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THE REV. WILLIAM VALENTINE,<note>The Rev. William Valentine (?1787-1873), Minister of St Thomas’s, Arbour Street, Stepney: see Pilgrim <hi rend="italic">Letters</hi> 5, p. 392n.</note> 9 FEBRUARY 1854</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-12</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Alexander Autographs online catalogue, 4 May 2005.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="charity|public recognition|celebrity">charity|public recognition|celebrity</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName> Tavistock House | </placeName>
+               <date when="1854-02-09"> Ninth February 1854.</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Mr. Charles Dickens presents his compliments to the Reverend William Valentine, and begs to express his regret that his occupations will not admit of his being present on the 22nd. to hear the interesting lecture of his esteemed friend Mr. Layard.<note>Austen Henry Layard (1817-94; <hi rend="italic">Dictionary of National Biography</hi>), excavator of Nineveh and Liberal politician. After working in a London solicitor's office, travelled in Turkey and Persia; commissioned by Stratford Canning, British Ambassador to Constantinople, to explore site of Nineveh 1845. Published <hi rend="italic">Nineveh and its Remains</hi> 1848-9. Superintended further excavations 1849-51. Returned to England Spring 1851. Liberal MP Aylesbury 1852-7; Under-Secretary for Foreign Affairs 1852. Knighted 1878. Layard lectured on his Discoveries at Nineveh at the Beaumont Institution, Mile End Road, on the evening of 22 Feb. Proceeds went to the National Schools and other charities in Valentine’s parish.</note> And asMr. Dickens has a great objection to associating himself, merely in name, with anything, and would feel such a proceeding particularly discourteous<note>“court” written over other letters.</note> in the case of so justly eminent a man, he is obliged to send this reluctant apology for not complying with Mr. Valentine’s request.<note>Presumably to have his name announced as supporting Layard and the lecture’s charitable purposes.</note> </p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName></persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

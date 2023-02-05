@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> FRANCIS SMEDLEY,<note>Francis Smedley (1791-1858), High Bailiff of Westminster; father of Francis Edward Smedley, the novelist.</note>1 19 APRIL 1841</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-23</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Swann Auction Galleries, April 2004.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="legal matters|social issues|Queen Victoria">legal matters|social issues|Queen Victoria</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace.</placeName>
+               <date when="1841-04-19">April The Nineteenth 1841.</date>
+            </dateline>
+            <salute>My Dear Sir.</salute>
+         </opener>
+         <p>Unless you forbid me, I mean to call upon you next Monday between 12 and 1, and avail myself of your good offices<note>As a law officer, Smedley could gain CD admission to Tothill Fields Bridewell, to which CD had no access, though he was “free” of “most other jails” (To Smedley, 1 Apr 41; Pilgrim <hi rend="italic">Letters</hi> 2, p. 246).</note> in the matter of “the Boy Jones,”<note>William Jones, known as “the Boy Jones”, a 17-year-old apothecary’s errandboy, serving a three months’ sentence in Tothill Fields after having been found in Buckingham Palace for the third time. He claimed, when arrested, that his only object in entering the Palace “was to hear the conversation of her Majesty and Prince Albert, in order to ‘write a book’” (<hi rend="italic">Examiner</hi>, 21 Mar 41; Pilgrim <hi rend="italic">Letters</hi> 2, p. 246): see further Pilgrim <hi rend="italic">Letters</hi> 2, p. 246 and <hi rend="italic">nn</hi>. CD saw him 26 Apr.</note> as the Sunday newspapers denominate him in very fat capitals. </p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> DAVID ROBERTS,<note></note> 17 FEBRUARY 1852</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile on eBay.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="theatre | social engagements |friends">theatre | social engagements |friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House, Tavistock Square</placeName>
+               <date when="1852-02-17">Tuesday Seventeenth February 1852</date>
+            </dateline>
+            <salute>My Dear Roberts</salute>
+         </opener>
+         <p>The Amateur Company of the Guild of Literature and Art<note>For the Prospectus of the Guild of Literature and Art, April 1851, see Pilgrim <hi rend="italic">Letters</hi> 6, p. 852 (Appendix D); its aim was to help artists and writers with annuities as well as grants for members in need and their widows, an insurance scheme and houses for needy or retired writers and artists, built on Bulwer Lytton’s estate at Knebworth, Hertfordshire.</note> (after doing wonders at Manchester and Liverpool)<note>The Amateurs performed Lytton’s <hi rend="italic">Not so Bad as we Seem</hi>, and Mark Lemon’s <hi rend="italic">Mr Nightingale’s Diary</hi>, heavily revised by CD, on 11, 13 and 14 Feb 52 at Manchester and Liverpool with great success.</note> are going to dine with their Manager here on Monday the 1st of March<note>CD had invited the “whole company, and the Artists who painted the Scenes”, as well as the Duke of Devonshire, in whose house Lytton’s play had been first performed (Pilgrim <hi rend="italic">Letters</hi> 6, pp. 322, 602).</note> at a quarter past six. It will give me great pleasure if you will join the party.<note>Roberts went: see also Pilgrim <hi rend="italic">Letters</hi> 6, pp. 614-5.</note></p>
+         <closer>
+            <salute>Believe me | Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS | David Roberts Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> ELLEN PAINE<note>Ellen Matilda Steward Paine (1809-1882), of Rickmansworth. Author of <hi rend="italic"> The Two James's</hi> and the <hi rend="italic"> Two Stephensons</hi>; or, <hi rend="italic"> The Earliest History of Passenger Transit on Railways</hi> (1861). Daughter of William James (1771-1837), railway developer. For the subject of the correspondence see To Ellen Paine, 30 Dec 1865 and 1 Jan 1866. For a full account of her dealings with CD see Leon Litvack, 'Dickens and the Stephenson Party: New Letters to E.M.S. Paine', <hi rend="italic"> Dickensian</hi> 114.2 (2018): 149-58. See also To Ellen Paine, 30 Dec 1865 and 1 Jan 1866.</note>, [5 JANUARY 1866] </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-09</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Envelope only. Text from facsimile on eBay, October 2016. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="railway">railway</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>Mrs. Paine| Rickmansworth | Herts. 
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName></placeName>
+               <date when="1866-01-05">PM London 5 Jan 1866.</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To THE REV. GEORGE ARMSTRONG,<note>The Rev. George Armstrong (1792-1857); born in Ireland, graduated from Trinity College, Dublin, and ordained in the Church of England 1815. Resigned his Orders and became a champion of Unitarianism. Settled in Bristol 1838.</note> 5 NOVEMBER 1842</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-1</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Gavin Adams.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="America|Martin Chuzzlewit|American Notes">America|Martin Chuzzlewit|American Notes</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>London. 1 Devonshire Terrace
+
+</placeName>
+               <date when="1842-11-05">York Gate Regents Park. | Fifth November 1842.
+
+</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>I have been greatly interested in the perusal of your letter, and am truly obliged to you for it. In all the sentiments you express, relative to the splendid abilities and high usefulness of the great Man<note>The Rev.William Ellery Channing (1780-1842; Dictionary of National Biography), Unitarian minister of the Federal Street Church, Boston, since 1803; acclaimed in both America and Europe as a man of letters and social thinker. CD and Catherine had breakfast with him in Boston, 2 Feb 42 (Pilgrim Letters 3, p. 31). News of his death was noticed in London papers, 1 Nov. See further Pilgrim Letters 3, p. 16n.</note> whose death, in common with many thousands, we both sincerely deplore, I most heartily and thoroughly concur. And yet I cannot—believe me, cannot take upon myself the task of endeavouring, with my pen, to do justice to his honored memory.<note>Armstrong wrote to CD, urging him “to seize this opportunity...for fixing the attention of the reading world, on both sides of the Atlantic” on that “most gifted of Christian teachers” (in R. Henderson, <hi rend="italic">A Memoir of the Late Rev. George Armstrong</hi>, 1859; see Vol. III, p. 362 hn&amp; n.2).</note></p>
+<p>My reason for holding back, is plain and truthful. At this time my mind is necessarily employed upon another subject,<note><hi rend="italic">Martin Chuzzlewit</hi>, which CD had begun planning in summer 42 and which occupied him until summer 44.</note> which has taken full possession of it, and must hold it too, with God’s leave, for a long time to come. I could not, at such a juncture, do what I ought and would, with such a theme as Channing. And to do less than it deserves, would be a misery to me. Although I am well acquainted with his writings<note>There is no direct evidence of which writings of Channing CD had read. He possibly possessed Channing’s <hi rend="italic">Discourse on the Life and Character of Joseph Tuckermann</hi>, 1841 (Pilgrim <hi rend="italic">Letters</hi> 4, p. 720); <hi rend="italic">Channing’s Works</hi> in 1 vol., 1840, was in the 1878 sale <hi rend="italic">Catalogue of the Library</hi> of CD, ed. J. H. Stonehouse, 1935.</note> and hold them in as high esteem as you do, I really have so deep a sense of his immense usefulness in such a land as America, that I think I should, at the best, feel it almost presumptuous to write of such a man. But with the reason I have given you, to deter me, I feel that it becomes my duty not<note>Doubly underlined.</note> to enter the Lists in such a cause, and thereby exclude others who would serve it infinitely better.</p>
+<p>
+Rely upon it that this is a wise and proper resolution, and one of which he himself, could he be judge in such a matter, would approve.<note>CD overwrote the first three letters.</note> I have been in frequent communication with him since I left America,<note>CD overwrote the first three letters.</note> and my book<note><hi rend="italic">American Notes</hi>. In Ch. 3 CD names “this distinguished and accomplished man”, so he might have “the gratification of recording my humble tribute of admiration and respect for his high abilities and character”. He emphasised Channing’s boldness in opposing himself “to that most hideous blot and foul disgrace – Slavery.”</note> was on its way to him, when the news of his death was coming sadly across the great ocean. Those United States have as good reason to deplore the event, as his own loving family had, for it will be very—very—long before another such man rises up among them, to benefit the world. I can scarcely hope that you will agree with me just now, but in a little time I am sure you will. Awaiting it, I am My Dear Sir,
+</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

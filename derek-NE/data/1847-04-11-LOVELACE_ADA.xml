@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> ADA LOVELACE,<note>Augusta Ada King, <hi rend="italic">née</hi> Byron, Countess of Lovelace (1815-1852; <hi rend="italic">Dictionary of National Biography</hi>); mathematician, scientist, and computer pioneer. Lovelace and CD likely met through Charles Babbage, to whom she was introduced in 1833. CD had written a very formal letter to Lovelace on 31 Mar 1847, requesting the address of a friend living in Genoa, Sir George William Craufurd, 3rd Baronet of Kilbernie. CD wrote that he “has an interest” in an old servant of Craufurd’s (Pilgrim <hi rend="italic">Letters</hi> 5, p. 49)</note> [?4 or 11 APRIL 1847] </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-29</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Christie's online catalogue, July 2020.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|social engagements">friends|social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine> The | Countess of Lovelace. 
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName>Chester Place<note>CD and his wife Catherine rented a house at 1 Chester Place, Regent’s Park, from March to June 1847; a tenant was occupying their Devonshire Terrace home. Their eldest son Charley had come down with scarlet fever at King’s College, which necessitated their early return to London; the rest of the children followed from Paris a few days later (see To Augustus Tracey, Pilgrim <hi rend="italic">Letters</hi> 5, pp. 32-33). The family had been in France since Nov 1846.</note></placeName>
+               <date when="">Sunday Evening</date>
+            </dateline>
+            <salute>Dear Lady Lovelace</salute>
+         </opener>
+         <p> I have, most unfortunately, someone from the country<note> Unidentified </note> dining here; and I fear I may not get rid of him in time to come round to you. I will be more than usually dull, however, and perhaps he'll go. – If I were alone, I should be really delighted to respond to your very kind note by putting myself in the Brougham and coming round, immediately</p>
+<p>   In case I should not be released in an hour or so, I will repeat my call in Grosvenor Place,<note>Lady Lovelace was temporarily resident in Grosvenor Place, 1847-8.</note> on Tuesday afternoon before dinner time. Pray do not mind being out. I shall be close in your neighbourhood in any case.</p>
+<p>I write in the dark – legibly, I hope</p>
+<p> Always Dear Lady Lovelace</p>
+         <closer>
+            <salute>Yours very faithfully
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To MARION ELY,<NOTE>Marion Elizabeth Ely (1820-1913), daughter of Charles Ely and Sara, <hi rend="italic">née</hi> Rutt; niece of Rachel Talfourd (1792-1875), wife of CD's friend Thomas Noon Talfourd (1795-1854).</NOTE> 4 DECEMBER 1862</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Lyon &amp; Turnbull online catalogue, Oct 2019</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|social engagementsfamily|health">friends|social engagementsfamily|health</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Paris. Rue du Faubourg St Honoré 27.<note>CD had been in Paris since Oct, with his sister-in-law Georgina Hogarth and his daughter Mamie (here referred to by her proper name, Mary), partly to give Georgina a “complete change” (Pilgrim <hi rend="italic">Letters</hi> 10, p. 100) in hope of improving her health (see below).</note>
+
+</placeName>
+               <date when="1862-12-04">Thursday Fourth December 1862
+
+</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>My Dear Marion. I hear from Georgina that she has herself replied to your letter in my absence. You may implicitly rely on what she tells you of her health.<note>Georgina had been unwell at least since June 1862, and when CD, doubting Dr John Elliotson’s diagnosis, had a consultation with Archibald Billing (see <hi rend="italic">To</hi> Wilkie Collins, 20 July 1862 &amp;amp; n, in Pilgrim <hi rend="italic">Letters</hi> 10, p. 109), her condition was diagnosed as “aneurism of the aorta”, though no danger was apprehended. Later, CD reports that “Georgy continues wonderfully well” (Pilgrim <hi rend="italic">Letters</hi> 10, p. 183; see also p. 253). On Georgina's illness see Arthur A. Adrian, <hi rend="italic">Georgina Hogarth and the Dickens Circle</hi> (London: Oxford University Press, 1957), pp. 76-8.</note> No doubt she was exceedingly ill, and occasioned us great anxiety; the rather,<note>A now rare expression, meaning "the more so" or "for this reason".</note> as at first her disorder seemed steadily to increase. But the change has been so very decided and marked, so entirely without drawback, and so surprising altogether, that I begin to believe there has been some complete spontaneous cure of what was wrong. Since we have been here, she has been perfectly well; and as to the long journey, it no more affected her than it affected Mary.</p>\
+<p> I hope you will not forget your pledge to come again to Gad's Hill,<note>CD told Susanna Milner Gibson (8 Sept 1862) that Marion had been staying for a few days and “was looking wonderfully well and young”; see Pilgrim <hi rend="italic">Letters</hi> 10, p. 124.</note> whenever you feel inclined for the change. You cannot come too often, nor could your undersigned old friend and admirer easily tell you (if he tried) with what hearty pleasure you will always be received there.</p>
+         <closer>
+            <salute>           With kindest regard to Willie<note>William Wordsworth Talfourd (1831-1900), son of Thomas and Rachel Talfourd; Rector of Winceby, Lincs. Marion Ely's nephew.</note> and Kate,<note>Katharine Talfourd (1833-1915), daughter of Thomas and Rachel Talfourd; Marion Ely's niece.</note> |    Believe me ever| 
+Affectionately Yours
+
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

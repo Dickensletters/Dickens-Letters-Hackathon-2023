@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> OBADIAH RICH,<note>Obadiah Rich (1783-1850; <hi rend="italic">Dictionary of American Biography</hi>), consular officer and bookseller. United States consular officer in Valencia, 1816; 1823, in charge of archive of Madrid legation; 1834-45, consul in the Balearics, though absent the majority of the time. Settled in London c. 1829 as bookseller and American agent, at 12 Red Lion Square, taking his sons into partnership (for James, see Pilgrim <hi rend="italic">Letters</hi> 3, p. 596 &amp; n.) Provided the American historian, William Hinkling Prescott (1796-1859; <hi rend="italic">Dictionary of American Biography</hi>), with books and manuscript materials towards his histories of Spain and Latin America. Prescott contacted CD, whom he had met in Boston, in Jan 42 (Pilgrim <hi rend="italic">Letters</hi> 3, p. 19 n.3), about the British publication of Mme Calderón’s <hi rend="italic">Life in Mexico</hi> (below), using Rich to transmit the American edition to CD, who passed it to Chapman &amp; Hall (see <hi rend="italic">To</hi> Edward Chapman, 16 Sep 42, and <hi rend="italic">To</hi> Prescott, 2 Mar 43; Pilgrim <hi rend="italic">Letters</hi> 3, pp. 324, 456).</note> 5 JANUARY 1843</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in R. &amp; R. Enterprises online catalogue, 24April 2005. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="books|publishing|Mexico<">books|publishing|Mexico</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>1 Devonshire Terrace / York Gate Regents Park</placeName>
+               <date when="1843-01-02">Fifth January 1843.<note>Year altered from 1842, probably by another hand, to correct CD’s slip at beginning of a new year.</note></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p> Mr. Charles Dickens sends his compliments to Mr. Rich, and begs to acknowledge the safe receipt of the American Parcel.<note>Containing the first half of the second volume of Mme <hi rend="italic">Calderón’s Life in Mexico</hi> (1843). Frances Calderón (née Inglis; 1804-82) married Spain’s first Minister to the United States, Angelo Calderón de la Barca, in 1838; the book is based on her experiences when Calderón was first Minister to Mexico. Prescott was transmitting the American printing in three batches, CD’s letter referring to the second, despatched mid Dec (<hi rend="italic">The Correspondence of William Hinkling Prescott</hi> 1833-1847, ed. R. Walcott, Boston, 1925, pp. 322, 328).</note> </p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

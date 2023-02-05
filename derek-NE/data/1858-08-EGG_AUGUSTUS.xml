@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> AUGUSTUS EGG,<note>Augustus Leopold Egg (1816-63 <hi rend="italic">Dictionary of National Biography</hi>), artist. Son of a gunmaker; student at the Royal Academy from 1835; began exhibiting 1836; soon inherited enough to be independent and exhibited sparingly; Associate of the Royal Academy (ARA) from 1848; Royal Academician (RA) 1860. Participated in many of CD's amateur theatricals, acting and designing costumes. Went to Italy with CD and Wilkie Collins in 1853. In the mid-1850s he proposed to CD's sister-in-law Georgina Hogarth, but she refused to marry him. In later years lived abroad for his health, and died in Algiers 1863.</note> [EARLY AUGUST 1858]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mention in letter from Egg to Patrick Allan-Fraser,<note>Patrick Allan-Fraser (1813-90, <hi rend="italic">Dictionary of National Biography</hi>), born Patrick Allan, son of an Arbroath stocking weaver; successively, house painter and artist; assumed additional name of Fraser 1851, after marrying in 1843 heiress of nearby estate of Hospitalfield. Devoted himself to managing his wife's estate and collecting works of art. See Michael Slater, “Munificence Declined: New Letters about the Guild of Literature and Art,” <hi rend="italic">Dickensian</hi> 111.1 (2015): 34-41.</note> 7 August 1858; quoted in Michael Slater, “Munificence Declined: New Letters about the Guild of Literature and Art,” Dickensian 111.1 (2015): 39.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="riends|public readings|Scotland">friends|public readings|Scotland</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1858-08-01">CD wrote just before Egg's letter to Allan-Fraser.</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p><hi rend="italic">Suggesting that he “does not see. . . much chance of his being able to read at Arbroath,” but adds that if Fraser “would be kind enough to send him some particulars of the place, for example, how far it is from Glasgow, and how many its room will hold that he will discuss the probabilities and let [Fraser] know afterwards.”<note>Allan-Fraser did write to CD; for the author's reply see Pilgrim <hi rend="italic">Letters</hi> 8, p. 630.</note> Bids that Egg say to Fraser “that he will make an appointment to see you with the greatest pleasure either at Edinburgh or Glasgow whichever suits you best as he stays four days at each place.”<note>CD gave public readings in Edinburgh from 27 to 30 September 1858; in Dundee on 1 and 2 October; in Aberdeen 4 October; in Perth 5 October; and in Glasgow on 6-9 October inclusive.</note></hi>
+
+1.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

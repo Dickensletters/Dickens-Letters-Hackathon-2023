@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THE SECRETARY, THE SCHOOL FOR THE INDIGENT BLIND,<note>Thomas Grueger. The School, near the Obelisk, St George’s Fields, founded 1799 for the “sound moral and religious education” of the blind, admitted both sexes, aged 10-25 (average number of pupils, 160): they were clothed, boarded and instructed. The school had its own manufactory.</note> 20 DECEMBER 1869</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-06</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Bonham’s Books and Manuscripts, New York, Oct 2010; summary in Walter T. Spencer catalogue, No. 68 (1895), adds MS 1p., with envelope addressed The Secretary for the School of the Indigent Blind.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="The Old Curiosity Shop|America|charity|gifts">The Old Curiosity Shop|America|charity|gifts</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD’S HILL PLACE, | HIGHAM BY ROCHESTER, KENT.
+
+</placeName>
+               <date when="1869-12-20">Monday Twentieth December, 1869
+
+</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Mr. Charles Dickens presents his compliments to the Secretary of the Institution for the Blind, and begs to say that he has received from America two copies of his story “The Old Curiosity Shop”, printed in raised letters for the use of the Blind,<note>The copies, produced by the Perkins Institution, Boston, U.S.A. (below), were not in a system like Braille, but used raised letters of the alphabet. These presumably the two copies CD refers to in a letter to Customs &amp; Excise (Pilgrim <hi rend="italic">Letters</hi> 12, p. 154; probably misdated too early); the copy in the 1878 <hi rend="italic">Catalogue of the Library of CD</hi> (ed. J. H. Stonehouse, 1935) presumably received from America separately and earlier.</note> which he forwards as a present to the pupils in St. George’s Fields by train to day.<note>CD asked Georgina to send on the copies to the School (20 Dec 1869; Pilgrim <hi rend="italic">Letters</hi> 12, p.453).</note> Before Mr. Dickens left America on the occasion of his last visit to the States, he left a sum of money<note>Strictly, CD had arranged for the money to be available once he approved the estimate (below).</note> with his friend Dr. Howe of Boston,<note>Samuel Gridley Howe (1801-76; <hi rend="italic">Dictionary of American Biography</hi>), MD, Director of the Perkins Institution and Massachusetts Asylum for the Blind (Pilgrim <hi rend="italic">Letters</hi> 3, p. 217n); CD had visited the Institution, established 1833 by Thomas Handsayd Perkins (1764-1854), on his first American visit (<hi rend="italic">American Notes</hi>, ch. 3). On his second American visit, CD asked Howe to prepare an estimate for the production of 250 or 500 copies of OCS, which he would then pay for. CD arranged in May 1868 for the money to be available (Pilgrim <hi rend="italic">Letters</hi> 12, pp. 56 &amp; n.3, 113 &amp; nn).</note> to be expended in the production of the Edition of which the two copies in question are a specimen.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

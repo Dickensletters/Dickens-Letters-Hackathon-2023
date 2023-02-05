@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> WILLIAM POWELL FRITH,<note>William Powell Frith (1819-1909; <hi rend="italic">Dictionary of National Biography</hi>), painter. Studied art at the Royal Academy schools. Exhibited at the British Institution 1839; at the Royal Academy 1840; ARA 1845; RA 1853. Painted several pictures of Dolly Varden in 1841 (after the publication of Barnaby Rudge), after which he became a friend of CD. John Forster commissioned the portrait <hi rend="italic">Charles Dickens in His Study</hi> from him in 1859.</note> 16 MAY 1864 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in International Autograph Auctions online catalogue, October 2016. On mourning paper.<note>Since the death of his mother on 12 Sept. 1863 CD generally wrote his letters on mourning paper.</note> </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|clubs|visual arts|Barnaby Rudge">friends|clubs|visual arts|Barnaby Rudge</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD'S HILL PLACE,
+
+HIGHAM BY ROCHESTER, KENT.</placeName>
+               <date when="1864-05-16">Monday Sixteenth May 1864</date>
+            </dateline>
+            <salute>My Dear Frith</salute>
+         </opener>
+         <p>The enclosed requisition<note>Prepared by CD for a meeting of the Garrick Club on 25 Apr 1864, to amend the rules for committee member retirement and re-election. In the end the resolution was not used; see To Lover, 21 May 1864, Pilgrim <hi rend="italic">Letters</hi> 10, pp. 397-8.</note> (which speaks for itself as a plain matter) will require 20 signatures. Do you feel a sufficient interest in such a principle, to authorize me to add yours to it? You can tell me on Wednesday, and then give it me back. </p>
+<p>W.P. Frith Esquire</p>
+         <closer>
+            <salute>Ever Faithfully
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> J. S. LE FANU,<note>Joseph Sheridan Le Fanu (1814-73; <hi rend="italic">Dictionary of National Biography</hi>), novelist and journalist; born in Ireland, of Huguenot extraction; great-nephew of Richard Brinsley Sheridan; educated at Trinity College, Dublin; joined staff of <hi rend="italic">Dublin University Magazine</hi> 1837; regular contributor (editor and proprietor 1869-72); founded the <hi rend="italic">Dublin Evening Mail</hi> 1839. After his wife’s death 1858, devoted himself to novel-writing; of his 16 novels, <hi rend="italic">Uncle Silas</hi>, 1864, is the best known.</note> 29 SEPTEMBER 1869</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-03</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from reproduction in Bloomsbury Auction catalogue, Nov. 2007.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="All the Year Round">All the Year Round</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND</placeName>
+               <date when="1869-09-29">Wednesday Twenty Ninth September 1869</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>I had best let you know that I have safely received your MS<note>“Green Tea”, <hi rend="italic">All the Year Round</hi>, four instalments, 23 Oct-13 Nov 69, N.S.II, 501-72. See also <hi rend="italic">To</hi> Le Fanu, 24 November &amp; n.</note> and have sent it to the printer. I tried to read it in your writing, but could not succeed without devoting more time to the task than I could spare</p>
+<p>J. S. Le Fanu Esquire</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

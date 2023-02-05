@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> LADY DUFF GORDON,<note>Lady Duff Gordon, née Lucie [Lucy] Austin (1821-69; <hi rend="italic">Dictionary of National Biography</hi>), author and translator. Married Sir Alexander Cornewall Duff Gordon, Bart, 1840. Their house noted for a progressive literary and social circle that included CD, Tennyson, Thackeray and Meredith. Her translations (largely from German), which included works by Niebuhr and von Ranke, began (1844) with a vastly successful version of Wilhelm Meinhold’s novel, <hi rend="italic">Mary Schweidler</hi>, best known in English by its subtitle, <hi rend="italic">The Amber Witch</hi>. Lived abroad for her health from 1851, settling (1862) in Egypt. Her letters from Egypt published, 1865 and 1875.</note> 3 FEBRUARY 1846</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Shaun Springer.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="The Daily News|friends">The Daily News|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1846-02-03"> Third February 1846</date>
+            </dateline>
+            <salute>My Dear Lady Gordon</salute>
+         </opener>
+         <p>Pray do not think me unmindful, for a moment, of your note, or of the immense advantage of Mrs. Austin’s<note>Sarah Austin, née Taylor (1793-1867; <hi rend="italic">Dictionary of National Biography</hi>), mother of Lady Duff Gordon. She supported her husband financially by journalism and translations from French and German. Living in Paris 1843-48. For CD’s satirical parody of her translation of a tale by F.W. Carové, see Pilgrim <hi rend="italic">Letters</hi> 1, p. 573n; it was also imitated by him in “A Child’s Dream of a Star”: see Dickens’s <hi rend="italic">Journalism</hi>, ed. Michael Slater, Vol. 2 (1996), pp. 10-13 &amp;amp; 185-8.</note> help. It is impossible to have a greater respect for her, or to set a higher value on it, than I entertain. I have had to speak to the Foreign Editors of the Paper;<note>CD was deeply involved in establishing the <hi rend="italic">Daily News</hi> (first issue, 21 Jan 46: see Pilgrim <hi rend="italic">Letters</hi> 4). Dudley Costello (1803-65; <hi rend="italic">Dictionary of National Biography</hi>: see PIlgrim <hi rend="italic">Letters</hi> 1, p. 442 &amp; n), author and journalist, was the newspaper’s (sole) foreign editor.</note> and this has delayed me. We have a large establishment in Paris,<note>The Paris agent was André Guillaume Fillonneau (Pilgrim Letters 4, p. 497n); he had married Amelia, sister of CD’s brother-in-law Henry Austin, in 1837 (PIlgrim <hi rend="italic">Letters</hi> 1, p. 52 &amp; n). Joseph Crowe, son of a <hi rend="italic">Daily News</hi> leaderwriter, Eyre Crowe, was sent to assist the Paris correspondent (possibly Fillonneau) in early 1846: Pilgrim <hi rend="italic">Letters</hi> 4, p. 444n; a reporter attended the Chamber of Deputies. “Large establishment” suggests more than three people, but the earlier reference to Foreign Editors in the plural suggests CD may exaggerate the size of the <hi rend="italic">Daily News</hi> establishment.</note> and are not therefore in a position to pay as well for such letters as you describe, as we otherwise might have done.<note><hi rend="italic">The Daily News</hi> had recruited editorial and reporting staff at high rates of pay: 8 guineas a week was offered a reporter and 3 guineas for reporting the Court of Common Pleas (PIlgrim <hi rend="italic">Letters</hi> 4, pp. 432, 454). Lady Blessington, for London fashionable news and gossip, accepted £500 a year (Pilgrim <hi rend="italic">Letters</hi> 4, p. 475n).</note> But they tell me that for one good letter a week, they would pay Four Pounds a week, very willingly. (£4) We pay the same sum, I am assured, to a correspondent who stands high in one of the Public Departments,<note> Unidentified </note> and has peculiar advantages in respect of position, information, and so forth. I profit so much by your work, that I cannot say I object to your being overworked. But I do very strongly object to your being underpaid, or being out of heart, or anything but in a most beaming state of satisfaction and happiness. As to that carriage —if I were Cinderella’s Grandmother<note>CD’s slip for the “Godmother” of all standard versions.</note> (or Father) I would instantly take four Swans out of the Park by Queen Square<note>The Duff Gordons lived at 8 Queen Square (now incorporated into Queen Anne’s Gate), Westminster. The park is St James’s, with its elongated lake.</note> there, and change them into Blood horses. The Foot Guards hard by,<note>At the Wellington Barracks, Birdcage Walk.</note> should be thinned for your State Footmen. The Kettle Drums should spring up into a Landau and a Barouche;<note>Both landau and barouche were smart carriages, to be driven covered or open; the landau opened entirely by folding back and forward, the barouche by folding back the rear half-head.</note> and would alter everything about you, for your pleasure, if you would remain exactly as you are for mine.When you have heard from Mrs. Austin, I shall hope to receive one line from you, telling me the result.<note>Untraced, if she contributed.</note></p>
+         <closer>
+            <salute>Always believe me | Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

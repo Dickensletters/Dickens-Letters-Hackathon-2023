@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> To BERNHARD TAUCHNITZ,<note>Baron Bernhard Christian Tauchnitz (1816-95), publisher, of Leipzig. Born at Schleinitz; nephew of the publisher Karl Tauchnitz. Founded his own firm in Leipzig in 1837. The firm began its “Collection of British Authors” Sep 1841 with Bulwer Lytton’s <hi rend="italic">Pelham. Pickwick Papers, Oliver Twist, and American Notes</hi> had appeared before the end of 1842, and Nicholas Nickleby in June 1843. He and CD became friendly, and CD sent Charley to Leipzig to learn German (see below). According to John Forster, Tauchnitz always paid liberally. He wrote to Forster after CD’s death: “All Mr Dickens’s works have been published under agreement by me. My intercourse with him lasted nearly twenty-seven years. The first of his letters dates in October 1843, and his last at the close of March, 1870 [see <hi rend="italic">To</hi> Tauchnitz, 31 March 1870]. Our long relations were not only never troubled by the least disagreement, but were the occasion of most hearty personal feeling; and I shall never lose the sense of his kind and friendly nature. On my asking him his terms for Edwin Drood, he replied, ‘Your terms shall be mine.’” (John Forster, <hi rend="italic">The Life of Charles Dickens</hi>, ed. J.W.T. Ley [London: Cecil Palmer, 1928], p. 807n).</note> 5 NOVEMBER 1855</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in the possession of Dietmar Böhnke.<note>Böhnke published his transcription, with brief annotation, in "The Correspondence between Charles Dickens and Bernhard Tauchnitz: General Observations and Newly Discovered Letters", <hi rend="italic">Archiv für das Studium der neueren Sprachen und Literaturen </hi>(Berlin: Erich Schmidt Verlag, 2013), pp. 320-1</note></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Little Dorrit|Germany|publishing|translations">Little Dorrit|Germany|publishing|translations</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House London |</placeName>
+               <date when="1855-11-05">Monday Fifth November 1855</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>Under the circumstances you state in your kind letter received this morning, I think I shall do well to accept the offer of M. Weber.<note></note> Therefore let me hereby empower you to accept that gentleman's proposal, on my Johann Jakob Weber (1803-80), another Leipzig publisher, who printed several Dickens texts in translation, among them <hi rend="italic">Die Pickwickier</hi> (1837).behalf. And pray let me thank you at the same time, cordially, for the trouble and interest you have taken in the business.</p>
+<p>M. Weber's first No.<note>Weber's edition of <hi rend="italic">Little Dorrit</hi>, translated by Moritz Busch, which appeared in 1856 (see Böhnke, "The Correspondence", p. 323). See also To Bradbury and Evans, [?Mid-November 1855], in Pilgrim <hi rend="italic">Letters</hi> 12, p. 666: “I will write to Mr. Weber by this post, letting him know that you will forward him a proof of No.1 in great privacy and confidence by tomorrow’s post (if you have not already done so).”</note> shall be sent under cover to you. And you shall receive it three or four days before publication here.</p>
+<p>The Chevalier Bernhard Tauchnitz</p>
+         <closer>
+            <salute>My Dear Sir | Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

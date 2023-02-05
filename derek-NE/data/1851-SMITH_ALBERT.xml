@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> ALBERT SMITH,<note>Albert Smith (1816-60; <hi rend="italic">Dictionary of National Biography</hi>), author and entertainer: see Pilgrim <hi rend="italic">Letters</hi> 4, p. 8n.</note> [JULY-DECEMBER 1851]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-12</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">health|social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1851-04-21">1851-04-21</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Summary and extract in Cuthbert Bede, “Unpublished Anecdotes of Charles Lamb, Douglas Jerrold and Charles Dickens”, <hi rend="italic">London Sketch- Book</hi>, I, iv (April, 1874), pp. 19-22; addressed Albert Smith, undated. <hi rend="italic">Date</hi>: mention of the Crystal Palace suggests that this was written during the year of the Great Exhibition and after CD mentions his visit in a letter to Mrs Watson, 11 July 1851.</p>
+<p><hi rend="italic">Excusing himself, on the ground that he had a severe cold, CD described the gathering and preparation for a sneeze, </hi>and,<hi rend="italic"> in imagery drawn from the Crystal Palace, the laying on of the complete series of waterworks, upper and lower basins, and the grand finale of the accomplished sneeze.</hi><note>CD likens his sneeze to the great fountain by Osler, Follett &amp; Clarkson, a centrepiece of the Great Exhibition in Hyde Park, May-Sep 51. The 27-foot fountain featured a main water spout, as well as smaller jets lower down, from which water streamed into an upper and lower basin. CD visited the Crystal Palace twice; he specifically recalled the Osler fountain: <hi rend="italic">To</hi> Mrs Watson, 11 July, Pilgrim <hi rend="italic">Letters</hi> 6, p. 428. CD had a severe cold on 11 July (To Wills, Pilgrim <hi rend="italic">Letters</hi> 6, p. 430) and again on 31 Oct (<hi rend="italic">To</hi> Watson, Pilgrim <hi rend="italic">Letters</hi> 6 , pp. 532-3).</note> </p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

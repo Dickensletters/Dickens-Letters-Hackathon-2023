@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To WILLIAM DARE MORGAN,<note>William Dare Morgan (1838-87), son of CD’s friend Captain Elisha Ely Morgan (?1805-64). Joined his father’s shipping firm, the Black X Line, and spent most of the period 1861-4 in London, safeguarding the family’s interests during the American Civil War. See Leon Litvack, 'Messages from the Sea: New Dickens Letters to E.E. and W.D. Morgan', Dickensian 110.2 (2014), 242-54.</note> 13 March 1863 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+<p>You know my son Frank,<note>CD’s son Francis Jeffrey Dickens (1844-86), whose career path was a cause for concern for his father. By 1859 Frank had given up any thought of a medical career on account of his stammer, and he expressed a wish to become a ‘gentleman farmer’ in the colonies (see Pilgrim<hi rend="italic">Letters</hi> 8, p. 71; dated 31 May 1859). CD seems to have recognised Frank’s desire to travel and work abroad, and so the boy was given opportunities to master European languages – with a view to working for the Foreign Office, or in international business. Frank was sent to France and Germany, and then worked in the same City office where his brother Charley had been employed (Pilgrim<hi rend="italic">Letters</hi> 9, p. 247 and 9, p. 351; dated 3 May and 21 December 1860). CD also took him on periodically at the offices of <hi rend="italic">All the Year Round</hi>, because he thought for a time that Frank had a ‘natural literary taste’ (Pilgrim <hi rend="italic">Letters</hi> 9, p. 383; dated 1 February 1861. See also 10, p. 191; dated 8 January 1863). Through CD’s influence, Frank was nominated for the Foreign Office by Lord John Russell (then Foreign Secretary; see Pilgrim Letters 10, p. 133; dated 3 October 1862); but he failed the examination. In July 1861 CD was calling him ‘That unaccountable, uninteresting, and impracticable boy’ (Pilgrim <hi rend="italic">Letters</hi> 9, p. 439; dated 12 July 1861).</note> and you know that he is waiting for a Foreign Office vacancy. How long he may wait, Heaven knows; in the mean time he is tired of waiting, and I am still more tired of seeing him wait. I have not enough for him to do here, and he wants to be roused up, and thrown upon his own resources, and regularly employed in some routine duty. I should like him to go a long voyage,<note>Thus in MS.</note> but that seems a difficult thing to attain just now: so I should like him to go a short voyage,<note>Thus in MS.</note> in default of a better. But it is essential that he should be employed aboard ship, and should not go as a gentleman-idler.</p>
+<p>Could he go out to America in one of your vessels, and be set to work on board in any clerk-like capacity? Of course I propose to pay for him, but I want him to be kept at work on some pretence or other as if he were earning and fighting his own way.</p>
+<p>This is the whole case. My son Charley will be very glad to confer with you upon it, if you think you can see any way towards the end I have before me.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Robin Lloyd</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">family,friends,fAmerica</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND,</placeName>
+               <date when="1863-03-13">Friday Thirteenth March 1863</date>
+            </dateline>
+            <salute>My Dear Morgan </salute>
+         </opener>
+         <p>I think you may perhaps be able to help me in a matter I have at heart, and if you can, I am sure you will.</p>
+         <closer>
+            <salute>Always Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENSW. D. Morgan Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> <hi rend="italic">To</hi> FRANCES ELIZABETH BURNETT,<note>Frances Elizabeth (Fanny) Burnett, <hi rend="italic">née</hi> Dickens (1810-1848); pianist and singer. Eldest of John Dickens’s children (see Pilgrim <hi rend="italic">Letters</hi> 1, p. 4n). In 1823 began study at the Royal Academy of Music, singing under Domenico Crivelli and studying the piano under Ignaz Moscheles. Forced to suspend her studies due to John Dickens’s financial difficulties, returning first as a part-time piano teacher and then as a student again in 1832. Met Henry Burnett at this time; married in 1837. CD and Fanny were close, though he envied her success and education. Diagnosed with tuberculosis in 1846; died in 1848 after a prolonged illness</note> [?26 JUNE 1841] 
+
+</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS (fragment) Daniel Moss; cut from a longer letter, leaving 7 lines on recto, with closure and signature on verso.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family|celebrity|speeches">family|celebrity|speeches</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1841-06-26">handwriting confirms 1841; "proceedings" suggests the Edinburgh dinner for CD, 25 June 1841</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>as ready and quick as it was possible to be!) were in a perfect state of wild enthusiasm. The proceedings<note>Probably the dinner in CD's honour, at the Waterloo Rooms, Edinburgh, 25 June 1841. See <hi rend="italic">To</hi> John Forster, [26 June 1841], in Pilgrim <hi rend="italic">Letters</hi> 2, pp. 310-11, and <hi rend="italic">To</hi> Messrs Chapman &amp; Hall, 26 June 1841, in Pilgrim <hi rend="italic">Letters</hi> 2, p. 312. For a report on the proceedings see <hi rend="italic">Caledonian Mercury</hi>, 26 June 1841, pp. 2-3.</note> lasted two hours. The highly-gifted young man<note>CD is here referring to himself</note> wound up with another short speech, not less effective than the first: and then withdrew to his Inn, and to Bed. He returned to. . .
+
+</p>
+<p>My best remembrances to Mr Burnett, and love to Charley<note>Charles Dickens Kneller Burnett (1841-81).</note> and poor little Harry.<note>Henry Augustus Burnett (1839-49), the likely model for little Paul Dombey in <hi rend="italic">Dombey and Son.</hi></note></p>
+<p>Mrs Burnett.</p>
+         <closer>
+            <salute>      Always affectionately
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

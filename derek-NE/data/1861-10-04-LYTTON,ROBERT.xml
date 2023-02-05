@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> <hi rend="italic">To</hi> THE HON. ROBERT LYTTON,<note>Edward Robert Lytton (1831-91; <hi rend="italic">Dictionary of National Biography</hi>), diplomat and poet (as “Owen Meredith”); only son and second child of Edward Bulwer Lytton. Through his father he early became intimate with Forster, a close friend and literary advisor. Succeeded to his father’s barony, 1873, and created 1st Earl of Lytton, 1880: see further Pilgrim <hi rend="italic">Letters</hi> 7, p. 694n. Lytton was currently in Vienna with the British Legation and Embassy.</note> 4 OCTOBER 1861</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-01</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Durham Cathedral Library.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">friends|All the Year Round|publishing|editing|Great Expectations</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND,</placeName>
+               <date when="1861-10-04">Friday Fourth October 1861,</date>
+            </dateline>
+            <salute>My Dear Robert Lytton.</salute>
+         </opener>
+         <p>The moment I received the excellent Legend,<note>“Rabbi Ben Ephraim’s Treasure”, <hi rend="italic">All the Year Round</hi>, 19 Oct 61, VI, 80-84. Lytton based it, with permission, on a story told him by Robert Browning (<hi rend="italic">Letters from Owen Meredith ... to Robert and Elizabeth Barrett Browning</hi>, ed. Aurelia Brooks Harlan andJ. Lee Harlan, Jr, n.d. [1937], pp.183, 193.</note> I sent it off to the Printer’s, and placed it in the next No. I made up—that which will be published in the week after this next. It is longer than a piece of Poetry usually is in this limited space of ours;<note>Lytton’s poem occupies 7 cols; of the other 13 poems in AYR, Vol.VI, none exceeds 3 cols.</note> but I cannot call, or think, any thing so very good too long. I made one slight alteration which I hope you will excuse. For “child of my bowels”, I substituted “child of my bosom.” Your word I very well know to be more in keeping with the speaker, but I think mine the better for the public.<note>The phrase is used thrice by the Jew Zillah, addressing her daughter Rachel, with the Old Testament resonance of “bowels” as the seat of pity or compassion (compare Genesis, 43:30). CD substituted for its more physical associations, both in common usage and in the Bible (e.g. Acts, 1:18), the Biblical and common association of “bosom” with the heart and love. Lytton kept CD’s changes when republishing the poem in <hi rend="italic">Chronicles and Characters</hi>, 2 vols, 1868 (II, 85).</note> You put me to pain and shame when you write about subscribing to All The Year Round. As if it were not yours of right! I will speak to Mr. Wills<note>William Henry Wills (1810-80; <hi rend="italic">Dictionary of National Biography</hi>), assistant editor and part-proprietor of <hi rend="italic">Household Words</hi> and <hi rend="italic">All the Year Round</hi>. Wills had returned (shortly after 23 September) from a holiday on the Continent: the illness (below), not referred to elsewhere, was clearly minor and Wills was working normally on 25 October.</note> (who is now at home unwell) as to the best means of having it forwarded to you, and you may be sure of the means being punctually taken. Also, he will remit to you next week, the amount in which the Journal is indebted to you.<note>One guinea a page was the standard rate, “but it is sometimes more” (To Felton, 10 Nov 59, Pilgrim <hi rend="italic">Letters</hi> 9, p. 155). Lytton’s poem occupies 31⁄2 pages.</note> I shall be heartily glad to have more contributions when you have more to send. So much for business. I received Tannhaüser<note>Thus in MS. <hi rend="italic">Tannhäuser</hi>, or, <hi rend="italic">The Battle of the Bards</hi>. A Poem, by Neville Temple and Edward Trevor, 1861. The authors’ names were the pseudonyms of Lytton (“Edward Trevor”) and Julian Fane (1827-70; <hi rend="italic">Dictionary of National Biography</hi>), diplomat and poet, secretary of the British Legation and Embassy at Vienna, 1858-65. Fane was an admirer of the music of Wagner, whom he met in Vienna and the poem, written in alternate sections by Fane and Lytton, closely follows Wagner’s opera (Robert Lytton, <hi rend="italic">Julian Fane</hi>. A Memoir, 1871, pp.170, 173). It is in blank verse in deliberate imitation of Tennyson’s idylls, with inset songs for the Wartburg contest. Lytton had hoped the authorship of what he regarded as a light-weight work, imitative and largely written by Fane and himself for their own entertainment, would be concealed, but Fane’s pseudonym, a version of the family motto, was soon recognized and Lytton’s identity by association.</note> without hint of authorship, and immediately detected you.<note>Fane wrote the first stint: for the division of writing between him and Lytton, see <hi rend="italic">Julian Fane</hi>, pp.176ff. A review in <hi rend="italic">The Times</hi>, 2 Aug 61, “all flaming eulogy”, helped to see off one edition in two days, and by 24 September “all but” two editions of 1000 copies each (<hi rend="italic">Letters from Owen Meredith</hi>…, ed. Harlan and Harlan, pp.190-91).</note> It afforded me the greatest pleasure; and I told Chapman and Hall immediately, that it was a very remarkable poem and certain to win attention and admiration. This I mention here, not as any proof of sagacity, but as an assurance that I was honestly and strongly impressed.</p>
+
+<p>What you write of Great Expectations is doubly gratifying and interesting to me, because your father<note>Edward George Earle Lytton Bulwer Lytton (1803-73; <hi rend="italic">Dictionary of National Biography</hi>), 1st Baron Lytton, writer and politician: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 337n and later vols. Co-founder with CD of the Guild of Literature and Art (see Pilgrim <hi rend="italic">Letters</hi> 6); godfather of CD’s last child, Edward Bulwer Lytton (b.1852).</note> was so very strong upon it while it was yet unfinished, and because he differed from me as to the turn of the last two pages or so, and I adopted his view as the view of a great artist.<note>Great Expectations completed its serialization in <hi rend="italic">All the Year Round</hi>, 3 Aug 61, V, 433-7. 122 For CD’s changes to the ending at Lytton’s suggestion, see To Bulwer Lytton, 24 June 61 and n.3 and To Forster, 1 July 61 (Pilgrim <hi rend="italic">Letters</hi> 9, pp. 428-9, 432-3). CD early admired Bulwer Lytton, praising <hi rend="italic">Paul Clifford</hi> (1830) in the Preface to the third edn (1841) of <hi rend="italic">Oliver Twist</hi>. Having by January 1861 secured Lytton’s agreement to write a novel for serialization in <hi rend="italic">All the Year Round</hi> (see below), CD declared “I never have been so pleased at heart in all my Literary life, as I am in the proud thought of standing side by side with you before this great audience” (To Bulwer Lytton, 23 Jan 61, Pilgrim <hi rend="italic">Letters</hi> 9, p. 374).</note> This was when I was staying at Knebworth for two or three days last June,<note>CD stayed at Knebworth, Lytton’s house, the nights of 15-18 June 1861.</note> and when his foreign tour had certainly done him good; for I never knew him brighter, or saw him look younger. His story<note><hi rend="italic">A Strange Story</hi>, AYR, 10 Aug 61, V, 457 to 6 March 62, VI, 553.</note> has held the large circulation of All the Year Round, wonderfully.<note>CD reported on the circulation to the same effect to Bulwer Lytton, 28 Aug and17 Sep 1861 (Pilgrim <hi rend="italic">Letters</hi> 9, pp. 448,459), and was enthusiastic about the novel to the end, calling it in December 1861 “most masterly and most admirable” (Pilgrim <hi rend="italic">Letters</hi> 9, p. 543).</note> I think I need not tell you what a pleasure and pride it is to me to work at his side.
+</p>
+         <closer>
+            <salute>Very faithfully Yours alwys|
+P.S. I have not seen Browning yet.<note>Elizabeth Barrett Browning had died in Florence, 29 June 1861; Robert Browning returned to England on 29 September: he stayed with Arabel Barrett, his sister-inlaw, before moving shortly after 7 October into nearby lodgings at 1 Chichester Road, Paddington. Lytton was a close friend of the Brownings, but Lytton may have mentioned the origin of his poem in Browning’s story (note 2 above), so prompting CD’s mention here.</note> But he has been much at Forster’s<note>John Forster (1812-76, <hi rend="italic">Dictionary of National Biography</hi>), CD's closest friend and biographer. For Forster’s friendship with Browning, see James A. Davies, <hi rend="italic">John Forster: A Literary Life</hi>, 1983, ch.9. As early as August, Forster had been looking out a London house for Browning (who only moved in 1862 to a house of his own) (<hi rend="italic">Letters from Owen Meredith</hi>…, ed. Harlan andHarlan, p.183).</note> and Forster’s account of him is cheering. 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>
+
+
+
+
+
+

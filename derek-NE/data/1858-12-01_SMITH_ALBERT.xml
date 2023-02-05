@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> ALBERT SMITH,<note>Albert Richard Smith (1816-60; <hi rend="italic">Dictionary of National Biography</hi>), author and entertainer: see Pilgrim <hi rend="italic">Letters</hi> 4, p. 8n.</note> 1 DECEMBER 1858</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-15</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from J. A. Stargardt, Berlin, catalogue 2003.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|public readings">friends|public readings</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>TAVISTOCK HOUSE| TAVISTOCK SQUARE, LONDON. W.C.
+
+</placeName>
+               <date when="1858-12-01">Wednesday Night, First December 1858.</date>
+            </dateline>
+            <salute>My Dear Albert</salute>
+         </opener>
+         <p>I cannot tell you how grieved I am for poor dear Arthur<note>Arthur Smith (1825-61), manager for his brother Albert’s Egyptian Hall entertainments (1852-60); for CD’s Amateur Theatrical tour in aid of Douglas Jerrold’s family; and for CD’s Public Readings, 1856-61. Arthur had fallen ill with diphtheria while on a short visit to Paris.</note> (even you can hardly love him better than I do), or with what anxiety I shall wait for further news of him. Pray let me know how he is tomorrow. I go to Manchester, to speak, on Friday Morning;<note>CD was Chairman at the Prize-giving of the Institutional Association of Lancashire and Cheshire at Manchester, 3 Dec.</note> but shall be back in the night of Saturday. Let me find another word from you, too, when I return. Tell them at home that Olliffe<note>Sir Joseph Olliffe (1808-69; <hi rend="italic">Dictionary of National Biography</hi>, physician: see Pilgrim <hi rend="italic">Letters</hi> 5, p. 606n. Olliffe, who lived in Paris, was well-known to CD. See <hi rend="italic">To</hi> Joseph Olliffe, 24 August 1856.</note> is the kindest and gentlest of men—a man of rare experience and opportunity—perfect master of his profession, and to be confidently and implicitly relied upon. There is no man alive, in whose hands I would more thankfully trust myself. I will write a cheery word to the dear fellow in the morning.<note><hi rend="italic">To</hi> Arthur Smith, 2 Dec 1858, in Pilgrim <hi rend="italic">Letters</hi> 8, p. 713.</note></p>
+         <closer>
+            <salute>Ever faithfully, 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

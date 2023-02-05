@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> GRANT THORBURN,<note>Grant Thorburn (1773-1863; <hi rend="italic">Dictionary of National Biography</hi>; <hi rend="italic">Dictionary of American Biography</hi>), seed-merchant and author. Born in Scotland, originally a nail-maker; emigrated to New York 1794, after being detained (1793) for radical political activities. Set up in business, becoming a seed-merchant in 1805 and publishing the first American seed catalogue (1812). Published essays and articles under the pseudonym “<hi rend="italic">Lawrie Todd</hi>”, from John Galt’s novel <hi rend="italic">Lawrie Todd</hi>; or, <hi rend="italic">The Settlers in the Wood</hi> (1830), a work (allegedly) based on Thorburn’s experiences. Wrote an autobiography, <hi rend="italic">Forty Years’ Residence in America</hi>; or, <hi rend="italic">The Doctrine of a Particular Providence…</hi> (1834).</note> 22 FEBRUARY 1842</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-07</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p> MS Free Library of Philadelphia.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="America|travel|social engagements|celebrity">America|travel|social engagements|celebrity</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Carlton House, New York<note>CD stayed at the Carlton House Hotel, Broadway, 12 Feby-5 Mar.</note></placeName>
+               <date when="1842-02-22">Twenty Second February 1842.</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I was very glad indeed to get your letter t’other day. Your hospitable invitation is one after my own heart: and I should have been truly delighted to accept it, but that every moment of my time is so incessantly engaged during the short remainder of my stay here, (I leave for Philadelphia on Monday Morning)<note>Anxious for mail from home, due on the <hi rend="italic">Caledonia</hi> (feared lost; actually forced back to Ireland by storm damage), CD delayed his departure from 28 Feb (Pilgrim <hi rend="italic">Letters</hi> 3, pp. 92-3) until 5 Mar.</note> that I have scarcely leisure<note>CD <hi rend="italic">wrote</hi> time <hi rend="italic">deleted, then</hi> leisure.
+</note> for needful rest. But I hope to return here towards the end of May;<note>Actually 2-7 June; he again stayed in the Carlton House.
+</note> and then I will certainly come to see you. Let our personal acquaintance begin at that time. I shall be free from the crowd, and at my ease. I assure you that you are quite right in supposing me to be quite the recluse just now. I was standing on the deck of the Steamer at Liverpool when somebody whom I had never seen before – a very bluff, heartylooking fellow – came up to me and put the inclosed letter into my hand.<note>Clearly a letter of introduction; its writer unidentified.</note> Read it. I told him, as I needn’t tell you, that I was very much obliged to him, but that I should certainly have seen you at any rate.<note>Given CD’s concern before departing to America to read other accounts by British travellers there, including Frances Trollope and Isaac Fidler (see Pilgrim <hi rend="italic">Letters</hi> 2, p. 442 n.3), he possibly knew reciprocally of Thorburn through his travel book, its title hitting out at earlier British travellers in the States, <hi rend="italic">Men and Manners in Britain</hi>; or, <hi rend="italic">A Bone to Gnaw for the Trollopes</hi>, Fidlers, &amp;c. <hi rend="italic">Being Notes from a Journal on Sea and on Land in 1833-4</hi> (1835).</note>  </p>
+<p>Mr. Grant Thorburn.  </p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> PERCY FITZGERALD,<note>Percy Hetherington Fitzgerald (1831-1925), novelist and miscellaneous writer. Prolific contributor to <hi rend="italic">Household Words</hi> since July 1856. Published <hi rend="italic">The Life of CD</hi>, 2 vols, 1905 and Memories of CD, 1913. See Pilgrim <hi rend="italic">Letters</hi> 8, p. 616n.</note> 30 0CTOBER 1869</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile on eBay, January 2011.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id=""></interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND</placeName>
+               <date when="1869-10-30">Saturday Thirtieth October 1869</date>
+            </dateline>
+            <salute>My Dear Fitzgerald</salute>
+         </opener>
+         <p>Make yourself quite easy. There is not the slightest need for hurry, and you can take your own time.<note>For problems for the All the Year Round printers, see To Fitzgerald, 19 Aug 1869; these now evidently resolved. Fitzgerald’s The Bridge of Sighs. A Yachting Story began in <hi rend="italic">All the Year Round</hi> on 1 Jan 1870 and his <hi rend="italic">Doctor’s Mixture</hi> on 4 June.</note> I have a story in 2 parts still to place, in Nos. not yet made up.<note>Perhaps “The Legend of Dunblane”, <hi rend="italic">TAll the Year Round</hi>, 20 &amp; 27 Nov 69, N.S.II, 593 and 616.</note> Until Wednesday<note>When CD was to be at the <hi rend="italic">All the Year Round Office</hi> from 2 p.m.</note> and always</p>
+         <closer>
+            <salute> Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

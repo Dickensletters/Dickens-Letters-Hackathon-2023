@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi>E. FÖRSTER,<note>Possibly Ernst F. Förster (1800-85), painter and writer; author of a history of German art, 5 vols, 1851-60.</note> 9 AUGUST 1851
+
+</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-12</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Stadtarchiv Hannover. Address: E. Förster Esquire | 23 Bryanston Street<note>A lodging house, kept by Mrs Ellen Webber.</note> | Portman Square | London.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Broadstairs, Kent</placeName>
+               <date when="1851-08-09"> Ninth August 1851
+</date>
+            </dateline>
+            <salute> My Dear Sir</salute>
+         </opener>
+         <p>I am exceedingly sorry to be so unfortunate; but on Tuesday last, I was occupied at a little distance from London all day, and on Wednesday was obliged to go to the ancient City of Rochester.<note>CD was in Broadstairs 28 May-20 Aug. He was in London, 4-8 Aug; his engagements on Tuesday (5 Aug) and Wednesday not otherwise known.</note> Since then, I have come here, and I fear that I am little likely to be in London again at any certain time, until next month.</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS | E Förster Esquire </persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

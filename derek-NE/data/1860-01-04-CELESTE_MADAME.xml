@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> Madame Celeste,<note>Céline Céleste-Elliott, known professionally as Madame Céleste (?1814-82; <hi rend="italic">Dictionary of National Biography</hi>), actress and theatre manager: see Pilgrim <hi rend="italic">Letters</hi> 6, p. 120n.</note> 4 January 1860</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-23</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in R &amp;amp R Autograph Auctions catalogue, Dec 2003.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="theatre|A Tale of Two Cities">theatre|A Tale of Two Cities</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>TAVISTOCK HOUSE,TAVISTOCK SQUARE, LONDON. W.C.</placeName>
+               <date when="1860-01-04">Wednesday Fourth January 1860</date>
+            </dateline>
+            <salute>My Dear Madame Celeste</salute>
+         </opener>
+         <p>I will call on you at the Theatre,<note>The Lyceum, where CD was advising on Mme Celeste’s production of Tom Taylor’s adaptation of <hi rend="italic">A Tale of Two Cities</hi>. The Times (28 January) noted his “supervision” of the production, which ran from 30 Jan to 24 Mar 1860.</note> this afternoon at half past Two.</p>
+         <closer>
+            <salute>Faithfully Yours alwys
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

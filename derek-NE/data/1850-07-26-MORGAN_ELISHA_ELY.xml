@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> CAPTAIN E. E. MORGAN,<note>Capt. Elisha Ely Morgan (?1805-64), of the American merchant service (Silas Jones Jorgan in ‘A Message from the Sea’, <hi rend="italic">All the Year Round</hi> Christmas Number, 1860). See Leon Litvack, "Messages from the Sea: New Dickens Letters to E.E. and W.D. Morgan", <hi rend="italic">Dickensian</hi> 110.2 (2014), 242-54.</note> 26 July 1850</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-03</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Rev Edward Morgan</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">friends,social engagements,illustrations,The Haunted Man
+,A Tale of Two Cities
+,Hard Times
+,Nicholas Nickleby
+,Martin Chuzzlewit</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>DEVONSHIRE TERRACE</placeName>
+               <date when="1850-07-26">Twenty Sixth July, 1850.</date>
+            </dateline>
+            <salute>My Dear Captain Morgan.</salute>
+         </opener>
+         <p>Many thanks for your note. I purpose coming down on Tuesday, by the train which leaves town at 2, bringing Mr. Stone,<note>Frank Stone (1800-59), painter, self-taught; ARA 1851. Son of a Manchester mill-owner and employed as a cotton-broker from 1816. Gave up business for painting 1824, and worked his way to London by painting portraits. On arrival in London 1831, found employment drawing ‘beauties’ for the <hi rend="italic">Keepsake, Book of Beauty</hi> and other annuals. Associate of the Watercolour Society 1833. Exhibited portraits in the Royal Academy 1837-9; then, from 1840, the subject-pictures chiefly associated with his name. Secretary of the Shakespeare Club 1838-9, where he met CD. Was one of the illustrators of <hi rend="italic">The Haunted Man</hi>, 1848, and provided extra plates for the First Cheap Editions of<hi rend="italic">Nickleby and Chuzzlewit</hi>.</note> Mr. Egg,<hi rend="italic">Augustus Egg (1816-63), artist. Son of a gunmaker; student at the Royal Academy from 1835; began exhibiting 1836; soon inherited enough to be independent and exhibited sparingly; ARA 1848; RA 1860. Later lived abroad for his health and died in Algiers 1863.</hi> (I dare say you know his pictures) and perhaps my own Illustrator, Mr. Browne,<note>Hablot Knight Browne, ‘Phiz’ (1815-82), painter and illustrator. Called Hablot after a French officer, killed at Waterloo, who was engaged to his sister. Apprenticed to William and Edward Finden, engravers; then turned to painting, mainly in water-colour; awarded the silver Isis medal by the Society of Arts for the best illustration of a historical subject 1832. Employed by Chapman &AMP; Hall as the regular illustrator of the Library of Fiction 1836. Illustrated CD’s <hi rend="italic">Sunday Under Three Heads</hi> the same year; succeeded Buss (who had replaced Seymour) as illustrator of Pickwick. After signing his first two plates ‘Nemo’, he adopted the pseudonym ‘Phiz’ as being more in harmony with ‘Boz’. Illustrated all CD's novels up to and including <hi rend="italic">A Tale of Two Cities</hi>, 1859 (except <hi rend="italic">Oliver Twist and Hard Times</hi>).</note> with me. If the weight of our united intellects should not be too much for the Southampton,<note>Morgan took command of the Southampton, a packet ship belonging to the Black X Line, in June 1849. On this particular voyage the ship returned to New York from Gravesend on 31 July (‘Ship News’, Times, 1 August 1850).</note> we shall be happy to go on to Gravesend.</p>
+         <closer>
+            <salute>
+Alwys Believe me 
+Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

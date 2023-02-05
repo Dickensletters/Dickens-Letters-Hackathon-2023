@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JOHN GRAHAM MACDONALD BURT,<note>John Graham MacDonald Burt (1809-68), FRS (Edinburgh), surgeon, of 88 George Street, Edinburgh; a manager of Edinburgh Royal Infirmary. Consulting physician to the North British Insurance Company and Surgeon in Scotland to King William IV. Author of <hi rend="italic">Illustrations of Surgical Anatomy, with Explanatory References</hi>; Founded on the Work of M. Blandin (1831).</note> 7 APRIL 1854</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-29</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim <hi rend="italic">Letters</hi> 7, p. 306.| Text from facsimile in Sotheby’s online catalogue, Dec 2017.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="testimonials">testimonials</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House, London</placeName>
+               <date when="1854-04-07"> Friday Seventh April, 1854
+
+</date>
+            </dateline>
+            <salute> Mr Dear Dr Burt.</salute>
+         </opener>
+         <p> I write this note to present my friend Mr Phelps<note>Samuel Phelps (1804-78; <hi rend="italic">Dictionary of National Biography</hi>), actor and theatre manager. First appeared in London in 1837 at the Haymarket as Shylock; acted with CD’s great friend William Macready 1839-40, alternating with him as Othello and Iago. In May 1844, he opened Sadler’s Wells Theatre jointly with Mrs Warner and Thomas Greenwood; played most of the major Shakespearean parts, tragic and comic. Phelps acted at the Theatre Royal, Edinburgh, 10-22 Apr 1854, playing Byron's Werner, Hamlet, Othello, Bulwer Lytton's Richelieu, and Sir Pertinax Macsycophant in Charles Macklin's comedy, The <hi rend="italic">Man of the World</hi>. For a benefit on his final night he played Cardinal Wolsey and Shylock. The Edinburgh papers gave him good reviews; but the Edinburgh News, 15 Apr, reported poor houses. Possibly as a result of the visit, Phelps chose an adaptation of Rob Roy for his benefit in Mar 1855, at Sadler's Wells, himself playing the Bailie Nicol Jarvie. In Dec 1854 he helped CD with his children’s play (performed 8 Jan 1855), lending the script and music of Fortunio, and His Seven Gifted Servants by J. R. Planché). CD wrote several testimonials to his contacts in Edinburgh for Phelps; see Pilgrim <hi rend="italic">Letters</hi> 7, pp. 305-7.</note> to you. In his public capacity I dare say you already know him and like him, but I am sure you will like him at least as well in his character of a private gentleman. I am really anxious that he should make friends in Edinburgh, and I should be heartily glad if he enrolled you among the number.</p>
+<p>Dr Burt.</p>
+         <closer>
+            <salute>Believe me|Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

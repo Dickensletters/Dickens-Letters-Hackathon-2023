@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> GEORGE HERBERT RODWELL,<note>George Herbert Rodwell (1800-52; <hi rend="italic">Dictionary of National Biography</hi>), author, musical director and composer: see Pilgrim <hi rend="italic">Letters</hi> 4, p. 40<hi rend="italic">n</hi>. He was responsible for the songs in Stirling’s dramatic version of the <hi rend="italic">Carol</hi>, which opened 5 February: see To Forster, 21 Feb 44.</note> 2 MARCH 1844</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-20</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Sotheby’s on-line catalogue, November 2001. <hi rend="italic">Address></hi>: G. Hubert Rodwell | 21 Brompton Row.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="music|gifts|illustrations|A Christmas Carol">music|gifts|illustrations|A Christmas Carol</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when=“1844-03-02“>Saturday Second March 1844.</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>I have been out of town,<note>CD had been in Liverpool and Birmingham, 25-29 February.</note> or I would have answered your letter before – Mr. D’Almaine<note>Of D’Almaine & Co., music publishers of 20 Soho Square.</note> is at perfect liberty to use the Lithograph for the purpose proposed.<note>On 6 February, CD had given Rodwell permission to illustrate his “The Song of Christmas” with a Carol design. D’Almaine published the song with Leech’s illustration, “Scrooge’s Third Visitor”, on the cover, with the note: “Copied from the original etching in the Christmas Carol by express permission of the Author, Charles Dickens”. Presumably Rodwell had sent CD for approval a proof of the lithograph version of the <hi rend="italic">Carol’s</hi> etching.</note> And pray thank that gentleman in my name for the handsome book<note> Not identified.
+</note> he had so kindly sent me by your hands.</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS | G. Hubert<note>Thus in MS.</note> Rodwell Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

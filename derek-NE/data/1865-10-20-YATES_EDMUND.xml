@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> EDMUND YATES,<note>Edmund Yates (1831-94; <hi rend="italic">Dictionary of National Biography</hi>), journalist and novelist. Son of the actors Frederick Henry (see Pilgrim Letters 2, p. 10n) and Elizabeth Yates (née Brunton); educated at Highgate School and in Germany; entered the Post Office 1847, the Head of Missing Letters 1862, retired 1872. Member of the Garrick Club, Dec 1848. Married Louisa Katherine Wilkinson 1853. Met CD in 1854 and became a close friend and protégé. Contributor to <hi rend="italic">Household Words</hi> and <hi rend="italic">All the Year Round</hi>.</note> 20 OCTOBER 1865 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-09</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Boisgirard-Antonini online catalogue, June 2016. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|editing|All the Year Round|Doctor Marigold's|Prescriptions|Christmas">friends|editing|All the Year Round|Doctor Marigold's|Prescriptions|Christmas</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND</placeName>
+               <date when="1865-10-20">Friday Twentieth October 1865 </date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>I congratulate you on having run the gauntlet. Short work in the time! I have not yet had leisure to read it,<note>Unidentified. Possibly a plot outline for Yates’s novel <hi rend="italic">Black Sheep</hi>!, which ran in <hi rend="italic">All the Year Round</hi> from 25 Aug 1866 to 30 March 1867.</note> but am just going to do so. </p>
+<p>Early in November – the first week of November – I shall probably be here for two or three days, over the Xmas No.<note>The Christmas number of <hi rend="italic">All the Year Round</hi>, featuring ‘Doctor Marigold’s Prescriptions’.</note> I will give you notice of the time I suggest for an appointment, as soon as I can telescopically discern it. </p>
+         <closer>
+            <salute>My Dear E.Y.
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

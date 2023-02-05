@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MRS [VON OPPEN],<note>CD clearly wrote “D’Oppen” in the letter; the source suggests the letter was accompanied by an envelope addressed to Mrs Von Oppen. Perhaps Isabella Von Oppen, born c. 1835 in the United States; married (1857) Friedrick (Frederick) Von Oppen from Prussia, manager (1871) of Colt’s Firearm Co. They lived (1871) at 29 Norfolk Crescent, St Marylebone.</note> 31 MARCH 1862</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Cowan’s Auctions Inc on-line catalogue, 16 April 2005.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">publishing|America|copyright|American Notes|Martin Chuzzlewit</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND,</placeName>
+               <date when="1862-03-31">Monday Thirty First March 1862</date>
+            </dateline>
+            <salute>My Dear Madam</salute>
+         </opener>
+         <p>I have given your instructions, envelope, and stamps, to the publisher here<note>Chapman AND Hall; possibly an offprint from <hi rend="italic">All the Year Round</hi> was requested.</note> (having nothing to do with that kind of business myself), and no doubt the commission will be faithfully executed by to day’s post. Your letter is exceedingly pleasant to me, and I thank you for it most cordially. It is my misfortune to believe America short of absolute perfection, and sometimes to think that she vitally injures the great principles she holds in trust;<note>As embodied in the Declaration of Independence. CD had experienced the tyranny of the Press, hostility for his claims to copyright protection, and the institution of slavery: see <hi rend="italic">American Notes</hi>, Martin <hi rend="italic">Chuzzlewit</hi>, and Pilgrim <hi rend="italic">Letters</hi> 3, throughout and pp. 125 viii-xvi. Mrs Von Oppen’s birthplace and the company her husband worked for suggest grounds for objection to CD’s representation of the United States.</note> but I have numbers of American friends, and I believe I have never lost one by reason of this moral audacity. So I send my regard with some confidence to your husband, and assure you that I remain what I have so long been without knowing it—  </p>
+         <closer>
+            <salute>Faithfully Your friend
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS|Mrs D’Oppen</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

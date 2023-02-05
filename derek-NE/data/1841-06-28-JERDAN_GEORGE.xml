@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> <hi rend="italic">To</hi> GEORGE JERDAN,<note>George Jerdan (1786-1849), of Kelso, younger brother of William Jerdan (see below), through whom George sent CD his invitation; writer and attorney: see also <hi rend="italic">To</hi> George Jerdan, 26 June 1841.</note> 28 JUNE 1841</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-01</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p> Text from digitized facsimile on eBay, December 2004.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements|public recognition|celebrity|Bentley's Miscellany|Master Humphrey's Clock|Barnaby Rudge|travel">social engagements|public recognition|celebrity|Bentley's Miscellany|Master Humphrey's Clock|Barnaby Rudge|travel</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Royal Hotel Edinburgh.<note>CD was in Edinburgh, 22 June-4 July, where he was given a dinner in his honour, 25 June, and voted the Freedom of the City, 29 June: see further Pilgrim <hi rend="italic">Letters</hi> 2, pp. 310-11, 313-15 &amp; <hi rend="italic">nn</hi>.</note></placeName>
+               <date when="1841-06-08">Twenty Eighth June 1841</date>
+            </dateline>
+            <salute>My Dear Sir.</salute>
+         </opener>
+         <p>I am heartily obliged to you for your kind Invitation, forwarded to me through your brother William,<note>William Jerdan (1782-1869; <hi rend="italic">Dictionary of National Biography</hi>); editor in London of the <hi rend="italic">Literary Gazette</hi>, 1817-50. An early contributor to <hi rend="italic">Bentley’s Miscellany</hi>; met CD apparently through Ainsworth: see further Pilgrim <hi rend="italic">Letters</hi> 1, p. 207<hi rend="italic">n</hi>.</note>  and write to thank you for it – though I very much regret to add that the arrangements<note>CD was heavily engaged in Edinburgh until Sunday 4 July, when he left by previous arrangement for a fortnight in the Highlands. He also wrote <hi rend="italic">Master Humphrey’s Clock</hi>, Nos 69 and 70 (<hi rend="italic">Barnaby Rudge</hi>, chs 45-48), while in Scotland.</note> I have made and the short time I can spare from London, prevent my seeing<note>Written after “meeting” deleted.</note> you, as I should have desired.</p>
+         <closer>
+            <salute> Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS | George Jerdan Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

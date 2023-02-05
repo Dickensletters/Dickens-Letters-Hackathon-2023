@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> ROBERT BELL,<note>Robert Bell (1800-67; Dictionary of National Biography), journalist and miscellaneous writer; best known for his <hi rend="italic">Annotated Edition of the English Poets</hi>, 29 vols (not 24 vols as given previously), 1854-7: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 543 &amp; n. He had served under CD on the Charter Committee which reported to the Royal Literary Fund on proposed reforms, 1855.</note> 30 MARCH 1857</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-13</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Extract in J.A. Stargardt, Berlin catalogue 2003; addressed Robert Bell; dated Tavistock House, 30 March 1857.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|domestic issues">friends|domestic issues</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when=""></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>…I have such an agreeable remembrance of my last very pleasant visit to you,<note>Unidentified; unlikely to have been the meeting so long ago as Apr 55 suggested at Pilgrim <hi rend="italic">Letters</hi> 8, p. 305 <hi rend="italic">n</hi>.5.</note> and of my great enjoyment of your hospitality, that I am vexed to be under an engagement to dine at Gravesend next Tuesday.<note>CD was at Gravesend from 7-15 Apr, while he oversaw building works at Gad’s Hill.</note> It is, however an engagement— and a grim business one to boot<note>Unidentified business connected with Gad’s Hill.</note>—and you know the reliability of your old manager.<note>Bell had acted in the amateurs’ production of <hi rend="italic">Not So Bad as We Seem</hi>, 1851: see Pilgrim <hi rend="italic">Letters</hi> 6, p. 385n.</note> (I will be as disagreeable at Gravesend as I possibly can). </p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

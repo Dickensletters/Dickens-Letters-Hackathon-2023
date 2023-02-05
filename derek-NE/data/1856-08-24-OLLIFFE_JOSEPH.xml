@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> SIR JOSEPH OLLIFFE,<note>Joseph Francis Olliffe (1808-69; <hi rend="italic">Dictionary of National Biography</hi>), physician to the British Embassy in Paris; see Pilgrim <hi rend="italic">Letters</hi> 5, p. 606n.</note> 24 AUGUST 1856</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS James McGrath Morris.| (envelope only, MS Benoliel Collection):</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family|France|health|friends|Household Words">family|France|health|friends|Household Words</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+	<address>
+	<addrLine>ir Joseph Olliffe | Trouville | Calvados.
+	</addrLine>
+	</address>
+               <placeName> Boulogne </placeName>
+               <date when="1856-08-24">Boulogne, Sunday Twenty Fourth August, 1856</date>
+            </dateline>
+            <salute>My Dear Olliffe</salute>
+         </opener>
+         <p>I write very hastily, not to lose a Post.</p>
+<p>—To thank you, most heartily and earnestly, for your kind letter.<note>Olliffe wrote to alert CD to an epidemic of diphtheria (“malignant sore throat” or “Boulogne sore throat”) in Boulogne. The worst was in fact over and no one in the Haute Ville had been infected (Pilgrim <hi rend="italic">Letters</hi> 8, p. 178 &amp; n), but CD was particularly concerned since his family was in Boulogne and three of his sons (Frank, Alfred and Sydney) were due to begin a new school year there.</note> I have taken the most efficient means of shewing you the value I set on your opinion and advice, by sending all the boys home to London this very day.<note>Six boys were in Boulogne (Walter, Frank, Alfred, Henry, Sydney and Edward); they left with Mrs CD. Katy and Mamie left 26 or 27 Aug.</note> I would have sent them yesterday, but that the Steamer was gone, before your letter came. We ourselves may perhaps remain (unless we should have reason to suppose that things grow worse), until the middle of September.<note>CD had originally thought of leaving Boulogne in early Oct. In the event, he left on 3 Sep, Georgina and the servants on 4 Sep.</note>But we are ready to start at any time. I have no doubt of our being in the healthiest situation here, and in the purest house. Still, if you were to order us off—we should obey.
+
+</p>
+<p>We have had a general knowledge of there being such a Malady abroad among <note>Word deleted.</note>children, and two of our childrens’<note>Thus in MS</note> little acquaintances have even died of it.<note>Not certainly identified; one was presumably Walter A’Beckett, aged nine, son of Gilbert: see Pilgrim <hi rend="italic">Letters</hi> 8, pp. 179 &amp; <hi rend="italic">n</hi>, 181 &amp; n.</note> But it is extraordinarily difficult (as you know) to discover the truth in such a place;<note>Hotels and lodgings keepers were keen to suppress anything that might deter English visitors. The Maîtres d’Hôtel denied the presence of diphtheria (Pilgrim <hi rend="italic">Letters</hi> 8, p. 181n).</note> and the townspeople are naturally particularly afraid of my knowing it, as having so many means of making it better known.<note>CD had described Boulogne favourably in “Our French Watering Place”, <hi rend="italic">Household Words</hi>, 4 Nov 54, X, 265; he might therefore write unfavourably there as well. CD might also think of his access to the world of British journalism, not least Punch, <hi rend="italic">The Times</hi>, and the <hi rend="italic">Examiner</hi>.</note> I had no idea of anything so terrible as poor Dr. Crampton’s experience.<note>Between 12 and 19 August Philip Cecil Crampton (1815-1906), resident in Paris but then staying in Boulogne, lost his sons (George Ribton Crampton, aged 2, and Philip Cecil Crampton, aged 6) and his wife (Lavinia Crampton, née Lambert, aged 39), to "malignant sore throat". For details of the deaths see <hi rend="italic">Liverpool Mercury</hi>, 1 Sept 1856, p. 3. <hi rend="italic">The Times</hi>, in a piece on the diphtheria epidemic, recalled "the melancholy case of Dr. Crampton's family" ("Foreign Intelligence", 29 Sept 1856, p. 10).</note> We are greatly concerned for him, and deeply sympathize with him.</p>
+<p>I hope you saw my article in <hi rend="italic">Household Words</hi> on the demeanour of your friend the late Mr. Palmer.<note>“The Demeanour of Murderers”, Household Words 13 (14 June 56): 505, on Dr William Palmer (medical practitioner, hence, jokingly, Olliffe’s “friend”), the “Rugeley poisoner”, convicted of murder, 27 May. Palmer had been described as selfpossessed and composed during his trial: CD objected to the suggestion in newspaper reports that there was something admirable in this behaviour (<hi rend="italic">Household Words</hi>, XIII, 505; see also <hi rend="italic">To</hi> Coutts, 1 June 56, Pilgrim <hi rend="italic">Letters</hi> 8, p. 128).</note> I suppose it expressed what numbers of people had felt without working out to their satisfaction, for the run upon it was extraordinary.</p>
+<p>Pray give my love to Lady Olliffe, and to all the house; in which all my house (of course not including Georgina)12 cordially join. And with many thanks, Believe me alwys my Dear Olliffe</p>
+         <closer>
+            <salute>Heartily Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

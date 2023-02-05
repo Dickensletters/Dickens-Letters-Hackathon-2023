@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MESSRS JOHN D. THORNELY &amp;amp; SON,<note>Merchants, Brunswick Buildings, 11 Brunswick Street, Liverpool.</note> 5 AUGUST 1845</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-24</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+<p>Gentlemen</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Huntington Library.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="finances">finances</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>1 Devonshire Terrace | York Gate Regents Park.</placeName>
+               <date when="1845-08-05">Fifth August 1845.</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>I beg to acknowledge the safe receipt of your enclosure, on behalf of our friend Mr. Colden of New York,<note>David Cadwallader Colden (1797-1850), American lawyer and philanthropist: see further Pilgrim <hi rend="italic">Letters</hi> 3, p. 30n. CD had first met him in England, summer 1840. Colden, in London, May 45, and still there in July (Pilgrim <hi rend="italic">Letters</hi> 4, pp. 310, 334), presumably could draw on Thornely’s and used CD as a secure address.</note> of a bank note for Twenty Pounds, No. 55944.</p>
+<p>Messrs. John D. Thornely &amp; Son.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

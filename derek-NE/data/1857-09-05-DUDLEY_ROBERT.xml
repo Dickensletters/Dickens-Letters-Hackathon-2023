@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> ROBERT DUDLEY,<note>Robert Charles Dudley (1826-1909), watercolourist and lithographer. He illustrated, with frontispiece and vignette, <hi rend="italic">Such Is Life: Sketches and Poems</hi>. (London: S. Eyre, 1857) dedicated to CD by the volume's author, "Doubleyou", i.e. William Wilson (1826-86). Later Dudley had success as a painter, mainly of genre pictures and landscapes; he exhibited at the Royal Academy 1866-89.</note> 5 SEPTEMBER 1857 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim <hi rend="italic">Letters</hi> 8, p. 434.| Text from facsimile in Bonhams online catalogue, May 2020.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="gifts|theatre<">gifts|theatre</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Gad's Hill Place| Higham, by Rochester</placeName>
+               <date when="1857-09-05">igham, by Rochester\Saturday Fifth September 1857 </date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>   I am greatly obliged to you for the spirited and accurate sketch,<note>No doubt one of the scenes in <hi rend="italic">The Frozen Deep</hi> or <hi rend="italic">Uncle John</hi> (performed at Manchester on 21, 22, or 24 August 1857), possibly executed for a Manchester newspaper.</note> of which you have had the kindness to send me a Photograph. Pray do me the favor to accept my cordial thanks.</p>
+<p>Robert Dudley Esquire.</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

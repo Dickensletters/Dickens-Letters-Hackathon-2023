@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To FRANCIS FULLER,<note>Francis Fuller (1807-87), surveyor to the London, Brighton &amp;amp; South Coast Railway; Managing Director, Crystal Palace Co., 1852.</note> 21 JANUARY 1870</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-06</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Nonesuch Letters 3, p. 761 (aa). Text from facsimile in R &amp; R Enterprises online catalogue, November 2005.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="miscellaneous">miscellaneous</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>5 Hyde Park Place W<note>Written on Gad’s Hill notepaper,</note> </placeName>
+               <date when="1870-01-21">Friday Twenty First January 1870.</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>I beg to acknowledge the receipt of your letter and its accompanying papers. aIt is unnecessary for me to express my cordial concurrence in the principle of raising the character of the people by raising the character of their amusements; always supposing that no endeavour towards that end either patronizes them, or otherwise treats them as children.a But I have very strong doubts indeed of the success of the business details of the scheme<note>Presumably as formally set out by Fuller and others in <hi rend="italic">Plan for Opening and Developing the Alexandra Park and Palace...for the Benefit of the Public</hi>, 1870. As Hon. Secretary to the Mansion House Committee for preserving the Alexandra Park, Fuller issued a report, 1873. CD’s doubts about the venture were borne out. For the fortunes, financial and architectural, of Palace and Park, see Bridget Cherry and Nikolaus Pevsner, <hi rend="italic">London 4: North</hi> (The Buildings of England; New Haven and London, 2002), pp. 580-83.</note> which you so clearly explain. And it appears to me that the calculations and assumptions on which it proceeds are excessively sanguine. Therefore I regret that I cannot express my confidence in the enterprise.</p>
+<p>Francis Fuller Esquire. </p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

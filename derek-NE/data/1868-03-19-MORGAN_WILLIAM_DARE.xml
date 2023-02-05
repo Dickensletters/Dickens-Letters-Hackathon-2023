@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> William Dare Morgan,<note>William Dare Morgan (1838-87), son of CD’s friend Captain Elisha Ely Morgan (?1805-64). Joined his father’s shipping firm, the Black X Line, and spent most of the period 1861-4 in London, safeguarding the family’s interests during the American Civil War. See Leon Litvack, "Messages from the Sea: New Dickens <hi rend="italic">Letters</hi> to E.E. and W.D. Morgan", <hi rend="italic">Dickensian</hi> 110.2 (2014): 242-54.</note> 19 March 1868</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Mrs. Gerald Morgan </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="America|friends|public readings|travel">America|friends|public readings|travel</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>W.D. Morgan Esquire | 70 South Street |New York City
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName>Albany,<note>CD read in Tweddle Hall, Albany, on 18 and 19 March.</note> </placeName>
+               <date when="1868-03-19">Thursday Nineteenth March | 1868.</date>
+            </dateline>
+            <salute>My Dear Morgan </salute>
+         </opener>
+         <p>I most heartily congratulate you on your happiness. None of your old and true friends can be more deeply interested in it than your undersigned correspondent and all the household at Gad’s Hill. I look forward to being presented to Miss Hoyt,<note>Angelica Livingston Hoyt (1847-1933), Morgan’s fiancée</note> and to welcoming her, beforehand, to my Household Gods and Goddesses: – you know how warmly.</p>
+<p>Dolby,<note>George Dolby (d. 1900), CD’s reading tour manager from 1866.</note> I, and our three men,<note>Aside from Dolby, the staff CD brought with him from England included Henry Scott (his valet), Richard Kelly (who arranged the preliminaries in each venue), and George Allison (the gasman). Kelly was discharged for speculating on tickets; see Pilgrim <hi rend="italic">Letters</hi> 12, pp. 62, 96; dated 1-3 and 17 April 1869.</note> will mount guard over you all the way to Liverpool: and I mean to report to Miss Hoyt from the other side what excellent care we took of you. The Gasman (as the most reliable)<note>CD called George Allison ‘the steadiest and most reliable man I ever employed’ (Pilgrim <hi rend="italic">Letters</hi> 12, p. 92; dated 7 April 1868).</note> already has orders – tell Miss Hoyt from me – never to take his eye off you, day or night.</p>
+<p>All good be with you, and with the object of your love. With best wishes for both, Believe me alwys </p>
+         <closer>
+            <salute>Affectionately Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

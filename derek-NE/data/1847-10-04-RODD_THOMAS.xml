@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> <hi rend="italic">To</hi>THOMAS RODD,<note>Thomas Rodd(d. 1849), bookseller and publisher, 9 Great Newport Street, Long Acre.</note> 4 OCTOBER 1847
+
+ </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Huntington Library.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="books">books</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1847-10-04">Monday Evening Fourth October | 1847<note>Address and date at foot of the letter.</note></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Mr. Charles Dickens sends his compliments to Mr. Rodd, and begs to say that the other books he wants and could not remember today, are: A good copy, bound or half-bound, of the complete works of Rousseau.<note>Jean-Jacques Rousseau (1712-78), Swiss-born French philosopher and writer; author, amongst others, of <hi rend="italic">La nouvelle Héloȉse</hi> (1761), <hi rend="italic">Du contrat social</hi> (1762), and the <hi rend="italic">Confessions</hi> (written 1765-70). No identifiable work by him appears in the 1878 sale Catalogue of the Library of CD, ed. J. H. Stonehouse, 1935. CD cites the <hi rend="italic">Confessions</hi> (bk IV) to Bulwer Lytton (5 June 60; Pilgrim <hi rend="italic">Letters</hi> 9, p. 259 &amp; n).</note> In the French.</p>
+<p>–––of Madame de Stael.<note>Anne-Louise-Germaine, Mme de Staȅl (née Necker) (1766-1817), French novelist and writer. Author of <hi rend="italic">Corinne</hi> (1810) and <hi rend="italic">De l’Allemagne</hi> (1810), for which Napoleon exiled her for a third time. CD had <hi rend="italic">Ses Oeuvres Complètes,</hi> 17 vols, Paris, 1820-21 (<hi rend="italic">Catalogue of the Library of CD</hi>).</note> In the French.
+
+–––of Junius<note>Pseudonym of the author of a series of letters in the <hi rend="italic">Public Advertiser</hi>, 1769-72, denouncing, from a Whig perspective, those in government. Junius’s identity has never been certainly identified. CD had the Letters, 3 vols, 1814 (<hi rend="italic">Catalogue of the Library of CD</hi>).</note></p>
+<p>He will be glad if Mr. Rodd will have the goodness to get them for him.<note>CD wrote to Rodd again, 7 Oct, presumably about these books, and was acquiring a number of books about this time: see <hi rend="italic">To</hi> Chapman, 4 Oct 47 (Pilgrim <hi rend="italic">Letters</hi> 5, p. 169 &amp; n).</note></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

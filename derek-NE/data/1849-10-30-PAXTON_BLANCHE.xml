@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> BLANCHE PAXTON,<note>Blanche Paxton (1831-90), second of the six daughters of (Sir) Joseph Paxton (1801-65; <hi rend="italic">Dictionary of National Biography</hi>): see Pilgrim <hi rend="italic">Letters</hi> 4, p. 411n.</note> 30 OCTOBER 1849</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS David J. Holmes Autographs.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">autographs|theatre|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1849-10-30">October 30th. 1849</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p> To Miss Blanche Paxton<note>The “letter” is properly a sheet of autographs, possibly for Blanche’s collection. All the signatories, besides being friends of CD, were associates in his amateur theatricals.</note>
+
+CHARLES DICKENS
+
+JOHN FORSTER
+
+DOUGLAS JERROLD<note>Douglas William Jerrold (1803-57; <hi rend="italic">Dictionary of National Biography</hi>), writer and wit; author of <hi rend="italic">Black-Eyed Susan</hi>, 1829: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 192n.</note>
+
+FRANK STONE<note>Frank Stone (1800-59; <hi rend="italic">Dictionary of National Biography</hi>), painter: see Pilgrim  <hi rend="italic">Letters</hi> 1, p. 487n.</note>
+
+AUGUSTUS EGG<note>Augustus Egg (1816-63; <hi rend="italic">Dictionary of National Biography</hi>), artist: see Pilgrim <hi rend="italic">Letters</hi> 5, p. 113n.</note>
+
+JOHN LEECH<note>John Leech (1817-64; <hi rend="italic">Dictionary of National Biography</hi>), comic artist; one of the chief illustrators of CD’s Christmas Books, 1843-8: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 168<hi rend="italic">n</hi>.</note>
+
+his mark<note>Between “his” and “mark” Leech inserted his punning “trade mark” sketch of a leech (used for medicinal purposes) in a glass jar.</note>
+
+MARK LEMON<note>Mark Lemon (1809-70; <hi rend="italic">Dictionary of National Biography</hi>), playwright and editor of Punch, 1841-70: see Pilgrim <hi rend="italic">Letters</hi> 3, p. 469<hi rend="italic">n</hi>.</note>
+
+</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

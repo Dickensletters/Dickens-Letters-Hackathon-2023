@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THOMAS PETER GRINSTED,<note>Thomas Peter Grinsted (1808-57), son of a farmer, employed for many years by Curtis &amp; Son, Brighton, and as corrector for the press by William Clowes, the London printer. Contributed a series of six articles to Bentley's Miscellany (then owned and edited by William Harrison Ainsworth): "The Theatres of London. Their History -- Past and Present" (35 and 36, 1854); also "Old Actors -- A Reverie at the Garrick Club", "Charles Young", and "Madame Vestris" (40, 1856). Author of <hi rend="italic">Relics of Genius: Visits to the Last Homes of Poets, Painters and Players</hi>, 1859. Ainsworth recommended his work to the Literary Fund in Oct 1861, and his widow's application for relief was successful (MS Royal Literary Fund).</note> 28 JUNE 1839</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from <hi rend="italic">London Courier and Evening Gazette</hi>, 29 July 1839, p. 3. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id=""></interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Elm Cottage, Petersham, Surrey</placeName>
+               <date when="1838-06-28">Friday Night, June 28, 1839</date>
+            </dateline>
+            <salute>Sir –</salute>
+         </opener>
+         <p> Your letter has been forwarded to me here, where I am residing for the summer,<note>CD had rented Elm Cottage from 30 Apr to 31 Aug 1839.</note> and thus I did not receive it quite in due course, or I should have answered it immediately.</p>
+<p> To be associated with the relaxations and enjoyments of so many gentlemen, and to know that they are bound together by a name with which I cannot but feel some interest and connect some pleasurable ideas, is gratifying indeed. There are few circumstances attendant upon my pursuits which could afford me greater satisfaction than such evidences of interest and sympathy as that with which your letter furnishes me; and there are few people, I assure you, who could be more cheered, heartened, and delighted by such things than I am.</p>
+<p>That the Nickleby Club,<note>The Nickleby Club held its regular meetings at the Queen's Head, Old Steine. Their first annual ball took place at the Queen's Head on 11 Feb 1839 (advertised in the <hi rend="italic">Brighton Patriot</hi>, 5 Feb 1839, p. 2). How long the club was in existence is not known, but they also held an annual fête in 1840 which included cricket matches and other “rural sports” (reported in the <hi rend="italic">Sussex Advertiser</hi>, 27 July 1840, p.3). CD wrote to Grinsted on two other occasions, in 1840; see Pilgrim <hi rend="italic">Letters</hi> 2, pp. 47, 161.</note> and its elder brother, the Pickwick Club<note>Perhaps the "Pickwick Club" advertised in a London newspaper of 1 Apr 1837, as "Held at the Sun Tavern, 66 Long-acre, kept by MANDERS, the Comedian", where, besides musical entertainment, "Superior Wines, Spirits, Ales, Stout, etc., [were] supplied, with the Pickwick Papers for perusal" (<hi rend="italic">Dickensian</hi> 15 [1919]: 161). A short article in the <hi rend="italic">Town</hi>, 9 Sep 1837, relates that CD had himself visited this club more than once: see Dickensian 30 (1934): 213. See also To the Secretary of the Pickwick Club, 21 Apr 1838, in Pilgrim <hi rend="italic">Letters</hi> 1, p. 398. There was also a Pickwick Club founded in Edinburgh; see To William Howison, 21 Dec 1837, in Pilgrim <hi rend="italic">Letters</hi> 1, pp. 346-7.</note> (I think you said the Pickwick was its elder brother?) may live long and happily, and on the best terms with each other; and that the members of both may never grow older in spirit, heavier in heart, or greyer in care, is the hope and wish of,</p>
+<p>Mr T.P. Grinsted</p>
+         <closer>
+            <salute>  Sir, yours very truly,
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

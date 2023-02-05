@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To BERNHARD TAUCHNITZ,<note><note>Baron Bernhard Christian Tauchnitz (1816-95), publisher, of Leipzig. Born at Schleinitz; nephew of the publisher Karl Tauchnitz. Founded his own firm in Leipzig in 1837. The firm began its “Collection of British Authors” Sep 1841 with Bulwer Lytton’s <hi rend="italic">Pelham. Pickwick Papers, Oliver Twist, and American Notes</hi> had appeared before the end of 1842, and Nicholas Nickleby in June 1843. He and CD became friendly, and CD sent Charley to Leipzig to learn German (see below). According to John Forster, Tauchnitz always paid liberally. He wrote to Forster after CD’s death: “All Mr Dickens’s works have been published under agreement by me. My intercourse with him lasted nearly twenty-seven years. The first of his letters dates in October 1843, and his last at the close of March, 1870 [see <hi rend="italic">To</hi> Tauchnitz, 31 March 1870]. Our long relations were not only never troubled by the least disagreement, but were the occasion of most hearty personal feeling; and I shall never lose the sense of his kind and friendly nature. On my asking him his terms for Edwin Drood, he replied, ‘Your terms shall be mine.’” (John Forster, <hi rend="italic">The Life of Charles Dickens</hi>, ed. J.W.T. Ley [London: Cecil Palmer, 1928], p. 807n).</note></note> 3 APRIL 1858</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p> Text from facsimile in the possession of Dietmar Böhnke.<note>Böhnke published his transcription, with brief annotation, in "The Correspondence between Charles Dickens and Bernhard Tauchnitz: General Observations and Newly Discovered Letters", <hi rend="italic">Archiv für das Studium der neueren Sprachen und Literaturen </hi>(Berlin: Erich Schmidt Verlag, 2013), p. 326.</note></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Little Dorrit|publishing|Germany|finances|Household Words">Little Dorrit|publishing|Germany|finances|Household Words</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>TAVISTOCK HOUSE | TAVISTOCK SQUARE, LONDON W.C.</placeName>
+               <date when="1858-04-03">Saturday Third April, 1858</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I have safely received this morning, your bill at 8 days after sight for £50<note>The phrase "8 days after sight" refers to the fact that Tauchnitz's bill could be cashed by CD eight days after the date stated on the bill, thus allowing time for the necessary funds to be transferred to the account on which the bill is drawn.</note> – in payment of £30 for reprinting Novels and <hi rend="italic">Tales from Household Words</hi>,<note>Tauchnitz issued Novels and Tales Reprinted from Household Words, in the "Collection of British Authors" series, in 11 volumes from 1856 to 1859. These featured mainly works of fiction, but also historical articles and other accounts from the last 7 volumes of the periodical. See Anne Lohrli, <hi rend="italic">Household Words</hi>: Table of Contents, List of Contributors and Their Contributions (Toronto: University of Toronto Press, 1973), p. 48.</note> and a further sum of £20 for Little Dorrit.<note>Tauchnitz paid an additional £20 to CD (over and above the initial agreement) on account of high sales of <hi rend="italic">Little Dorrit</hi>, which was published in Germany in both monthly numbers (1855-7) and four volumes (1856-7). See also <hi rend="italic">To</hi> Tauchnitz, 16 June 1857.</note> I thank you very cordially, and am much obliged to you.</p>
+<p>We are all well here, and unite in kindest regard and remembrance to Madame Tauchnitz<note>Henriette von Tauchnitz, née Morgenstern (1817-96).</note> and all your family. My Dear Sir</p>
+<p>The Chevalier Bernhard Tauchnitz</p>
+         <closer>
+            <salute>Always very faithfully Yours
+
+
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

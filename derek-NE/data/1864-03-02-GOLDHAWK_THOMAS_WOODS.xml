@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THE REV. T. W. GOLDHAWK,<note>Edward Barrow (1798-1869), CD’s maternal uncle; Parliamentary reporter on <hi rend="italic">the Mirror of Parliament</hi> and later on the <hi rend="italic">Morning Herald</hi>. Member of the Newspaper Press Fund from January 1859: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 49n.</note> 2 MARCH 1864</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-03</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p> Text from digitised facsimile in Sotheby’s online catalogue, 20 April 2005.  </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="David Copperfield|gifts family|India">David Copperfield| gifts| family|India</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD’S HILL PLACE|HIGHAM BY ROCHESTER, KENT.</placeName>
+               <date when="1864-03-02">Wednesday Second March 1864</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>I hope you may not have thought me unmindful of your pleasant letter, or unwilling to comply with its request. Several circumstances have combined of late, to render me even less available than usual for letter-writing.<note>For similar excuses since the beginning of the year, see e.g. <hi rend="italic">To</hi> Collins, 25 Jan 64 (Pilgrim <hi rend="italic">Letters</hi> 10, p. 346). Besides normal business and social engagements, CD had had to cope with the recent deaths of his mother (September 1863); of Thackeray (December 1863), writing “In Memoriam” for the <hi rend="italic">Cornhill</hi>, Feb 64, IX, 129-32; and of Walter Landor Dickens, news of which reached him in early February 1864. He was working on <hi rend="italic">Our Mutual Friend</hi>, getting No.1 set up in print by mid February for Marcus Stone to provide titlepage and illustrations (Pilgrim <hi rend="italic">Letters</hi> 10, p. 357), while searching for a London house to rent from February to June. He had also been away for a few days in both early January and early February.</note> With this, I have the pleasure of sending you a copy of David Copperfield.<note>The source says the two-volume 1859 edition, inscribed “The Rev. T. W. Goldhawk From Charles Dickens, Third March 1864”.</note> My two daughters (the younger married)<note>Kate had married Charles Collins in 1860.</note> beg me to convey to you their kind regard. A poor boy whom you christened,<note>Walter Landor, baptised 8 Feb 1841 at St Marylebone church. CD is mistaken about when he first knew Goldhawk, who does not appear in the Clergy List until 1845. The baptismal record (National Metropolitan Archives) names G.H.Thompson (curate, Holy Trinity, Tottenham, 1830-45) as performing the ceremony. CD presumably knew Goldhawk while living at Devonshire Terrace.</note> died in India,<note>See <hi rend="italic">To</hi> Barrow, 23 Feb, above.
+</note> a grown man, on the last day of this last old year. All my other sons are well and working their various ways.</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS|The Rev. T. W. Goldhawk</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

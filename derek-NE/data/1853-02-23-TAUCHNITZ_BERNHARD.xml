@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To BERNHARD TAUCHNITZ,<note><note>Baron Bernhard Christian Tauchnitz (1816-95), publisher, of Leipzig. Born at Schleinitz; nephew of the publisher Karl Tauchnitz. Founded his own firm in Leipzig in 1837. The firm began its “Collection of British Authors” Sep 1841 with Bulwer Lytton’s <hi rend="italic">Pelham. Pickwick Papers, Oliver Twist, and American Notes</hi> had appeared before the end of 1842, and Nicholas Nickleby in June 1843. He and CD became friendly, and CD sent Charley to Leipzig to learn German (see below). According to John Forster, Tauchnitz always paid liberally. He wrote to Forster after CD’s death: “All Mr Dickens’s works have been published under agreement by me. My intercourse with him lasted nearly twenty-seven years. The first of his letters dates in October 1843, and his last at the close of March, 1870 [see <hi rend="italic">To</hi> Tauchnitz, 31 March 1870]. Our long relations were not only never troubled by the least disagreement, but were the occasion of most hearty personal feeling; and I shall never lose the sense of his kind and friendly nature. On my asking him his terms for Edwin Drood, he replied, ‘Your terms shall be mine.’” (John Forster, <hi rend="italic">The Life of Charles Dickens</hi>, ed. J.W.T. Ley [London: Cecil Palmer, 1928], p. 807n).</note></note> 24 FEBRUARY 1853</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in the possession of Dietmar Böhnke.<NOTE>Text from facsimile in the possession of Dietmar Böhnke.2</NOTE></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family|France|Germany|travel">family|France|Germany|travel</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House.</placeName>
+               <date when="1853-02-24">Thursday Twenty Fourth February 1853.
+
+</date>
+            </dateline>
+            <salute>My Dear Sir.</salute>
+         </opener>
+         <p>I received your kind letter this morning. Charley<note>Charles Culliford Boz Dickens ("Charley", 1837-96), CD's eldest son, who was sent to Germany to learn the language. He stayed with Professor O.C. Müller, 6 Tauchaer Strasse, Leipzig.</note> and his attendant<note>William Johnson, a trusted member of <hi rend="italic">Household Words staff</hi>, who worked for CD from the early 1850s, and accompanied Charley to Germany. See To W. H. Wills, 9 March 1853: “Charley highly praises his attention and usefulness” (Pilgrim Letters 7, p. 45 and n). He later stole money from the takings at CD's public readings; see To W.H. Wills, 2 & 3 Sept 1867, Pilgrim Letters 11, pp. 417, 421.</note> will leave London next Monday night, and go straight, by way of Calais, to Cologne. They will sleep at Cologne on Tuesday, and at Frankfort on Wednesday; and they will come on to Leipzig by the first convenient train on Thursday morning.</p>
+<p>With many thanks and
+
+much regard, my Dear Sir
+
+Ever Faithfully Yours
+
+CHARLES DICKENS</p>
+<p>The Chevalier Bernhard Taüchnitz<note>Thus in MS. The "ü" occurred commonly in German script of the time, to distinguish it from "n".</note></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

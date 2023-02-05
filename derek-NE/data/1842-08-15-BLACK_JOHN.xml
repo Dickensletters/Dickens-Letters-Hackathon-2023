@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JOHN BLACK,<note>John Black (1783-1855; <hi rend="italic">Dictionary of National Biography</hi>), editor of the <hi rend="italic">Morning Chronicle</hi>: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 83n.</note> 15 AUGUST 1842</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Michigan State University Libraries. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">publishing|Morning Chronicle|politics|social issues</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Broadstairs, Kent.</placeName>
+               <date when="1842-08-15">Monday Fifteenth August. / 1842.</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I see that Lord Londonderry<note>Charles William Vane, formerly Stewart (1778-1854; <hi rend="italic">Dictionary of National Biography</hi>), 3rd Marquess of Londonderry; half-brother of Viscount Castlereagh. Leader of the mining interest in the House of Lords and owner of extensive coalfields in Co. Durham.</note> advertizes a letter to Lord Ashley<note>Anthony Ashley Cooper, Lord Ashley (1801-85; <hi rend="italic">Dictionary of National Biography</hi>), later 7th Earl of Shaftesbury. Despite being an ardent evangelical in education and Sunday observance, he was strongly supported by CD in social reform. See Pilgrim <hi rend="italic">Letters</hi> 2, p. 164<hi rend="italic">n</hi>. and subsequent vols.</note> on the subject of Mines and Collieries.<note><hi rend="italic">A Letter to Lord Ashley</hi>, M.P., On the Mines and Collieries Bill: see further Pilgrim <hi rend="italic">Letters</hi> 3, p. 309n. A pamphlet of 145 pages, it did not in fact appear until October. The Bill, passed in 1842, prohibited the employment underground of women, girls, and boys under ten years, providing for enforcement through inspectors.</note> If you would like to have it noticed, and will send it to me, here, when it comes out, I shall be happy to review it.<note>The review appeared in the <hi rend="italic">Morning Chronicle</hi>, 20 Oct; it attacked the pamphlet’s style and said virtually nothing about Londonderry’s charges against Ashley and the Bill, presumably implying that they were beneath notice (<hi rend="italic">Dickens’ Journalism</hi>, ed. Michael Slater, 1996, Vol. II, pp. 44-51): see further To Charles Mackay, [19 Oct 42], Pilgrim Letters 3, pp. 351-2 &amp; nn. CD’s letter to the <hi rend="italic">Morning Chronicle</hi>, 25 July 42, supported the Bill and attacked its opponents, hitting out at Londonderry (see Pilgrim <hi rend="italic">Letters</hi> 3, pp. 278-85).</note>  </p>
+<p>John Black Esquire</p>
+         <closer>
+            <salute>Faithfully Yours always / My Dear Sir
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

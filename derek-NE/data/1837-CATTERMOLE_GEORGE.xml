@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> GEORGE CATTERMOLE,<note>George Cattermole (1800-68; <hi rend="italic">Dictionary of National Biography</hi>), painter and illustrator. Co-illustrator of <hi rend="italic">Old Curiosity Shop and Barnaby Rudge</hi>. Had contributed drawings, 1821-3, to the antiquary John Britton’s <hi rend="italic">Architectural Antiquities of England</hi>. Exhibited at the Royal Academy, 1819-27; member of the Society of Painters in Water Colours, 1833. In 1839 he married a distant relative of CD’s: see further Pilgrim <hi rend="italic">Letters</hi> 1, p. 277n.</note> [?JULY-DECEMBER 1837]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile on the website of John Wilson Manuscripts Ltd. On mourning paper. Date: after 27 June, when Cattermole was among those who dined with CD following the visit to Newgate (To Forster, [26 June 37], in Pilgrim Letters 1, p. 277); handwriting supports 1837; “always” in subscription supports later rather than earlier in the period</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">social issues|social engagements|friends|illustrations|The Old Curiosity Shop|Barnaby Rudge</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>48 Doughty Street </placeName>
+               <date when="">Tuesday Morning</date>
+            </dateline>
+            <salute>My Dear Cattermole.</salute>
+         </opener>
+         <p>How sorry I am, that I did not get your note earlier! I very much regret being prevented from joining you to-day but I hope I shall see you on many future occasions both <hi rend="italic">here</hi><note>After the visit to Newgate, Forster, Cattermole, H. K. Browne and Macready had dined with CD at Doughty Street, where they were joined by J. P. Harley, George Hogarth, and Banks, Maclise’s brother-in-law (Macready, <hi rend="italic">Diaries</hi>, I, 401- 02).</note> and there.</p>
+         <closer>
+            <salute>Believe me Always / Most Sincerely Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

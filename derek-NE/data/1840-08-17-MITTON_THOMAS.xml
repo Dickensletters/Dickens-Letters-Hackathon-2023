@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THOMAS MITTON,<note>Thomas Mitton (1812-78), solicitor, one of CD’s closest friends. Son of Thomas Mitton, publican, of Battle Bridge (the district now known as King's Cross), where the Mitton and Dickens families may at some time have been neighbours – perhaps in The Polygon, where the Dickenses were living 1827-8. In recollections given to the Evening Times when she was 95, Mitton's sister Mary Ann claimed to have known CD well as a small girl. Mitton and CD were clerks together for a short time during 1828-9 in Charles Molloy's office, 8 New Square, Lincoln's Inn, where Mitton served his articles. He acted as CD’s solicitor for twenty years.</note> [17 AUGUST 1840]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-07</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Lawrence McMillan. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|travel|family">friends|travel|family</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address> Private | Thomas Mitton Esquire | 23 Southampton 
+	</address>
+            <dateline>
+               <placeName>Devonshire Terrace. / Monday</placeName>
+               <date when="1840-08-17">Monday-1840-08-17</date>
+            </dateline>
+            <salute>My Dear Mitton.</salute>
+         </opener>
+         <p>I find that if I would have a house at Broadstairs, I must go there and get one. With this view I shall start tomorrow morning,a and return next day. Will you run down with me? If so say ‘yes’, and come and sleep here tonighta if you can, and dine at 6 – and stretch a point to do it. Don’t tell Smithsons<note>The law firm of Smithson, Dunn &amp; Mitton; Charles Smithson (1804-44) had married T. J. Thompson’s sister, Elizabeth, and the Smithsons spent holidays in Broadstairs in 1840.</note> where<note>Written above the line.</note> I am going, in case anybody should kindly volunteer to accompany me; but you might say that we have received no satisfactory account of any houses – with Kate’s love to Mrs S.  </p>
+<p>Thomas Mitton Esquire.
+</p>
+<p>With regard to Elliotson<note>John Elliotson, MD (1791-1868; <hi rend="italic">Dictionary of National Biography</hi>), physician and mesmerist; he was CD’s doctor for many years: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 461.</note> – your seeing him on Thursday, would do as well as on Tuesday.</p>
+         <closer>
+            <salute>Faithfully always
+            </salute>
+            <signed>
+               <persName>CD</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

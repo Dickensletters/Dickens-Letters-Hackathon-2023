@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> WILLIAM BOXALL,<note>Sir William Boxall (1800-79; <hi rend="italic">Dictionary of National Biography</hi>), portrait-painter and museum director. See Pilgrim <hi rend="italic">Letters</hi> 6, p. 249n, for CD’s remarks on Boxall’s unfinished portrait of him in 1850.</note> 18 MAY 1858</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-09</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS private</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements|visual arts">social engagements|visual arts</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>TAVISTOCK HOUSE,
+
+TAVISTOCK SQUARE,
+
+LONDON. W.C</placeName>
+               <date when="1858-05-18">Tuesday Eighteenth May, 1858</date>
+            </dateline>
+            <salute>My Dear Boxall,</salute>
+         </opener>
+         <p>You know that nothing but dire necessity would keep me away from your pleasant little dinner today. I could not possibly foresee the occasion of my absence, and I cannot possibly set it aside. If you knew how sorry I am, you would be half as sorry for me as I am for myself.<note>CD had previously written to William Boxall on 10 May to suggest 'Monday or Tuesday of next week' for the dinner with artist friends, see Pilgrim <hi rend="italic">Letters</hi> 8, p. 561 and n. CD subsequently wrote to Captain E.E. Morgan (Pilgrim <hi rend="italic">Letters</hi> 8, p. 566; (?20-22 May 1858): “All your artist friends are flourishing. I dined with a dozen of them last Tuesday, and they all smelt horribly of oil and varnish”.</note></p>
+<p>W. Boxall Esquire.</p>
+         <closer>
+            <salute>Faithfully Yours always
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

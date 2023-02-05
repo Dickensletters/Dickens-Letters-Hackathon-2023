@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> EMMA PENDER,<note>Emma Pender (1816-90) <hi rend="italic">née</hi> Denison, second wife of Sir John Pender (1816-96), Scottish textile merchant in Manchester, submarine communications cable pioneer, and politician, who organised work experience positions for CD's son Alfred (1845-1912) in the textile trade. See <hi rend="italic">To</hi> Frederick Lehmann, Pilgrim <hi rend="italic">Letters</hi> 10, p. 217.</note> 18 JUNE 1863 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Peter Harrington Books online catalogue, Oct 2020.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|family|social engagements">friends|family|social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND</placeName>
+               <date when="1863-06-18">Thursday Eighteenth June 1863</date>
+            </dateline>
+            <salute>Dear Mrs Pender</salute>
+         </opener>
+         <p> I regret exceedingly that I cannot have the pleasure of dining with yourself and Mr Pender on Sunday. But I have a family party at Gad's Hill, and I shall have Mr Fechter<note>Charles Albert Fechter (1824-79); actor and playwright. CD first saw him perform in 1856, and thought him one of the finest actors of his generation (see Pilgrim <hi rend="italic">Letters</hi> 9, p. 405). The pair were close friends in the 1860s. On Fechter's accompanying CD to Gad's Hill for the party see <hi rend="italic">To</hi> Georgina Hogarth, 20 June 1863, in Pilgrim <hi rend="italic">Letters</hi> 10, p. 262.</note> there too. I am singularly unfortunate when you invite me.</p>
+<p>Pray let me thank you on behalf of my son,<note>Alfred D'Orsay Tennyson Dickens (1845-1912), for whom Sir John Pender obtained work experience positions in the textile trade. See <hi rend="italic">To</hi> Frederick Lehmann, 23 Feb 1863, in Pilgrim <hi rend="italic">Letters</hi> 10, p. 217.</note> who I am sure will be much gratified by your kind remembrance.</p>
+<p>                            Believe me always
+                                    |Very faithfully Yours</p>
+         <closer>
+            <salute>Mrs Pender
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> HORACE MAYHEW,<note> Horace Mayhew (1816-72; <hi rend="italic">Dictionary of National Biography</hi>), journalist and miscellaneous writer; younger brother of Henry Mayhew, author of <hi rend="italic">London Labour and the London Poor</hi>, 1864: see Pilgrim <hi rend="italic">Letters</hi> 9, p. 299 n.2.
+</note> 25 SEPTEMBER 1860</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-18</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Swann Galleries catalogue, Sep 2008.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family|finances">family|finances</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND,
+
+</placeName>
+               <date when="1860-09-25">Tuesday Twenty Fifth September 1860.</date>
+            </dateline>
+            <salute>My Dear Horace Mayhew</salute>
+         </opener>
+         <p>Immediately on receipt of your letter, I bestirred myself to get the required documents.<note>Toward settling Alfred Dickens’s affairs; Alfred had died, 27 July, in Manchester. It is not clear why Mayhew was involved.</note> Both are enclosed herein.<note>Presumably the death certificate and some evidence of birth or baptism (not until the Act of 1836 was full registration of births, deaths and marriages required by law). Alfred was born 11 Mar 22 and baptized 3 Apr 22.</note> You will observe in the extract from the Chatham Register, that poor Alfred having been born before the General Registration days, was not elaborately ticketed and labelled as the [ ]<note> Incomplete word deleted; possibly “young” or “youth” intended.
+</note> infants of this generation.</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS<note>Bottom of the letter cut away slant-wise, removing Mayhew’s name.</note></persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

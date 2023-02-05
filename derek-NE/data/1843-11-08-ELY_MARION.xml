@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MARION ELY,<note>Marion Elizabeth Ely (1820-1913), daughter of Charles Ely and Sara, née Rutt; niece of Rachel Talfourd (1792-1875), wife of CD's friend Thomas Noon Talfourd (1795-1854).</note> 8 NOVEMBER 1843</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-24</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Summary and facsimile in Bonham’s catalogue, 23 March 2004: MS 2 pp.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|social engagements|Martin Chuzzlewit">friends|social engagements|Martin Chuzzlewit</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1843-11-08"> Eighth November 1843.
+
+</date>
+            </dateline>
+            <salute>My Dear Miss Ely.</salute>
+         </opener>
+         <p>We shall be delighted to participate in the festivities of Mary’s<note> Mary Talfourd (1828-1901), the elder of Talfourd’s two daughters; married William Wreford Major, April 1856.
+</note> birthday. – I was going to say Little Mary’s, but Heaven help us – she must be dreadfully big by this time! Mrs. Harris<note>Mrs Gamp and her imaginary friend Mrs Harris first appeared in the August 1843 No. of <hi rend="italic">Martin Chuzzlewit</hi> (Ch. 19). For another Mrs Harris joke, see <hi rend="italic">To</hi> Ely, [29 Nov 43] (Pilgrim <hi rend="italic">Letters</hi> 3, p. 602).</note> says, only last evenin, as she never see a hand which giv her sech pleasure as yourn;<note>Ely’s handwriting was a running joke with CD: see e.g. <hi rend="italic">To</hi> Ely, 2 Dec 44 (Pilgrim <hi rend="italic">Letters</hi> 4).</note> not only on account of its bein sech a beautiful hand in itself, but because of its bein so familiar in the hold times as is gone and past fora hevermore amen.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

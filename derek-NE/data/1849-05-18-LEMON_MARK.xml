@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MARK LEMON,<note>Mark Lemon (1809-70; <hi rend="italic">Dictionary of National Biography</hi>), playwright and editor of <hi rend="italic">Punch</hi>, 1841-70. He and CD seem to have first met in 1843, probably introduced by Douglas Jerrold, and soon became close friends. Lemon dramatised The Chimes and acted with CD: see further Pilgrim <hi rend="italic">Letters</hi> 3, p. 469<hi rend="italic">n</hi>, and Arthur A. Adrian, <hi rend="italic">Mark Lemon, First Editor of Punch</hi>, 1966.
+</note> 18 MAY 1849 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-24</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Shaun Springer.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|David Copperfield|social engagements">friends|David Copperfield|social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace.</placeName>
+               <date when="1849-05-18">Friday Eighteenth May / 1849.</date>
+            </dateline>
+            <salute>My Dear Lemon</salute>
+         </opener>
+         <p>As I have been out, and find your boy waiting, I will keep the orthographical curiosity,<note>Presumably a letter that Lemon thought comic in its spelling, sent to amuse CD.</note> to read while you read this. I went to Forster<note>John Forster (1812-76; <hi rend="italic">Dictionary of National Biography</hi>), historian and man of letters, CD's closest friend and biographer.</note> this morning, who is willing.<note>Possibly echoing Barkis in <hi rend="italic">David Copperfield</hi>, No. II, Ch. V; not yet published but the No. completed by 5 May. The proposal was a trip to the Derby, 23 May; the party consisted of CD, Lemon, Leech, and, replacing Forster, John Gordon (see Pilgrim <hi rend="italic">Letters</hi> 5, p. 414n); CD’s servant, John Thompson, probably also went.</note> We three should be too much for a barouche<note>“A four-wheeled carriage with a half-head behind which can be raised or let down at pleasure, having a seat in front for the driver, and seats inside for two couples to sit facing each other” (<hi rend="italic">Oxford English Dictionary</hi>).</note> – I mean, we four. But do you think there is any other kind of conveyance – and pair, say – that would be at once comfortable and spicey?<note>“Full of spirit, smartness, or ‘go’” (<hi rend="italic">Oxford English Dictionary</hi>), with particular reference to horses or horse-drawn vehicles.</note> I fear not – but think of it. And if your thinking should come to anything, let me know tomorrow.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

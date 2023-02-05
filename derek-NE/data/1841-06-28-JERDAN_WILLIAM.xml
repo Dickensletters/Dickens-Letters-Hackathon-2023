@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> WILLIAM JERDAN,<note>William Jerdan (1782-1869; <hi rend="italic">DIctionary of National Biography</hi>); 3rd son and 7th child of John Jerdan and Agnes Stuart; his father was a rather easygoing, though respectable, small landowner of Kelso, Roxburghshire. William was editor of the <hi rend="italic">Literary Gazette</hi> 1817-50; from 1820 a leading figure in literary society: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 207, also Jerdan’s <hi rend = "italic">Autobiography</hi> (4 vols, 1852-3).</note> 28 JUNE 1841</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS David H. Kilmer.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements,public recognition,celebrity">social engagements,public recognition,celebrity</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1841-06-28">Thursday Twenty Eighth June | 41</date>
+            </dateline>
+            <salute>My Dear Jerdan.</salute>
+         </opener>
+         <p>Your letter is coming to me, I have no doubt. I am very sorry that I shall not be able to get to Kelso, but I have written my hearty thanks to your brother.<note> See last.</note></p>
+<p>The dinner was a very brilliant affair indeed – they say here, the best on record.<note>The dinner in CD’s honour held at the Waterloo Rooms, Edinburgh, on 25 June: see PIlgrim <hi rend="italic">Letters</hi> 2, pp. 310-11 for full annotation.</note> It included all parties and persuasions. They were obliged for lack of room to turn away nearly a hundred applicants for tickets, and besides the diners we had more than a hundred and fifty ladies. Blackwoods are going to publish a good account of the speechifying.<note>In fact they did not do so.</note> When they do, I’ll send you one. Meanwhile I forward you two papers, wherein the reporting is dismal.<note><hi rend="italic">The Caledonian Mercury</hi> gave a brief report and the <hi rend="italic">Edinburgh Evening Courant</hi> a slightly fuller one: see <hi rend="italic">ibid</hi>., pp. 311-313.</note></p>
+<p>It’s November here. – I hope it may be June in London.</p>
+         <closer>
+            <salute>Always,Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

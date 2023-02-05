@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To MARION ELY,<note>Marion Elizabeth Ely (1820-1913), daughter of Charles Ely and Sara, née Rutt; niece of Rachel Talfourd (1792-1875), wife of CD's friend Thomas Noon Talfourd (1795-1854).</note> 23 MAY 1847</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile (1 p.) in Bonham’s catalogue, 23 March 2004; MS 2 pp.; with envelope.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Dombey and Son|publishing18”>Dombey and Son|publishing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>148 King’s Road, Brighton<note>CD was in lodgings kept by William Dennett, 17-29 May, recovering from an illness, “a low dull nervousness of a most distressing kind” (Pilgrim <hi rend="italic">Letters</hi> 5, p. 66).</note></placeName>
+               <date when=“1847-05-23">Sunday Twenty Third May 1847.</date>
+            </dateline>
+            <salute>My Dear Miss Ely.</salute>
+         </opener>
+         <p>You little know the extent of my fetters. Baron Trenck<note>Friedrich, Baron Trenck (1726-94), Prussian adventurer, imprisoned by Frederick the Great, 1754-63; guillotined as Austrian spy, Paris, 1794. He wrote a popular biography, which shows him as victim of the arbitrary tyranny of kings. It was translated into English by the Radical Thomas Holcroft (<hi rend="italic">Life of Baron Frederic Trenck</hi>, 4 vols, 2nd edn, 1789-93). CD refers elsewhere to Trenck about this time (Pilgrim <hi rend="italic">Letters</hi> 5, pp. 96, 111). Trenck lays great stress on his fetters and the frontispiece to vol. 1 shows him shackled with irons of 68 lbs weight, with a detailed “Explanation” of them.</note> was never so [ ]<note>Word of about seven letters illegible; the context requires a meaning like “shackled”</note> as I have been on this Sea-shore. I had been so unwell before I left town, that I had not been able to write my Dombey;<note>CD was writing No. IX, Chs 26-28, the June No.</note> and when I received your kind note the other day, I was (as I still am) up to my eyes in ink and interest, and unconscious perforce, of anything else but Dombey in the World – except you. As I never hope to be introduced to a more “charming woman”<note>Possibly quoting Byron, Beppo (1818), “A charming woman whom we like to see” (l. 450)</note> than yourself, I bear that part of my disappointment with philosophy. </p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

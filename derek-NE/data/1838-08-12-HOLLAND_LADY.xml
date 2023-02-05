@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> LADY HOLLAND,<note>Elizabeth Vassall Fox (1770-1845; <hi rend="italic">Dictionary of National Biography</hi>), wife of the 3rd Baron Holland; the famous and autocratic hostess of Holland House: see Pilgrim Letters 1, p. 412n and Pilgrim <hi rend="italic">Letters</hi> 2, p. 63n. Holland House, on Kensington High Street, its grounds now Holland Park, was extensively damaged in the Second World War: see Lord Ilchester, <hi rend="italic">Chronicles of Holland House</hi>, 1937, Chs. 16 &amp; 17.</note> [?12 AUGUST 1838-11 DECEMBER 1839]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p> Text from facsimile in Sotheby’s on-line catalogue, 2002; MS (fragment) 1 p.; address and date given at foot of page. Date: after CD’s first visit to Holland House, 12 Aug 38 (a Sunday); before 12 Dec 39, when he moved to Devonshire Terrace.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id=""></interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>48 Doughty Street</placeName>
+               <date when="1838-08-12">Wednesday Morning</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>As I am (fortunately for myself) both in town and disengaged next Friday, I shall be most happy to avail myself of your and Lord Holland’s kind invitation.</p>
+         <closer>
+            <salute>Very Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS<note>The top of the MS has been torn off, leaving traces of descenders.</note></persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

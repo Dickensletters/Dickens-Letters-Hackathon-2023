@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> Isabella Dallas,<note>Isabella Dallas Glyn (née Gearns) (1823-89; <hi rend="italic">Dictionary of National Biography</hi>), actress. Début at Manchester 1847, under her mother's maiden name of Glyn; Sadler's Wells 1848-51. Married twice, the second time (1853) to the critic Eneas Sweetland Dallas (1821-79), to whom CD presented the MS of <hi rend="italic">Our Mutual Friend</hi>.</note> 17 OCTOBER 1869</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-13</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Extract in unidentified Los Angeles catalogue [Nov 2000]; addressed [Mr.] Dallas; dated Gad’s Hill Place, 17 October 1869. Shorter extract (unidentified catalogue at Charles Dickens Museum) gives MS 1p.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends">friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1869-10-17"> 17 OCTOBER 1869
+
+</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>How could you possibly be ‘offended’?<note>Presumably Mrs Dallas had taken umbrage that CD had not answered her by return of post.</note> [...] You do not know how difficult it is for me to maintain a correspondence after the day’s work is done. I have lost two Australian mails in succession, in sheer inability to write to my pet boy.<note>Edward Bulwer Lytton Dickens (“Plorn”), CD’s youngest and favourite son: he had emigrated to Australia, Oct 1868.</note></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

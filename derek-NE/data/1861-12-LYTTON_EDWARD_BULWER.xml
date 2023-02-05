@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> EDWARD BULWER LYTTON,<note>Sir Edward George Earle Lytton Bulwer-Lytton, Bart, later 1st Baron Lytton (1803-73; <hi rend="italic">Dictionary of National Biography</hi>), writer and politician. Became intimate with CD through their joint founding of the Guild of Literature and Art, 1850; this led CD to dedicate <hi rend="italic">Bleak House</hi> to him. CD named his youngest child after Lytton, and changed the ending of <hi rend="italic">Great Expectations</hi> after Lytton objected to the original.</note> [LATE DECEMBER 1861]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile of fragment on AbeBooks website, 2020.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|publishing|Dombey and Son|Great Expectations|Household Words
+All the Year Round">friends|publishing|Dombey and Son|Great Expectations|Household Words
+All the Year Round</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1861-12-15">CD wrote to Kent on 19 Dec 1861, offering assistance with his publishing project</date>
+            </dateline>
+            <salute>Ever affecy</salute>
+         </opener>
+         <p>Kent<note>William Charles Mark Kent (always known as Charles) (1823-1902; <hi rend="italic">Dictionary of National Biography</hi>), poet, miscellaneous writer and journalist; eldest son of William Kent, RN, and nephew of Bishop Charles Baggs, Catholic Vicar-Apostolic of West England; a strict Roman Catholic. Educated at Prior Park, Bath, and St Mary's College, Oscott. Became editor of The Sun in 1845. His enthusiastic review of Dombey and Son led to his friendship with CD. Frequent contributor to <hi rend="italic">Household Words</hi> and <hi rend="italic">All the Year Round</hi>, and author of Charles Dickens as a Reader (1872). Kent was described by Percy Fitzgerald as a "faithful follower and worshipper" of Dicken (<hi rend="italic">Memories of Charles Dickens</hi>, [Bristol: J.W. Arrowsmith, 1913], p. 319).</note> is an excellent fellow. And if you will give him my name as a subscriber for 2 copies,<note>CD was among the subscribers to Dreamland, with Other Poems (1862, Kent's second collection), dedicated to Bulwer Lytton. This firm offer of a subscription follows on from CD's letter to Kent of 19 Dec 1861, in which he says, ' If I can serve your book in any way, of course I will do it and joyfully' (Pilgrim Letters 9, p. 545).</note> it will make the name worth 4 to him.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

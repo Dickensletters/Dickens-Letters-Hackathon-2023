@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> LLEWELLYNN JEWITT,<note>Llewellynn Frederick William Jewitt (1816-86; <hi rend="italic">Dictionary of National Biography</hi>), antiquary. Chief Librarian of Plymouth, 1849-53. Publications include <hi rend="italic">Ceramic Art of Great Britain</hi> (1878), <hi rend="italic">Graves, Mounds, and Their Contents</hi> (1870) and, with Samuel Carter Hall, <hi rend="italic">Stately Homes of England</hi> (1874-7).</note> 18 AUGUST 1851</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Christie’s catalogue, June 2005. On mourning paper.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="celebrity|public recognition|speeches"> celebrity|public recognition|speeches
+</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Broadstairs, Kent. </placeName>
+               <date when="1851-08-18"> Monday Eighteenth August | 1851 </date>
+            </dateline>
+            <salute> Sir </salute>
+         </opener>
+         <p>I am very sorry that, owing to my absence from London, I did not receive your letter until Saturday last. And I regret that my engagements will not admit of my accepting the invitation with which I am honored by the Plymouth Mechanics’ Institute.<note>Founded 1825; CD presumably had been asked to give an address at the inauguration of the Institute's new building in Princess Square, 10 Sep.</note> I esteem and appreciate that invitation, and have the warmest sympathy with all such excellent associations, but my avocations render it out of my power to attend.</p>
+         <closer>
+            <salute>I am Sir | Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS | Lleywellynn<note>Misspelt by CD.</note> Jewitt Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

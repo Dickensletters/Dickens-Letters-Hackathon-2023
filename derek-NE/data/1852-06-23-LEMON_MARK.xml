@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MARK LEMON, 23 JUNE 1852</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Extract in Bonham’s catalogue, 23 March 2004; MS 1 p.; addressed Mark Lemon; dated Tavistock House, 23 June 1852.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|family|social engagements">friends|family|social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when=""></date>
+            </dateline>
+            <salute>My Dear Mark</salute>
+         </opener>
+         <p>...Thursday the 1st. of July, is the memorable day for the water party with the Etonians.<note>A party, as in 1851, on the Thames with Charley Dickens (CD's eldest child) and some of his friends at Eton College: see further Pilgrim <hi rend="italic">Letters</hi> 6, p. 697 &amp;a,mp; <hi rend="italic">nn</hi>.</note> Beard<note>Thomas Beard (1807-91), journalist; knew CD from the early 1830s and they worked together on the <hi rend="italic">Morning Chronicle</hi> from 1834. Best man at CD’s wedding and godfather to Charley: see further Pilgrim <hi rend="italic">Letters</hi> 1, p. 3n. Beard had been on the previous year’s jaunt.</note> is laid on. Keep yourself disengaged to all the world, but </p>
+         <closer>
+            <salute>Yours Ever
+            </salute>
+            <signed>
+               <persName>CD</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

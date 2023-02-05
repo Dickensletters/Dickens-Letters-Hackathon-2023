@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> BERNHARD TAUCHNITZ,<note>Baron Bernhard Christian Tauchnitz (1816-95), publisher, of Leipzig. Born at Schleinitz; nephew of the publisher Karl Tauchnitz. Founded his own firm in Leipzig in 1837. The firm began its “Collection of British Authors” Sep 1841 with Bulwer Lytton’s <hi rend="italic">Pelham. Pickwick Papers, Oliver Twist, and American Notes</hi> had appeared before the end of 1842, and Nicholas Nickleby in June 1843. He and CD became friendly, and CD sent Charley to Leipzig to learn German (see below). According to John Forster, Tauchnitz always paid liberally. He wrote to Forster after CD’s death: “All Mr Dickens’s works have been published under agreement by me. My intercourse with him lasted nearly twenty-seven years. The first of his letters dates in October 1843, and his last at the close of March, 1870 [see <hi rend="italic">To</hi> Tauchnitz, 31 March 1870]. Our long relations were not only never troubled by the least disagreement, but were the occasion of most hearty personal feeling; and I shall never lose the sense of his kind and friendly nature. On my asking him his terms for Edwin Drood, he replied, ‘Your terms shall be mine.’” (John Forster, <hi rend="italic">The Life of Charles Dickens</hi>, ed. J.W.T. Ley [London: Cecil Palmer, 1928], p. 807n).</note> 14 JANUARY 1853</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in the possession of Dietmar Böhnke.<note>Böhnke published his transcription, with brief annotation, in "The Correspondence between Charles Dickens and Bernhard Tauchnitz: General Observations and Newly Discovered Letters", <hi rend="italic">Archiv für das Studium der neueren Sprachen und Literaturen</hi> (Berlin: Erich Schmidt Verlag, 2013), p. 325.</note></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family|Germany|education">family|Germany|education</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>aTavistock House, London </placeName>
+               <date when="1853-01-14">Fourteenth January 1853a I Friday Evening</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I am very truly obliged to you for your kind letter, and for the comforting assurances you give me of your hospitable intentions towards my dear boy.<note> Charles Culliford Boz Dickens ("Charley", 1837-96), CD's eldest son.
+</note> I shall certainly, on your advice, send him to Leipzig, if I can through your friendly means find a tutor and a friend for him there, with whom while he is improved he may be confidential and happy.<note>Charley was in Leipzig in 1853-4, to learn German. He stayed with the schoolmaster Professor O.C. Müller, 6 Tauchaer Strasse, Leipzig.</note></p>
+<p>Excuse me if I trouble you by stating exactly what I wish.</p>
+<p>Excuse me if I trouble you by stating exactly what I wish.
+
+I wish to place him in a house where he will not lose the classical and other knowledge he has gained, and where he can acquire German thoroughly. He was in France with me when he was young,<note>Charley accompanied the family on their travels to Italy in 1844, passing through Paris and Marseilles. He was also with them when they took up residence at 48 Rue de Courcelles in Paris on 20 November 1846, but was sent back to school at King’s College, London, after Christmas; see <hi rend="italic">To</hi> John Forster, [?30 Nov 1846], Pilgrim <hi rend="italic">Letters</hi> 4, p. 670).</note> and will very easily recover that language. aWhile he is well looked after (as all boys require to be) I wish him to be not too obviously restrained, and to have the advantages of cheerful and good society.a Such little comforts as a room to himself etc. (I mean a bedroom) he has been used to at Eton,<note>Charley attended Eton from 12 January 1850, entering at the highest level for a new boy (Remove), and moving straight into Fifth Form from Summer 1850, rather than completing a full year in Remove. He attended until Michaelmas term 1852 (see Pilgrim <hi rend="italic">Letters</hi> 6, p. 54n).</note> where he was high in the school, and would of course require in this new position. aI want him to have an interest in, and to acquire a knowledge of, the life around him, and to be treated like a gentleman though pampered in nothing. By punctuality in all things, great or small, I set great store.a</p>
+<p>If your kindness can recommend a good home for him of this kind, he will do honor to it hereafter, and I shall always<note>"always" written above caret.</note> consider myself under an obligation to such a tutor, and shall always be happy to bear my testimony to his services. Charley (for he bears my name) is an affectionate boy, of an excellent disposition, quick, and of great natural abilities. He is lively, easily makes friends, and is pleasant-looking, and has pleasant and frank manners.<note>These positive comments on Charley's character contrast with other remarks CD makes in correspondence; see, for example, To Angela Burdett Coutts, 14 Jan 1854, where he is described as having "less fixed purpose and energy than I could have supposed possible in my son" (Pilgrim <hi rend="italic">Letters</hi> 7, p. 245).</note> I forget whether I told you his age – 16.</p>
+<p>I should have him home for five or six weeks in the summer, and also at christmas time.<note>Charley did go home for Christmas, but probably not during the summers of 1853 and 1854.</note></p>
+<p>If, on enquiry, you can find a gentleman whom you rely on, for such a trust – and if you will further do me the great favor of obtaining me all necessary particulars respecting him and his terms and charges<note>Tauchnitz paid Charley’s expenses locally, and deducted the amount from payments due on account from Tauchnitz to CD. The only payments made by CD for Charley's German expenses were one for £25 on 28 February 1853, shown in the Coutts bank ledger as "Germany", and one for £5 on 2 March 1853, listed as "Charles's sundries".</note> – I will speedily consider and decide<note>Tauchnitz obliged, and CD did indeed make a speedy decision (see To Bernhard Tauchnitz 24 Feb 1853). Charley was taught German by Professor Müller, and by other teachers, including Dr Otto Fiebig of the Nikolaischule; see Böhnke, "The Correspondence", pp. 313-4.</note> I think I mentioned to you in my former letter that Charley wishes to devote himself hereafter, to commercial pursuits.<note>On 22 Dec 1852 CD wrote to Tauchnitz: "My eldest boy, who is now sixteen, I have just taken from Eton (I daresay you know the great public school there, by name) with the intention of sending him to Germany, where I wish him to acquire the language perfectly. He is a clever, well-educated boy of sixteen years of age, and was at first designed for the army; but he has a preference for mercantile pursuits" (To Tauchnitz, 22 Dec 1852, in Pilgrim <hi rend="italic">Letters</hi> 6, p. 832).</note></p>
+<p>The Chevalier Bernhard Taüchnitz<note>Thus in MS. The "ü" occurred commonly in German script of the time, to distinguish it from "n".</note></p>
+         <closer>
+            <salute>I am always my Dear Sir I Yours very faithfully
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

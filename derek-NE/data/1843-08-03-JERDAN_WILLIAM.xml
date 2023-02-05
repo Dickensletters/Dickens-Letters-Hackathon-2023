@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> WILLIAM JERDAN,<note>William Jerdan (1782-1869; <hi rend="italic">Dictionary of National Biography</hi>), editor of the <hi rend="italic">Literary Gazette</hi>.</note> 3 AUGUST 1843 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Bonhams online catalogue, May 2020. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="charity|theatre">charity|theatre</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace.
+
+</placeName>
+               <date when="1843-08-03">Third August 1843 </date>
+            </dateline>
+            <salute>My Dear Jerdan</salute>
+         </opener>
+         <p>I am in town for but a few hours – 'specially<note>"especiall" deleted after "hours –".</note> for the Elton Committee<note>Edward William Elt (1794-1843; <hi rend="italic">Dictionary of National Biography</hi>), known as Elton; actor. First appeared at the Garrick Theatre in 1831; enjoyed great popularity from 1832 to 1836 at the Strand and Surrey theatres. Drowned on 19 July returning on the Pegasus to Hull from a month’s engagement at William Murray's Edinburgh Theatre, the ship having struck Goldstone Rock and sunk one mile from shore. Known to CD as Chairman and Treasurer of the Theatrical Fund (see Pilgrim <hi rend="italic">Letters</hi> 3, p. 527n). CD had consented to take on the role of Chairman of a committee established on 25 July 1843 to raise funds for his children (see <hi rend="italic">To</hi> Angela Burdett Coutts, 26 July 1843, Pilgrim <hi rend="italic">Letters</hi> 3, p. 527), and wrote to many of his friends (including George Cruikshank, Thomas Hood and Daniel Maclise) requesting subscriptions and support.</note> tonight – and have not yet had the Haymarket Return.<note>A benefit was held at the Haymarket Theatre on 2 Aug; others followed at the City of London (3 Aug), the Surrey (3 Aug), the Princess’s (4 Aug), Sadler’s Wells (5 Aug) and Astley’s (12 Aug); see Pilgrim <hi rend="italic">Letters</hi> 3, p. 534n.</note> But if I find this evening that there is any news worth your having, I will take care Mc Ian<note>Robert Ronald M'Ian (1803-56; <hi rend="italic">Dictionary of National Biography</hi>), actor and painter; presumably a member of the Elton committee. As an actor, specialised in playing Highland characters; performed (1835-9) at the English Opera House, Covent Garden, and Drury Lane, meanwhile training himself in art. Gave up the stage in 1839 to devote himself entirely to art – mainly painting scenes of Highland history or life.</note> sends it you.</p>
+<P>W. Jerdan Esquire</P>
+         <closer>
+            <salute>  Faithfully Always
+            </salute>
+            <signed>
+               <persName>CD</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

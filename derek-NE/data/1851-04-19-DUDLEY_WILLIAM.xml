@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> WILLIAM DUDLEY,<note> Unidentified </note> 19 APRIL 1851 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Bonhams online catalogue, May 2020.| On mourning paper.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family|David Copperfield">family|David Copperfield</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>London, 1 Devonshire Terrace</placeName>
+               <date when="1851-04-19">Nineteenth April 1851</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>     I received your letter at Malvern.<note>CD travelled to Malvern in March 1851 so that his wife Catherine might receive treatment from Dr James Wilson for a nervous illness — probably abnormally long-lasting attacks of migraine combined with post-natal depression.</note> Since then I have been in some trouble. The sudden death of a little daughter<note>CD's daughter Dora had died suddenly on 14 Apr 1851.</note> – she was called Dora, in remembrance of a book you have read<note>CD had named his daughter after the first wife of the protagonist in <hi rend="italic">David Copperfield</hi>. CD expressed similar sentiments in letters to Emile de la Rue on 25 Apr 1851, and Lydia Sigourney on 24 May 1851; see Pilgrim <hi rend="italic">Letters</hi> 6, pp. 363, 400.</note> – has much afflicted us. But I cannot refrain from thanking you, and assuring you that I am truly gratified by your communication.</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

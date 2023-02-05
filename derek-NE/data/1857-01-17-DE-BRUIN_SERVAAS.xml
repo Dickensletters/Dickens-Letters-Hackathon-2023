@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> SERVAAS DE BRUIN,<note>Servaas de Bruin (1821-1901), Dutch miscellaneous writer and lexicographer.</note> 17 JANUARY 1857</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-13</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS The Royal House Archives, The Hague</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Household Words|publishing|editing">Household Words|publishing|editing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House, London</placeName>
+               <date when="1857-01-17">Saturday Seventeenth January | 1857.</date>
+            </dateline>
+            <salute>Sir</salute>
+         </opener>
+         <p>I regret to assure you, in answer to the letter you have done me the favor to address to me through my friend Mr. Lytton,<note>The Hon. Edward Robert Lytton (1831-91; <hi rend="italic">Dictionary of National Biography</hi>), diplomat and poet (as “Owen Meredith”); only son and second child of Edward Bulwer Lytton: see Pilgrim <hi rend="italic">Letters</hi> 7, p. 694n. The friendship between CD and Lytton developed in Paris during the winter of 1855-6, when Lytton was unpaid attaché at the British Embassy. Lytton was subsequently attaché at The Hague, Mar 56 to summer 57, when he may have met de Bruin.</note> that it is not in my power to give you any direct encouragement, or to make you any definite offer, to write for Household Words. Except that I am much impressed by the admirable knowledge of English which you shew in your letter, I am wholly unable to form any opinion of your qualifications for becoming a contributor to that journal. Nor could I possibly form such opinion on any other basis than on some translation or piece of original writing, submitted by you for insertion. All I can honestly say, is, that there is always room in Household Words for any thing that is good, and that is suited to its general design and character—that everything accepted is paid for— that everything offered is read—and that it is my greatest editorial pleasure to find ability anywhere. Acknowledging your confidence with many thanks, I am Sir</p>
+<p>M. Servaas de Bruin</p>
+
+         <closer>
+            <salute>Your faithful Servant 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

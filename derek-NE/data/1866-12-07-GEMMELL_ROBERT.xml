@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>\
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> ROBERT GEMMELL,<note>Robert Gemmell (1821-86), minor Scottish poet and railway goods clerk for the Glasgow and South-Western Railway Company.</note> 7 DECEMBER 1866</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-04</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces Extract,MS Huntington Library</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">books,public recognition,celebrity</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD'S HILL PLACE,HIGHAM BY ROCHESTER, KENT</placeName>
+               <date when="1866-12-07">Friday Seventh December 1866</date>
+            </dateline>
+            <salute>Sir </salute>
+         </opener>
+         <p>In reply to your letter, I beg to assure you that I shall be happy to become a subscriber of One Guinea towards the publication of the work you have in hand.<note><hi rend="italic">Montague: A Drama, and other Poems</hi> (London and Glasgow, 1868).</note> But I cannot undertake to read the MS with a view to writing a critical opinion on it, for two reasons. Firstly, because that is a request so often preferred to me that compliance would leave me no leisure for any other occupation in life. Secondly, because I know perfectly well that any publisher would form his own opinion for himself, and would be wholly unimpressed by mine, if it were favorable.<note>A review of Gemmell’s volume in the <hi rend="italic">Athenaeum</hi> noted: ‘Of Montague. . . we cannot say much in the way of praise. “Montague” [a drama in three acts] is stilted and stagey; the other “poems” are not very poetical’ (‘New Poetry’, 12 Dec. 1868, p. 793). <hi rend="italic">The London Review</hi> noted that ‘as a literary exercise’, Montague ‘is not of the slightest value. It is poor as an intellectual effort, and it exhibits an entire want of skill in the construction of blank verse suitable to dramatic purposes, or indeed to any purpose’ (‘Minor Poetry’, 17 Oct. 1868, p. 457).</note> </p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS,Mr. Robert Gemmell </persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

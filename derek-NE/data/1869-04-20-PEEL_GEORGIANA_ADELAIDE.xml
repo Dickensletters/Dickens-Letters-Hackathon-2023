@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> LADY GEORGIANA PEEL,<note>Georgiana Adelaide Peel (1836-1922); elder daughter by his first wife of Lord John Russell (1792-1878; <hi rend="italic">Dictionary of National Biography</hi>), 1st Earl Russell 1861; second wife (1867) of Archibald Peel, grandson of Sir Robert Peel, 1st. Bart, and second cousin to the Prime Minister</note> 20 APRIL 1869</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-01</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extracts in Pilgrim Letters 12, p. 338.| MS R&amp;R Auctions on-line catalogue, 2009.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="public readings">public readings</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Blackburn<note>CD read at the Exchange Assembly Rooms in Blackburn, 19 Apr, and in Bolton, 20 Apr.</note></placeName>
+               <date when="1869-04-20">Tuesday Twentieth April | 1869</date>
+            </dateline>
+            <salute>Dear Lady Georgiana</salute>
+         </opener>
+         <p>I am truly obliged to you for your kind invitation, and would with pleasure accept it if I could. But I shall remain in Chester,<note>The Peels’ home in Royton, Denbighshire, was only 12 miles from Chester; Lady Georgiana had clearly offered CD hospitality. CD’s farewell reading at Chester, fixed for 29 Apr, had been announced in the <hi rend="italic">Chester Guardian</hi> on 17 April, but was cancelled on the 24th, along with the rest of the programme for 1869, after CD’s collapse at Preston, 22 Apr (see the <hi rend="italic">Chester Chronicle</hi>, 24 Apr, which reprinted in full the certificate from CD's doctor, Francis Carr Beard: see also <hi rend="italic">To</hi> Forster, 22 Apr 1869, n3, in Pilgrim <hi rend="italic">Letters</hi> 12, p. 340).</note> only a few hours: going there rapidly from London, and returning as rapidly to read again.<note>He read Doctor Marigold and the Trial from Pickwick in the Temperance Hall, Bolton, that night. In a warm review, the <hi rend="italic">Bolton Chronicle</hi>, 24 Apr 1869, commented that near the close CD's voice "appeared somewhat to fail him", and he abridged the Trial by omitting Serjeant Snubbin's speech.</note> I have not seen my own house since Christmas—shall not see it until Midsummer<note>From <note>Earl Russell’s out-of-town home in Richmond Park since 1847.</note> January, CD had been either on his reading tour or based at the <hi rend="italic">All the Year Round</hi> Office on brief returns to London.</note>— could not go to Pembroke Lodge6 at Easter—and have been almost incessantly “Reading” since last October, in all the points of the compass.<note>For a detailed listing of CD's public readings on his Farewell Tour see Malcolm Andrews, Charles Dickens and His Performing Selves (Oxford: Oxford University Press, 2006), pp. 286-90.</note></p>
+
+<p>It gives me real gratification to know that you were pleased with my few words of reference to Lord Russell at Liverpool.<note>On 10 April, at the Liverpool banquet in CD's honour, he remarked: "there is no man in England whom I respect more in his public capacity, whom I love more in his private capacity, or from whom I have received more remarkable proofs of his honour and love of literature than . . . Lord Russell" (<hi rend="italic">The Speeches of Charles Dickens</hi>, ed. K.J. Fielding [Oxford: Clarendon Press, 1960], pp. 388-9).</note> I never can say anywhere how highly I respect and esteem him. I beg to offer my compliments to Mr. Peel,<note>Archibald Peel (1828-1910), Lady Georgiana's husband (married 1867), and nephew of Sir Robert Peel (1788-1850; Prime Minister 1841-6).</note> and to thank him no less than yourself.</p>
+         <closer>
+            <salute>Believe me | Faithfully Yours.
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

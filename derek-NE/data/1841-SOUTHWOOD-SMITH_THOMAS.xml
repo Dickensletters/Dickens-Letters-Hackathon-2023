@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THOMAS SOUTHWOOD SMITH,<note>Thomas Southwood Smith, MD (1788-1861; <hi rend="italic">Dictionary of National Biography</hi>), sanitary reformer. MD 1816; Unitarian minister at Yeovil, simultaneously practising medicine, 1816-20. Published <hi rend="italic">Illustrations of the Divine Government</hi>, Glasgow, 1816. From 1820 practised medicine in London. Consultant to the London Fever Hospital 1824. One of the projectors of the <hi rend="italic">Westminster Review</hi>, for which he wrote his first articles on sanitary reform: "Contagion and Sanitary Laws" (3 [Jan 1825]: 134-167) and "Plague — Typhus Fever — Quarantine" (3 [Apr 1825]: 499-530). These were followed by A Treatise on Fever, 1830 (arguing that "penury and ignorance" could "at any time and in any place, create a mortal plague"); <hi rend="italic">The Philosophy of Health</hi>, 1835-7; and by his <hi rend="italic">Reports to the Poor Law Commissioners for East London</hi> 1835-9 and <hi rend="italic">Reports on Sanitary Improvement 1838-57. An advocate of dissection, he had contributed "The Use of the Dead to the Living" to the Westminster Review</hi> (2 [1824], 59-97), and dissected and lectured over Jeremy Bentham's body (left him by Will) 1832 — later keeping the skeleton, dressed in Bentham's clothes, in his Finsbury Square consulting room (it is now in University College, London, encased in a wax replica). One of the original Committee of the Society for the Diffusion of Useful Knowledge, 1825. He was main founder of the Health of Towns Association 1839. In 1841 Lord Normanby, the Home Secretary, used Smith's evidence to support his Drainage of Buildings Bill (shelved on the Govt's defeat).</note> [1841-44] </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Envelope only.| Text from facsimile in International Autograph Auctions online catalogue, Oct 2016.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social issues">social issues</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>Dr Southwood Smith | 26 New Broad Street. | City.
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName></placeName>
+               <date when="">Signature confirms early 1840s. Envelope features penny red imperforate stamp, first issued Feb 1841 (replaced by perforated version Feb 1854). Maltese Cross cancellation on envelope introduced 1840 (replaced by numbered stamps May 1844).</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

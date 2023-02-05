@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JAMES HEYWOOD,<note>James Heywood (1810-97; see Pilgrim <hi rend="italic">Letters</hi> 4, p. 404n), one of the founders of the Manchester Athenaeum and its first President.</note> 17 OCTOBER 1845</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-17</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Private.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="health,public recognition,celebrity,social engagements,trave">health,public recognition,celebrity,social engagements,travel</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>London, 1 Devonshire Terrace| York Gate Regent’s Park</placeName>
+               <date when="1845-10-17">Seventeenth October 1845</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I am exceedingly obliged to you for your kind invitation. It would be a great pleasure to me to accept it; but my movements are so exceedingly uncertain, my arrival in Manchester<note>CD had agreed to attend the Manchester Athenaeum’s soirée on 23 Oct, to support Talfourd, the evening’s President. Heywood evidently asked CD to do something else than just attend: see also <hi rend="italic">To</hi> Leech, 17 Oct, and, for the soirée, Pilgrim <hi rend="italic">Letters</hi> 4, p. 413<hi rend="italic">nn</hi>.</note> so dependant on circumstances, and the period of my stay so very short, that I deem it best to hold myself aloof from all engagements there. I have many occupations at this moment of a very pressing nature; and Mrs Dickens being unwell besides, and very near her confinement,<note>Catherine gave birth to Alfred D’Orsay Tennyson Dickens on 28 Oct. CD had already made clear her pregnancy meant his visit to Manchester must be brief: five days later, he withdrew altogether (<hi rend="italic">To</hi> Berlyn, 22 Oct).</note> I am really afraid to make engagements.</p>
+
+         <closer>
+            <salute>I am always, My Dear Sir,Very Faithfully yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS,James Heywood Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

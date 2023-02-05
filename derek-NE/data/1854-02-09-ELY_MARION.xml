@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MISS MARION ELY,<note>Marion Elizabeth Ely (1820-1913), daughter of Charles Ely and Sara, <hi rend="italic">née</hi> Rutt; niece of Rachel Talfourd (1792-1875), wife of CD's friend Thomas Noon Talfourd (1795-1854).</note> 9 FEBRUARY 1854</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-25</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Alastair J. E. Matthew.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|social engagements|theatre">friends|social engagements|theatre</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House </placeName>
+               <date when="1854-02-09">Thursday Ninth February 1854.</date>
+            </dateline>
+            <salute> My Dear Miss Ely.</salute>
+         </opener>
+         <p>I did not get your ethereal-looking note<note>Another joke about Ely’s handwriting; cf. <hi rend="italic">To</hi> Ely, 8 Nov 43 (see Pilgrim <hi rend="italic">Letters</hi> 3).</note> until late last night. Shall our theatrical engagement stand for Saturday week?<note>The proposed visit not identified.</note> On this next Saturday I am unfortunately engaged. Mr. Robson<note>Thomas Frederick Robson, originally Brownbill (?1822-64; <hi rend="italic">Dictionary of National Biography</hi>), actor and manager; made his reputation in comedy, farce and especially burlesque. Joint manager of the Olympic theatre, 1857, where he produced professionally Wilkie Collins’s <hi rend="italic">The Lighthouse</hi>, taking CD’s role of Aaron Gurnock: see further Pilgrim <hi rend="italic">Letters</hi> 8, pp. 394, 418 and <hi rend="italic">nn</hi>. Because of his small figure, became known as “the great little Robson”.</note> excellent in a small part in the Bengal Tiger<note>By Charles Dance, 1837; revived for performance before the Queen at Windsor (26 Jan) and then performed at intervals at the Olympic.</note> – as good as good can be. He apostrophises a picture to perfection,<note>As David, the family footman, whose comparison of a portrait of Sir Paul Pagoda at fifteen with the rich thoughtless man he is now (his heart “a lump of coke”) precipitates Sir Paul’s recognition of his folly and the true demands of feeling. The character allows the actor to combine comic outspokenness with ingrained honesty.</note> and with a far better serious quality in him than he has shewn yet.  </p>
+         <closer>
+            <salute>Ever Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS| Miss Ely. </persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

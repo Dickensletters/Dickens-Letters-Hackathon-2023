@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> GEORGE [?DARLING],<note>Unidentified. Name uncertain; “Darling” possible.</note> 22 APRIL 1857</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Alexautographs catalogue, 2010.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="domestic issues|celebrity">domestic issues|celebrity</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House, London</placeName>
+               <date when="1857-04-22">Twenty Second April 1857 </date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>My absence from London<note>CD was in Gravesend, 7-15 Apr, to keep “an eye on the little repairs” at Gad’s Hill (<hi rend="italic">To</hi> Miss Coutts, 9 Apr; Pilgrim <hi rend="italic">Letters</hi~> 8, p. 310). He was clearing off accumulated correspondence on his return to London.</note> has prevented my returning an earlier reply to your letter, and sending back your Manuscript with thanks. I can hardly be expected to recognize the necessity of the question propounded at your Debating Society, as I may be reasonably supposed to have settled it very conclusively in my own mind. But it is extremely agreeable and gratifying to me to have so earnest a champion as yourself and to find the generous order of youth expressing itself so well, and with so strong a love of what is good and true.</p>
+<p> Mr. George [?Darling] Junr.
+
+</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

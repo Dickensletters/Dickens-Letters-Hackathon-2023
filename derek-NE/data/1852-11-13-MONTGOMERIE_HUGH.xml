@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> HUGH MONTGOMERIE,<note>Hugh Edmonstone Montgomerie (1820-91), ship owner and insurance broker. He had worked in Montreal in the firm of Edmonstone, Allan and Co, before entering into business in London in 1849 with his partner, Alexander Greenhorne.</note> 13 NOVEMBER 1852</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS David Pipes</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Household Words">Household Words</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>H.E. Montgomerie Esquire | Club Chambers | Regent Street 
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName>Tavistock House | Tavistock Square</placeName>
+               <date when="1852-11-13"> Thirteenth November 1852 </date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Mr Charles Dickens presents his compliments to Mr Montgomerie, and begs to thank him for his obliging letter.<note>Montgomerie had written to CD, offering a correction to John Capper's article entitled "Underwriting", concerning the Society of Underwriters or Marine Insurers, commonly known as Lloyd's (<hi rend="italic">Household Words</hi> 5 [4 Sept 1852]: 585-9).</note> He has looked into the authorities again, and availed himself of Mr Montgomerie's correction.<note>The correction was printed as "Lloyd's List", in <hi rend="italic">Household Words</hi> 6 (2 Oct 1852): 69-70; it altered the date of the earliest list in existence from 1745 to 1740.</note></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

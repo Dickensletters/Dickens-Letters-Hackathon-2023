@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To SIR HENRY ELLIS,<note>Sir Henry Ellis, FRS (1777-1869), antiquary and Principal Librarian, British Museum 1827-56.</note> 28 SEPTEMBER 1859</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces mention in Pilgrim <hi rend="italic">Letters</hi> 9, p.126.| Facsimile in Sotheby’s online catalogue, December 2014</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="editing|All the Year Round">editing|All the Year Round</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALLTHE YEAR ROUND</placeName>
+               <date when="1859-09-28">Wednesday Twenty Eighth September 1859</date>
+            </dateline>
+            <salute>My Dear Sir Henry Ellis</salute>
+         </opener>
+         <p>A gentleman who also contributes to this Journal – Mr Hollingshead<note>John Hollingshead (1827-1904), journalist and theatre manager. Regular contributor to <hi rend="italic">Household Words</hi> and <hi rend="italic">All the Year Round</hi>, became a member of the staff 1859. No trace exists of this article on the British Museum.</note> by name – has an idea that he could write a pleasant fanciful paper on the British Museum on an off-day, when the Public are not there. If it should not be inconsistent with your arrangements to give him the means of going through the Museum under such circumstances, I shall feel much indebted to you for kindly giving him </p>
+<p>Sir Henry Ellis 
+</p>
+         <closer>
+            <salute>Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JOHN THOMPSON,<note>John Thompson (1822-71), CD’s trusted servant, c. 1841-67; he acted as dresser, secretary, and coachman. Stole money from CD's cash box, Nov 1866 (see Pilgrim <hi rend="italic">Letters</hi> 11, pp. 262, 268), but not dismissed outright; CD eventually facilitated his finding employment as a tobacconist.</note> 15 AUGUST 1857</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-28</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile on eBay, January 2011.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="domestic issues|servants">domestic issues|servants</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Gad’s Hill Place</placeName>
+               <date when="1857-08-18">Saturday Fifteenth August, 1857<note>Address and date at foot of letter.</note></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>I am particularly anxious, John, that Mr.Austin<note>Henry Austin (?1812-61), architect and civil engineer; married Letitia Dickens 1837. See Pilgrim <hi rend="italic">Letters</hi> 1, p. 21n.</note> should have the enclosed letter<note>To Henry Austin, 15 Aug. The water supply at Gad’s Hill was a constant problem: in June the well ran dry and though now CD wrote to Austin that “we have got a famous spring”, the well needed to be dug 217 ft deep and the water was raised by a horse-driven pump (Pilgrim <hi rend="italic">Letters</hi> 8, p. 411, n.1).</note> to night or early tomorrow morning. It relates to the well here. We have found at last a great spring of water. I want you to take the letter down to him. Go to Ealing by the Railroad, and you will find his house about half a mile from the station. If you find him at home and get an answer, send it, or bring it, down here, any time tomorrow (Sunday.)</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

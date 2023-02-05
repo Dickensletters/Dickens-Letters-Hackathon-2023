@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THEODORE LEDYARD CUYLER,<note>Theodore Ledyard Cuyler (1822-1909; <hi rend="italic">Dictionary of American Biography</hi>); met CD in Philadelphia Mar 42 and in London later that year Cuyler in <hi rend="italic">Recollections of a Long Life: An Autobiography</hi> (1902), pp. 20-22, describes his visit to Devonshire Terrace after CD, calling at Morley’s Hotel and finding him out, invited him there. This envelope presumably contained the invitation: see To Cuyler, 26 Oct. Pilgrim <hi rend="italic">Letters</hi> 4, p. 357.</note> [?15 OCTOBER 1842]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Envelope only, MS R &amp; R Auctions, June 2006.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="America|social engagements">America|social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>Address: Theodore Ledyard Cuyler Esquire | Morley’s Hotel | Trafalgar Square. Date: shortly before CD sent Cuyler American Notes (published 19 October). 
+	</address>
+            <dateline>
+               <placeName></placeName>
+               <date when="1842-10-15">1842-10-15</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

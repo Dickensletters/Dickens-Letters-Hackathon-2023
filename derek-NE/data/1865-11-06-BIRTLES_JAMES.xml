@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JAMES BIRTLES,<note>James Birtles, printer, on staff of Charles Whiting, printer of <hi rend="italic">All the Year Round</hi>.</note> 6 NOVEMBER 1865</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-23</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS David J. Holmes Autographs. Address: Mr. James Birtles | Mr. Whiting’s.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="All the Year Round,editing,Doctor Marigold's Prescriptions">All the Year Round,editing,Doctor Marigold's Prescriptions</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND,</placeName>
+               <date when="1865-11-06">Monday Sixth November 1865</date>
+            </dateline>
+            <salute>Dr. Mr. Birtles</salute>
+         </opener>
+         <p>I will send you round the <note>No doubt for<hi rend="italic"> All the Year Round</hi>, but not identified.</note> concluding folios of the enclosed paper2 at about noon to day. Tomorrow morning I will begin to make up the Xmas No.<note><hi rend="italic">Doctor Marigold’s Prescriptions</hi>, <hi rend="italic">All the Year Round</hi>  Xmas No., published 7 Dec 65. Birtles had by now received the first three stories (<hi rend="italic">To</hi> Birtles, 7 Nov, Pilgrim Letters 11). CD “made up” the No. with another five stories, including his own “To Be Taken with a Grain of Salt” and “To be Taken for Life”; he then spent 8 Nov with Births, “making up” the No. for printing, “always a tough job” (<hi rend="italic">To</hi> Lehmann, 7 Nov, Pilgrim Letters 11). Speed was essential: galley proofs had to be read and corrected, the rest of the MS typeset and finally the type broken up into double-column pages. The No. was in print by 17 Nov, when CD sent Charles Kent a confidential copy.</note> and will enable you to go on breaking it into pages. </p>
+         <closer>
+            <salute>Faithfully yrs
+            </salute>
+            <signed>
+               <persName>CD</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

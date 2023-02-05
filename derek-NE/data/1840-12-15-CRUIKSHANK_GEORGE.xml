@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> GEORGE CRUIKSHANK,<note>George Cruikshank (1792-1818; <hi rend="italic">Oxford Dictionary of National Biography</hi>), artist, caricaturist and CD's first illustrator</note> [15 DECEMBER 1840]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Sotheby's; accompanied, on the other half of the page, by three original pencil sketches by Cruikshank of a figure in a cape or shawl, and bonnet. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="llustrations|The Pic Nic Papers|editing|publishing">illustrations|The Pic Nic Papers|editing|publishing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1840-12-15">1840-12-15</date>
+            </dateline>
+            <salute>My Dear Cruikshank,</salute>
+         </opener>
+         <p>    I inclose you the proofs of one volume;<note><hi rend="italic">The Pic Nic Papers</hi> (1841), in three volumes, edited and introduced by CD, for the benefit of the widow and children of the publisher John Macrone. Cruikshank and Phiz provided the illustrations.</note> and the Farce.<note>"The Lamplighter's Story", which CD had originally conceived as a farce for the actor William Charles Macready, who had rejected it (see Pilgrim <hi rend="italic">Letters</hi> 1: 465); it was eventually converted to a prose narrative and published as the lead story in the first volume of <hi rend="italic">The Pic Nic Papers</hi> (1: 1-32).</note> When you have decided on the subject from the latter, will you let me know, in order that I may keep the Text as you desire?<note>Cruikshank produced the illustration "The Philosopher's Stone" to accompany "The Lamplighter's Story".</note></p>
+<p>   I have marked in the little written index which you will find inside the cover of the book, Allan's paper<note>Allan Cunningham (1784-1842; <hi rend="italic">Oxford Dictionary of National Biography</hi>), Scottish writer and stonemason; the father of Peter Cunningham, later CD's friend. Edited Burns 1834; wrote <hi rend="italic">Lives of the Most Eminent British Painters</hi>, Sculptors and Architects, 1829-1833; also songs and short stories. Secretary and superintendent of the works to Sir Francis Chantrey, the sculptor, 1814-41. He contributed "Jean Cameron's College" to <hi rend="italic">The Pic Nic Papers</hi> (1: 159-70). For CD's invitation to contribute to the project see Pilgrim <hi rend="italic">Letters</hi> 1: 372.</note> and one of Maxwell’s.<note>William Hamilton Maxwell (1792-1850), a frequent contributor to <hi rend="italic">Bentley’s Miscellany</hi>. Cruikshank executed illustrations for <hi rend="italic">Maxwell’s History of the Irish Rebellion</hi> in 1798 (1845). He contributed "The Expedition of Major Ap Owen to the Lakes of Killarney" to <hi rend="italic">The Pic Nic Papers</hi> (1: 172-89).</note> The last is sure to yield a subject.<note>Cruikshank provided the illustration "Major Ap Owen" to accompany Maxwell's text.</note></p>
+<p>Tuesday fifteenth December</p>
+         <closer>
+            <salute>Faithfully Always
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

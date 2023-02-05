@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> T. W. J. CONNOLLY,<note>Thomas William John Connolly, Quartermaster Sergeant of the Royal Sappers and Miners; <hi rend="italic">To</hi> W.H. Wills, 4 May 55 confirms the identity. CD and Connolly had been in contact in Feb 52 (Pilgrim <hi rend="italic">Letters</hi> 6, p. 588).</note> 14 APRIL 1855<note>he editors discovered a forgery of this letter, clearly by the “South Coast Forger”: see Pilgrim <hi rend="italic">Letters</hi> 7, Preface, p. xv.</note></title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-15</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Hamburger Theatersammlung.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Household Words|publishing|books|gifts|editing">Household Words|publishing|books|gifts|editing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when=“1855-04-14”>Saturday Fourteenth April 1855</date>
+            </dateline>
+            <salute> Sir </salute>
+         </opener>
+         <p>I have received your book<note>The History of the Corps of Royal Sappers and Miners, 2 vols, 1855.</note> with very great pleasure. The fact of your being its author is most honorable to yourself, and scarcely less so to the service to which you belong. I feel, as your fellow countryman, a personal pride in such a work. Without retaining it longer than one evening, I have sent it (for the present), to a gentleman associated with Household Words; and I have told him he will gratify me<note>Word added above caret.</note> very much if he will go a little out of his way to write an early account of it.<note>Henry Morley’s lead article, “Mechanics in Uniform”, <hi rend="italic">Household Words</hi> 2 June 55, XI, 409, gave an enthusiastic account of Connolly’s book and its subject.</note> I need not say that I leave his judgment perfectly free; but I have sent him at the same time your letter and its enclosure,<note>Presumably letter or enclosure included reference to Sir John Fox Burgoyne (1782-1872; <hi rend="italic">Dictionary of National Biography</hi>), of the Royal Engineers (in the Crimea, 1853-5; Field-Marshal, 1868), and his recommendation of Connolly’s book for study by Royal Engineers officers (<hi rend="italic">Household Words</hi>, XI, 410)</note> and I am sure he will feel as cordial an interest in the Volumes7 as I do myself.</p>
+         <closer>
+            <salute>I am | Faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

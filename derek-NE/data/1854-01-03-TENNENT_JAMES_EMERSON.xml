@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> SIR JAMES EMERSON TENNENT,<note>Sir James Emerson Tennent (1804-69; <hi rend="italic">Dictionary of National Biography</hi>), politician and author: see Pilgrim <hi rend="italic">Letters</hi> 6, p. 701n.</note> 3 JANUARY 1854</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-25</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimiles in Christie’s catalogue, Dec 1988(aa) and Sotheby’s catalogue, June 2010(bb).</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="copyright">copyright</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>(a)Tavistock House |</placeName>
+               <date when="1854-01-03">Tuesday Third January 1854</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I have read the draught of the article on the proposed treaty of Copyright with America,<note>A Treaty “for the Establishment of International Copyright” had been signed in Washington (see Pilgrim <hi rend="italic">Letters</hi> 6, p. 713n) in Feb 53; opposed by American publishers, it failed to be ratified by the Senate: see further on this and the Sixth Article, Pilgrim <hi rend="italic">Letters</hi> 7, p. 236, nn. 6 &amp; 7.</note> designed to be substituted for the Sixth article of the Convention; and I consider it decidedly advantageous to English Authors, and can have no doubt of their generally receiving it in that light. I may be supposed to have a considerable interest in the question, and I am satisfied with it myself. On principle I object to any limitation whatever on an Author’s right in his own works; but, as the law of England confiscates his property when his successors mosta bneed it,<note>By the Copyright Act, 1842, copyright ran for 42 years from the date of publication or seven years after the author’s death, whichever was longer (see Robert L. Patten, <hi rend="italic">CD and His Publishers</hi>, 1978, p. 19 &amp; n. 28).</note> I have no right to quarrel with America for requiring him to establish his title to it within three months. The provisions as to the stereotyping or printing of a book taking place in the country in which it is republished, being reciprocal, does not seem unreasonable or unfair. I have mentioned this point to my printers Messrs. Bradbury and Evans of Whitefriars, who are in a very large way of business as printers of books; and they concur with me in this opinion. With many thanks for your courtesy, I am</p>
+<p>Sir James Emerson Tennent</p>
+         <closer>
+            <salute>My Dear Sir | Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

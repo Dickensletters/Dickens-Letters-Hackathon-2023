@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> ELIZABETH COLLINGS &amp; SONS,<note>Wine coopers, 30 Seething Lane, Tower Street, London.</note> 10 AUGUST 1848</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-29</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim <hi rend="italic">Letters</hi> 5, p. 388.| MS Jonathan Allright</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="drink"> drink
+</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Broadstairs, Kent<note>CD rented a house at Chandos Place, sending the children ahead and arriving in Broadstairs on 29 July. He made frequent trips back to London, and finally returned on 3 Oct 1848.</note></placeName>
+               <date when="1848-08-10">Tenth August 1848 </date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Mr Charles Dickens sends his compliments to Elizabeth Collings and Sons, and begs to enclose a cheque (crossed) for the amount of their account.<note>A cheque for "Collins &amp; Sons" for £4.9s.6d cleared CD’s bank account on 23 Aug 1848 (MS Messrs Coutts).</note> The wine can be binned<note>"Binning" is the storing (by laying down) of newly-bottled wine or Champagne in bins, at a uniform temperature, for the purpose of aging.</note> on <hi rend="italic">Saturday morning</hi>.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To SAMUEL JOSEPH,<note>Samuel Joseph (1791-1850), sculptor, a pupil of Peter Rouw; attended Royal Academy Schools 1811, and gained the silver medal in 1811 and 1812, and gold medal in 1815. Moved to Edinburgh in 1823, and became a founder member of the Royal Scottish Academy. He returned to open a studio in London in 1829. His most famous work is the statue of William Wilberforce in Westminster Abbey (1838).</note> 22 DECEMBER 1841</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Just Collecting Ltd online catalogue, June 2021.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id=""></interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>_____ Joseph Esquire | 41 Upper Charlotte Street | Fitzroy Square
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1841-12-22">Wednesday, Twenty Second December | 1841.</date>
+            </dateline>
+            <salute>My Dear Sir.</salute>
+         </opener>
+         <p> I regret that I am prevented by business which I must attend to, from coming to you to day. I will be with you tomorrow at 12.<note>CD was arranging sittings for the bust commissioned by Basil Hall, a great admirer of CD's work; see Pilgrim <hi rend="italic">Letters</hi> 2, p. 245. Samuel Haydon, a friend of John Dickens and the family, saw the bust at the time CD was sitting for it ("always accompanied by some friend") and considered it admirable, "full of life" (F. G. Kitton, CD by <hi rend="italic">Pen and Pencil</hi>, I, 20). But Hall, presumably because of his breakdown in 1842, failed to buy it; and in July 1848 Joseph, then bankrupt, was still seeking a purchaser. CD admired the bust, but declined buying it himself. The clay model, never even cast into plaster, was later destroyed (F. G. Kitton, ibid).</note></p>
+         <closer>
+            <salute>Faithfully Yours| _____ Joseph<note>Clearly CD did not know Joseph's first name.
+</note> Esquire
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JAMES MILLER,<note>James Miller (1812-64; <hi rend="italic">Dictionary of National Biography</hi>), Professor of Surgery at the University of Edinburgh from 1842; author of <hi rend="italic">Principles of Surgery</hi> (1844) and Practice of Surgery (1846). Appointed Surgeon‐in‐Ordinary in Scotland to Queen Victoria and Prince Albert in 1848; pioneer in the use of chloroform.</note> 7 DECEMBER 1848</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-29</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Royal College of Surgeons, Edinburgh. On mourning paper.<note>CD's sister Fanny died of consumption on 2 Sep 1848.</note></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="health|The Haunted Man">health|The Haunted Man</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>1 Devonshire Terrace
+
+York Gate Regents Park</placeName>
+               <date when="1848-12-07">Seventh December 1848. </date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p> Pray allow me to thank you for your very interesting pamphlet on chloroform,<note><hi rend="italic">Surgical Experience of Chloroform</hi> (Edinburgh: Sutherland and Knox, 1848).</note> which I have read with great interest and satisfaction. I feel sure it will do good service, and go far to eradicate those monstrous absurdities on the subject, which linger (I am ashamed to confess) in some parts of these Southern Regions.<note>Chloroform had been first used as an anaesthetic in childbirth by Miller's colleague James Young Simpson on 8 Nov 1847 (see <hi rend="italic">To</hi> Alfred Dickens, 1 Jan 48, fn, in Pilgrim Letters 5, p. 221); Simpson's published account a week later attracted immense publicity. It was soon in regular use in Edinburgh for both childbirth and surgery, but met with considerable opposition in London. Medical arguments against chloroform included the claim that mother or child would be impaired mentally, that natural labour would be impeded, and that the drug would "excite improper sexual feelings and expressions in women" (G. T. Gream, quoted in John A. Shepherd, <hi rend="italic">Simpson and Syme of Edinburgh</hi> [London: E &amp; S Livingstone 1969], p. 98). Some deaths during operations aroused great concern. Despite the regular use of chloroform in Edinburgh, France and America, <hi rend="italic">The Times</hi> (12 Mar 1850) deplored the continued professional prejudice against it in London. In Apr 1853 Queen Victoria used it for the birth of Prince Leopold. At his death CD owned five pamphlets by Simpson on anaesthetics and related subjects (<hi rend="italic">Catalogue of the Library of Charles Dickens</hi>, ed. J. H. Stonehouse [London: Piccadilly Fountain Press, 1935], p. 88).</note></p>
+<p>I hope (and rather confidently too) that my friend the Haunted Man will haunt a good many houses in Edinburgh this winter, and be kindly thought of and not unwelcome.<note>The Haunted Man, and the Ghost's Bargain, CD's fifth and last Christmas Book, completed on 30 Nov 1848. It had a mixed reception in Scotland; see, for example, the review by George Gilfillan in Tait's Edinburgh Magazine o.s. 20, n.s.16 (Jan 1849): 57-61 (accusing CD of "shallowness") , and the assessment in Macphail's Edinburgh Ecclesiastical Journal 6 (Jan 1849): 423-31, which claimed "we are left in perfect ignorance as to how all the fine results, with which the story closes, were brought about".</note></p>
+<p>Professor Miller</p>
+
+
+
+         <closer>
+            <salute>                  My Dear Sir|  Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

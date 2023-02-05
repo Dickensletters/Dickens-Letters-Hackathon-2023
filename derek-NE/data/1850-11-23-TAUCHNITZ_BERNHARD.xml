@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> BERNHARD TAUCHNITZ,<note><note>Baron Bernhard Christian Tauchnitz (1816-95), publisher, of Leipzig. Born at Schleinitz; nephew of the publisher Karl Tauchnitz. Founded his own firm in Leipzig in 1837. The firm began its “Collection of British Authors” Sep 1841 with Bulwer Lytton’s <hi rend="italic">Pelham. Pickwick Papers, Oliver Twist, and American Notes</hi> had appeared before the end of 1842, and Nicholas Nickleby in June 1843. He and CD became friendly, and CD sent Charley to Leipzig to learn German (see below). According to John Forster, Tauchnitz always paid liberally. He wrote to Forster after CD’s death: “All Mr Dickens’s works have been published under agreement by me. My intercourse with him lasted nearly twenty-seven years. The first of his letters dates in October 1843, and his last at the close of March, 1870 [see <hi rend="italic">To</hi> Tauchnitz, 31 March 1870]. Our long relations were not only never troubled by the least disagreement, but were the occasion of most hearty personal feeling; and I shall never lose the sense of his kind and friendly nature. On my asking him his terms for Edwin Drood, he replied, ‘Your terms shall be mine.’” (John Forster, <hi rend="italic">The Life of Charles Dickens</hi>, ed. J.W.T. Ley [London: Cecil Palmer, 1928], p. 807n).</note></note> 23 NOVEMBER 1850</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in the possession of Dietmar Böhnke.<note>Böhnke published his transcription, with brief annotation, in "The Correspondence between Charles Dickens and Bernhard Tauchnitz: General Observations and Newly Discovered Letters", <hi rend="italic">Archiv für das Studium der neueren Sprachen und Literaturen</hi> (Berlin: Erich Schmidt Verlag, 2013), p. 325.</note>
+<p>Replaces extract (aa) in Pilgrim Letters 6, p. 214.</p></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="finances|publishing|Germany|David Copperfield">finances|publishing|Germany|David Copperfield</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>aLondon 1 Devonshire Terrace</placeName>
+               <date when="1850-11-23"> Twenty Third November 1850.</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>I much regret not having the pleasure of seeing you this year,<note>Tauchnitz's visit to England untraced.</note> and also the unfortunate cause of your not visiting England.<note>The reason for Tauchnitz's abandonment of his visit not discovered.</note> I beg to acknowledge the safe receipt of your draft for £a35,<note>For publication of <hi rend="italic">David Copperfield</hi> in Tauchntiz’s “Collection of British Authors”; see Pilgrim <hi rend="italic">Letters</hi> 5, p. 609n. Payment was received into CD’s bank account with Coutts &amp; Co. on 29 Nov 1850, as "Bill on Fruhling &amp; Co." (the German bank Fruhling &amp; Goschen, at 12 Austin Friars, London).</note> aand to assure you that I shall not fail to give you timely notice of any new work I may undertake.a<note>As CD's authorised publisher in Germany, Tauchnitz not only received advance notice of the publication of new works by CD; he was also sent proofs of these works, so that German and British publication of CD's works could coincide.</note></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

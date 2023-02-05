@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MORITZ NABICH,<note>Moritz Nabich (1815-93), trombonist. A member of the Duke of Saxe-Weimar’s band; first appeared in London as a virtuoso soloist, 20 Jan 53, playing a “grand concerto”. <hi rend="italic">The Times</hi> (21 Jan) felt that, though of “unquestionable talent”, “much more was expected of him than he achieved”. He continued to appear in London as an occasional soloist in the 1850s and joined the Crystal Palace band; moved to Paris in 1861, then to Leipzig in 1864.</note> 9 JANUARY 1860</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Osenat online catalogue, Apr 2021.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="music|celebrity|testimonials">music|celebrity|testimonials</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>TAVISTOCK HOUSE,|TAVISTOCK SQUARE, LONDON. W.C.</placeName>
+               <date when="1860-01-09">Monday Ninth January 1860.</date>
+            </dateline>
+            <salute>Sir</salute>
+         </opener>
+         <p>Incessant occupation, and the hopeless impossibility of keeping pace with the vast number of correspondents who every day address me, have rendered it quite out of my power to return an earlier reply to your letter.</p>
+<p>Even now, I can only beg you not to suppose me insensible of your anxieties or your confidence, when I reply to it that I must excuse myself from acceding to your request.<note>Nabich had presumably asked CD for a testimonial.</note> I am not a professional judge of Music or Musicians –- I could be of no service to you –- and I have as many demands on my time and attention as I can in any reason satisfy.</p>
+<p>Therefore, I have not broken the seals of your packet. As it is of an inconvenient size to return by post I have left it at the office of All the Year Round (as a more convenient place to send to than this) where it is addressed in your name.</p>
+<p>Moritz Nabüt Esqre.<note>Thus in MS: CD's mis-spelling of Nabich. The recipient’s name is at the bottom of p. 1.</note></p>
+         <closer>
+            <salute> I am Sir| Your faithful Servant
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

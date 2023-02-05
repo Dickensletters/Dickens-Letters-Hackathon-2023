@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To JAMES EDWARDS,<note>James Edwards, probably secretary of the Manchester Athenaeum (see Pilgrim <hi rend="italic">Letters</hi> 4, p. 403).</note> 12 OCTOBER 1845</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Facsimile in Ira &amp; Larry Goldberg Coins &amp; Collectables online catalogue, April 2014</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">travel,social engagements,friends,health,family
+            <interp xml:id="">travel,social engagements,friends,health,family</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>DEVONSHIRE TERRACE,</placeName>
+               <date when="">12 October 1845</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>
+My visit to Manchester will so very hurried, that I have declined Mr Heywood’s<note>James Heywood (1810-97), FRS and FSA 1839; founder of Manchester <hi rend="italic">Athenaeum</hi>, 28 Oct 35, and first President; trustee of Owens College 1845-60; MP for North Lancs 1847-57. CD met him at Manchester in 1843</note> extremely kind Invitation. I regret the cause very much, but it is really a relief to me be free. Mr Jerrold<note>Douglas Jerrold (1803-57), dramatist, radical journalist and wit; author of over 60 plays, including his most famous, <hi rend="italic">Black-eyed Susan</hi> (1829). He was one of CD’s closest friends. Edited <hi rend="italic">Douglas Jerrold’s Shilling Magazine</hi> and <hi rend="italic">Douglas Jerrold’s Weekly Newspaper</hi>.</note> and I purpose coming down<note>CD had planned to travel to Manchester with Jerrold and John Leech to attend a meeting of the Athenaeum there on 22 October, but abandoned the plan on account of the advanced state of Catherine’s pregnancy; she gave birth to Alfred D’Orsay Tennyson Dickens on 28 October.</note> together on the Wednesday Evening; and we shall leave on the Morning after the Soirée. Pray do not think of having anyone waiting at the Railway, as we shall drive straight to our hotel and be quite at home.</p>
+         <closer>
+            <salute>
+Dear Sir
+Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS
+James Edwards Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

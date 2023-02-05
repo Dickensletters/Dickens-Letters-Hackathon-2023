@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> RICHARD CREED,<NOTE>Richard Creed, Secretary, London &amp; Birmingham Railway, 1833-46; later joint Secretary of the London &amp;amp; North Western Railway.</NOTE> 23 JULY 1847 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-29</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Extract and summary from facsimile in Sotheby's online catalogue, July 2017.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="travel">travel</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1847-07-23">1847-07-23</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p><hi rend="italic">Thanking him for his</hi> attention and consideration,<note>See <hi rend="italic">To</hi> Creed, 22 Jul 1847, in Pilgrim <hi rend="italic">Letters</hi> 5, p. 132, in which CD outlines his travel requirements for a journey to Manchester, on 25 July 1847, together with his amateur theatrical company. They performed in Manchester on Mon 26th; travelled to Liverpool Tues 27th; and that evening attended a soirée given by Richard V. Yates, Chairman of the local committee. On Wed 28th they performed in Liverpool; spent Thursday there; and on Fri 30 July returned to London. CD himself stayed until Saturday.</note> explaining one of the party certainly, and two possibly, may have to go down by the express train tomorrow morning, and ... the Sunday party will undergo that much diminution<note>The members of the party were CD and his wife Catherine, Georgina Hogarth, Mark and Nelly Lemon, John and Annie Leech, Thomas and Christiana Thompson, Betsy Shaw, Dudley and Mary Costello, George Henry and Agnes Lewes, Leonora Wigan, Douglas Jerrold,  John Forster, John Willmot, Frank Stone, Daniel Maclise, George Cruikshank, Augustus Egg, Alfred Dickens, and Frederick Dickens.</note> ... Confirming that he will pay for the tickets the following morning.</p>
+<p>I will do myself the pleasure of calling on you at your office,<note>At Euston Station.</note> at Eleven o’Clock</p>
+<p>R. Creed Esquire.</p>
+         <closer>
+            <salute>Yours faithfully and obliged
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

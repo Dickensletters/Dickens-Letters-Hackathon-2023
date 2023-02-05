@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THOMAS NOON TALFOURD,<note>Thomas Noon Talfourd (1795-1854; <hi rend="italic">Dictionary of National Biography</hi>), barrister (later Judge), MP, essayist, and dramatist. "What an extraordinary, what an indefatigable man!" wrote Macready, on first hearing of his tragedy Ion (Diaries, I, 219). As literary executor, published <hi rend="italic">Letters of Charles Lamb</hi>, with a Sketch of his Life, 1837, and <hi rend="italic">Final Memorials of Charles Lamb</hi>, 1848. Serjeant-at-Law 1833; Whig MP for his native town of Reading 1835-41 and 1847-9. CD reported him in Parliament and the Law Courts (e.g. in Norton v. Melbourne). They first met (perhaps through John Forster) soon after Talfourd's introduction of the Copyright Bill into Parliament, May 37. CD dedicated <hi rend="italic">Pickwick Papers</hi> to him.</note> 15 JULY 1838
+
+</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-09</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from <hi rend="italic">The Letters of Charles Dickens</hi>, Edited by His Sister-in-Law and His Eldest Daughter, corrected from facsimile of p. 1 (aa), including part of new paragraph (bb) in Bonham’s catalogue, 23 March 2004; MS 3 pp.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">friends|clubs|Bentley's Miscellany|editing|social|engagements|
+Nicholas Nickleby|
+Oliver Twist|
+family</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>aTwickenham Park  1838.
+
+</placeName>
+               <date when="1838-07-15">Tuesday July 15th.</date>
+            </dateline>
+            <salute>My dear Talfourd.</salute>
+         </opener>
+         <p>I cannot tell you how much pleasure I have derived from the receipt of your letter. I have heard little of you, and seen less, for so long a time that your hand-writing came like the renewal of some old friendship, and gladdened my eyes like the face of some old friend.</p>
+<p>If I hear from Lady Holland<note>Elizabeth Vassall Fox (1770-1845; <hi rend="italic">CDictionary of National Biography</hi>), wife of the 3rd Baron Holland; the famous and autocratic hostess of Holland House: see Pilgrim <hi rend="italic">CLetters</hi> 1, p. 412n and Pilgrim <hi rend="italic">Letters</hi> 2, p. 63n.</note> before your return, I shall, as in duty bound, present myself at her bidding; but between you and me and the general post I hope she may not renew her Invitation until I can visit her with you, as I would much rather avail myself of your personal introduction.<note>CD first went to Holland House – with Talfourd – on 12 Aug 38.</note> However, whatever her ladyship may do, I shall respond to, and anyway shall be only too happy to avail myself of what I am sure cannot fail to prove a very pleasant and delightful introduction.</p>
+<p>bMr. Simmonds (of whom you speak so highly) came quite safe.<note>discovered in the September Bentley’s.</note> The next Number is printed, but his mark must be something below the lowest low water, if it be not as high as the usual standard of <hi rend="italic">Bentley’s Miscellany</hi>. I hope to find5. . . b a</p>
+<p>Your kind invitation and reminder of the subject of a pleasant conversation in one of our pleasant rides, has thrown a gloom over the brightness of Twickenham, for here I am chained. It is indispensably necessary that “Oliver Twist” should be published in three volumes, in September next.<note>It was not in fact published until Nov.</note> I have only just begun the last one,<note>Vol. III opens with the Aug instalment which CD had finished on 7 July.</note> and, having the constant drawback of my monthly work, shall be sadly harassed to get it finished in time, especially as I have several very important scenes (important to the story I mean) yet to write. Nothing would give me so much pleasure as to be with you for a week or so. I can only imperfectly console myself with the hope that when you see “Oliver” you will like the close of the book, and approve my self-denial in staying here to write it. I should like to know your address in Scotland when you leave town, so that I may send you the earliest copy if it be produced in the vacation, which I pray Heaven it may.</p>
+<p>Meanwhile, believe that though my body is on the banks of the Thames, half my heart is going the Oxford circuit.<note>Talfourd had joined the circuit in Feb.
+</note>
+
+</p>
+<p>Mrs. Dickens and Charley desire their best remembrances (the latter expresses some anxiety, not unmixed with apprehension, relative to the Copyright Bill,<note>See To Talfourd, 27 Sep 37 (Pilgrim Letters 1, p. 313n).
+</note> in which he conceives himself interested),<note>As CD’s heir.
+</note>with hearty wishes that you may have a fine autumn, which is all you want, being sure of all other means of enjoyment that a man can have.  
+</p>
+<p>P.S. – I hope you are able to spare a moment now and then to glance at “Nicholas Nickleby”, and that you have as yet found no reason to alter the opinion you formed on the appearance of the first number. You know, I suppose, that they elected me at the Athenæum.<note>On 21 June.
+</note> Pray thank Mr. Serjeant Storks<note>Henry Storks (1778-1866), Serjeant-at-Law from 1827; Middlesex magistrate: see further Pilgrim <hi rend="italic">Letters</hi> 1, p. 416n.</note> for me. </p>
+         <closer>
+            <salute>I am, my dear Talfourd, | Ever faithfully yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

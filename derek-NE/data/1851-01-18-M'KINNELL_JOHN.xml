@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic"> To</hi> John M’KINNELL,<note></note>18 JANUARY 1851</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-16</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from Report of the Speeches of the Glasgow Athenaeum Soirée, 28 Jan 1851</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="public recognition,celebrity,social engagements">public recognition,celebrity,social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>London, 1 Devonshire Terrace</placeName>
+               <date when="1851-01-18">18th January, 1851.</date>
+            </dateline>
+            <salute>Dear Sir,</salute>
+         </opener>
+         <p>I should have answered your note sooner had I not been visiting in the country.<note>CD returned to London on 16 Jan from Rockingham Castle, where he had been since 7 Jan.</note> I am very sensible of the honour the Directors of the Glasgow Athenaeum<note>Founded 1847.</note> do me in inviting me to repeat a visit<note>CD had presided at the first soirée of the Glasgow Athenaeum on 28 Dec 47: see Pilgrim <hi rend="italic">Letters</hi> 5, p. 216n and <hi rend="italic">Speeches of CD</hi>, ed. K. J. Fielding, pp. 85-92.</note> of which I entertain the pleasantest remembrances. But, I regret to add that engagements render it quite out of my power to support the distinguished president on the occasion of the second triennial soiree.<note>After the success of the first grand soirée, it was intended to arrange one triennially (James Lauder, <hi rend="italic">The Glasgow Athenaeum, A Sketch of Fifty Years’ Work</hi> (1847-97), 1897, p. 38): the next, after 1851, was in Dec 55.</note> I beg to present my tribute of respect to his Grace,<note>George Douglas Campbell, Duke of Argyll (1823-1900; <hi rend="italic">Dictionary of National Biography</hi>). Succeeded to the dukedom in 1847. He presided at the second soirée, 28 Jan 51.</note> and to the directors and members, and remain, dear Sir,</p>
+         <closer>
+            <salute>Faithfully yours,
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

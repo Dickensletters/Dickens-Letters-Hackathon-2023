@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> GEORGIANA MORSON,<note>Georgiana Morson, née Collin (1817-80), matron of Urania Cottage (the home for homeless women established by CD), 1849-54: see Pilgrim <hi rend="italic">Letters</hi> 5, p. 509n, and Jenny Hartley, <hi rend="italic">Charles Dickens and the House of Fallen Women</hi> (London: Methuen, 2009).</note> 9 OCTOBER 1851 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            Text from facsimile in International Autograph Auctions online catalogue, April 2019. On mourning paper.<note>CD's daughter Dora had died suddenly on 14 Apr 1851.</note>/p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Urania Cottage|finances">Urania Cottage|finances</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1851-10-09">1851-10-09</date>
+            </dateline>
+            <salute>Dear Mrs Morson.</salute>
+         </opener>
+         <p>I enclose a cheque for £45, the amount of the Passage Money.<note>The cheque was not paid to Georgiana Morson directly, as it was for tickets to Australia for Emma Spencer, Ellen Glyn and Rosina Newman, three residents of Urania Cottage (see Jenny Hartley, <hi rend="italic">Charles Dickens and the House of Fallen Women</hi> [Methuen, 2009], p. 219); they left on the Duke of Bedford, which left Gravesend on 29 Oct 1851 (<hi rend="italic">Times</hi>, 30 Oct 1851, p. 7), and arrived in Melbourne on 4 Feb 1852. On 13 Aug 1851, CD asked W. H. Wills to track down the Registrar of Merchant Seamen and enquire about emigrant ships bound for Australia on which the discipline would be suitable for girls from Urania Cottage (Pilgrim <hi rend="italic">Letters</hi> 6, p. 459). That Registrar was Lieut. John Hoskins Brown, to whom CD wrote on 4 October, asking how Mrs Morson should pay for the three passages that Lieut. Brown had reserved. On 13 October, Dickens paid £45 to "Fry &amp; Co." (Fry &amp; Davison, ship and insurance agents, 113 Fenchurch Street).  A voyage from London to Sydney in steerage cost £15-20. On the same day CD wrote to Angela Burdett Coutts, the benefactor of Urania Cottage, to confirm that the passage money was paid.</note></p>
+<p>  It is indeed disheartening to hear of the conduct of your untoward<note>"charges" deleted after "untoward".</note> charges.<note>In his letter to Miss Coutts CD expands on this issue: "There has been some small commotion–but not much–at Shepherds Bush; Mr. Tracey's last girl demanding to go; and the Irish girl shewing a very national incapability of getting on with anybody on any subject–accompanied with expressions of a violent desire to "do for" the establishment in general. The Irish girl is accordingly discharged as incurable; but Mr. Tracey's girl being extremely penitent, and most earnestly imploring (when it came to the point) not to be sent away, remains on her good behaviour" (Pilgrim <hi rend="italic">Letters</hi> 6, p. 513). Lieut. Augustus Frederick Tracey, RN (1798-1878), was Governor of the Westminster House of Correction, Tothill Fields, and a member of the Urania Cottage Committee. "Mr. Tracey's girl" could be Martha Williamson; see Pilgrim <hi rend="italic">Letters</hi> <note>Thus in MS.</note>, pp. 534-5, and Hartley, pp. 112-13.</note> But hope and persaverance6 will outlive all that a long time, and do some good in the end.</p>
+<p>            You can take my ragged school case<note>Unidentified, but see Pilgrim <hi rend="italic">Letters</hi> 6, p. 485; CD tells Mrs Morson, "I am investigating a Ragged School case that I think may turn out well. If it should appear advisable to be taken, I will write the necessary instructions to you of course".</note> now, can you not? Mr Tennant<note>The Rev. William Tennant (?1814-1879), first Vicar 1847-79 of St Stephen's, Rochester Row, Westminster, built and endowed by Miss Coutts in memory of her father. He was a member of the Committee that oversaw the running of Urania Cottage. Educated at Trinity College, Cambridge, 1832-6; curate, St John's, Westminster, 1844-7. The Bishop of London had recommended him to Miss Coutts as "universally liked and respected, and especially by the poor, amongst whom he labours assiduously. The Schoolroom in which he officiates is crowded by an attentive congregation of poor people." Dr Walter Hook of Leeds supported him as "one of the best parish priests in all England" (MSS Victoria Library, London).</note> does not appear to know anything about the other cases, as well as I can make out. You will receive some information, I suppose.</p>
+<p>  I expect to return to town for good, about the 25th. I will come to you then, and shall be very glad to hear of the safe departure of these three.<note>CD informed Miss Coutts that the ship would leave London on 25 October (Pilgrim <hi rend="italic">Letters</hi> 6, p. 513). Spencer, Glyn, and Newman appear in the passenger arrivals list in the <hi rend="italic">Melbourne Argus</hi>, 5 Feb 1852, p. 2.</note></p>
+<p>Mrs Morson</p>
+         <closer>
+            <salute> Faithfully Yours alwys
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

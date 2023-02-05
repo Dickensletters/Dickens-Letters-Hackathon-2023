@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> M. LOUIS PRÉVOST,<note>Louis Augustin Prévost (1790-1858; <hi rend="italic">Dictionary of National Biography</hi>), linguist, of 25 New Street, Dorset Square.  linguist. Born at Troyes; settled in England 1823; taught languages 1823-43; and served on the British Museum staff 1843-55, where he catalogued the collection of Chinese books. He mastered over 40 languages. He is referred to in the <hi rend="italic">Critic, XVII</hi> (1858), 220, and in Robert Cowtan, <hi rend="italic">Memories of the British Museum</hi>, 1872, p. 360, as CD's French tutor; and this is supported by payments to him of £2.7.6 on 8 Dec 37, £3.3 on 1 Feb and £2.16 on 28 Feb 40, recorded in CD's account-book (MS Messrs Coutts). W. J. Carlton suggests that he may have been the French master at Wellington House, described in "Our School" (Household Words, 11 Oct 51, IV, 51): see "Dickens Studies French", <hi rend="italic">Dickensian</hi>, LIX, (1963), 21-7. See also Pilgrim <hi rend="italic">Letters</hi> 2, p. 461n.</note> [?EARLY DECEMBER 1839]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-07</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in unidentified on line catalogue. Address: M. Prevost. Date: just before the move to Devonshire Terrace; CD’s first letter from there is dated 12 Dec (a Thursday), so possibly the Friday before (6 Dec).</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">education|family|France</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Doughty Street|Friday – late at night.</placeName>
+               <date when=""></date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I regret that I did not know in sufficient time to-day to write to you, that I could not have my usual pleasant hour with you in the morning. I find, however, that some matters of business connected with our removal from hence, call me from home so early, and will occupy me so long, that I have no alternative but to postpone our reading.<note>i.e. class or study session (as in “reading” a subject at University).</note> We have now two or three readings to make up, and I hope we shall soon be able to redeem them. My brother<note>Frederic Dickens (1820-68): see Pilgrim <hi rend="italic">Letters</hi> 1, p. 47n.</note> shall call on you before Wednesday with our new address. Meantime believe me </p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS|M. Prevost<note>i.e. Monsieur Prévost.</note></persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

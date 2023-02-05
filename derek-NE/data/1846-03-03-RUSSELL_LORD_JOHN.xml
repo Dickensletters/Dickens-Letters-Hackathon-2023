@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> LORD JOHN RUSSELL,<note>Lord John Russell (1792-1878; <hi rend="italic">Dictionary of National Biography</hi>), leading Whig politician, principal architect of the Great Reform Act in 1832, and one of the main promoters of parliamentary reform; Prime Minister 1846-52, 1865-6. CD had known him at least since 1846, and dedicated <hi rend="italic">A Tale of Two Cities</hi> to him.</note> 3 MARCH 1846 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-29</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Lacy, Scott and Knight online catalogue, September 2017.| Private </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Ragged Schools|education">Ragged Schools|education</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1846-03-03">Third March 1846</date>
+            </dateline>
+            <salute>My Lord.</salute>
+         </opener>
+         <p> I could wish you would do me the favor of looking at the enclosed letter,<note> Unidentified </note> and informing me whether you have any suggestion to offer in reference to my reply to it.</p>
+<p>If you should see no ground of objection, I should be inclined to say, in answer, that I had already made another use (and the very best, but I did not feel myself at liberty to explain it in detail) of such information as I possess. In seeking to extend it, I have already said in effect, to the Ragged School people,<note>CD and Lord Russell shared an interest in education, and in Ragged Schools. See CD's comment to John Forster on 28 June 1846: "I had a good deal to write for Lord John about the Ragged schools" (Pilgrim <hi rend="italic">Letters</hi> 4, p. 573). CD had written a long letter to the editors of <hi rend="italic">The Daily News</hi> on the topic the month before (see <hi rend="italic">To</hi> the Editors of the <hi rend="italic">Daily News</hi>, 4 February 1846).</note> that I had the means of making an excellent use of it, but did not consider myself at liberty to explain them<note>it” deleted after “explain”; "them" written over caret.</note> particularly<note>Thus in MS.</note></p>
+<p>I hope I need not apologize for troubling you, my Lord. I should not feel quite at ease in answering the letter without your knowledge; and I do very earnestly desire that this question, as a main part of the great question of Christian<note>“Christian” written above caret</note> Education on liberal principles and unshackled by any tests or theological<note>“theolo" deleted after "or".</note> instructions,<note>Russell was Vice-Chairman of the Committee of the Society for the Diffusion of Useful Knowledge, founded in 1827, and dedicated to the cheap dissemination of entertaining and informative reading material; the organisation played a key role in the movement for popular education. CD became familiar with the Society in the 1830s, and possessed several of their publications; see inventory of the contents of 1 Devonshire Terrace in Pilgrim <hi rend="italic">Letters</hi> 4, p. 712. The Society suspended operations in 1846 owing to losses on its <hi rend="italic">Biographical Dictionary</hi>. See Leon Litvack, "Society for the Diffusion of Useful Knowledge", in <hi rend="italic">Oxford Reader's Companion to Dickens</hi>, ed. Paul Schlicke (Oxford: Oxford University Press, 1999), p. 536. CD had touched on his concerns about religious education in the Ragged Schools in his February letter to the editors of the <hi rend="italic">Daily News</hi> (see note 3 above); for CD’s concerns about religious teaching in the schools, see P. A. W. Collins, “Dickens and the Ragged Schools”, <hi rend="italic">Dickensian</hi> 55 (1959), p. 98.</note> should have the honor and advantage of being brought forward by You.</p>
+<p>The | Lord John Russell.</p>
+         <closer>
+            <salute>Your faithful Servan|     I am My Lord
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

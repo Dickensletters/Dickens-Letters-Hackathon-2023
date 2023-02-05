@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> SIR JOSEPH PAXTON,<note>Sir Joseph Paxton (1801-65; <hi rend="italic">Dictionary of National Biography</hi>), gardener, architect and intimate friend of the 6th Duke 48 of Devonshire: see Pilgrim Letters 6, p. 411<hi rend="italic">n</hi>. A notable example of efficiency, both in his work at Chatsworth and on the Crystal Palace, he had been advertised (<hi rend="italic">The Times</hi>, 22 June) as a speaker at the Administrative Reform Association’s meeting on 27 June: he did not attend.</note> 26 JUNE 1855</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-17</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Arthur Fulljames.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social issues|speeches">social issues|speeches</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1855-06-26">Tuesday Twenty Sixth June 1855</date>
+            </dateline>
+            <salute>My Dear Paxton</salute>
+         </opener>
+         <p>I am much obliged to you for your letter, received on Sunday afternoon. Upon its receipt I read that part of Friday night’s debate<note>On 22 June W. S. Lindsay (1816-77; <hi rend="italic">Dictionary of National Biography</hi>: see Pilgrim Letters 7, p. 610n), a prominent member of the Association, defended himself against charges of business inefficiency and took the opportunity to repeat in the House of Commons details of official inefficiency and waste. He was devastatingly answered by Sir Charles Wood (<hi rend="italic">The Times</hi>, 23 June; see further Pilgrim <hi rend="italic">Letters</hi> 7, pp. 661-2 and nn). Wood’s refutation and its details that called in question Lindsay’s accuracy were clearly the ground of Paxton’s concern and, presumably, of his withdrawal from the meeting of 27 June.</note> (which I had not previously seen), and I also wrote to decline attending on Wednesday.<note>The meeting of the Administrative Reform Association at Drury Lane Theatre, 27 June: for the Association, see Pilgrim <hi rend="italic">Letters</hi> 7, pp. 511<hi rend="italic">n</hi>, 611<hi rend="italic">n</hi>. CD had subscribed to the Association: Pilgrim <hi rend="italic">Letters</hi> 7, pp. 610-11</note> But on a pledge from Mr. Morley<note>See To Samuel Morley, 24 June 1855; Samuel Morley (1809-86; <hi rend="italic">Dictionary of National Biography</hi>), Chairman of the Administrative Reform Association: see Pilgrim <hi rend="italic">Letters</hi> 7, p. 646n.</note> that any continuance of a mis-statement of any kind, on the part of the association, should be strongly disavowed at the commencement of the proceedings5<note>Morley in his opening remarks at Drury Lane (27 June) referred to the manner in which “statements made at the last meeting” had been controverted by Wood and that Lindsay would “set himself right” in the House of Commons. Morley had no doubt Lindsay would demonstrate his accuracy, “for members of the association were extremely jealous as to the accuracy of the statements made in support of the object they desired to advance” (<hi rend="italic">The Times</hi>, 28 June). In The Times report Morley makes no reference to any agreement between himself and CD.</note>and further that he would state what had passed between us on the subject – I did not consider myself free to cancel my original promise, and I am therefore going.<note>Morley had announced at the Association’s meeting on 13 June that CD had “promised to speak at the next meeting” (<hi rend="italic">Daily News</hi>, 14 June; see Pilgrim <hi rend="italic">Letters</hi> 7, p. 646n) and he had been so advertised in <hi rend="italic">The Times</hi> (22 June). For the meeting and CD’s speech see <hi rend="italic">The Times</hi>, 28 June; Speeches of CD, ed. K. J. Fielding, pp. 197-208; and Pilgrim <hi rend="italic">Letters</hi> 7, pp. 656n, 658n.</note></p>
+         <closer>
+            <salute>Sir Joseph Paxton,
+		Faithfully Yours always
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

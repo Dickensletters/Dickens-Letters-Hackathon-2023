@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To G. F. HUDSON,<note>George Frederick Hudson, solicitor, of Hudson, Matthews, Lopez and Coupland, of 23 Bucklersbury.</note> 3 APRIL 1869</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-01</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS University Archives, Westport, CT.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="legal matters">legal matters</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Adelphi Hotel, Liverpool<note>CD was in Liverpool on his Farewell Series of readings.</note></placeName>
+               <date when="1869-04-03">Saturday Third April 1869</date>
+            </dateline>
+            <salute>My Dear Mr. Hudson</salute>
+         </opener>
+         <p>I shall not be in London until Monday the 12th. at 12 at “All The Year Round office.”<note>In a brief return to London: he read in London on 13 April and then went on to Bradford.</note> But I shall be [ ]<note>Word deleted by CD.</note>here all this next week, and will execute the deeds<note>Unidentified. Possibly related to arrangements for Ellen Ternan; also possibly related to property referred to in CD’s Will as “vested in me as a trustee or mortagee” (Pilgrim <hi rend="italic">Letters</hi> 12, p. 731).</note> and add my Secretary’s<note>George Dolby. He was with CD on this Farewell Series; CD referred to him as both “my manager” and “my Secretary” (Pilgrim <hi rend="italic">Letters</hi> 12, pp. 199, 336).</note> attestation, if you deem it worth while to send them down for that purpose.</p>
+<p>G.F. Hudson Esquire</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

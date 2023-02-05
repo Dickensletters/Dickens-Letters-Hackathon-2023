@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> <hi rend="italic">To</hi> MISS GEORGINA HOGARTH, 30 MAY 1848</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS State University of New York, Buffalo.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">friends|family</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF HOUSEHOLD WORDS</placeName>
+               <date when="1850-08-23">Friday Twenty Third August 1850</date>
+            </dateline>
+            <salute>My Dear Georgy.</salute>
+         </opener>
+         <p>Forster<note>John Forster (1812-76; <hi rend="italic">Dictionary of National Biography</hi>), historian and man of letters, CD's closest friend and biographer.</note> don’t come tomorrow,<note>CD was staying in Broadstairs, with occasional trips to London on business; he was returning to Broadstairs on 24 Aug.</note> having the Narrative<note>The <hi rend="italic">Household Narrative of Current Events</hi> (a monthly supplement to Household Words), which Forster helped to compile and for which he wrote leaders: see Pilgrim <hi rend="italic">Letters</hi> 6, p. 18n.</note> to attend to. Neither does Fred. I am not sure but Stone may. I shall come by the Ramsgate boat, and be put ashore at Broadstairs. All well, and Kate most blooming.<note>Catherine had given birth to a daughter, Dora Annie, 16 Aug.</note> </p>
+         <closer>
+            <salute>Ever affectionately | Loves to all the Darlings. 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

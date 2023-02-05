@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> WILLIAM HARRISON AINSWORTH,<note>William Harrison Ainsworth (1805-82; <hi rend="italic">Dictionary of National Biography</hi>), historical novelist; son of a Manchester solicitor. He and CD met about 1834-5 (see further Pilgrim <hi rend="italic">Letters</hi> 1, p. 115, n.2). A frequent contributor to <hi rend="italic">Bentley’s Miscellany</hi>, he succeeded CD as editor, Feb 1839.</note> [JANUARY 1837-31 MARCH 1837]<note>Date between CD becoming editor of <hi rend="italic">Bentley’s Miscellany</hi>, Jan 1837, and his move to Doughty Street, late March 1837.</note></title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-03</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p> Text from facsimile in Jarndyce Catalogue, CXCV, Winter 2011-2012.
+
+</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|Bentley's Miscellany">friends|Bentley's Miscellany</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Furnivals Inn </placeName>
+               <date when=""> Thursday Morning</date>
+            </dateline>
+            <salute>My Dear Ainsworth.</salute>
+         </opener>
+         <p>Are you not going to “Shed a lustre”<note>Jokingly echoing “Can shed no lustre o’er us”, from “Our First Young Love” by Thomas Moore (1779-1852), Dick Swiveller’s favourite poet.</note> &amp;c. &amp;c. on the Miscellany this month? I have been looking anxiously forward to receiving your paper, and not seeing it, venture on this slight re-fresher.</p>
+<p>William Harrison Ainsworth Esq.
+
+</p>
+         <closer>
+            <salute>Believe Me | Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

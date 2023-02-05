@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> FREDERIC OUVRY,<note>Frederic Ouvry (1814-81), of Farrer, Ouvry, 66 Lincoln’s Inn Fields; CD’s solicitor from 1856, and confidant in many of his business matters: see Pilgrim <hi rend="italic">Letters</hi> 7, p. 273n.</note> 18 MAY 1868 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-23</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Heritage Book Shop Inc. undated catalogue.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="legal matters|finances|friends">legal matters|finances|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND,</placeName>
+               <date when="1868-05-18">Monday Eighteenth May 1868</date>
+            </dateline>
+            <salute>Monday Eighteenth May 1868</salute>
+         </opener>
+         <p>On coming to town this morning I find your letter of Saturday,<note>About Ouvry’s legal opinion on the action brought against Fechter (see next note) by his acting manager, Humphrey Barnett: see <hi rend="italic">To</hi> Ouvry, 6 May &amp;amp nn.</note> and send you enclosed a cheque for the balance of the loan to Fechter<note>Charles Albert Fechter (1824-79; <hi rend="italic">Dictionary of National Biography</hi>), actor: see Pilgrim <hi rend="italic">Letters</hi> 9, p. 405n.</note> – £400. </p>
+         <closer>
+            <salute>Ever Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

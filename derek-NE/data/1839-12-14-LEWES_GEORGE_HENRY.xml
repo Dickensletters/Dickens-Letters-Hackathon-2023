@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> George Henry LEWES,<note>George Henry Lewes (1817-78; <hi rend="italic">Dictionary of National Biography</hi>), writer and critic: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 402n and Rosemary Ashton, <hi rend="italic">G. H. Lewes: A Life</hi>, 1991.</note> 14 DECEMBER 1839</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-20</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Shaun Springer.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Shakespeare|literary culture|clubs">Shakespeare|literary culture|clubs</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>1 Devonshire Terrace,York Gate, Regents Park.</placeName>
+               <date when="1839-12-14">December 14th. 1839.</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I think it very unlikely that the Shakespeare Club<note>The Shakespeare Club met at the Piazza Coffee House, Covent Garden; CD and Forster were members and Frank Stone was Hon. Secretary: see Marcus Stone’s account of the Club in D, XLI (1944-5), 40-1. The Club’s aim was “to combine intellectual with social enjoyment”: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 392n.</note> will be disposed to receive any new Members, as they have some reason to repent themselves of their past errors in that respect, and will probably for a time run into the opposite extreme. Even if they are disposed to elect, I have determined for various cogent reasons not to propose. But, should they trawl beyond certain selections from their old brethren, I shall take care to make your wish known to the Club generally, or to whatever committee or sub committee may regulate its proceedings – which are at present unfathomable.<note>Founded in 1838, the Club had last met on 7 December 1839, when it was broken up by Forster’s high-handed behaviour: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 611n; hence CD’s uncertainty of its future activities.</note></p>
+         <closer>
+            <salute>Very truly Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS | G. H. Lewes Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> CHARLES KENT,<note>William Charles Kent (1823-1902; <hi rend="italic">TDictionary of National Biography</hi>), proprietor and editor of the <hi rend="italic">TSun</hi>: see Pilgrim <hi rend="italic">Letters</hi> 5, p. 280 &amp; n and later vols</note> 22 SEPTEMBER 1869</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-1</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Huntington Library.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements|friends">social engagements|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND,</placeName>
+               <date when="1869-09-22">Wednesday Twenty Second Septr 1869</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>My Dear Kent.|Floored again! Otway<note>Arthur James Otway (1822-1912), Liberal MP for Chatham, 1865-85: see Pilgrim <hi rend="italic">Letters</hi> 11, p. 113n. Lived at 9 Harley Street and Teddington Place, Teddington, Middx</note> is “abroad.”<note>I.e. not available for the meeting CD had arranged with Kent that morning (Pilgrim <hi rend="italic">Letters</hi> 12, p. 411); the meeting presumably connected with Kent’s attempt to be appointed editor of the <hi rend="italic">London Gazette</hi>, the post vacant by the death, early September, of T. L. Behan.</note></p>
+         <closer>
+            <salute>Ever affecy
+            </salute>
+            <signed>
+               <persName>CD</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> CHARLES FROST,<note>Charles Frost (?1781-1862; <hi rend="italic">Dictionary of National Biography</hi>), of Kingston-upon-Hull, solicitor to the Hull Dock Co. and antiquary; ten times president of the Hull Literary and Philosophical Society between 1830 and 1855.</note> 8 JUNE 1855</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-13</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Niedersächsische Staats- und Universitätsbibliothek Göttingen.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">publishing|Household Words|Bleak House|editing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1855-06-08">Friday Eighth June 1855.</date>
+            </dateline>
+            <salute>Dear Sir,</salute>
+         </opener>
+         <p>I do not make the appointment you request, simply because I am unwilling to give you the trouble of coming here to no purpose. I assure you that I have not the slightest prospect of being able to visit Hull, during the next two years. All the engagements I could possibly make, to read for any Literary Societies, I made for next Christmas, six months ago. I am now on the verge of a new book,<note>CD had been planning and working on <hi rend="italic">Little Dorrit</hi> since early 1855: see <hi rend="italic">To</hi> Miss Coutts, 6 Feb, and <hi rend="italic">To</hi> Collins, 4 Mar (Pilgrim <hi rend="italic">Letters</hi> 7, pp. 525, 555 &amp; n).</note> and am quite unable to contemplate any additional occupation.<note>CD gave public readings in Hull, 14 Sep, 26 &amp; 27 Oct 58 (Pilgrim <hi rend="italic">Letters</hi> 8, pp. 752- 753).</note> </p>
+<p>Charles Frost Esquire</p>
+         <closer>
+            <salute>Dear Sir | Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

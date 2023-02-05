@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> EDWARD JOHN FRASER<note>Edward John Fraser (1824-73), solicitor, of Dangerfield &amp; Fraser, 26 Craven St, Strand; Hon. Secretary, Hullah Fund Committee. CD was the Chairman of this committee, whose object was to raise funds to assist the composer, teacher of choral singing, and writer on music, John Hullah (1812-84).</note>, 18 JANUARY 1861</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-09</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim <hi rend="italic">Letters</hi> 9, p. 373. | Text from facsimile in Boisgirard-Antonini online catalogue, June 2016.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="finances|charity|music|All the Year Round">finances|charity|music|All the Year Round</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	    <addrLine>Edward Fraser Esquire, |26 Craven Street, |Strand 
+	    </addrLine>
+	</address>            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND</placeName>
+               <date when="1861-01-18">Friday Eighteenth January 1861.</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I return you the cheque signed.</p>
+<p>Also I send you a letter from Mr Santley.<note>Charles Santley (1834-1922; <hi rend="italic">Dictionary of National Biography</hi>), baritone. Had made his London début as Adam in Haydn's Creation in St Martin's Hall, 1857, under John Hullah; after a highly successful career in both opera and oratorio, knighted 1907.</note> The letters you mention shall be sent on to you, if they, or any of them, should arrive during my absence. My son will open and forward them. </p>
+<p>When I wrote of advertising exactly as at present,<note> See, for example, the advertisement in <hi rend="italic">The Times</hi>, 16 Jan 1861, p. 5, in which Fraser’s address is given for receipt of subscriptions. See also Henry Chorley’s article 'Mr. Hullah’s Classes', <hi rend="italic">All the Year Round</hi> 4 (5 Jan 1861): 306-8.</note> I meant (and should have explained so) that I limited the advice to the address. As to the subscriptions, I quite agree with you. </p>
+<p>My impression is that there is not much more to be got from the Public in the subscription way<note>The Committee announced on 28 Mar that they would close the London subscription lists on 30 Mar 1861, but that the provincial Committees would still function for the time being. The Fund so far stood at nearly £3,000, to which the Sacred Harmonic Society had contributed 100 guineas; the Royal English Opera concert had raised over £64; and Henry Leslie's concert, £35 (<hi rend="italic">The Times</hi>, 28 Mar 1861, p. 3).</note> and when the Covent Garden Concert is over, I would have a new and closing kind of advertisement. </p>
+<p>E. J. Fraser Esquire </p>
+         <closer>
+            <salute>My Dear Sir 
+
+Always Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

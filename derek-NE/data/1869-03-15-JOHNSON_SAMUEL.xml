@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> SAMUEL JOHNSON,<note>Samuel Johnson (1820-1899); Liverpool printer and book publisher whose business appears to have failed c. 1861; since then he had moved from job to job including bookseller, photographic artist, clerk in a brewery; he married twice and had 14 children but at this date his first wife had died, leaving him with eight children of whom the youngest was 12 years old.</note> 15 MARCH 1869</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-13</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Garth Johnson. Address: Mr. Samuel Johnson | 28 South Castle Street | Liverpool.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="publishing,public readings,friends,health">publishing
+,public readings,
+friends,
+health</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>26 Wellington Street, Strand, London.</placeName>
+               <date when="1869-03-15">Monday Fifteenth March 1869.</date>
+            </dateline>
+            <salute>Sir.</salute>
+         </opener>
+         <p>I must distinctly inform you that I cannot in any way whatever enter upon the consideration of the circumstances you state to me. They are associated with complicated affairs of other people, of which I have never had the slightest knowledge, and with which I have nothing to do.<note>It is possible that Johnson hoped to get back into publishing himself, or to advance either his brother’s or one of his elder sons’ careers with CD’s help.</note></p>
+         <closer>
+            <salute>Your obedt. Servant
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS<note>CD was on the Provincial reading tour of Oct 68-Apr 69 which ended in his collapse at Preston on 22 Apr; he read six times in Liverpool in Oct and it is probable that Johnson heard him; on 11 Mar CD, who had learnt of the death of his friend, Sir James Emerson Tennent (see Pilgrim <hi rend="italic">Letters</hi> 6, p. 701n and Pilgrim <hi rend="italic">Letters</hi> 12, <hi rend="italic">passim</hi>), rushed south after his reading in York, cancelling a second reading in Hull on 12 Mar in order to be at the funeral that day. CD’s next reading was in London on 16 Mar.</note></persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

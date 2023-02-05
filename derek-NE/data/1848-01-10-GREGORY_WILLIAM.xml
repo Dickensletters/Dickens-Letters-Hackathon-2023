@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> WILLIAM GREGORY,<note>William Gregory (1803-58; <hi rend="italic">Dictionary of National Biography</hi>), educated at University of Edinburgh; MD 1828; studied on the Continent; lectured at Edinburgh, Glasgow and Dublin; appointed to Chair of Medicine and Chemistry at Aberdeen 1839, Chair of Chemistry at Edinburgh 1844. CD called him the "great chemist", who spoke at a soirée held in CD's honour by the Glasgow Athenaeum on 28 Dec 1847; see To John Forster, 30 Dec 1847, in Pilgrim <hi rend="italic">Letters</hi> 5, p. 215.</note> 10 JANUARY 1848 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Armstrong Browning Library </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|family|Scotland|Dombey and Son">friends|family|Scotland|Dombey and Son</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>1 Devonshire Terrace|York Gate Regents Park</placeName>
+               <date when="1848-01-10">Tenth January 1848</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I have had the greatest pleasure in the receipt of your cordial letter. The approval and interest of such men as you, and the assurance that I have such readers, and live in their regard as the friend of their leisure moments, are among the most delightful incidents of my life.</p>
+<p>Rely upon it, I shall never come to Scotland again, or near it, without receiving my personal knowledge of you. I seem to have been on friendly terms with you, any length of time, and can hardly believe that we first shook hands only the other day.</p>
+<p> Mrs Dickens is, I am happy to say, quite recovered, though she has been exceedingly unwell since we came home, and kept her own room until yesterday.<note>Catherine Dickens suffered a miscarriage on the train from Edinburgh to Glasgow, on 28 Dec 1847; see <hi rend="italic">To</hi> Alfred Dickens, 1 Jan 1848, in Pilgrim <hi rend="italic">Letters</hi> 5, p. 221.</note> She very much regrets not having come to your house and seen Mrs Gregory,<note>Lizette Barbara Gregory, <hi rend="italic">née</hi> Scott (b. 1805).</note> to whom, nevertheless, she sends her best regards as freely as to you. The conclusion at which Mrs Gregory has arrived regarding me, is exactly the conclusion at which I have arrived concerning her. It is therefore quite clear, either that you and she must come over the border soon, or that Mrs Dickens and I must go over it again.<note>CD mounted one-night fundraising performances in Glasgow and Edinburgh between 15 and 18 July 1848, for the endowment of a Curator for Shakespeare’s House. There is no evidence that he saw Gregory then.</note></p>
+<p>I am perfectly stupefied with a bad cold, – and a blank quire of paper intended for the manuscript of Dombey No 17,<note>The seventeenth monthly number of Dombey and Son concerned Carker's flight to Dijon, to rendezvous with Edith Dombey. While CD had difficulty in beginning the number, by the time he had finished he had overwritten it; see <hi rend="italic">To</hi> J. MacGregor, 24 Jan 1848, in Pilgrim <hi rend="italic">Letters</hi> 5, p. 237.</note> is staring very hard in my nipped face<note>No full stop in MS.</note></p>
+
+<p>    Believe me, with great esteem,</p>
+         <closer>
+            <salute>Faithfully Your friend
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

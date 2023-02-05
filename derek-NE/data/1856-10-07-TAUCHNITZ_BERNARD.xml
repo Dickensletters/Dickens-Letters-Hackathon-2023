@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> BERNHARD TAUCHNITZ,<note>Baron Bernhard Christian Tauchnitz (1816-95), publisher, of Leipzig. Born at Schleinitz; nephew of the publisher Karl Tauchnitz. Founded his own firm in Leipzig in 1837. The firm began its “Collection of British Authors” Sep 1841 with Bulwer Lytton’s <hi rend="italic">Pelham. Pickwick Papers, Oliver Twist, and American Notes</hi> had appeared before the end of 1842, and Nicholas Nickleby in June 1843. He and CD became friendly, and CD sent Charley to Leipzig to learn German (see below). According to John Forster, Tauchnitz always paid liberally. He wrote to Forster after CD’s death: “All Mr Dickens’s works have been published under agreement by me. My intercourse with him lasted nearly twenty-seven years. The first of his letters dates in October 1843, and his last at the close of March, 1870 [see <hi rend="italic">To</hi> Tauchnitz, 31 March 1870]. Our long relations were not only never troubled by the least disagreement, but were the occasion of most hearty personal feeling; and I shall never lose the sense of his kind and friendly nature. On my asking him his terms for Edwin Drood, he replied, ‘Your terms shall be mine.’” (John Forster, <hi rend="italic">The Life of Charles Dickens</hi>, ed. J.W.T. Ley [London: Cecil Palmer, 1928], p. 807n).</note> 7 OCTOBER 1856</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in the possession of Dietmar Böhnke.<note>Böhnke published his transcription, with brief annotation, in "The Correspondence between Charles Dickens and Bernhard Tauchnitz: General Observations and Newly Discovered Letters", <hi rend="italic">Archiv für das Studium der neueren Sprachen und Literaturen (Berlin: Erich Schmidt Verlag</hi>, 2013), pp. 324-5.</note></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Germany|finances|family|publishing|Household Words">Germany|finances|family|publishing|Household Words</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House, London</placeName>
+               <date when="1856-10-07">Tuesday Seventh October 1856</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>I have safely received your draft at eight days after date for £50 sterling.<note>This is one of the few instances where a £50 payment by Tauchnitz, intended for the Household Words account with Coutts &amp; Co., ended up in CD's personal bank account; for other instances see <hi rend="italic">To</hi> Tauchnitz, 31 March 1852 and 8 April 1856.  The phrase "draft at eight days" refers to the fact that Tauchnitz's bill could be cashed by CD eight days after the date stated on the bill, thus allowing time for the necessary funds to be transferred to the account on which the bill is drawn.</note1856> Allow me to acknowledge its receipt, with thanks.</p>
+<p>On the other side, I send you what I think will be the plainest and most concise form of announcing what you wish.</p>
+<p>I am happy to report that we are all quite well, and that Mrs Dickens4 and all my family unite in kindest regard to Madame Tauchnitz5 and all your family.</p>
+<p>Notice.<note>This notice appeared in vol. 359 of Tauchnitz's Household Words series, issued in 36 volumes in the "Collection of British Authors" series, from 1851 to 1856. Tauchnitz reprinted the entire contents of the first 12 volumes of CD's journal, and part of the 13th. See William B. Todd and Ann Bowden, <hi rend="italic">Tauchnitz International Editions in English 1841-1955: A Bibliographical History</hi> (New Castle, Delaware and London: Oak Knoll Press and The British Library, 1988), p. 96.</note></p>
+<p>Novels and Tales
+
+Reprinted from
+
+Household Words,<note>Doubly underlined.</note>
+
+Conducted by Charles Dickens.<note>Doubly underlined. The series of Tauchnitz's <hi rend="italic">Household Words</hi> reprints was followed by Novels and Tales Reprinted from Household Words, again in the "Collection of British Authors" series, published in 11 volumes from 1856 to 1859. These featured mainly works of fiction, but also historical articles and other accounts from the last 7 volumes of the periodical. See Anne Lohrli, <hi rend="italic">Household Words: Table of Contents, List of Contributors and Their Contributions</hi> (Toronto: University of Toronto Press, 1973), p. 48</note>
+
+– and the first volume will soon be published.</p>
+         <closer>
+            <salute>Believe me always | my Dear Sir | Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

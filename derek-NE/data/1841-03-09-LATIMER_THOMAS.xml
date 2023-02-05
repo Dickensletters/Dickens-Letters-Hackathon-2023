@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THOMAS LATIMER,<note>Thomas Latimer (1803-88; <hi rend="italic">Dictionary of National Biography</hi>), radical journalist; managing editor of the Liberal Western Times 1835-73. He championed the cause of the poor in Exeter, and sharply attacked the entrenched leadership of the city. He had met CD in May 1835 as a fellow-reporter of the Exeter election, and again in Mar 1839, on CD's househunting expedition to Alphington (see below). In Aug 1840 he criticised Exeter Town Council for not giving CD a civic welcome. See R. S. Lambert, <hi rend="italic">The Cobbett of the West: A Study of Thomas Latimer and the Struggle Between Pulpit and Press at Exeter</hi> (London: Nicholson and Watson, 1939), pp. 71-2, 99).</note> 9 March 1841 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Brian Smith</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family|finances">family|finances</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1841-03-09">Tuesday Ninth March | 1841 </date>
+            </dateline>
+            <salute>My Dear Sir.</salute>
+         </opener>
+         <p>  I have been at Brighton for some days;<note>CD was in Brighton with his wife Catherine, from 24 Feb to 3 Mar.</note> and having been constantly engaged, have delayed answering your letter until now.<note>For an earlier letter to Latimer (marked "most private"), discussing John Dickens's debts ("a very painful subject – one that has been a source of constant anxiety, uneasiness, and expence to me for some years"), see Pilgrim <hi rend="italic">Letters</hi> 2, p. 214-5.</note></p>
+<p>   I inclose you a cheque for fourteen pounds, which I shall hope to hear has reached you safely.<note>CD sent Latimer a cheque to settle a bill of his father, John Dickens (1785-1851), whom CD had moved to Mile End Cottage in Alphington, Devon, in March 1839, on account of his father's problem-causing debts. See <hi rend="italic">To</hi> John Forster, [5 March 1839], in Pilgrim <hi rend="italic">Letters</hi> 1, p. 518. The cheque cleared on 16 Mar 1841 (CD's accounts, Coutts's Bank).</note></p>
+<p>     There can be no doubt that your conduct through the<note>"f" overwritten with "the".</note> whole of the transactions which are the subject of our correspondence, was exceedingly kind, generous, and honorable. Greatly as it has pained me to know what I do know through you, I have derived no little satisfaction, I assure you, from your well-intentioned<note>"underst" deleted after "intentioned".</note> and<note> generous" deleted after "and".
+</note> good-hearted feeling.</p>
+<p>The point on which I wished to take counsel with you, is this – Some week or two before your bill was presented at Chapman and Hall's, another acceptance in favor of Mr Drewe<note>Possibly William Drewe (1805-62), wine and spirit merchant; Lord Mayor of Exeter in 1840.</note> (for fifteen pounds) was presented there, and paid;<note>CD's publishers Chapman &amp; Hall paid £15 to Drewe in February 1841, to settle one of John Dickens’s bills. This sum was recouped against Dickens’s profit share from <hi rend="italic">Master Humphrey's Clock</hi>, received on 11 March 1841, in the sum of £235.6s.7d.</note> my father having sent the money on the previous day. I am very uneasy lest he should have borrowed more money from that gentleman, or should seek to borrow money of him again. It has also occurred to me that he may perhaps be indebted to Mr Taunton.<note>W.G. Taunton; otherwise unidentified. For Taunton's request for an autograph of CD's friend William Charles Macready (1793-1873) see Pilgrim <hi rend="italic">Letters</hi> 2, pp. 136-7.</note> Now, are you on such terms with either or both of these gentlemen that you would feel no delicacy in asking them the question, and giving them the caution, from me? I have no hesitation putting this to you, for of course it is as easy to say "no" as "yes", and I have a confidence – founded on a kind of free masonry between us – that you will not mind treating me with perfect openness and absence of reserve.</p>
+<p>     Do you think too, that there is any other person whom he is likely to have borrowed of, or to try to borrow of? Mr Franklin<note>Possibly Frederick Franklin (1808-95), Sheriff of Exeter 1850-1; Lord Mayor 1861.</note> has occurred to me; and to him, I will write myself by the same post which brings this to you. The only reason why I wish not to write to the others if I can help it, is, that it is so extremely painful to have to correspond with people for the first time on such a miserable theme.</p>
+<p>I need not say that all that has passed or will pass between you and me is in strict confidence, and that my father has no idea that any correspondence whatever has taken place between us. He knows I have discovered the fact of his making bills payable at the Publisher's, for I have been compelled to adopt very vigorous measures in consequence;<note>On 6 Mar CD wrote to his friend and solicitor Thomas Mitton (1812-78), proposing that John Dickens, together with his wife Elizabeth, and their son Augustus, should move to either France or Belgium, so that he could not accumulate more debt. CD further specified that he would grant him an allowance of £20 per annum, which, with the father's pension and other sources of income, would amount to £100 per annum. In Dickens's frustration he emphasised the need for strict adherence to these conditions: "<hi rend="italic">I will consent to nothing short of, or beyond them</hi>" (Pilgrim <hi rend="italic">Letters</hi> 2, p. 225). John Dickens did not, however accept this plan, but continued to live at Alphington. CD wrote to Mitton again on 9 Mar to say, "I. . . write to ask you to put to him -- even more distantly and unpromisingly than you have already settled in your own mind -- the matter of the debts" (Pilgrim <hi rend="italic">Letters</hi> 2, p. 227). There was no regular allowance paid to John Dickens by CD, but rather sporadic payments to Mitton, "Alphington", or John Dickens himself. Some of the cheques made out to Mitton in this period (£18.10s on 11 Mar 1841; £5.6s on 25 Mar 1841; £20 on 4 June 1841, and £12.10s on 18 June 1841) were for onward transmission to CD's father; the cheques made out to "Alphington" (£12.10s on 16 March 1840; £10 on 13 July 1840; £4 on 29 June 1841) were probably endorsed by, for example, CD's groom William Topping (who frequently ran such errands for his employer), with the cash forwarded on to John Dickens. Cheques made out to to John Dickens in this period include the following: £18 on 18 Apr 1840; £14.4s on 16 Sept 1840; £3 on 20 Nov 1840; £17.10s on 17 Dec 1840; £3 on 5 Feb 1841; 5 guineas on 12 Feb 1841 (CD's accounts, Coutts's Bank).   </note>
+ but he supposes, I have no doubt, that I received the intelligence from Chapman and Hall themselves. Therefore his return to Exeter will not place you in any difficult or actored<note>Thus in MS.</note> position.</p>
+<p>I beg my compliments to Mrs Latimer,<note>Frances Anne Latimer, <hi rend="italic">née</hi> Perry (1809-92).</note> in which my wife<note>Catherine Dickens (1815-79).</note> joins – and am My Dear Sir</p>
+<p>atimer Esquire.</p>
+
+
+
+         <closer>
+            <salute>  Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

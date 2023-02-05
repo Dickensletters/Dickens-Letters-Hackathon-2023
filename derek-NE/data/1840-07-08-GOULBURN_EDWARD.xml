@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> EDWARD GOULBURN,<note>Edward Goulburn (1787-1868; <hi rend="italic">Dictionary of National Biography</hi>). Forced to withdraw from the Army after publishing a libellous satirical poem. Serjeant-at-law, 1829; Tory MP, Leicester, 1835-7: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 607n.</note> 8 JULY 1840</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in R &amp; R Auctions catalogue, July 2007. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements">social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace </placeName>
+               <date when="1840-07-08">8th. July 1840.</date>
+            </dateline>
+            <salute>My Dear Sir </salute>
+         </opener>
+         <p>I am unfortunate again! I am engaged next Wednesday – not only to dinner at home, but to a party at Miss Coutts’s in the Evening.<note>CD had accepted Miss Coutts's invitation on 4 July: see <hi rend="italic">To</hi> Miss Coutts, 4 July, and To Marjoribanks, 6 July (Pilgrim <hi rend="italic">Letters</hi> 2, pp. 95-6).</note> I should have written to you sooner, but there was a chance of release from the first of these engagements, which, I am sorry to say exists no longer. I cannot tell you how vexed I am.  </p>
+         <closer>
+            <salute>Believe me | Dear Sir | Faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS | Mr. Serjeant Goulburn.  </persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

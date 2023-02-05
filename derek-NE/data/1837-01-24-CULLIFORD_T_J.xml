@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> T. [J.] CULLIFORD,<note>Presumably Thomas John Culliford (1781-1852), CD’s maternal uncle; son of Thomas Culliford, musical instrument maker; partner in Dewar and Culliford, insurance brokers.</note> [24 JANUARY 1837]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>_
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Private. Date: endorsed 24 Jan 37.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family">family</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Furnival’s Inn </placeName>
+               <date when="1837-01-24">Tuesday Afternoon</date>
+            </dateline>
+            <salute>My Dear Uncle</salute>
+         </opener>
+         <p>I regret to say that I cannot leave home this evening. Catherine is not so well as she was;<note>Charley had been born on 6 Jan.</note> and we have a consultation here, at six o’clock. I was seized last night with a violent pain in my head (fortunately, just as I had concluded my month’s work) and was immediately ordered as much medicine as would confine an ordinary-sized horse to his stall for a week. Whether it arises from the “Influentials”,<note>I.e. influenza</note> or from close application, or from worry, or from the wind cholic, to quote King Arthur,<note>In Fielding’s <hi rend="italic">The Great Tragedy of Tragedies</hi>; or, <hi rend="italic">The Life and Death of Tom Thumb the Great</hi>, I, <hi rend="italic">iii</hi>.</note> I know not. But this I know – that sorely against my will and much to my disappointment, here I am, in a gloomy and miserable state, and here I must remain.</p>
+
+         <closer>
+            <salute>Believe me | Affectionately yours,
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS, T. C.<note>Thus in MS.</note> Culliford Esqre</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

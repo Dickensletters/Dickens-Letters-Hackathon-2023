@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JOHN HOLLINGSHEAD,<note>John Hollingshead (1827-1904; <hi rend="italic">Dictionary of National Biography</hi>), journalist and, later, theatre manager. After working as a clerk and commercial traveller, became a prolific contributor to periodicals; wrote for <hi rend="italic">Punch, the Leader</hi>, <hi rend="italic">Cornhill, the Train</hi>, <hi rend="italic">Household Words</hi> and <hi rend="italic">All the Year Round</hi>, and many others. For a time dramatic critic on the Daily News. Contributed regularly to <hi rend="italic">Household Words</hi> from Oct 1857; became a member of the journal's staff 1859. He greatly admired CD: in <hi rend="italic">My Lifetime</hi> (London: Sampson Low, Marston &amp; Co, 1895) he includes himself among the "Dickens young men" (I, 96) and refers to CD as "the master" (I, 97); but stresses that he did not imitate CD and that CD very rarely altered his articles (I, 96). Hollingshead later became manager of the Gaiety Theatre 1868-86, and Director of several Music Hall companies; he is credited with bringing Gilbert and Sullivan together for the first time in 1871.</note> 24 SEPTEMBER 1857 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in University Archives online catalogue, June 2018.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="publishing|editing|Household Words">publishing|editing|Household Words</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Gad's Hill Place, Higham</placeName>
+               <date when="1857-09-24">Thursday night Twenty Fourth September | 1857 
+
+</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p> I am doubtful as to the Twenty Shillings in the Pound, and should like to take time to consider it.<note>"Twenty Shillings in the Pound", which described dishonest business practices, was eventually accepted, and published in <hi rend="italic">Household Words</hi> 16 (7 Nov 1857): 444-6. See <hi rend="italic">To</hi> John Hollingshead, 4 Oct 1857.</note></p>
+<p> I accept the other paper with great pleasure. I have called it "Poor Tom. A City Weed"<note>"Poor Tom. – A City Weed", concerning the career of a poor but honest clerk, was published in <hi rend="italic">Household Words</hi> 16 (17 Oct 1857): 381-4.</note> – have made an occasional alteration in a word, or the setting out of a paragraph – and have added a parenthesis towards the close, which I hope carries out your meaning with a slight, affecting touch.<note>CD's parenthesis reads, "(Though I know his address—somewhere in Heaven, poor dear Tom!—I didn't say so)" ("Poor Tom", p. 384).</note> You will judge for yourself, in going over the Proof which I direct the Printers to send you.</p>
+<p> When you correct it, will you point the sentences so as to make them very plain to the eye?</p>
+<p>  I am charmed with the paper, and think it extremely good.</p>
+<p>Very faithfully Yours</p>
+<p>John Hollingshead Esquire.</p>
+         <closer>
+            <salute>My Dear Sir
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

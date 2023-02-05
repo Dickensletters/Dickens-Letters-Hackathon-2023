@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MARGUERITE POWER,<note>Marguerite Agnes Power (1815-67), niece of CD’s friend the Countess of Blessington. She edited <hi rend="italic">The Keepsake</hi> (1851-7), and published a number of novels, including <hi rend="italic">Evelyn Forester</hi> (1856), <hi rend="italic">The Foresters</hi> (1858), <hi rend="italic">The Letters of a Betrothed</hi> (1858), <hi rend="italic">Nelly Carew</hi> (1859) and <hi rend="italic">Sweethearts and Wives</hi> (1861). In 1860 she wrote <hi rend="italic">Virginia’s Hand</hi>, a long narrative poem dedicated to John Forster.</note> 28 DECEMBER 1859</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-09</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Facsimile in Bloomsbury Auctions online catalogue, December 2014.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="editing|All the Year Round|friends">editing|All the Year Round|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND</placeName>
+               <date when="1859-12-28">Wednesday Twenty Eighth December 1859</date>
+            </dateline>
+            <salute>My Dear Marguerite.</salute>
+         </opener>
+         <p>“Yes,” to “Getting up Early.”<note>‘Getting Up Early’, <hi rend="italic">All the Year Round</hi> 3 (12 May 1860): |105-8.</note> With pleasure.</p>
+         <closer>
+            <salute>Kind regard at home
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

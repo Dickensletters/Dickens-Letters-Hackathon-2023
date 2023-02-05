@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JOHN THOMPSON,<note>John Thompson (1822-71), CD’s trusted servant, c. 1841-67; he acted as dresser, secretary, and coachman. Stole money from CD's cash box, Nov 1866 (see Pilgrim <hi rend="italic">Letters</hi> 11, pp. 262, 268), but not dismissed outright; CD eventually facilitated his finding employment as a tobacconist.</note> 28 JUNE 1857</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-20</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from digitized facsimile on eBay, Jan 2004.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">domestic issues|clothing|theatre|Friends|charity|clubs</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Athenaeum Club<note>The Athenaeum Club, Waterloo Place, to which CD was elected in 1838. CD had moved into Gad’s Hill in March; Tavistock House, though still in his possession, was “stripped” (<hi rend="italic">To</hi> Collins, 26 June 57, in Pilgrim Letters 8, p. 361). CD was using clubs as his base when in London.</note></placeName>
+               <date when="1857-06-28">Sunday Twenty Eighth June | 1857</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>I called at the office<note>Of <hi rend="italic">Household Words</hi>, where John, after his marriage, had been established since 1852 to keep the office: see Pilgrim <hi rend="italic">Letters</hi> 6, p. 822.</note> today John, but no one was there. Enclosed is the list of things to be fetched from Mr. Stanfield’s<note>Clarkson Stanfield. CD was raising funds in memory of Douglas Jerrold, who had died 8 June (see Pilgrim <hi rend="italic">Letters</hi> 8 and Michael Slater, <hi rend="italic">Douglas Jerrold</hi> 1803-1857, 2002, pp. 270-2). Events included slatperformances of Collins’s The <hi rend="italic">Frozen Deep</hi>, originally performed 6 Jan 57 at Tavistock House: given at the Gallery of Illustration, Regent Street, privately before the Queen (4 July) and publicly, 18 and 25 July, 8 August: for performances in Manchester and their consequences, see Pilgrim <hi rend="italic">Letters</hi> 8, pp. 432-4 and 447 &amp; <hi rend="italic">nn</hi>.</note> by 10 tomorrow morning. Be particular to compare the things with the list,<note>Stanfield had designed the sets of The <hi rend="italic">Frozen Deep</hi> and supervised details of the settings; he may have stored items after the January performance or have had necessary items as properties in his studio.</note> before bringing them away in order that you may be sure nothing is left behind. | CHARLES DICKENS</p>
+<p>To fetch from Mr. Stanfield’s by 10 Monday Morning<note>Written on a separate scrap of paper; two short double strokes separate this heading from the list; above each item there is a short stroke, probably ticking them off.</note></p>
+<p>Coarse canvas frock<note>A coat with long skirts: cf. “frock-coat”.</note></p>
+<p>
+Fur jacket
+</p>
+<p>
+Cartridge belt
+</p>
+Knapsack
+<p>
+Model of Ship<note>Possibly used by Stanfield when he painted the backdrop, showing the ship, for Act III (illustration in the <hi rend="italic">Illustrated London News</hi>, 17 Jan 57; reproduced in <hi rend="italic">Charles Dickens: An Exhibition to Commemorate the Centenary of His Death</hi>, 1970, no. 41 and Pieter Van der Merwe &amp; Roger Took, <hi rend="italic">Clarkson Stanfield</hi>, 1793- 1867, 1979, p. 160). The play does not call for a model ship: see Robert Louis Brannan (ed.), <hi rend="italic">Under the Management of Mr. Charles Dickens: His Production of “The Frozen Deep”</hi>, 1960.</note></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

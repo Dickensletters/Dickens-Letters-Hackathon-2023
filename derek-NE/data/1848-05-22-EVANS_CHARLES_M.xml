@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To CHARLES M. EVANS,<note>Charles M. Evans, Hon. Secretary of the Birmingham Polytechnic.</note> 22 MAY 1848</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS University of Birmingham.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">theatre|Shakespeare
+</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace </placeName>
+               <date when="1848-05-02">Twenty Second May 1848.</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I lose no time in replying to your letter<note>CD had written to Evans, 19 May (Pilgrim Letters 5, pp. 309-11), seeking his assistance in the Amateur Company's benefit performances to endow the Shakespeare Birthplace curatorship (To Fortescue, 12 Apr).</note> – for which I thank you, very much.</p>
+<p>We will take it for granted that there shall be only one performance in Birmingham,<note>CD had originally proposed a performance on Saturday 3 June and a possible second performance on Tuesday 6 June. In the event the Amateurs performed at Manchester on 3 June and Liverpool on 5 June. A second Birmingham performance was given on 27 June.</note>and that at the prices you mention.<note>Lower boxes and pit, 7s.; upper boxes, 5s.; gallery, 2s. (Aris’s <hi rend="italic">Birmingham Gazette</hi>, 29 May). Receipts were £327.</note> In case another should be called for, we shall be glad to come back, and can do so easily. But it must be<note>“Must be” underlined with short double strokes.</note>on the Tuesday, since it can’t be on the Saturday. On the Monday, we play at Liverpool; and several of our Company, by reason of the nature of their literary engagements are obliged to be in London, always, not later in the week than Wednesday Evening.<note>Members of the Amateurs with editorial or other journalistic responsibilities needed to oversee proofs and final make-up: CD would have in mind Lemon and Leech, who would attend the weekly <hi rend="italic">Punch</hi> dinner, Forster and possibly also Dudley Costello and G. H. Lewes, all in the company.</note></p>
+<p> I enclose you the draught of the bill,<note>A single sheet included with the letter, giving the purpose of the performance and the cast lists for <hi rend="italic">Every Man in His Humour</hi> and <hi rend="italic">Animal Magnetism</hi>.</note> to which you can make all business additions you think proper. Acting on your suggestion, I have put up Every Man in his Humour – with a farce<note>CD had originally suggested performing <hi rend="italic">Merry Wives</hi>; instead the Jonson and Inchbald were performed. On 27 June <hi rend="italic">Merry Wives</hi> and <hi rend="italic">Kenney's Love, Law, and Physic</hi> were given.</note> that made the people here, roar with laughter. We must get the Theatre on the best terms we can.<note>In June CD noted they never paid more than £50 for a provincial theatre for one night, to include carpenters, door-keepers, gas and band (Pilgrim <hi rend="italic">Letters</hi> 5, p. 340).</note> We shall also want a very good and ample orchestra. But that I can see about, when I come down. I will fulfil any engagement you may make for me, to meet the Committee, after Thursday next.<note>On Friday 26 May. CD met the committee and reported “all looks very flourishing” (Pilgrim <hi rend="italic">Letters</hi> 5, p. 322). To Lemon, 28 May, he wrote, “High prices, big posters, and great confidence. Theatre a little more dingy than I had expected, but a good one” (Pilgrim <hi rend="italic">Letters</hi> 5, p. 323).</note> The instant formation of the Committee, and announcement of the thing all over the town, are the grand preliminaries; and I am delighted to see that you rush into these, like an Express Train.  
+</p>
+<p>Charles Evans Esquire</p>
+         <closer>
+            <salute>Dear Sir | Faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>1848

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MRS LYNN LINTON,<note>Eliza Lynn (1822-98; <hi rend="italic">Dictionary of National Biography</hi>), journalist and novelist known as Mrs Lynn Linton after her marriage to W. J. Linton, 1858; close friend of Walter Savage Landor, at whose house she first met CD in 1849; regular contributor to <hi rend="italic">All the Year Round</hi>: see Pilgrim <hi rend="italic">Letters</hi> 7, p. 114 and later vols.</note> 19 JUNE 1869</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-13</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from G. S. Layard, <hi rend="italic">Mrs Lynn Linton, her Life, Letters and Opinions</hi>, 1901, pp.160-1.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends,editing,All the Year Round">friends,editing,All the Year Round</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName> 26 WELLINGTON STREET, STRAND,</placeName>
+               <date when="1869-06-19">Saturday, 19th June 1869.</date>
+            </dateline>
+            <salute>My Dear Mrs. Linton</salute>
+         </opener>
+         <p>Although your article on our old friend is interesting as a piece of personal remembrance, it does not satisfy my desires as a review of Forster’s book.<note>John Forster’s <hi rend="italic">W. S. Landor: a Biography</hi>, pubd June 69: see Pilgrim <hi rend="italic">Letters</hi> 12, p. 352 and n. CD had asked Mrs Lynn Linton to write a review for <hi rend="italic">All the Year Round</hi>, no doubt because he knew she was a very old friend of Landor’s. For CD's return of the unpublished review see <hi rend="italic">To</hi> Eliza Lynn Linton, 21 June 1869.</note> It could hardly be otherwise than painful to Forster that I, one of his oldest literary friends, and certainly of all others his most intimate and confidential, should insert in these pages an account of Landor – or touch the subject – without a word of commendation of a biography that has cost, to my knowledge, a world of care and trouble. I find from your letter to my son that you do not think well of the said book. Admitting that the life was to be written at all, I do. And it is because I think well of it, and wish highly to commend it on what I deem to be its deserts, that I am staggered and stopped short by your paper,<note>According to G.S. Layard in his <hi rend="italic">Life</hi> (see above), the article she wrote began with the words: “The Life of Walter Savage Landor has yet to be written”.</note> and fear that I must turn to and write another in its stead.<note>CD wrote a review himself, recommending Forster’s book and describing Landor himself with affection and understanding; it appeared in <hi rend="italic">All the Year Round</hi>, N.S. Vol II, No. 34, 24 July 1869: see “‘The Uncommercial Traveller’ and Other Papers”, ed. Michael Slater and John Drew (<hi rend="italic">Dickens’ Journalism</hi>, 2000, Vol. 4, pp. 396-403).</note></p>
+<p>I want you to understand the case on my own presentation of it, and hence I trouble you with this note.</p>
+         <closer>
+            <salute>Believe me always | faithfully yours,
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

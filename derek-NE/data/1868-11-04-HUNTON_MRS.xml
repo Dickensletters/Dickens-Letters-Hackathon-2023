@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MRS HUNTON,<note> Unidentified </note> 4 NOVEMBER 1868</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Michael Silverman.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="charity|All the Year Roun">charity|All the Year Round</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD’S HILL PLACE, | HIGHAM BY ROCHESTER, KENT.</placeName>
+               <date when="1868-11-04">Wednesday Fourth November 1868</date>
+            </dateline>
+            <salute>Dear Madam</salute>
+         </opener>
+         <p>I had not the honour of being acquainted with the late Mr. MacFarlane,<note>James Macfarlan (1832-62; <hi rend="italic">Dictionary of National Biography</hi>), Glasgow poet and pedlar; CD published 10 of his poems in <hi rend="italic">All the Year Round</hi>, 12 Nov 59-2 Feb 61 (Pilgrim <hi rend="italic">Letters</hi> 9, p. 504 &amp; <hi rend="italic">nn</hi>). He died in Glasgow, leaving a wife and children.</note> but I would willingly have signed the Memorial certifying to his literary merits, if I had not already signed three other Memorials<note>The Memorials not identified</note> strongly pressing the Minister<note>Benjamin Disraeli, Prime Minister since Feb 1868.
+</note> for pensions. So long as those cases remain undisposed of, I should consider it unreasonable on my part to urge others.</p>
+<p>Mrs. Hunton</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

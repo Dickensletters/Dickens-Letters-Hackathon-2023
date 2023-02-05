@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> H. K. BROWNE,<note>Hablot Knight Browne, “Phiz” (1815-82; <hi rend="italic">Dictionary of National Biography</hi>), painter and illustrator. Succeeded Robert Buss (Robert Seymour’s replacement) as illustrator of <hi rend="italic">Pickwick Papers</hi>. Illustrated all CD’s novels (except Oliver Twist) up to and including A Tale of Two Cities, 1859. See further Pilgrim <hi rend="italic">Letters</hi> 1, p. 163n, and Valerie Browne Lester, <hi rend="italic">Phiz</hi>: <hi rend="italic">The Man who Drew Dickens</hi>, 2004.</note> [MID-LATE JULY 1838]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-22</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS (fragments aa; bb) Huntington Library. Date: CD began work on <hi rend="italic">Nickleby</hi> No. 5 (chs 15-17) on 10 July (Vol. I, p. 633): the No. was published 31 July (dated August).</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="llustrations|Nicholas Nickleby">illustrations|Nicholas Nickleby</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1838-07-31"></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>(a) criticising in whispers the cut of Kate’s dress,<note>The illustration, “Madame Mantalini introduces Kate to Miss Knag”, appeared in ch. XVII (“Follows the Fortunes of Miss Nickleby”), opposite p. 157 in the original vol. edn. Two girls on the right are shown whispering and a skylight can be seen; there is no cap on a block or dress on a stand. Miss Knag is about the height of Miss La Creevy (shown in ch. X, opposite p. 89), but her dress less extravagant and her appearance less amiable.</note> her face, and so forth. The room is lighted by a sky-light (if you shew any window at all); of course it is not the show-room described in No. 3, though there may be a cap on a block and a dress on a stand if it would improve the sketch. N.B. Please to take care that Miss Knag is not like Miss La Creevy. 2<note>Doubly underlined by CD.</note></p>
+<p>Nicholas teaching french to the little Kenwigses.<note>The illustration, “Nicholas engaged as Tutor in a private family”, appeared in ch. XVI, opposite p. 153 in the original vol. edn. Nicholas has begun teaching French to the little Kenwigses.</note> If they (a) <note>MS sheet has been cut away; the very tops of some letters visible; no words can be conjectured.
+</note></p>
+<p>(b) I have something else to say to you I know, but as I forget what it is, I will defer it ’till I see you; till<note>CD put an apostrophe only before the first “till”.</note> when, and afterwards, believe me</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS(b)</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

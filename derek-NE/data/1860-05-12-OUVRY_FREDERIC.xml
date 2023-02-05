@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> FREDERIC OUVRY,<note>Frederic Ouvry (1814-81, <hi rend="italic">Dictionary of National Biography</hi>), CD’s solicitor from 1856. Son of Peter Aimé Ouvry, of the Ordnance Office, descendant of an old French family; nephew of John Payne Collier. Partner in Robinson, King, and Ouvry, 13 Tokenhouse Yard, 1837; partner in Farrer, Ouvry, with his brothers-in-law F. W. and W. J. Farrer, 66 Lincoln's Inn Fields (Miss Coutts's solicitors), 1855-81. Fellow of Society of Antiquaries 1848; Treasurer 54; President 76. A well-known book collector.</note> 12 MAY 1860</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-19</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Peter Ward.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="legal matters|finances|Household Words|All the Year Round|publishing|editing">legal matters|finances|Household Words|All the Year Round|publishing|editing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>TAVISTOCK HOUSE,|TAVISTOCK SQUARE, LONDON. W.C</placeName>
+               <date when="1860-05-12">Saturday Twelfth May, 1860.</date>
+            </dateline>
+            <salute>My Dear Ouvry.</salute>
+         </opener>
+         <p>My impression of the Household Words transaction was, throughout, simply this:<note>or CD’s break with Bradbury &amp; Evans, the termination of <hi rend="italic">Household Words</hi>, and initiation of <hi rend="italic">All the Year Round</hi>, see Pilgrim <hi rend="italic">Letters</hi> 8 (including Appendix J) and 9 (including Appendix B) and Robert L. Patten, <hi rend="italic">CD and His Publishers</hi>, 1978, chs 13, pp. 260-3, and 14, pp. 267-9.</note> That I terminated a partnership which I had the right of terminating, because I could not have any thing more to do with Bradbury and Evans. That I took Wills from the first, into my confidence as to this intention, because I meant, in a new periodical, to replace him in his old position – greatly improved by the new periodical being freed from the incubus of Bradbury and Evans’s charges, and Bradbury and Evans’s conduct of the business, absolutely without control. That I gave to the destroyed publication, an adventitious value, for the sake of the new publication. That the destroyed one was absolutely worthless but for me. That I ran up its price and made it valuable, in the interests of the new publication. That the purchase of it was my act solely, and was of immense advantage to the new publication of which I gave<note>Written above “had given” deleted.</note> Wills a fourth share.</p>
+<p>I should most assuredly not have parted with that fourth share, if I had for a moment supposed myself to be committing such an absurdity [ ]<note>Illegible word deleted.</note> as giving an exaggerated and fictitious value to the destroyed publication, and recognizing Wills’s interest in such value, and an obligation in myself to pay him [ ]<note>Illegible word deleted.</note> accordingly. The strict law of the thing as between Wills and me never entered my head. I considered it throughout as a matter of plain equity and reason.</p>
+         <closer>
+            <salute>Faithfully Yours always 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS | Frederic Ouvry Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

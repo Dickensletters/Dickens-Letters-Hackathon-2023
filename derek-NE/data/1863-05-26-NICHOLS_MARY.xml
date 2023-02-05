@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To MARY NICHOLS<note>Mrs Mary Sargeant Neal Gove Nichols (1810-84; <hi rend="italic">Dictionary of American Biography</hi>), miscellaneous writer, reformer and water-cure practitioner; advocated mesmerism, temperance and dress reform. Published <hi rend="italic">Experience in Water-Cure</hi>, New York, 1849, and several novels. With her second husband, Thomas Low Nichols (see Pilgrim <hi rend="italic">Letters</hi>, 21 Apr 64, fn), established Nichols' <hi rend="italic">Journal of Health</hi> (Cincinnati) 1853, advocating free love, spiritualism and health reform. They published jointly <hi rend="italic">Marriage: Its History, Character, and Results</hi>, 1854. Settled in England on outbreak of American Civil War and conducted jointly a water-cure establishment in Great Malvern 1867-75; 1875-86 ed. jointly the <hi rend="italic">London Herald of Health</hi>.</note>, 26 MAY 1863</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Huntington Library.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="editing|All the Year Round">editing|All the Year Round</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD’S HILL PLACE, | HIGHAM BY ROCHESTER, KENT.</placeName>
+               <date when="">Tuesday Twenty Sixth May 1863.</date>
+            </dateline>
+            <salute>Dear Madam</salute>
+         </opener>
+         <p>It is often very difficult for me to keep pace with my correspondents. I hope you will attribute the tardiness of my reply to your last letter, to this unavoidable circumstance, and not to any lack of interest in it.</p>
+<p>It is often very difficult for me to keep pace with my correspondents. I hope you will attribute the tardiness of my reply to your last letter, to this unavoidable circumstance, and not to any lack of interest in it.</p>
+
+<p>I regret that neither of the accompanying papers is quite suitable to the requirements of All The Year Round. It would not be easy to explain within the compass of a hurried note what those requirements are; nor could I hope to suggest them to you, successfully, if the Journal itself cannot do so.</p>
+<p>Also you have anticipated any advice I could offer you, by finding for yourself the most likely channels through which to render your literary work remunerative.<note>The “channels” not certainly identified: in England, Nichols published a novel, <hi rend="italic">Uncle Angus</hi> (1864) and <hi rend="italic">A Woman’s Work in Water Cure and Sanitary Education</hi> (1858), besides contributing to <hi rend="italic">All the Year Round</hi>: see <hi rend="italic">To</hi> Mrs Nichols, 25 July 63, below.</note></p>
+<p> Thus nothing is left for me to say except to assure you— which I do most sincerely—that it would give me real pleasure to be able to accept any contribution from yourself or your husband;<note>Dr Thomas Low Nichols (1815-1901; <hi rend="italic">Dictionary of American Biography</hi>), pioneer dietician, water-cure practitioner, and social and sanitary reformer; see <hi rend="italic">To</hi> Mrs Nichols, 9 May 63.</note> and to couple with this assurance the faithful promise that I will myself attentively read any paper you may send me, marked “Private” on the cover.
+
+</p>
+<p>For the novels you mention, I fear there is little chance. A name [ ]4 needs to be made by periodical writing of another kind, before a publisher will—except in rare instances—enter on such a venture.</p>
+<p>In that respect there is no opening in All The Year Round. But for general contributions there is always an opening there, and it is at least as much a pleasure to me as it is my interest, to find new contributors who hit the mark.</p>
+<p>Personally, I beg you to believe that I am truly sensible of your high opinion, and that I esteem it as a great and high privilege to have awakened so much interest in your breast. It would be a real gratification to me if I could prove this to you by helping you towards the attainment of the honorable object in which you have my full sympathy.</p>
+<p> Mrs. Nichols.</p>
+         <closer>
+            <salute>Dear Madam | Faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

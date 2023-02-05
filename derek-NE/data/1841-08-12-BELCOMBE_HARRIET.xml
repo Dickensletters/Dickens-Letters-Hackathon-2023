@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> HARRIET BELCOMBE,<note>Harriet (d. 1849), wife of Henry Stephens Belcombe, MD (1790-1856), Senior Physician to the York County Hospital. See Pilgrim <hi rend="italic">Letters</hi> 1, p. 368n.</note> 12 AUGUST 1841</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Universitätsbibliothek Johann Christian Senckenberg, Frankfurt-am- Main.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|travel|family">friends|travel|family</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>1 Devonshire Terrace. | York Gate Regents Park.</placeName>
+               <date when="1841-08-12">August The Twelfth 1841.</date>
+            </dateline>
+            <salute>My Dear Mrs. Belcombe.</salute>
+         </opener>
+         <p>Last month—will you believe it?—I was in York<note>CD and Catherine, returning from Scotland, travelled by York, staying there the night of Saturday 17 July.</note> one night, and didn’t come to see you. Worse than that, I had Mrs. Dickens with me, and didn’t give her the opportunity of knowing you,<note>CD, travelling to Greta Bridge to see the Yorkshire schools in February 1838, had stayed in York, where he delivered a letter from the actress Sarah Bartley to Mrs Belcombe. He subsequently sent her a presentation copy of <hi rend="italic">Pickwick Papers</hi> “as a slight acknowledgement of the great kindness” he had received (Pilgrim <hi rend="italic">Letters</hi> 1, pp. 368-9 &amp; nn).</note> which she was most anxious to have. I am so bent upon your knowing how this happened—how we were coming home from Scotland; got into York at 6 O’Clock in the evening, and left at a quarter before 7 next morning—that I have given this note to my brother,<note>Alfred Lamert Dickens (1822-60); trained as surveyor and civil engineer; employed at least since 1840 by the Birmingham and Derby Railway Company and based at Tamworth (Pilgrim <hi rend="italic">Letters</hi> 2, p. 113 &amp; n).</note> who has been staying at Malton;<note>Approximately twenty miles from York, where CD had proposed to stay on his way to Scotland in June, presumably to visit Alfred, who was clearly engaged in preliminary surveying work for the York and Scarborough Railway, a project supported by George Stephenson of the Birmingham and Derby Company. The project was shelved and the line only opened in July 45, Alfred again being employed and based in York from at least Mar 44 (Pilgrim <hi rend="italic">Letters</hi> 4, pp. 89, 96, 97 n.5).</note> and desired him to call upon you with such a full and true account of my comings and goings, as shall reinstate me in your favor, and make you look upon me as a martyr. With best regards to Dr. Belcombe and the young ladies, I am always</p>
+         <closer>
+            <salute>Dear Mrs. Belcombe | Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

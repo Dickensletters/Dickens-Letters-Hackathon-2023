@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> LORD ROBERTSON,<note>Patrick Robertson (1794-1855; <hi rend="italic">Dictionary of National Biography</hi>), advocate; often known by the diminutive ‘Peter’. Became a Lord of Session 1843, and took his seat on the bench as Lord Robertson. Known for his warm-heartedness and wit. At the Edinburgh dinner for CD he proposed the health of Scott. "With what enthusiasm", he said, "-- with what delight and cordiality would the author of Waverley have hailed the advent of the author of the Pickwick Papers." He envisaged various meetings between characters in Scott's and CD's novels: how, e.g., Davie Gellatley (the half-witted servant in <hi rend="italic">Waverley</hi>) would ‘jump with delight to hail his brother Barnaby Rudge’ (a parallel Bulwer clearly recognized too, though with disapproval); and how at Dotheboys Hall "Dominie Sampson would have exclaimed at the arrangements of Squeers -- Pro-digious!" (<hi rend="italic">Caledonian Mercury</hi>, 26 June 1841). Robertson and CD met again in 1844.</note> 4 AUGUST 1847</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Facsimile in Koller Auctions online catalogue, September 2013</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">literary culture
+            <interp xml:id="">literary culture</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>My Dear Lord Robertson
+            <dateline>
+               <placeName>BROADSTAIRS, KENT</placeName>
+               <date when=""></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>You have read some charming works translated into English from the writings of Hans Christian Andersen? Here he is!<note>Andersen was in London at this time. See Pilgrim <hi rend="italic">Letters</hi> 5, p.13</note> – If you were anything but what you are, I would not commend a man of his genius to you. So the merit of the deed is clearly yours, and not mine.</p>
+         <closer>
+            <salute>
+Ever my Dear Friend
+Cordially Yours
+CHARLES DICKENS
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS
+			The Honorable Lord Robertson</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

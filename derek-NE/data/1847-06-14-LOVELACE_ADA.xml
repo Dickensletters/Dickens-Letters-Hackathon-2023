@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> ADA LOVELACE,<note>Augusta Ada King, née Byron, Countess of Lovelace (1815-1852; <hi rend="italic">Dictionary of National Biography</hi>); mathematician, scientist, and computer pioneer. Lovelace and CD likely met through Charles Babbage, to whom she was introduced in 1833.</note> 14 JUNE 1847</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Christie's online catalogue, July 2020.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|social engagements">friends|social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Chester Place.<note>CD and his wife Catherine rented a house at 1 Chester Place, Regent’s Park, from March to June 1847; a tenant was occupying their Devonshire Terrace home. Their eldest son Charley had come down with scarlet fever at King’s College, which necessitated their early return to London; the rest of the children followed from Paris a few days later (see <hi rend="italic">To</hi> Augustus Tracey, Pilgrim <hi rend="italic">Letters</hi> 5, pp. 32-33). The family had been in France since Nov 1846.</note></placeName>
+               <date when="1847-06-14">Fourteenth June 1847.</date>
+            </dateline>
+            <salute>My Dear Lady Lovelace.</salute>
+         </opener>
+         <p>On Thursday next at half past Seven, I hope to break the spell.<note>CD had evidently attempted to call on Lovelace previously, and had been unsuccessful, following his letter to Lovelace on 31 Mar 1847, requesting the address of a friend living in Genoa, Sir George William Craufurd; see Pilgrim <hi rend="italic">Letters</hi> 5, p. 49, and <hi rend="italic">To</hi> Ada Lovelace [?4 or 11 April 1847].</note> Many thanks for giving me another chance of doing so!</p>
+<p>The | Countess of Lovelace</p>
+         <closer>
+            <salute>  Always Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

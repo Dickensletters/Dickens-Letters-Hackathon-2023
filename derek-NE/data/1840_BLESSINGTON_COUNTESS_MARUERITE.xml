@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MARGUERITE COUNTESS OF BLESSINGTON<note>Marguerite, Countess of Blessington (1789-1849; <hi rend="italic">Dictionary of National Biography</hi>), hostess and author; née Power; born in Co. Tipperary. When 15, forced by her father into an unhappy marriage with Capt. Maurice Farmer, but left him after three months (he died 1817); lived quietly in the house of another army officer, Capt. Thomas Jenkins, 1809-1816, reading widely. On marrying the wealthy Earl of Blessington 1818, found herself cold-shouldered – as a nobody with a doubtful past – in London society, but attracted to her house in St James's Square many politicians and writers. She and Lord Blessington, now joined by Alfred, Count D'Orsay, lived in Italy 1822-8, meeting George Gordon, Lord Byron 1823. After Blessington's death in Paris, she returned to London in 1830, living first in great style, on an income of only £2000 p.a., in Seamore Place 1830-6; then, as an "economy", at Gore House 1836-49. Owing to scandalous rumours about her intimate relations with D'Orsay, and libellous taunts in the gutter-press, she was ostracized by the great London hostesses, yet conducted a brilliant salon of her own in defiance of them, always commanding "the best male society", as Bulwer noted (MS Lytton Papers). Bulwer and Walter Savage Landor were both close friends of hers; among her other frequent guests were Benjamin Disraeli, Richard Monckton Milnes, Charles Marryat, Albany Fonblanque – who may have first introduced John Forster (c. 1837); and, in 1838, Louis Napoleon. CD was introduced into her salon in 1836. To supplement her income, she had turned to authorship, publishing <hi rend="italic">Conversations with Lord Byron</hi>, 1834 (reprinted from the New Monthly, July 1832-Dec 1833); several society romans à clef; and – most successful of all – <hi rend="italic">The Idler in Italy</hi>, 3 vols, 1839-40, and <hi rend="italic">The Idler in France</hi>, 1841. Her Works were published in Philadelphia, 1838. Her charm and intelligence struck all her friends; also her kindness and generosity. Bulwer (who knew her better than anyone) was convinced that in her relations with D'Orsay there had been "no criminal connection.... – Nor indeed any love of that kind.... She was confessedly of very cold temperament, but very affectionate to friends – &amp; most true to them" (MS Lytton Papers). No doubt Bulwer's view of her relations with D'Orsay was accepted unquestioningly by CD, Forster and other friends.</note> [1840]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends">friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>The Countess of Blessington | Gore House | Kensington | With a parcel
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName></placeName>
+               <date when="">Handwriting suggests 1840.</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> T. J. OUSELEY,<note>Thomas John Ouseley (d.1874), minor poet and for a short time publisher and editor of the <hi rend="italic">Manx Punch</hi>: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 526n.</note> 26 OCTOBER 1869</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-03</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Nicholas Kneale.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="literary culture">literary culture</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD’S HILL PLACE, | HIGHAM BY ROCHESTER, KENT.
+
+</placeName>
+               <date when="1869-10-26">Tuesday Twenty Sixth October, 1869
+
+</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>I am very sensible of the Earnest terms in which you propose to dedicate your Volume to me,<note>Poems (London &amp; Isle ofMan), 1870. A lengthy dedication to CD, “whose prose is the poetry of the Heart”, compares him to Jesus and Shakespeare, and hails him as the “Novelist of the Hearth”. An inscribed copy is in the 1878 sale <hi rend="italic">Catalogue of the Library of CD</hi> (ed. Stonehouse).</note> and I hasten to assure you that I shall highly esteem that honor. The Volume of poems to which you refer, still holds its place on my book shelves.<note><hi rend="italic">A Vision of Death’s Destruction and Other Poems</hi>, 1839 (3rd edn). The 1844 Devonshire Terrace Inventory lists two copies of poems by Ouseley (Pilgrim <hi rend="italic">Letters</hi> 4, p. 713); one presumably <hi rend="italic">A Vision</hi>, the second possibly <hi rend="italic">The Porte-Feuille and Miscellaneous Poems</hi>, 1836. Neither volume appears in the <hi rend="italic">Catalogue of the Library of CD</hi>.</note></p>
+<p>T. J. Ouseley Esquire</p>
+         <closer>
+            <salute>Believe me | Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

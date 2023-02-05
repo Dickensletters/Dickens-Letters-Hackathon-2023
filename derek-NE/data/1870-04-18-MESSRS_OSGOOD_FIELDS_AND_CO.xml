@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MESSRS FIELDS, OSGOOD &amp; CO.,<note>American publishers, CD being personally friendly with James Thomas Fields (Pilgrim <hi rend="italic">Letters</hi> 8, p.589n), partner in Ticknor, Read &amp;amp; Fields of Boston, later Fields, Osgood &amp;amp; Co.</note> 18 APRIL 1870</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-06</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Heritage Auction Galleries catalogue, June 2008.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="The Mystery of Edwin Drood|publishing|copyright">The Mystery of Edwin Drood|publishing|copyright</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>5 Hyde Park Place London W.<note>On Gad’s Hill notepaper.</note></placeName>
+               <date when="1870-04-18">Monday Eighteenth April 1870</date>
+            </dateline>
+            <salute>My Dear Sirs</salute>
+         </opener>
+         <p>I am very happy to acknowledge the receipt of yours of the fourth of this month, and to assure you without the least reserve that it entirely removes from my mind every vestige of any disagreeable impression left upon it by your former communication.<note>Relating to CD’s confusion over an agreement he had made with Fields, Osgood for the publication of <hi rend="italic">Edwin Drood</hi>, rather than with Harper &amp;amp; Brothers, his previous publishers in America (see <hi rend="italic">To</hi> Messrs Harper &amp;amp; Brothers, 22 Mar 70; Pilgrim <hi rend="italic">Letters</hi> 12, pp. 494-5).</note></p>
+<p>Messrs. Fields Osgood and Co.</p>
+         <closer>
+            <salute>Believe me | Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

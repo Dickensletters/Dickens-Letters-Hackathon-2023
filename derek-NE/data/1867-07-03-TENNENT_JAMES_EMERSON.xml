@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> SIR JAMES EMERSON TENNENT,<NOTE>Sir James Emerson Tennent (1804-69; <hi rend="italic">Dictionary of National Biography</hi>); politician and author. Probably long known to CD, as early friend and fellow law-student of Forster’s, and a member of the Macready circle by 1836; contributor to <hi rend="italic">All the Year Round</hi>. <hi rend="italic">Our Mutual Friend</hi> dedicated to him</NOTE> 3 JULY 1867</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS University of Rhode Island Special Collections.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|politics">friends|politics</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD’S HILL PLACE, | HIGHAM BY ROCHESTER, KENT.</placeName>
+               <date when="1867-07-03">Wednesday Third July, 1867</date>
+            </dateline>
+            <salute>My Dear Tennent</salute>
+         </opener>
+         <p>I write this, not knowing whether you are in Ireland yet, or in London. Mrs. Stanfield<note>Rebecca Stanfield, née Adcock (1808-75), wife (married 1825) of William Clarkson Stanfield (1793-1867; <hi rend="italic">Dictionary of National Biography</hi>), marine and landscape painter, one of CD’s oldest friends. Stanfield had died in May.</note> wants to get a nomination to a clerkship in the Board of Trade, for her youngest son, Herbert.<note>Edward Herbert Stanfield, 1845-1931. Mrs Stanfield wrote to CD, asking help to obtain for Herbert a supplementary clerkship in the Treasury or, failing that, in the Board of Trade (To Disraeli, 16 June 67, n. 3).</note> I suppose that the son of the great National Painter ought to have some special chance of getting so small a recognition of his father’s greatness. Disraeli<note>Benjamin Disraeli (1804-81; <hi rend="italic">Dictionary of National Biography</hi>), politician and author; Chancellor of the Exchequer 1866-68. CD wrote to him, 16 June, and Disraeli, replying that he would “put the matter in train”, noted that “it is a duty to serve the son of Stanfield, &amp; it is a pleasure...to oblige you” (Pilgrim <hi rend="italic">Letters</hi> 11, p. 379, n. 4). See also To Fremantle, 28 June 67: Fremantle was Disraeli’s private secretary.</note> (to whom I wrote on the subject) instantly gave me a nomination to a clerkship in the National Debt Office.<note>Reduction of the National Debt Office, 19 Old Jewry; the Chancellor of the Exchequer was one of the Commissioners.</note> But I cannot benefit by it, because the young man has not studied for that examination, and has for this. (The National Debt Office appears to be the Department in which the Chancellor of the Exchequer has direct patronage.) Can you help me, out of your experience of the Board of Trade?<note>Tennent was one of the Secretaries of the Board of Trade.</note> If you cannot, will you tell me to whom you would advise me to write<note>For Tennent’s reply, see <hi rend="italic">To</hi> Mrs Stanfield, 5 July 67; see further <hi rend="italic">To</hi> Tennent, 7 July 67, and To Mrs Stanfield, 10 July 67. Herbert became a clerk in an insurance company and eventually a branch manager.</note> on behalf of the son of my late dear friend?</p>
+
+         <closer>
+            <salute>Sir James Emerson Tennent| Ever Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

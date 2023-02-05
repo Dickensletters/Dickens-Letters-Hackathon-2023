@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> DR GEORGE SHRENBURGH,<note>Unidentified.</note> 9 JANUARY 1844</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim <hi rend="italic">Letters</hi> 4, p. 17. Text from facsimile in Christie’s, New York catalogue, April 2003.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Germany|publishing">Germany|publishing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1844-01-09">Ninth January 1844</date>
+            </dateline>
+            <salute>Sir</salute>
+         </opener>
+         <p>I am exceedingly sorry to say, in reply to your note, that it is quite out of my power to give you the employment you seek. I believe my publishers facilitate the German translations<note>For translations up to 1841, see Pilgrim <hi rend="italic">Letters</hi> 2, p. 43<hi rend="italic">n</hi>.</note> of my writings, by sending early sheets to certain German Booksellers.<note>Publishers of translations included Weber and Wigand of Leipzig, Franckh and Krabbe of Stuttgart, and Vieweg of Brunswick: see Pilgrim <hi rend="italic">Letters</hi> 4 p. 17n.</note> But this is matter of arrangement between them. The books are translated in Germany; and the enterprise is not mine, or my publishers, but originated with German houses of business.</p>
+         <closer>
+            <salute>Your obedient Servant
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS| Dr. George Shrenburgh.</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

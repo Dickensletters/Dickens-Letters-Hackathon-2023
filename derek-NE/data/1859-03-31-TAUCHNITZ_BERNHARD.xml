@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> BERNHARD TAUCHNITZ,<note>Baron Bernhard Christian Tauchnitz (1816-95), publisher, of Leipzig. Born at Schleinitz; nephew of the publisher Karl Tauchnitz. Founded his own firm in Leipzig in 1837. The firm began its “Collection of British Authors” Sep 1841 with Bulwer Lytton’s <hi rend="italic">Pelham</hi>. <hi rend="italic">Pickwick Papers</hi>, <hi rend="italic">Oliver Twist</hi>, and <hi rend="italic">American Notes</hi> had appeared before the end of 1842, and Nicholas Nickleby in June 1843. He and CD became friendly, and CD sent Charley to Leipzig to learn German. According to John Forster, Tauchnitz always paid liberally. He wrote to Forster after CD’s death: “All Mr Dickens’s works have been published under agreement by me. My intercourse with him lasted nearly twenty-seven years. The first of his letters dates in October 1843, and his last at the close of March, 1870 [see To Tauchnitz, 31 March 1870]. Our long relations were not only never troubled by the least disagreement, but were the occasion of most hearty personal feeling; and I shall never lose the sense of his kind and friendly nature. On my asking him his terms for <hi rend="italic">Edwin Drood</hi>, he replied, ‘Your terms shall be mine’” (John Forster, <hi rend="italic">The Life of Charles Dickens</hi>, ed. J.W.T. Ley [London: Cecil Palmer, 1928], p. 807n).</note> 31 March 1852</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in the possession of Dietmar Böhnke.<note>Böhnke published his transcription, with brief annotation, in "The Correspondence between Charles Dickens and Bernhard Tauchnitz: General Observations and Newly Discovered Letters", <hi rend="italic">Archiv für das Studium der neueren Sprachen und Literaturen</hi> (Berlin: Erich Schmidt Verlag, 2013), pp. 317-8.</note></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Germany|publishing|Bleak House|Household Words|finances|A Child's History of England">Germany|publishing|Bleak House|Household Words|finances|A Child's History of England</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>London, Tavistock House </placeName>
+               <date when="1852-03-31">Thirty First March 1852</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I beg to acknowledge the safe receipt of your draft for £100 sterling;<note>£100 was credited to CD’s bank account on 22 March 1852, and entered in the ledger of Coutts &amp;amp; Co. as "Bill on Stern Bros" (bankers, with headquarters in Frankfurt, and London offices at 57 Gracechurch Street). £50 of this was Tauchnitz's payment to CD for permission to publish <hi rend="italic">Bleak House</hi> in his “Collection of British Authors” series. The other £50 was a payment to CD for publication of <hi rend="italic">Household Words</hi> by Tauchnitz. This is one of the few instances where a £50 payment by Tauchnitz, intended for the Household Words account with Coutts &amp;amp; Co., ended up in CD's personal bank account; for other instances see <hi rend="italic">To</hi> Tauchnitz, 8 April 1856 and 7 Oct 1856.</note> namely £50 on account of Household Words,<note>In 1851-6, Tauchnitz reprinted <hi rend="italic">Household Words</hi> in 36 volumes. These were supplemented by a further 11 volumes of <hi rend="italic">Novels and Tales Reprinted from Household Words</hi> (1856-9). Tauchnitz paid CD half-yearly sums of £50 for these publications.</note>and £50 on account of <hi rend="italic">Bleak House</hi>.<note>The first part of <hi rend="italic">Bleak House</hi> was published as vol. 230 in the “Collection of British Authors”. It was also issued in monthly parts by Tauchnitz, thus paralleling the first publication of the novel in Britain; see Böhnke, "The Correspondence", p. 317, and William B. Todd and Ann Bowden, <hi rend="italic">Tauchnitz International Editions in English 1841-1955: A Bibliographical History</hi> (New Castle, Delaware and London: Oak Knoll Press and The British Library, 1988), p. 75.</note> I also return you, herewith, the counterpart of the Agreement, signed and sealed by myself and duly attested – not by the Consul,<note>British diplomat James Colquhoun (1780-1855), chargé d’affaires for Saxony and Oldenburg, and diplomatic agent for Lubeck, Bremen and Hamburg. He became Consul-General in England representing the King of Saxony in 1827, and in 1848 was awarded the star of a Commander of the Royal Saxon Order of Civil Merit, and given the title Chevalier de Colquhoun.</note> but, I believe, in an equally legal manner.</p>
+<p>In reference to the Child’s History of England,<note>First published in 39 episodes in <hi rend="italic">Household Words</hi>, from 25 Jan 1851 to 10 Dec 1853.</note> I may mention that I do not know whether you are aware that a large portion of it has already been collected and revised by myself, and published here as Volume I of the History,<note>Vol. 1 of <hi rend="italic">A Child's History of England</hi> was published by Bradbury &amp; Evans on 20 Dec 1851, in time for the Christmas market (though the title page carries the date 1852).</note> which it is purposed finally to complete in 3 Volumes of the same size.<note>Vols. 2 and 3 of <hi rend="italic">A Child's History</hi> were published on 25 Dec 1852 and 24 Dec 1853 (though featuring 1853 and 1854 on the title pages). The duodecimo volumes featured red cloth boards, gilt titles and decoration to spine, blind stamped border and gilt pictorial decoration to front board, and marbled endpapers and edges.</note> If you would like to have this book, I will take care to give it Messrs Williams &amp;amp; Norgate on their application.<note>Edmund Sydney Williams (1817-91), of Williams &amp;amp; Norgate, 19 Henrietta St, Covent Garden and 2 Queen's Passage, Tauchnitz's London agent.</note> You are at perfect liberty to republish it on the continent in that form;<note><hi rend="italic">A Child's History of England</hi> was published by Tauchnitz in two volumes in 1853-4.</note> but if you find you can make me any additional payment for doing so, I feel sure you will. The right of republication abroad, is becoming, through many circumstances, more valuable to me every day; and while I have the highest possible sense of your honorable and faithful conduct in all past transactions, I think it only right to<note>"remark" deleted after "to".</note> remark that I am in the frequent receipt of many offers for that privilege.</p>
+<p>Receive the assurance of my sincere consideration</p>
+<p>The Chevalier B. Taüchnitz<note>Thus in MS. The "ü" occurred commonly in German script of the time, to distinguish it from "n</note>"</p>
+         <closer>
+            <salute>And believe me
+
+My Dear Sir
+
+Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

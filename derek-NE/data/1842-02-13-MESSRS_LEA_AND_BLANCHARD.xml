@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MESSRS LEA and BLANCHARD,<note>See above, 26 Oct 37.</note> 13 FEBRUARY 1842</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-24</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Profiles in History catalogue, Dec 2004. Address: Messrs. Lea and Blanchard / Philadelphia. Private</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="gifts|America|publishing|travel|copyright|finances">gifts|America|publishing|travel|copyright|finances</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Carlton House, New York.<note>CD stayed at Carlton House, 12 Feb-5 Mar.</note></placeName>
+               <date when="1842-02-13">Thirteenth February 1842.</date>
+            </dateline>
+            <salute>My Dear Sirs.</salute>
+         </opener>
+         <p>I am cordially obliged to you for your thoughtful recollection of me, and for the box of books.<note>See Pilgrim <hi rend="italic">Letters</hi> 3, p. 57n.</note> Accept my best thanks. I shall be exceedingly glad to know you and shake hands with you when I come to Philadelphia – where I shall be, I hope, (though for a very few days) in a fortnight at furthest.<note>He arrived in Philadelphia on 5 Mar and Henry C. Carey, the former senior partner, entertained him on the 8th.</note> I shall be glad to have too – of course between ourselves, some information from you on a business-point which occurs to my mind just now.<note>Presumably concerning the publication in America of his next novel.</note> The intelligence of the long faces<note>Of disapproval, presumably, at his raising – in his speeches at Boston and Hartford – the subject of international copyright.</note> had reached my ears before I received your letter. I am truly sorry for the cause of their elongation, and wish them short again with all my heart.  </p>
+         <closer>
+            <salute>Dear Sirs / Always Faithfully Yours
+            </salute>
+            <signed>
+               <persName>Messrs. Lea and Blanchard|CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

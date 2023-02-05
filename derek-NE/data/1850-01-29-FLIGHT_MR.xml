@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MR FLIGHT,<note>Probably Edward Gill Flight, solicitor, 1 Adam St, Adelphi, who had defrauded the poet and humorist Thomas Hood in 1844. The promised financial support of Flight for <hi rend="italic">Hood's Magazine</hi> had proved to be fraudulent; bills were unpaid, Hood was owed £100, and both the Feb and Mar numbers of the publication had appeared late. Frederick Oldfield Ward sought contributions on Thomas Hood's behalf from many authors: Alfred Tennyson and John Ruskin were asked and declined; however Walter Savage Landor, Bryan Waller Procter ("Barry Cornwall"), Richard Monckton Milnes, and Charles Mackay all responded favourably. Robert Browning sent poems, published in June-Aug 1844 and Mar-Apr 1845, including "Garden Fancies" and "The Tomb at St. Praxed's".</note> 29 JANUARY 1850</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim <hi rend="italic">Letters</hi> 6, p. 19.| Text from facsimile in Chaucer Covers &amp; Auctions online catalogue, Dec 2018.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="publication">publication</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1850-01-29">Twenty Ninth January 1850</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Mr Charles Dickens sends his compliments to Mr Flight, and has to inform Mr Flight in reply to his letter, that he has not the least knowledge of Mr J.H. Barron's address,<note>Thus in MS. The Pilgrim editors believed that there was an error in the original John Wilson catalogue listing from 1981, and that "Barron" was "almost certainly a misreading of "Barrow" – that is, John Henry Barrow (1796-1869), CD's maternal uncle.</note> or of any of his proceedings.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

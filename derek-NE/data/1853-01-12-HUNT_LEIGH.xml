@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> LEIGH HUNT,<note>James Henry Leigh Hunt (1784-1859; <hi rend="italic">Dictionary of National Biography</hi>), essayist, critic and poet. Founder with his brother John of the <hi rend="italic">Examiner</hi> 1808. First met CD through John Forster, to whom he afterwards wrote, "What a face is his to meet in a drawing room! It has the life and soul in it of fifty human beings!" (<hi rend="italic">Life of Charles Dickens</hi>, F, II, i, 84). Hunt was the admitted original of Harold Skimpole in <hi rend="italic">Bleak House</hi>, a parody that caused him much distress, and for which CD later apologised.</note> 12 JANUARY 1853 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-21</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim <hi rend="italic">Letters</hi> 7, p. 6.| Text from facsimile in Freeman's Auctions online catalogue, May 2020.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">friends|editing|Household Words</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1853-01-12">Twelfth January 1853</date>
+            </dateline>
+            <salute>My Dear Hunt.</salute>
+         </opener>
+         <p> Many thanks for your note. I hope I may receive it and your admirable opening up of Kensington,<note>Hunt's seven papers on Kensington appeared in <hi rend="italic">Household Words</hi>, between 6 Aug 1853 and 25 Feb 1854; they were reprinted as <hi rend="italic">The Old Court Suburb</hi>; or <hi rend="italic">Memorials of Kensington, Regal, Critical, and Anecdotal</hi> (2 vols, London: Hurst &amp; Blackett, 1855).</note> as an evidence of your being in stout heart and good spirits again.
+
+</p>
+<p>The paper, to be thoroughly effective in Household Words, should not (saving for some very special reason) be longer than about five pages, or five and a half.<note>The average length of the pieces was six pages. In a letter to CD on 22 June 1853, Hunt provided an explanation for his delay; he added, concerning length, "I have taken my licence, still subject however to your judgment" (MS Johns Hopkins University).</note></p>
+<p>Leigh Hunt Esquire.</p>
+         <closer>
+            <salute> Faithfully Yours always
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> EDMUND HENDERSON,<note>Edmund Yeamans Walcott Henderson (1821-96; <hi rend="italic">Oxford Dictionary of National Biography</hi>), Chief Commissioner of Metropolitan Police 1869-86; Lieut-Col., Royal Engineers, 1862; Surveyor-General of Prisons, 1863; knighted 1878. His second wife was the daughter of the Rev. Joseph Hindle, Vicar of Higham (see Pilgrim <hi rend="italic">Letters</hi> 8, p. 53n).</note> 9 FEBRUARY 1869 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim <hi rend="italic">Letters</hi> 12, p. 300. | MS William Ryan </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="police|friends">police|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND</placeName>
+               <date when="1869-02-09">Tuesday Ninth February 1869 </date>
+            </dateline>
+            <salute>Dear Colonel Henderson. </salute>
+         </opener>
+         <p>I feel that I am going to write you a preposterous note, and I have not the slightest doubt that you will be of my mind when you read it. </p>
+<p>But I can not get it out of the head of an old schoolfellow of mine<note>Thomas Mitton; see below. CD’s use of the term 'schoolfellow' gives credence to Forster’s remark that CD and Mitton first met at 'a school kept by Mr. Dawson in Hunter-street, Brunswick-square' (<hi rend="italic">Life of Charles Dickens</hi>, ed. J.W. T. Ley, p. 46).</note> who has prospered in the world moderately though not brilliantly, that in the reorganization of Scotland Yard<note>Soon after his appointment, Henderson increased the number of Metropolitan Police detectives from 15 to 260 and instituted a Criminal Investigation Dept.</note> there may be clerkly or secretarial employment for one who knows London and its ways well – who has a solid acquaintance with common law – and who is a solicitor of thirty years standing, with high credentials as an acute practical man to be thoroughly trusted. I find it equally hopeless to get it into the head of this same old schoolfellow that even if you wanted such a person for the Service, the odds are fifty thousand to one that your experience would have found him long ago.<note>Henderson did not appoint Mitton so did not appoint Mitton's solicitor at the Brentford police court, who at the time was working as a solicitor at the Brentford Police Court; see W. J. Carlton, 'The Strange Story of Thomas Mitton', <hi rend="italic">To Dickensian</hi> 56 (1960): 151.</note> </p>
+<p>The entreaty to recommend and to certify is so pressing upon me “for the sake of old times”, that I cannot resist doing both. Of course I am able to do both, or the entreaty would count as nothing with me. It goes heavily to my conscience that I trouble you with the gentleman’s suit and name – Mr Mitton<note>Thomas Mitton (1812-78), solicitor, one of CD's earliest close friends. Son of Thomas Mitton, publican, of Battle Bridge (the district now known as King's Cross), where the Mitton and Dickens families may at some time have been neighbours -- perhaps in The Polygon where the Dickenses were living 1827-8. Mitton and CD were clerks together for a short time during 1828-9 in Charles Molloy's office, 8 New Square, Lincoln's Inn, where Mitton served his articles. He was CD’s solicitor until 1856.</note> – but in all other respects (in this association) my conscience is bright and clear. </p>
+<p>       “                       “                       “6<note>The MS shows ditto marks below Henderson’s name; this is a shorthand to indicate his address as it would appear on the envelope.</note>
+</p>
+         <closer>
+            <salute>Believe me| Very faithfully Yours | Col: Henderson
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

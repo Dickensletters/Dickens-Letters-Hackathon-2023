@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> HENRY WHITWORTH JONES,<note>Henry Whitworth Jones (1817-91), operatic and concert bass-baritone, under the name Henry Whitworth. Sang in Italy and Brazil, as well as Italy, until his retirement as a professional, 1855; continued as an amateur, often for charitable purposes. Member of the Garrick Club, 1848. Sang at Macready’s benefit, July 48, in the arrangements of which CD had been involved: see Pilgrim Letters 5, pp. 353 &amp; n, 363 &amp; n</note> 22 JUNE 1855</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-21</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Private.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="public recognition|celebrity|social issues|clubs">public recognition|celebrity|social issues|clubs</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+		<addrLine>Henry Whitworth Esquire | 16 Adelaide Road North | St. John’s Wood.
+		</addrLine>
+	</address>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1855-06-22">Friday Evening, |twenty Second June 1855</date>
+            </dateline>
+            <salute>My Dear Mr. Whitworth.</salute>
+         </opener>
+         <p>I have been really delighted by your earnest letter.<note>Possibly in connection with CD’s forthcoming appearance at the Administrative Reform Association meeting, 27 June: advertised in <hi rend="italic">The Times</hi>, 22 June (Pilgrim <hi rend="italic">Letters</hi> 8, p. 652). Jones’s cousin, Sir Charles Russell, was fighting in the Crimea.</note> Anything so manly and genuine is of inestimable value to me. Pray let me thank you most cordially.</p>
+<p>Henry Whitworth Esquire</p>
+         <closer>
+            <salute>Believe me always | Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

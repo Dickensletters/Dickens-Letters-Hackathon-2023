@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> BERNHARD TAUCHNITZ,<note>Baron Bernhard Christian Tauchnitz (1816-95), publisher, of Leipzig. Born at Schleinitz; nephew of the publisher Karl Tauchnitz. Founded his own firm in Leipzig in 1837. The firm began its “Collection of British Authors” Sep 1841 with Bulwer Lytton’s <hi rend="italic">Pelham. Pickwick Papers, Oliver Twist, and American Notes</hi> had appeared before the end of 1842, and Nicholas Nickleby in June 1843. He and CD became friendly, and CD sent Charley to Leipzig to learn German. According to John Forster, Tauchnitz always paid liberally. He wrote to Forster after CD’s death: “All Mr Dickens’s works have been published under agreement by me. My intercourse with him lasted nearly twenty-seven years. The first of his letters dates in October 1843, and his last at the close of March, 1870 [see <hi rend="italic">To</hi> Tauchnitz, 31 March 1870]. Our long relations were not only never troubled by the least disagreement, but were the occasion of most hearty personal feeling; and I shall never lose the sense of his kind and friendly nature. On my asking him his terms for Edwin Drood, he replied, ‘Your terms shall be mine’” (John Forster, The Life of Charles Dickens, ed. J.W.T. Ley, p. 807n).</note> 17 OCTOBER 1860</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim Letters 9, p. 340.| Text from facsimile in the possession of Dietmar Böhnke.<note>Böhnke published his transcription of this letter, with some annotation, in 'The Correspondence between Charles Dickens and Bernhard Tauchnitz: General Observations and Newly Discovered Letters', <hi rend="italic">Archiv für das Studium der neueren Sprachen und Literaturen</hi> (Berlin: Erich Schmidt Verlag, 2013), pp. 327-8.</note> </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Germany|publishing|The Uncommercial Traveller|All the Year Round|A Tale of Two Cities|Great Expectations|domestic issues|family|railway">Germany|publishing|The Uncommercial Traveller|All the Year Round|A Tale of Two Cities|Great Expectations|domestic issues|family|railway</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD'S HILL PLACE,
+
+HIGHAM BY ROCHESTER, KENT.</placeName>
+               <date when="1860-10-17">Wednesday Seventeenth October 1860</date>
+            </dateline>
+            <salute>My Dear Mr Tauchnitz </salute>
+         </opener>
+         <p>I am very glad to receive your letter this morning, as I was just going to write to you. </p>
+<p>The Uncommercial Traveller is finished for the present, but I may very probably write another series under the same title, bye and bye.<note>The first series of Uncommercial Traveller sketches ran from 28 Jan 1860 to 13 October 1860. The second series began on 2 May 1863.</note> I bring it to a close now, because I am about to produce in "All the Year Round", a new serial story of my own writing, which will be continued every week for Nine Months.<note>The novel in fact ran for eight months.</note> It will be rather longer than "A Tale of Two Cities". Its title will be: "Great Expectations.”<note><hi rend="italic">Great Expectations</hi> ran in <hi rend="italic">All the Year Round</hi> from 1 December 1860 to 3 August 1861, in 35 weekly parts. <hi rend="italic">A Tale of Two Cities</hi> ran to 31 parts.</note> </p>
+<p>I shall be happy to concede to you, as usual, the right of republishing "Great Expectations", and will take care that you have the last sheets in due time.<note>Tauchnitz published Great Expectations as volumes 547 and 548 of his Collection of British Authors series, in 1861.</note>   I am also happy to reply to your question concerning "The Uncommercial Traveller", that it is at your service, on any terms you think right.</p>
+<p>I have omitted to mention that the first No. of "Great Expectations" will be published on the 1st of December.<note>In All the Year Round 4: 169-74.</note> </p>
+<p>Having a pretty house and grounds here, to which I am much attached, I have sold my home in London.<note>CD sold Tavistock House on 21 August 1860.</note> But on my daughter's account, I purpose always having a house in London in what we call "The Season" – that is to say from February<note>'January' deleted.</note> to June.<note>CD rented 3 Hanover Terrace, Regent's Park, from 14 February to 15 June, 1861.</note> When you next come over to England, I hope you will ensure me the opportunity of seeing you. Even this place is within an hour and a half's railway ride of <hi rend="italic">All the Year Round</hi>” office.<note><hi rend="italic">The All the Year Round</hi> office was located at 26 Wellington Street, Strand.</note></p>
+<p> Charles is now in India, and has been in China and Japan. He will probably return home, early in next year.12 My daughter<note>Mamie Dickens (1838-96).</note> (I use the singular number, now my second daughter is married),<note>Katey Dickens married Charles Allston Collins on 17 July 1860.</note> begs me to say that it would give her the greatest pleasure to receive Mrs Tauchnitz and any of your family. She and her aunt<note>Georgina Hogarth (1827-1917), CD’s sister-in-law.</note> send their kindest regard. 
+
+</p>
+<p>Believe me my Dear Mr Tauchnitz</p>
+         <closer>
+            <salute>Always Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

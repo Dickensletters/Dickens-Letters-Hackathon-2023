@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> EDWARD CRAVEN HAWTREY,<note>Edward Craven Hawtrey (1789-1862; <hi rend="italic">Dictionary of National Biography</hi>), Headmaster of Eton 1834-53. Educated at Eton and King's College, Cambridge (Fellow 1810-35). DD 1834. Assistant master at Eton 1814-34; Provost 1853-62. As Headmaster nearly doubled the school's numbers. Edited Goethe's lyrical poems 1833-4; published a translation of Homer into English hexameters 1843, and other translations of Greek, Italian and German verse. An easy-going bachelor, he had "an odd weakness for fine clothes, perfumes, and gold chains; one of the school beliefs was that 'Hawtrey stood up in £700' " (Arthur Duke Coleridge, <hi rend="italic">Eton in the Forties</hi> [London: R. Bentley &amp; Sons, 1896], p. 294). On one occasion he ordered a boy caught reading <hi rend="italic">Bleak House</hi> in class to translate Jo's evidence (Ch. 11) into Greek comic iambics (Francis St. John Thackeray, <hi rend="italic">Memoir of E. C. Hawtrey</hi> [London: George Bell &amp;amp; Sons,1896] p. 155n). CD's son Charley (1837-96) attended Eton from January 1850 to December 1852.</note> 1 JULY 1852</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Tavistock House</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements|social issues">social engagements|social issues</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1852-07-01">First July 1852</date>
+            </dateline>
+            <salute>My Dear Dr Hawtrey.</salute>
+         </opener>
+         <p> I am most singularly unfortunate with you. On Saturday, I have a semi-public engagement which is associated with a very important design;<note>On Saturday 3 July CD had dinner with the architect Coutts Stone (1819-1902); see <hi rend="italic">To</hi> Angela Burdett Coutts, 30 June 1852, in Pilgrim <hi rend="italic">Letters</hi> 6, p. 702. Stone was working with CD's brother-in-law Henry Austin on the plans for Miss Coutts's project for improved sanitation in 150 tenement houses in Westminster; see To Angela Burdett Coutts, 3 Dec 1852, in Pilgrim <hi rend="italic">Letters</hi> 6, pp. 812-14.</note>  and for Tuesday, I have been engaged this fortnight!<note>CD was in Folkestone on Tuesday 6 July.</note> Nevertheless, I shall still hope that when the Fates have had enough of keeping us asunder, we shall meet.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

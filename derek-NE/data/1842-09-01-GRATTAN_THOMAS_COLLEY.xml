@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THOMAS COLLEY GRATTAN,<note>Thomas Colley Grattan (1792-1864; <hi rend="italic">Dictionary of National Biography</hi>), British Consul in Boston 1839-46. Travel-writer and historical novelist; best known for his Highways and Byways (3 series, 1823-7; dedicated to Washington Irving), describing his travels in France. Lived mainly in Brussels 1828-39, contributing frequent articles on European affairs to British and foreign journals. Contributed two articles to the <hi rend="italic">North American Review</hi>: "Ireland" in July 40 (51.187), and "The Irish in America", Jan 41 (52.191). Assisted on the negotiation of the Webster-Ashburton Treaty, which established the north-eastern boundary of the United States in 1842. He was one of CD's escorts in Boston: on 24 Jan 1842 took him to the State Capitol, and on 3 Feb to Lowell. Grattan spoke at the Boston Dinner to CD on 1 Feb.</note> 1 SEPTEMBER 1842</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Peter Harrington online catalogue, May 2020.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="copyright|finances|America|publishing">copyright|finances|America|publishing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>: T.C. Grattan Esquire | British Consul | Boston | United States.
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName>Devonshire Terrace, York Gate|Regents Park, London</placeName>
+               <date when="1842-09-01">First September 1842.</date>
+            </dateline>
+            <salute>My Dear Grattan.</salute>
+         </opener>
+         <p>            As I had a kind note from you before leaving America<note>CD left the United States on 7 June 1842, aboard the <hi rend="italic">George Washington</hi>.</note> (which is still unanswered) let me report that we are all well and happy, as I shall hope to hear you are – that everybody is cursing the Income Tax,<note>Income Tax had been introduced in 1842, imposed at the rate of 7d. in the pound on annual incomes above £150 (Stephen Dowell, <hi rend="italic">A History of Taxation and Taxes in England</hi>, vol. 2 [London: Longmans Green &amp;amp; Co., 1888], pp. 225, 263 &amp; 325). The 1842 legislation was officially the "Act for granting to Her Majesty Duties on Profits arising from Property, Professions, Trades and Offices"; the tax was usually referred to as "income and property tax": it was not called "income tax" until 1892, when the 1842 legislation was retrospectively renamed as the "Income Tax Act". On CD's payment of income tax see also To George Dolby, 3 Aug 1868.</note> except the men to whom it gives places<note>I.e. the people who benefit from it. The 1842 Budget and its introduction of Income Tax received little criticism from the Liberals (led by Lord John Russell) when first presented on 12 Mar 1842; however, in light of the strength of public feeling in the days that followed, they adopted a more critical position less than a week later. The public outcry centred on the tax's being applied to all income regardless of source (i.e. whether from property, or industrial or professional income), and at the same rate for anyone earning above £150 per year.</note> – and that there is nothing else new, in this Hemisphere.</p>
+<p>You will have seen that I have followed up the International copyright question<note>CD had agitated for international protection of literary property in his speech at the Boston Dinner on 1 Feb. A week later, he repeated the same sentiments in stronger words at a second dinner in Hartford, Connecticut. These comments were badly received in America, particularly as they were first given at events held in CD’s honour, and the US newspapers viewed CD as ungrateful for his enthusiastic reception. He mentioned international copyright at almost every speech during his time in the US, and was later accused of having made the trip solely for that purpose. CD had written a circular to British authors and journals in early July criticising the “existing system of piracy and plunder” (Pilgrim <hi rend="italic">Letters</hi> 3, p. 258), which was being reprinted in the newspapers on both sides of the Atlantic before the forged letter appeared. For "Documents Concerning International Copyright" see <hi rend="italic">Pilgrim Letters</hi> 3, pp. 621-4.</note> – and that they have forged a letter under my hand in the American Papers<note>A letter CD had supposedly written to <hi rend="italic">The Morning Chronicle</hi> describing the "dark spots of American character". First printed in the Evening Tattler on 1 Aug 1842, and widely reprinted (see Martin T. Buinicki, "'Boz's Opinions of Us": Whitman, Dickens, and the Forged Letters", <hi rend="italic">Walt Whitman Quarterly Review</hi> 21.1 (2003): pp. 35-38). The forged letter was far more critical of the American people than the real document CD had written in July. For the text of the "Forged Letter", see Pilgrim <hi rend="italic">Letters</hi> 3, pp. 625-7.</note> – which does not surprise me in the least. Nothing but honesty or common sense would startle me, from such a quarter.</p>
+<p>f you should foregather, any of these odd days, with Braham,<note>John Braham (1777?-1856, <hi rend="italic">Dictionary of National Biography</hi>), a celebrated English tenor. In 1835, he opened the St James's Theatre, at which CD’s opera <hi rend="italic">The Village Coquettes</hi> was performed (with music by J. P. Hullah) from 6 Dec 1836 to 17 May 1837. He took on the main role himself, but the opera performed poorly. After a string of financial difficulties that prevented him from retiring, Braham toured America (1 Oct 1840 to 25 Jan 1843).</note> commend Me to him heartily, and pray do the like (with all manner of remembrances from Mrs Dickens) to Mrs Grattan<note>Eliza Sarah Grattan, née O'Donnell (1786-1870).</note> – and to your sons<note>Edmund Arnout Grattan (1818-90); Henry Colley Grattan (1819-81); Albert O'Donnell Grattan (1821-98); William Calle</note> and daughter.<note>Emma Jane Grattan (1826-82).</note>
+
+</p>
+<p> The older Longman is dead.<note>Thomas Norton Longman (1771-1842), of Paternoster Row, head of the family publishing firm. When he died accidentally after falling from his horse, he left a fortune of £200,000, which greatly enhanced the firm's capital and standing in the industry. CD was on friendly terms with both Thomas Longman (1804-79; Dictionary of National Biography), partner since 1832 and head of the firm from 1842, and William Longman (1813-77; Dictionary of National Biography), partner since 1839.</note> – He fell from his horse, and never recovered. I have not heard to whom he has bequeathed his valuable collection of authors' Skulls.<note>An allusion to the saying, first attributed to the poet and satirist John Wolcot (d. 1819; Dictionary of National Biography, better known under his pen-name "Peter Pindar"), that publishers drank champagne out of the skulls of authors who had starved to death. In the early nineteenth century, Longman bought out several businesses and acquired the copyright for several valuable works including Lindley Murray's <hi rend="italic">English Grammar</hi>. Longman also published works by Walter Scott, Robert Southey, Samuel Taylor Coleridge, and William Wordsworth. In contrast to CD’s comment, the company was known for its liberality, buying out the firm of Joseph Cottle and acquiring the copyright of the Lyrical Ballads of Wordsworth and Coleridge, but making a present of the copyright back to Cottle (who returned it to Wordsworth). When Scott's <hi rend="italic">The Lay of the Last Minstrel</hi> became a success, the company presented him with an additional £100, despite having already paid £500 for the copyright</note></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

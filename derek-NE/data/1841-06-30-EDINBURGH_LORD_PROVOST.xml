@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THE LORD PROVOST OF EDINBURGH,<note>Sir James Forrest, Bart (1780-1860), advocate; Lord Provost of Edinburgh since 1838. A ruling elder of the established Church of Scotland until 1843, when he joined the Free Church. Grand Master of the Freemasons in Scotland.</note> 30 JUNE 1841</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-04</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS facsimile on eBay, January 2012.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="public recognition">public recognition</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Royal Hotel | Edinburgh. | </placeName>
+               <date when="1841-06-30"> June The Thirtieth 1841.</date>
+            </dateline>
+            <salute>My Lord Provost.</salute>
+         </opener>
+         <p>I beg to thank you, and the Magistrates and Council of Edinburgh, for the distinguished honor you have done me – and through me, the pursuit to which I am devoted – in conferring upon me the freedom of this City.<note>For CD’s account of this honour and the subsequent dinner, see <hi rend="italic">To</hi> Forster, [30 July 1841], Pilgrim <hi rend="italic">Letters</hi> 2, pp. 313-15 &amp; nn</note> Believe me, My Lord, that I am deeply sensible of this high token, and that I shall ever regard the title of citizen, so generously and handsomely bestowed, with a pride and pleasure much too deep for words. I have the honor to be, My Lord,</p>
+<p>The Lord Provost.</p>
+         <closer>
+            <salute>Your faithful and obliged servant
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

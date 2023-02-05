@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JOSEPH KING,<note>Joseph Charles King (?1794-1854), schoolmaster, took a small number of pupils, both boarders and day-boys, at his house at 9 Northwick Terrace, Maida Hill; he was an intimate friend of CD's friend William Charles Macready, at whose home CD had met him by 17 Nov 1840. King's teaching staff consisted of his three daughters, and a mathematical assistant. King was a fine scholar and collector of pictures and books (his library sold by Sotheby's, 13 Nov 1854), he "had methods of teaching far in advance of his time", introducing his boys directly to Homer and Virgil without rote learning of grammar, and no "academic mustiness" (Edith Sichel, <hi rend="italic">The Life and Letters of Alfred Ainger</hi> [London: Constable & Co., 1906], pp. 11-12); confirmed by Frederic Harrison, <hi rend="italic">Autobiographic</hi> Memoirs (2 vols., London: Macmillan & Co., 1911), vol. 1, 28ff, who thought him "the ideal schoolmaster"). Ainger says that King's eldest daughter Louisa (later Mrs Menzies) assisted him in teaching Greek – probably the sole resemblance to the establishment of Dr Blimber's in Dombey and Son; Louisa's serving as inspiration for the character of Cornelia Blimber is noted both by John Forster, <hi rend="italic">Life of Charles Dickens</hi> (London: Cecil Palmer, 1928), p. 485, and by Charley Dickens in his Introduction to <hi rend="italic">Dombey and Son</hi> (London: Macmillan & Co., 1892), p. xix.</note> 31 MARCH 1847 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from extract (aa) in Pilgrim <hi rend="italic">Letters</hi> 5, p. 48 and facsimile of final two pages (bb) of three-page letter, in Blackburn Public Library. Date and address from catalogue description accompanying facsimile. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family|education">family|education</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>1 Chester Place|Regent's Park</placeName>
+               <date when="1847-03-31"></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p> aI removed Charley, as you are aware, to King's College, in compliance with Miss Coutts's wish. She is very much attached to him.a . . . bWhen I told Miss Coutts of my intention<note>To return Charley to him, postponing entry to King's College School, because of his health; see <hi rend="italic">To</hi> Angela Burdett Coutts, 2 Apr 1847, in Pilgrim <hi rend="italic">Letters</hi> 5, p. 50. CD thought so well of King's teaching that Charley remained under the schoolmaster's tutelage in the period 1847-9; Walter Dickens followed, in 1849-51; the two sons were well prepared for Eton and Addiscombe, respectively.</note> the other day, she proposed his going to a certain establishment in Surrey; but I mentioned to her how much grateful confidence I had in you – how interested you were in Charley – how Charley always bore you in his most affectionate remembrance – and how I thought he could not be so happy or so well placed anywhere as under your care. She readily yielded to my opinion; and the result of our deliberation was, that I would ask you to take back Charley when his health should be quite restored,<note>Charley was suffering from scarlet fever.</note> and to give us the benefit of your counsel as time goes on, as to the expediency of sending him to a Public School in the end;<note>Miss Coutts bore the cost of Charley's attending Eton. See Pilgrim <hi rend="italic">Letters</hi> 6, pp. 501-2.</note> also as to the pursuit for which he seems the best adapted, and to which he seems the most to incline.  If we can, in the course of his mental and physical developement,<note>Thus in MS.</note> fifind this out, Miss Coutts is very anxious to look about her, and prepare his way.</p>
+<p>I write to you in entire confidence and without the least reserve. Such a friend as this lady, is most important to the child of course; and I should hardly feel justified in placing him under your charge, without telling you his exact position</p>
+<p>  I think it will be better after a time – if you think so too – that he should be a weekly boarder at your house. But we will talk this over, before he comes. All I am anxious to do now, is to express my hope that you will like to have him, and to say that I am very sure he cannot have a better friend and tutor.</p>
+<p>Joseph.<note>Thus in MS.</note> C. King Esquireb</p>
+
+         <closer>
+            <salute> My dear Sir|                  Faithfully yours always
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

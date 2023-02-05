@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> FREDERIC BRINE,<note>Frederic Brine (1829-90), Captain in the Royal Engineers. Served in the Crimean War, including the siege and fall of Sevastopol; attained the rank of Major-General before retiring in 1884.</note> 20 AUGUST 1858</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Jarndyce online catalogue, Oct 2020. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="public readings|travel">public readings|travel</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Adelphi Hotel, Liverpool<note>CD was in Liverpool from 18-21 Aug, before crossing the Irish Sea for engagements in Dublin, Belfast, Cork and Limerick. On the evening of 20 Aug he read, at Liverpool's Philharmonic Hall, <hi rend="italic">The Poor Traveller</hi>, <hi rend="italic">Boots at the Holly Tree Inn</hi> and <hi rend="italic">Mrs Gamp</hi>. It proved a particular high spot in the tour, with Dickens remarking to his sub-editor W.H. Wills the following morning, 'Last night, we had the greatest house, both in numbers and money, we have ever had: London included' (Pilgrim <hi rend="italic">Letters</hi> 8, p. 630).</note></placeName>
+               <date when="1858-08-20">Friday Twentieth August | 1858</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p> I am very truly obliged to you for your kind and hospitable letter. Unfortunately, the fatigues of my hurried tour are so great and its work so hard,<note>CD delivered four readings in Liverpool, on 18, 19, 20 and 21 Aug; his first reading tour outside London extended from 2 Aug to 13 Nov 1858.</note> that I find all social pleasures to be incompatible with them, and am forced to forego all engagements and invitations. But I beg to assure you that I am not the less sensible of your cordial remembrance, and that I heartily thank you for it.</p>
+<p>Captain Brine</p>
+         <closer>
+            <salute>Dear Sir| Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

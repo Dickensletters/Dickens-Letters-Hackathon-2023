@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JAMES SHERIDAN MUSPRATT,<note>James Sheridan Muspratt (1821-71; <hi rend="italic">Dictionary of National Biography</hi>), industrial chemist. On 8 July he had been elected Secretary of the Liverpool committee organising the benefit performances on 28 July, for CD's friend Leigh Hunt (1784-1859; <hi rend="italic">Dictionary of National Biography</hi>), the poet, essayist and editor of literary journals, who perennially fell into financial difficulties.</note> 22 JULY [1847] </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Nathan Raab</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|theatre|charity">friends|theatre|charity</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName> London </placeName>
+               <date when="1847-07-22">Thursday Twenty Second July</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p> Will you have the goodness, by return of post, to send a proof of the last complete bill,<note>The 4-page broadsheet, giving details of the performances, is reproduced in Pilgrim <hi rend="italic">Letters</hi> 5, pp. 694-7</note> addressed "Mark Lemon<note>Mark Lemon (1809-1870; <hi rend="italic">Dictionary of National Biography</hi>), playwright and editor of <hi rend="italic">Punch</hi> 1841-70.</note> Esquire, Punch office, Fleet Street, London"? We wish to print it with the address.<note>The address was written by Edward Bulwer Lytton (1803-73; <hi rend="italic">Dictionary of National Biography</hi>), and delivered by John Forster (1812-76; <hi rend="italic">Dictionary of National Biography</hi>)</note></p>
+         <closer>
+            <salute>                                                            Faithfully Yours|<note>The MS shows ditto marks below Muspratt’s name; this is a shorthand to indicate his address as it would appear on the envelope.</note>            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> WILLIAM KELLY,<note>Possibly Thomas W. Kelly, London schoolmaster; contributed “Animal Mechanics” to <hi rend="italic">Household Words</hi> (10 July 52); author of <hi rend="italic">Rosemary Leaves</hi>, 1854, and other collections of verse: see Pilgrim Letters 10, p. 363.</note> 3 OCTOBER 1858</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-17</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Jarndyce Dickens catalogue CXLV.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">public readings|travel|editing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Royal Hotel, Aberdeen<note>On Monday morning, in John Marr’s Music Saloon, CD read the Carol and in the afternoon he read <hi rend="italic">Little Dombey</hi>: for his Autumn 1858 Reading tour see Pilgrim <hi rend="italic">Letters</hi> 8, <hi rend="italic">passim</hi> and Appx H.</note></placeName>
+               <date when="1858-10-03">Sunday Night | Third October 1858.</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>I have received your very welcome note,<note>No doubt forwarded from the office by Wills.</note> and I beg very cordially to thank you. But unfortunately I have not received the newspaper to which your note refers. Could you have the kindness to send me a copy of the Sonnet<note>Not traced.</note> I am naturally anxious to read – either to Glasgow (care of Mr Muir Wood,<note>John Muir Wood, of J. M. Wood &amp;amp Co., pianoforte and music sellers, 42 Buchanan Street, Glasgow; CD’s agents for his readings in Glasgow.</note> Buchanan Street), between this and Saturday; or to my house (Tavistock House) in London, afterwards?</p>
+         <closer>
+            <salute>Yours faithfully and obliged
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS, William Kelly Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

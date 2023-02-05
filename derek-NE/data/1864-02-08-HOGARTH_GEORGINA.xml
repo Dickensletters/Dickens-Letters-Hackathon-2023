@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> GEORGINA HOGARTH, 8 FEBRUARY 1864</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-18</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS State University of Buffalo, New York.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family|domestic issues">family|domestic issues</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND,</placeName>
+               <date when="1864-02-08">Monday Night Eighth February 1864</date>
+            </dateline>
+            <salute>My Dearest Georgy</salute>
+         </opener>
+         <p>Charles Collins<note>Charles Alston Collins (1823-73; <hi rend="italic">Dictionary of National Biography</hi>), painter; Wilkie Collins’s younger brother: see Pilgrim <hi rend="italic">Letters</hi> 6, p. 378n. He had married Kate Dickens, 17 July 60.</note> has been here to day, and says that Katie very much wishes to know when Mary and you are coming to town. I said I would tell you so by tonights<note>No apostrophe in MS.
+</note> post, and that no doubt one of you would write to her [ ]<note>Illegible word crossed out.
+</note> at once. I could not tell him explicitly, not knowing. Our right address is 57 Gloucester Place,<note>Now named Gloucester Terrace. Rented by CD from George Beeston, from 10 Feb until June, to allow Georgina and Mamie to enjoy the Season and, he claimed, as a base while he wrote and prepared publication of <hi rend="italic">Our Mutual Friend</hi></note> Hyde Park Gardens. Charley has also been here today.</p>
+<p>I think you had best have Marsh<note>James Marsh, CD’s groom.</note> in, and tell him – reading from this note – what I think about having him in town. He had better come up from next<note>Written above caret.</note> Saturday to Monday or so (getting Blackman<note>Presumably an under-groom or stable-hand; not otherwise identified.</note> to look to the horses in the mean time), to assist at the new house in getting it to rights at once. Then he shall enquire about a Standing<note>I.e. stable-accommodation.</note> for Toby, and a coach-house, near us in London.<note>Written above caret.</note> These being found, I think I will have Marsh in town, with Toby and the Brougham.<note>A one-horse closed carriage, with two or four wheels, for two or four people: pronounced “broom”. Named after Lord Brougham, who asked for a small neat carriage: produced from the later 1830s: see Marylian Watney, <hi rend="italic">The Elegant Carriage</hi>, 1961, p. 65 &amp; plate XXXVII.</note> As it will of course be more expensive to Marsh to live by himself and to have his wife and children at the cottage, than to live as at present I propose to take five shillings a week off his present wages while we are in town, and to board and lodge him in our house. Also, about once a fortnight he shall have a third class return ticket to go home on a Saturday and come back on a Monday. I wish him to consult with Barber<note>Charles Barber, head-gardener at Gad’s Hill</note> about getting some horse in for an hour occasionally, say from Youens,<note>Thomas Youens, farmer of Higham</note>to draw up what supply of water<note>For the problems of the Gad’s Hill water supply and digging of a well, see Pilgrim <hi rend="italic">Letters</hi> 8. Water was originally pumped from the well by hand (Pilgrim <hi rend="italic">Letters</hi> 8, p. 541), subsequently, as confirmed here, by horse-power: Noggs (below) was a pony; humanely put down in 1869 (Pilgrim <hi rend="italic">Letters</hi> 12, pp. 30, 304).</note> Barber wants, and to place Noggs comfortably in Youens’s straw yard. Perhaps Noggs himself could be brought round to the well, when required. It would be a good opportunity for freshening Noggs up, and when Toby comes back to Gad’s, he shall have a rest. I should like you to have Barber and Marsh in, both together, and let them try to arrange the well-point in the best manner for us all. Tell Barber that I will come down soon, to see him and the house. And ask Mrs Barber if she will take it upon herself to give my pheasant a slice of bread every morning at half past 9.</p>
+
+<p>The tradespeople at Gloucester Place, Mary and you will see to yourselves. Wines and spirits I will arrange about, so that they shall be in the house when we take possession. Nothing else to be arranged occurs to me at present.</p>
+         <closer>
+            <salute>In haste | Ever affecy 
+            </salute>
+            <signed>
+               <persName>CD</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To ANDREW S. DALGLISH,<note>Andrew Stephenson Dalglish, of Robert Dalglish, Falconer &amp;amp; Co., calico printers, North Court, Royal Exchange, Glasgow. He was Chairman of the Glasgow Committee for the Amateur Company’s performances on behalf of the Curatorship of Shakespeare’s House: see <hi rend="italic">To</hi> Dalglish, 12 June 48 (twice) (Pilgrim <hi rend="italic">Letters</hi>, pp. 332-3 &amp; nn).</note>[24 JULY 1848]<note>The Amateur Company had performed in Glasgow, 18 and 20 July (Pilgrim <hi rend="italic">Letters</hi>, p. 340 &amp;amp; nn).</note></title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>acsimile (envelope only) on eBay, November 2012.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Shakespeare">Shakespeare</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	    <addrLine>[A].<note>The initial is covered by a twopenny stamp.</note> S. Dalglish Esquire | Glasgow. PM (back) JY 24 1848 &amp; JY 25 1848.
+	    </addrLine>
+	</address>
+            <dateline>
+               <placeName></placeName>
+               <date when=""></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

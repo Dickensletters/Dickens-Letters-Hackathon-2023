@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MISS MARION ELY,<note>Marion Elizabeth Ely (1820-1913), daughter of Charles Ely and Sara, <hi rend="italic">née</hi> Rutt; niece of Rachel Talfourd (1792-1875), wife of CD's friend Thomas Noon Talfourd (1795-1854).</note> 19 JANUARY 1859</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-17</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Lyon &amp; Turnbull online catalogue, Oct 2019.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|social engagements">friends|social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>TAVISTOCK HOUSE
+
+TAVISTOCK SQUARE, LONDON W.C.</placeName>
+               <date when="">Wednesday Nineteenth January 1859</date>
+            </dateline>
+            <salute>My Dear Marion<note>In this, the first currently known letter to Marion since Feb 1855, CD shifts from “My Dear Miss Ely” to “My Dear Marion”. The tone of the letter suggests a long break in their correspondence.</note></salute>
+         </opener>
+         <p> I assure you with utmost truthfulness and heartiness, that the love of our old times is strong within me, and that I never see your handwriting – far less, yourself – without a genuine interest and affection. I would have gladly come tonight if it had been possible; but (as the girls<note>CD's daughters Mamie (1838-96) and Katey (1839-1929).</note> will tell you), I am doubly engaged, and have been so, a long long while.
+
+</p>
+<p>In the hope that we may make up a cheerful dinner here before long, and improvise a skirmishing dance after it, I send my love to Mary,<note>Mary Talfourd (1829-1901), daughter of Thomas and Rachel Talfourd; married since 1856 to William Wreford Major.</note> and am ever</p>
+<p>Miss Ely.</p>
+         <closer>
+            <salute>   Your faithful
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

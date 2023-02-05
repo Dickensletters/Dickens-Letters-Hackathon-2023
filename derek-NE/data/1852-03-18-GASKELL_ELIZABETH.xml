@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> ELIZABETH GASKELL,<note>Elizabeth Cleghorn Gaskell, née Stevenson (1810-65; Dictionary of National Biography), novelist and biographer. Her first novel, Mary Barton (1848), led CD to invite her to write for Household Words: “Lizzie Leigh” was the opening contribution in No.1. See Pilgrim <hi rend="italic">Letters</hi> 5, p. 539n.</note> 18 MARCH 1852</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Free Library of Philadelphia.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id=""></interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF HOUSEHOLD WORDS,
+
+</placeName>
+               <date when="1852-03-18">Thursday Eighteenth March 1852
+
+</date>
+            </dateline>
+            <salute>My Dear Mrs. Gaskell</salute>
+         </opener>
+         <p>You need not be in the least afraid of sending too often!! You may be very sure that a contribution from you is more welcome and delightful to me than I dare express to the most suspicious of women.<note>CD was eager to have contributions from his “Dear Scheherazade” (Pilgrim Letters 6, p. 545): Gaskell valued Household Words’ ethos and CD’s prompt payment. The relationship was uneasy, though: Gaskell accused CD of stealing one of her ghost stories (Pilgrim <hi rend="italic">Letters</hi> 6, pp. 545-6 &amp;amp; nn); CD altered without authorisation a reference to Pickwick in “Our Society at Cranford”, <hi rend="italic">Household Words</hi>, 13 Dec 51, IV, 265 (see Pilgrim <hi rend="italic">Letters</hi> 6, pp. 548-9); and both had problems over the writing and serialisation of North and South (see Pilgrim <hi rend="italic">Letters</hi> 7).</note> You shall have a Proof of this MS, if you will be so kind as to correct it.<note>“Visiting at Cranford”, <hi rend="italic">Household Words</hi>, 3 Apr 52, V, 55.</note> I thought I had, myself, gone carefully over the last;<note>“A Love Affair at Cranford”, Household Words, 3 Jan 52, IV, 349.</note> – but upon my word it made me cry so, that I might as well have left it alone for any mechanical eyesight that5 remained to me.</p>
+<p>With my compliments to Mr. Gaskell<note>The Rev. William Gaskell (1805-84; <hi rend="italic">Dictionary of National Biography</hi>), Unitarian minister at Cross Street Chapel, Manchester.</note> | Ever Faithfully Yours</p>
+<p>A golden baby<note>Edward Bulwer Lytton Dickens (1852-1902), born 13 Mar.</note> has just arrived at Tavistock House – a perfect Californian little Duncan<note>CD continues his laboured joke with Mrs Gaskell about the supposed opulence of his establishment: see To Mrs Gaskell, 25 Nov and 21 Dec 51 (Pilgrim <hi rend="italic">Letters</hi> 6, pp. 545- 6 &amp; 558). Gold had been discovered in California, 1848, and the great Gold Rush began in 1849.</note> –</p>
+<p>his silver skin, laced
+
+(internally)
+
+with his golden blood.<note>Macbeth, II. iii. 109.</note></p>
+<p>We think of calling him, appropriately remembering the enchanted home of his infancy,<note>i.e. the “opulence” of Tavistock House.</note> Tom Tiddler. <note>Tom Tiddler’s ground, in the children’s game, is where we go, “Picking up gold and silver”.
+ </note></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

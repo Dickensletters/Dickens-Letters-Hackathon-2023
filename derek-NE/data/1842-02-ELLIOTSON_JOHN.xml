@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JOHN ELLIOTSON,<note>John Elliotson, MD (1791-1868; <hi rend="italic">Dictionary of National Biography</hi>), distinguished physician and mesmerist; see Pilgrim <hi rend="italic">Letters</hi> 1, p. 461n and Pilgrim <hi rend="italic">Letters</hi> 6, p. 214n. Became godfather to CD's second son, Walter</note> [LATE FEBRUARY 1842] </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-29</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Eric Niderost; 1 p. fragment of a longer letter, cut off at the edges, leaving incomplete words on both the right and left-hand sides of the page.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="America|friends|social issues">America|friends|social issues</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>By Packet Ship "Garrick" from N. York. | Doctor Elliotson | 37 Conduit Street | Bond Street | London | England
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName></placeName>
+               <date when=""></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>[?dis]spatches<note>[?des]patches is also possible: CD used both spellings.</note> for England by a sailing</p>
+<p>[en]tertained for the steamer's safety</p>
+<p>have gone down.<note>The <hi rend="italic">Caledonia</hi>, which CD believed might have gone down at sea, owing to its missing its anticipated arrival date in New York.</note> There will be n</p>
+<p>[s]hip which brings this to you. God
+
+</p>
+<p>ty to receive letters from home –</p>
+<p>in]fernal machines on our passage</p>
+<p>packet. Her name is the George [Washington]</p>
+<p>on the 7th of July.</p>
+<p>Brigham,<note>Amariah Brigham (1798-1849), medical doctor and administrator; one of the leaders of the asylum movement in the United States, who advocated humane treatment of the mentally ill. Superintendent of the Retreat for the Insane in Hartford Connecticut, which CD visited on 11 Feb 1842.</note> who is the Superintenda[nt]<note>Thus in MS</note>
+
+ <p>with one exception, I believe (in
+
+ed – I thought you would not mi[nd]
+
+ along with this, I send you a
+
+les to paper, I am sorry to say here).
+
+ in which I know my dear Elliots[on]</p>
+
+an me a ball<note>The Boz Ball, of 14 February 1842.</note> also, in this city, a[oc]casion – at an expence of I don't3000 people present at thatcan imagine</p>
+
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

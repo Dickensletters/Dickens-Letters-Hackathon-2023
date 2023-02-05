@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THOMAS BEGGS,<note>Thomas Beggs (1808-96), educationalist, temperance activist, and writer on juvenile delinquency. Secretary of the Complete Suffrage Association 1842, and of the Health of Towns Association 1848. Employed as an engineer and brass founder in London 1848-71.</note> 25 APRIL 1850</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Private</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social issues|social engagements">social issues|social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1850-04-25"> Twenty Fifth April 1850 
+
+</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Mr Charles Dickens presents his compliments to Mr. Beggs, and begs (on behalf of himself and Mrs. Dickens)<note>Catherine Dickens, <hi rend="italic">née</hi> Hogarth (1815-79), CD's wife.</note> to express regret that his engagements<note>CD was busy editing <hi rend="italic">Household Words</hi>, writing the 13th monthly part of <hi rend="italic">David Copperfield</hi>, and correcting proofs of the novel, in which there were more errors than usual; see To Frank Stone, 23 Apr 1850, in Pilgrim <hi rend="italic">Letters</hi> 6, p. 89 ("I am half dead with work, and my head is swimming on a wild sea–out in the Pacific at least").</note> would not have admitted of his accepting the Invitation of the National Reform association,<note>The National Reform Association was founded in 1848 by the Liberal MP Sir Joshua Walmsley, alongside whom CD served on the short-lived Central Working Classes Committee of the Great Exhibition (see Pilgrim <hi rend="italic">Letters</hi> 6, p. 57). The National Reform Association campaigned for the extension of the franchise to male rate-payers, and held over two hundred public meetings up and down the country in 1850.</note> to the Soirée of this evening,<note>The soirée, which concluded the Association's three-day conference, took place at the London Tavern, Bishopsgate Street, and was attended by over 600 people. For a report see "National Reform Association", in <hi rend="italic">the Times</hi>, 26 Apr 1850, p. 5.</note> even had he received it before last night.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

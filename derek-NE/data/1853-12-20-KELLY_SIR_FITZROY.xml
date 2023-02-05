@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> SIR FITZROY KELLY,<note>Sir Fitzroy Kelly (1796-1880; <hi rend="italic">Oxford Dictionary of National Biography</hi>), barrister and judge; Attorney General 1858-9; Conservative MP 1852-66. For his identification as the original of “Bar” see Little Dorrit, ed. H. P. Sucksmith, (Oxford: Clarendon, 1979), p. xxvii.</note> 20 DECEMBER 1853</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim <hi rend="italic">Letters</hi> 7, p. 230.
+
+Text from facsimile in Bloomsbury Auctions online catalogue, March 2015.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements|travel|Italy">social engagements|travel|Italy</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1853-12-20">Twentieth December 1853.</date>
+            </dateline>
+            <salute>My Dear Sir Fitzroy</salute>
+         </opener>
+         <p> I feel extremely obliged to you for your friendly invitation, and should have accepted it in its<note>"the" deleted before “its”.</note> own spirit with the greatest readiness and pleasure but for a previous unlucky engagement, made on the very day of my return to England.<note>CD returned to England on 10 Dec 1853.</note></p>
+<p>   I experienced much attention and kindness from Sir William Temple<note>Sir William Temple (1788-1856), envoy extraordinary and minister plenipotentiary at Naples 1832-56; brother of Henry John Temple, 3rd Viscount Palmerston (Prime Minister 1855-8, 1859-65).</note> when I was at Naples nine years ago,<note>For CD's being " gloriously fêted" by Temple while in Naples in 1845, see Pilgrim <hi rend="italic">Letters</hi> 4, p. 267 n1, and John Forster's description of Temple as "a man supremely agreeable, with everything about him in perfect taste, and with the truest gentleman-manner which has its root in kindness and generosity of nature" (<hi rend="italic">Life of Charles Dickens</hi> [London: Cecil Palmer, 1928], p. 372).</note> and was disappointed not to have the opportunity of seeing him when I was there again the other day.<note>CD was in Italy and Switzerland from Oct-Dec 1853, in the company of his friends, the author Wilkie Collins and the artist Augustus Egg.</note> It is another reason for my sincerely regretting that I cannot accept the pleasure you so kindly propose to me.  </p>
+         <closer>
+            <salute>   Very faithfully yours|  Sir Fitzroy Kelly.
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

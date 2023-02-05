@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THOMAS MITTON<note>Thomas Mitton (1812-78), solicitor, one of CD’s closest friends. Son of Thomas Mitton, publican, of Battle Bridge (the district now known as King's Cross), where the Mitton and Dickens families may at some time have been neighbours – perhaps in The Polygon, where the Dickenses were living 1827-8. In recollections given to the Evening Times when she was 95, Mitton's sister Mary Ann claimed to have known CD well as a small girl. Mitton and CD were clerks together for a short time during 1828-9 in Charles Molloy's office, 8 New Square, Lincoln's Inn, where Mitton served his articles. He acted as CD’s solicitor for twenty years. On Mitton as the addressee see William F. Long and Paul Schlicke, 'Dickens and the City of London Conservatives', <hi rend="italic">Dickens Quarterly</hi> 34.3 (2017): 197-220.</note> [13 APRIL 1836]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Galerie Bassenae online catalogue, October 2015.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|social engagements">friends|social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Furnivals Inn
+
+</placeName>
+               <date when="1836-04-13">Date: same day as City of London Conservative Association dinner at Covent Garden, reported on in the <hi rend="italic">Morning Chronicle</hi>, 14 April 1836, p. 4| Wednesday Morning
+
+.</date>
+            </dateline>
+            <salute>Dear Tom,</salute>
+         </opener>
+         <p>I am obliged to go to Covent Garden Theatre, to the Conservative Dinner to-night, but if you will look in, and play a Rubber<note>A set of card games, usually whist or cribbage (OED).</note> with the girls<note>Catherine Dickens (1815-79) and her sister, Mary Hogarth (1820-37)</note> and their Uncle,<note>Possibly Robert Hogarth, father of Mary Scott Hogarth (Catherine’s cousin).</note> I shall be as glad when you were here as they will be to see you,</p>
+         <closer>
+            <salute>Believe me|                                                                      Ever Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

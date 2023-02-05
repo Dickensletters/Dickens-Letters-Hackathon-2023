@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To CHARLES READE<NOTE>Charles Reade (1814-84; <hi rend="italic">Dictionary of National Biography</hi>), novelist and dramatist, best known for The Cloister and the Hearth (1861). His pamphlet, <hi rend="italic">The Eighth Commandment</hi>, 1860, attacking literary piracy and advocating wider international copyright, aroused CD's strong sympathy. Reade greatly admired CD, whom he referred to as "my master" (C. L. Reade and Compton Reade, <hi rend="italic">Charles Reade, Dramatist, Novelist, Journalist. A memoir, Compiled Chiefly from His Literary Remains</hi> [London: Chapman &amp; Hall, 1887], II, 37).</NOTE> [1860-62]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces summary in Pilgrim Letters 10, p. 186.| Text of fragment from facsimile in Hampstead Auctions online catalogue, April 2016.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|social engagements">friends|social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="">Handwriting and signature suggest 1860-62.</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>I shall be here<note>The <hi rend="italic">All the Year Round</hi> office.</note> on Tuesday, Wednesday, and Thursday, in next week. after<note></note> tomorrow until Tuesday morning, I shall be at Gad's Hill</p>
+<p>Charles Reade Esquire.</p>
+         <closer>
+            <salute>Believe me always
+
+Very faithfully Yours
+
+
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MAJOR LAKE<note>Major Edward John Lake (1823-77; <hi rend="italic">Oxford Dictionary of National Biography</hi>), army officer, commissioned in Bengal Engineers 1840; saw active service in the Punjab. Between 1852 and 1854 he was in England on furlough.</note>, 24 APRIL 1853</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile on eBay August 2016.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements|travel">social engagements|travel</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>Major Lake, | 9 Charles Street, | St James’s
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1853-04-24">Twenty Fourth April, 1853.</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>My difficulty about Friday, is, that I am not sure when my Scotch friend<note>CD’s old friend John Thomson Gordon (1813-65), Sheriff of Midlothian, was staying with him at this time; see Pilgrim <hi rend="italic">Letters</hi> 7, p. 64 and n; also pp. 65, 71. For further information on Gordon see Paul Schlicke and William F Long, 'Dickens’s Second-Best Scottish Friend: John Thomson Gordon 1813-1865,' <hi rend="italic">Dickensian</hi> 111.3 (2015): 257- 64.</note> departs for Edinburgh, but I rather think he will not go until Saturday at the earliest. Therefore I am with-held from making any engagement, as we go wildly to theatres and other public places, and I am bound to keep within call – like a Surgeon. I think our only course is, to trust to our better fortune – Autumn – and India!  Or possibly you may find yourself at Boulogne in the course of the Summer, when I should be very happy to see you there. If I can get a good house, I purpose passing the whole summer in that place.</p>
+<p>Major Lake.</p>
+         <closer>
+            <salute>Very faithfully yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

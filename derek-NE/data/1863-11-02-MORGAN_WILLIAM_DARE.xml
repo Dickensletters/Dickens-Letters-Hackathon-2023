@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> WILLIAM DARE MORGAN,<note>William Dare Morgan (1838-87), son of CD’s friend Captain Elisha Ely Morgan (?1805-64). Joined his father’s shipping firm, the Black X Line, and spent most of the period 1861-4 in London, safeguarding the family’s interests during the American Civil War. See Leon Litvack, 'Messages from the Sea: New Dickens Letters to E.E. and W.D. Morgan', <hi rend="italic">Dickensian</hi> 110.2 (2014), 242-54.</note> 2 NOVEMBER 1863</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-04</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Robin Lloyd </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">editing,All the Year Round,Bleak House,A Tale of Two Cities</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>|Address: W.D. Morgan Esquire | 15 Cunningham Place (or terrace) | St. John’s Wood | N.W.|
+	</address>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND,</placeName>
+               <date when="1863-11-02">Monday Second November 1863</date>
+            </dateline>
+            <salute>My Dear Morgan. </salute>
+         </opener>
+         <p>I am afraid this note may anticipate your return, but it will be none the worse for lying at your office a while. </p>
+<p>Frank<note>Francis Jeffrey Dickens (1844-86), CD's son.</note> has come out second, for the second time, in the competitive examination, and has therefore lost the Foreign Office for good; – or it would be more to the purpose to say, for bad.<note>By the early 1860s admission to the Foreign Office required not only nomination by the Foreign Secretary, but also success in an examination that included handwriting; English and French dictation; translation of French into English and vice versa; spoken French; translation in one of German, Latin, Spanish, or Italian; writing a précis; geography; and modern history since 1789. See Ray Jones, The <hi rend="italic">Nineteenth-Century Foreign Office: An Administrative History</hi> (London: London School of Economics, 1971), p. 43. A new appointee was unwaged for the first five years of service. Frank Dickens’s stammer may have been a factor in his failure.</note></p>
+<p>He wants to be sent to try his fortune “somewhere in the New World.” I am so completely at a loss to know where to send him with any one hope of his alighting on his legs, that I have been casting about in my mind for some sound adviser. Your means of knowing the ins and outs of such a matter are as good as anybody’s whom I know, and I<note>Written after ‘your’ cancelled.</note> rely upon your good sense quite as much as on your readiness. I should very much like to have some talk with you at your convenience, about him. </p>
+         <closer>
+            <salute>Faithfully Yours alwys
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS,W.D. Morgan Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

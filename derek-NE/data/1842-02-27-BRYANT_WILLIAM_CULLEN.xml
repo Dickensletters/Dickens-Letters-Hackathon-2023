@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JOHN DELANE,<note>John Thadeus Delane (1817-79; <hi rend="italic">Dictionary of National Biography</hi>), editor of <hi rend="italic">The Times</hi> 1841-77: see Pilgrim <hi rend="italic">Letters</hi> 7, p. 145n. This is the first known letter, though CD had met Delane by 1847 according to Forster.</note> 2 MAY 1850</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in University Archives, Autographs and Historic Manuscripts catalogue, 2003.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Household Words,social issues,editing,religion">Household Words
+social issues,editing,religion</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1850-05-02">Thursday Morning | Second May, 1850</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I cannot receive your very kind note, without writing this line of cordial acknowledgement, and of hearty assurance that I reciprocate all your friendly feelings.</p>
+<p>As you ask me about <hi rend="italic">Household Words</hi>,<note>The first number of Household Words was published 27 Mar.</note> I will not hesitate to say that I have no doubt an occasional quotation<hi rend="italic">In May 50, seven extracts from Household Words were printed in The Times: 9 (two), 13, 16, 27, 30 (two) May. On 16 May, an extract from CD’s “The Begging-Letter Writer”, Household Words, 18 May 50, fills a column.</hi> would do it good. Slips are always sent with the number, for this purpose.<hi rend="italic">The slips of <hi rend="italic">Household Words</hi>, printed, like proofs, on one side of separate sheets, allowed extracts to be cut out for the printer, while the number itself was kept on file intact.</hi> It is doing wonderfully well, but there is a great deal of filth to be carted away;<hi rend="italic">CD speaks metaphorically of the reforming tasks of <hi rend="italic">Household Words</hi> and <hi rend="italic">The Times</hi>, but <hi rend="italic">The Times</hi> had recently been attacking the inefficiency of the Metropolitan Commissioners of Sewers (e.g. 19 Mar, 6 Apr) and two of the extracts from Household Words stressed the filthy state of Smithfield Market (<hi rend="italic">ibid</hi>., 9, 13 May).</hi> and such help as you offer is very valuable in the youth of so extensive a design.</p>
+<p>You have made the Dean<note>Gilbert Elliot, DD (1800-91); Rector of Holy Trinity, Marylebone (1846-50), during which time he and CD became friends; his appointment as Dean of Bristol was announced in <hi rend="italic">The Times</hi>, 1 May; was opposed to the Romanising movement: see Pilgrim <hi rend="italic">Letters</hi> , p. 538n and XII (Addenda), pp. 627 and 631 (two new letters of 1850 and 1851), which throw light on CD’s earlier relationship with the Dean.</note> (I am afraid he is a reduced one)<note>It was proposed that all Deans should have a stipend of £1,000 (a reduction in many cases) and that rules about residence and plurality be enforced (Elliot’s predecessor had been Dean while Master of Corpus Christi College, Cambridge): see <hi rend="italic">The Times</hi>, 23 and 30 Apr 50.</note> perfectly happy.<note>Perhaps a reference to <hi rend="italic">The Times’s</hi> leaders about the Gorham Controversy (see PIlgrim <hi rend="italic">Letters</hi> 6, p. 30 and n) and the consequent reaction of High Church elements. Priscilla Sellon (1821-76; <hi rend="italic">Dictionary of National Biography</hi>), Superior of the Plymouth Sisters of Mercy, had requested the Lord Chief Justice to stand down from her committee, following judgement in the Gorham case, a demand which <hi rend="italic">The Times</hi> (16 Apr) characterised as “an act of disaffection to the English church” and evidence that those so acting were endeavouring to thrust Anglican articles and formularies “into meanings nearly akin to those of the Romish theology”. For CD’s own unhappiness under Elliot’s successor and move to St Marylebone church, see Pilgrim <hi rend="italic">Letters</hi> 12 (Addenda), p. 631n.</note></p>
+         <closer>
+            <salute>Believe me|Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>John Delane Esquire.CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

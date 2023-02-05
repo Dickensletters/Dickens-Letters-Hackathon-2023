@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MESSRS. BRADBURY &amp; EVANS,<note>Printers and publishers; CD’s publishers since transferring from Chapman &amp; Hall in 1844.</note> 18 MAY 1846 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-28</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces mention in Pilgrim <hi rend="italic">Letters</hi> 4, p. 547.
+
+Text from facsimile in Sotheby's online catalogue, Sept 2019.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="publishing|Pictures from Italy">publishing|Pictures from Italy</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1846-05-18">Eighteenth<note>Initial lower case "e" overwritten with capital letter.</note> May 1846| Monday </date>
+            </dateline>
+            <salute>Dear Sirs</salute>
+         </opener>
+         <p> Pray send me, in the course of the day, if possible, twelve copies of the Pictures from Italy.<note><hi rend="italic">Pictures from Italy</hi> was first published in the <hi rend="italic">Daily News</hi> between 21 January and 11 March 1846, then as a single volume in May 1846, with illustrations by Samuel Palmer. Bradbury &amp; Evans's Accounts show that CD was sent 25 copies in total; see <hi rend="italic">To</hi> Felix Joyce, 19 May 1846, in Pilgrim <hi rend="italic">Letters</hi> 4, p. 547.</note></p>
+<p>Messrs. Bradbury and Evans.</p>
+         <closer>
+            <salute> Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

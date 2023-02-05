@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> RAIKES CURRIE,<note>Raikes Currie (1801-81), banker and politician; Liberal MP for Northampton 1837-57. His country home was Sandling Park, Hythe, some four miles from Folkestone.</note> 8 AUGUST 1855</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-25</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS John Cave.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="France|social engagements|travel|family">France|social engagements|travel|family</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName> Folkestone </placeName>
+               <date when="1855-08-08">, Wednesday Eighth August / 1855</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>We have been over to Boulogne,<note>CD stayed with his family in Folkestone from July to October and worked on <hi rend="italic">Little Dorrit</hi>. The trip to Boulogne, by ferry from Folkestone, must have been brief, most probably on 5 or 7 Aug: possibly connected with Gibson’s school there, where Alfred, Frank and Sydney Smith Dickens were due to start the school year on 1 Sep.</note> or I should have sooner acknowledged the receipt of your kind note. Our having some friends on a visit here,<note>As CD indicates in To Currie, 10 and 28 Aug, again refusing Currie’s invitations (see next and Pilgrim <hi rend="italic">Letters</hi> 7, p. 696), many friends stayed briefly; the certain visitor at this date is Wilkie Collins, who stayed throughout August.</note> prevents us from enjoying the pleasure it proposes to us.<note>Possibly a dinner invitation.</note> Mrs. Dickens<note>Catherine Dickens (1815-79), CD's wife.</note> begs me to thank Mrs. Raikes Currie on her behalf, through you. And with my own acknowledgements, I am My Dear Sir </p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS|Raikes Currie Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

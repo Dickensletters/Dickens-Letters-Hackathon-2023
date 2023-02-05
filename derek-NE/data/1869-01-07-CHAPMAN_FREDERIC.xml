@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> FREDERIC CHAPMAN,<note>Frederic Chapman (1823-95); joined Chapman &map;amp; Hall 1841; chief proprietor 1864; managing director 1880-95.</note> 7 JANUARY 1869 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Swann Auction Galleries online catalogue, March 2015.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="publishing|friends|Religious Opinions of the Late Chauncy|Hare Townshend|gifts|Christmas">publishing|friends|Religious Opinions of the Late Chauncy|Hare Townshend|gifts|Christmas</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Shelburne Hotel, Dublin</placeName>
+               <date when="1869-01-07">Thursday Seventh January 1869</date>
+            </dateline>
+            <salute>My Dear Sir </salute>
+         </opener>
+         <p>The late Mr Townshend’s will obliges me to produce a Volume of his “religious opinions”.<note>The Rev. Chauncy Hare Townshend (1798-1868; <hi rend="italic">Dictionary of National Biography</hi>), poet and antiquarian, whom CD had known since 1840, and to whom Great Expectations was dedicated. As his literary executor, CD published <hi rend="italic">Religious Opinions of the Late Chauncy Hare Townshend</hi> in November 1869.</note> </p>
+<p>Will you send me an estimate to this address, of the cost of print, paper, binding and publishing, of a handsome octavo volume, containing from 200 to 300 easy pages. Good paper. An edition of 200 would be amply large enough. Under the term “publishing” I include your commission and some moderate advertizing. I do not, of course, expect your estimate to be exact; but I want it to represent the extreme cost likely to be incurred. </p>
+<p>I have to thank you for some books at Christmas. The book on mines and miners has interested me exceedingly.<note>Probably <hi rend="italic">Louis Simonin, Underground Life: or Mines and Miners</hi> (Chapman &map; Hall, 1869); see <hi rend="italic">Catalogue of the Library of Charles Dickens</hi>, ed. J. H. Stonehouse, 1935, p. 102.</note> </p>
+         <closer>
+            <salute>Faithfully Yours always
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS<note>Correspondent's name, written bottom left, has been removed by a strip being cut off the paper at the left-hand edge. Tops of a few letters show at the cut edge. At the foot of the page, another hand has written: "? To Mr Chapman Publisher | To Chapman publisher".</note></persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

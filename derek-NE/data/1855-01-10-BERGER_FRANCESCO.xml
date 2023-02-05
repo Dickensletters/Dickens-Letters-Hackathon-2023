@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> FRANCESCO BERGER,<note>Francesco Berger (1834-1933, <hi rend="italic">Dictionary of National Biography</hi>), musician; befriended Charley Dickens while the two were in Germany, when Berger was a student at Leipzig's Konservatorium der Musik, founded by Felix Mendelssohn in 1843. Berger was later "admitted on terms of intimacy to the whole of the Dickens family" (<hi rend="italic">Berger, Reminiscences, Impressions and Anecdotes</hi> [London: Sampson Low &amp; Co. (1913)], p. 17). He also composed the music for Dickens's productions of Wilkie Collins's plays <hi rend="italic">The Lighthouse</hi> (1855) and <hi rend="italic">The Frozen Deep</hi> (1856); see <hi rend="italic">To</hi> Berger, 13 Jan 1857, in Pilgrim <hi rend="italic">Letters</hi> 8, p. 259.</note> 10 JANUARY 1855</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-29</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim <hi rend="italic">Letters</hi> 7, p. 502.| Text from facsimile in Sumner and Stillman online catalogue, May 2020.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family">family</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1855-01-10">Wednesday Tenth January 1855 </date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>I hope the opportunity you desire<note>Presumably connected with Berger's professional prospects.</note> will present itself naturally, before very long. I cannot make an express appointment for the purpose just now, as I am quite uncertain whether I may not be called out of town Tomorrow or next day, with Charles,<note>Charles Culliford Boz Dickens ("Charley", 1837-96), CD's eldest son.</note> or on the business of placing him in some house of commerce.<note>Charley was eventually placed with the financial house of Baring Brothers, 8 Bishopsgate Street Within. See <hi rend="italic">To</hi> Angela Burdett Coutts, 12 &amp;amp; 21 Jan 1855, in Pilgrim <hi rend="italic">Letters</hi> 7, pp. 503, 508.</note> Besides which, I have – the Christmas holidays being over – a fortnight's arrear of appointments to clear off.<note>That evening, CD met with W.H. Wills and a Mr Ryland to discuss what was to be done with Charley (see Pilgrim <hi rend="italic">Letters</hi> 7, pp. 503-4). Over the next fortnight, CD’s appointments were primarily focused on the question of Charley’s future. He went to Wimbledon to see the Rev. John Matthew Brackenbury of Wimbledon School about his son Walter’s education (Pilgrim <hi rend="italic">Letters </hi>7, p. 508), and met with a merchant, John Dillon on 24 Jan, presumably about Charley’s future (Pilgrim <hi rend="italic">Letters</hi> 7, p. 506). CD hints at other such meetings with merchants during this time; he was also engaged in editorial work for <hi rend="italic">Household Words</hi>.</note></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To GEORGINA HOGARTH, 1 DECEMBER 1861 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS State University of Buffalo, New York. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="public readings|social engagements|family|America|friends">public readings|social engagements|family|America|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>Miss Hogarth | Gad’s Hill Place | Higham | by Rochester.
+	</addrLine>
+
+	</address>
+            <dateline>
+               <placeName>Waterloo Hotel, Edinburgh<note>CD arrived in Edinburgh, 26 Nov, during his Third Provincial Tour. He read at the Queen Street Hall on 27-30 Nov and 2 Dec, returning for an extra reading, 7 Dec: see Pilgrim <hi rend="italic">Letters</hi> 12, pp. 692-3.</note></placeName>
+               <date when="1861-12-01">Sunday First December, 1861.</date>
+            </dateline>
+            <salute>My Dearest Georgy.</salute>
+         </opener>
+         <p>Everything triumphant here. The profit of yesterday only,<note>Word written over caret.</note> was over a Hundred Pounds,<note>CD read twice, <hi rend="italic">Dombey and Son</hi> in the afternoon, <hi rend="italic">David Copperfield</hi> in the evening. He reported himself “rather tired”, having taken “unusual pains” (To Wills, 1 Dec).</note> and the appreciation is over all other appreciation. I expect that the cram tomorrow night<note> He read <hi rend="italic">Nicholas Nickleby</hi> and the <hi rend="italic">Pickwick Trial</hi>. The ticket arrangements were chaotic and CD inside the hall and John Gordon (below) outside controlled the crowds as best they could (<hi rend="italic">To</hi> Hogarth, 3 Dec, and <hi rend="italic">To</hi> Wills, 3 Dec). The demand determined CD to return for the extra 7 Dec reading.
+</note> will be enormous. This morning they write from Glasgow for “more tickets”; so, though trade is notoriously bad there, I hope we shall do well there.<note>
+5. He read four nights at the City Hall, Glasgow, 3-6 Dec, reporting “200 Stalls let” for the first night (To Wills, 3 Dec).</note></p>
+
+<p>I found the Gordon house<note>CD dined, 29 Nov, at 6 Gloucester Place, Edinburgh, home of John Thomson Gordon (1813-65), advocate; sheriff of Aberdeen, 1847-8; of Midlothian, 1849-65: see Pilgrim Letters 2, p. 314n. CD had seen him in Edinburgh, June 41, and judged him “a very masterly speaker...who ought to become a distinguished man” (Pilgrim <hi rend="italic">Letters</hi> 2, p. 314). Although Gordon was a heavy drinker, CD’s friendship with him was of long standing and never broken.</note> quite inscrutable. It was impossible to tell from any thing one saw, what the skeletons were or where they went. A good house, and a pretty drawing room. A very good dinner (but not profuse – and no dessert whatever), and no approach to excess in drinking. Mrs. Gordon<note>Née Mary Wilson, daughter of John Wilson (“Christopher North”), died 1874; she married Gordon, 1837.</note> is extraordinarily handsome just now, most remarkably handsome. She sat at the head of the table like a proud woman who thought sometimes that she might have been happier and better with another man. The girl<note> Jane Gordon, born 1846. </note> is heavy, shy, large, and awkward and not pretty; but she is not disagreeable. I have a very good impression of the eldest boy,<note>John Wilson Gordon, born 1839.</note> and have invited him to Gad’s Hill to talk with Charley, before he goes to China. His much cleverer than Andrew,<note>Andrew Rutherford Gordon; the second son, born 1840. Lieut RN, 1861; retired with the same rank, 1870.</note> and seems willing to work and anxious to work. Also they are all very pleasant with one another. In the evening, Charley<note>Charles Dickens Gordon (1850-1918); the fourth son. Took Anglican orders; later, a Roman Catholic.</note> got into the back drawing room, and sang and acted (in Italian) all the parts and all the points in Lucrezia Borgia.<note>The opera (1833) by Gaetano Donizetti (1797-1848).</note>  Certainly the most extraordinary thing of the kind, I ever saw in my life. Childish, inoffensive, passionate. Very graceful indeed, and with a quality in it that he cannot possibly have derived from any people he has ever seen in the parts. There were only Peter Fraser<note>Peter S. Fraser, publisher and bookseller; a friend of CD: see Pilgrim <hi rend="italic">Letters</hi> 8, p. 563n.</note> there, a Mr. Hutchinson,<note> Unidentified </note> an old Scotch Lady whom I know, a Lady staying in the house, and the family. I left at 10 1⁄2<note>No full stop in MS: the sentence an afterthought, crammed in at the end of the line.</note></p>
+
+<p>Headland<note>Thomas Hughes Headland (?1806-88); assisted Arthur Smith in CD’s first series of public readings, 1858: see Pilgrim <hi rend="italic">Letters</hi> 8, p. 606n. Involved with the later readings; on Smith’s illness in 1861, agreed to take over arrangements (Pilgrim <hi rend="italic">Letters</hi> 9, p. 460) and after Smith’s death (1 Oct) became manager of the readings. For managerial problems with this reading tour, see <hi rend="italic">To</hi> Hogarth, 22 Nov, and <hi rend="italic">To</hi> Wills, 22 Nov, Pilgrim <hi rend="italic">Letters</hi> 9, pp. 513-5, 516-7.</note> dines there with me today. I will report further of the house.<note>See <hi rend="italic">To</hi> Hogarth, 3 Dec, and <hi rend="italic">To</hi> Wills, 3 Dec, Pilgrim <hi rend="italic">Letters</hi> 9, pp. 530, 531-2.</note> Mrs. Gordon is going out with me tomorrow, to buy me something I want; and I think she will speak to me about these things. I notice a desire in her to be confidential. She is a noble audience. After Dombey yesterday morning, she came into my room in such a genuine state of tears and pain and pleasure, that one must have been interested in her, even if one had known nothing else, and she had not been so remarkably handsome. Yes, to the Chintz Curtains.<note>Part of the redecoration and furnishing of Gad’s Hill: see <hi rend="italic">To</hi> Barber, [?Nov 61], Pilgrim <hi rend="italic">Letters</hi> 9, p. 528.</note> Yes also to the marble floorcloth on the Landing. My reason is, that I think the pattern least liable to be trodden out.</p>
+
+<p><note>This letter’s MS has been largely scored through in pencil, presumably when <hi rend="italic">The Letters of Charles Dickens, Edited by His Sister-in-Law and His Eldest Daughter</hi> was being prepared: the passage marked here, not scored through in MS, was inserted in that volume with omission as the final paragraph of To Georgina Hogarth, 3 Dec 61, Pilgrim <hi rend="italic">Letters</hi> 9, p. 530, from which it should be deleted</note>Give my love to Mamie, and tell her I had her letter this morning with much pleasure. To her question will there be War with America?<note>On the outbreak of the American Civil War, Britain (13 May 61) issued a declaration of neutrality. The Confederacy sent two accredited representatives to plead the Southern cause in Britain and France (also neutral). They sailed from Cuba in the British mail ship, <hi rend="italic">Trent</hi>, which on 8 Nov was stopped by a Federal warship and the representatives removed. The news arrived in England, 27 Nov. Indignation was wide-spread, demands being made that the emissaries be restored with sufficient apology (<hi rend="italic">The Times</hi>, 29 Nov). War with the North was averted and the emissaries presented the Confederacy’s case, with little success, in both Britain and France.</note> I answer Yes. I fear the North to be utterly mad and War to be unavoidable.a I do not doubt that England could shell the City of New York off the face of the earth in two days. Tell Mamie that I have asked Letitia<note>CD’s sister, the widow of Henry Austin. CD had been advising her about the best course of action in the aftermath of Austin’s death: see e.g. <hi rend="italic">To</hi> Mrs Austin, <note>Not otherwise identified: not the Gad’s Hill housekeeper, Miss Sutherland, as given in Pilgrim <hi rend="italic">Letters</hi> 9, p. 513n.</note>, 25 Nov, 1 Dec, Pilgrim <hi rend="italic">Letters</hi> 9, pp. 513, 520-1, 529. He had invited her to Gad’s Hill, 22 Nov</note> (who is in a most wretched state) if she would like to go to Gad’s, along with her friend Miss Sunderland for a week or so, while you are away? If she should go (but I don’t think she will), she is to write to Mamie. I should like everything in the way of eating and drinking to be provided for her, and Marsh<note>James Marsh, CD’s groom: see frontispiece, Pilgrim <hi rend="italic">Letters</hi> 10, for photograph of Marsh and the basket-carriage or basket-phaeton, and also Marylian Watney, <hi rend="italic">The Elegant Carriage</hi>, 1961, pp. 36-7 &amp; plate XVIII, and Leon Litvack, 'Dickens in the Eye of the Beholder: The Photographs of Robert Hindry Mason, <hi rend="italic">Dickens Studies Annual</hi> 47 (2016), pp. 174, 190.</note> to take her out in the Basket just as he would take us.</p>
+
+
+
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

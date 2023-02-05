@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Chairman of St. George's Hospital Governors, <note>St George’s Hospital at Hyde Park Corner. Angela Burdett-Coutts had influence there, probably as a benefactor. Her father had been a patient there many years before. This is the ‘statement’ CD refers to in his letter to Miss Coutts, 3 January 1857 (Pilgrim <hi rend="italic">Letters</hi> 8, p. 251).</note>3 January 1857</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS St George’s University Hospitals NHS Foundation Trust<note>Reprinted in Ruth Richardson’s article ‘Death &amp; The Lady: Miss Coutts, Mr. Dickens &amp; The Dead House Committee’, <hi rend="italic">Dickens Quarterly</hi>, 30.3 (September 2013): 177-97; transcribed from St George’s Hospital Dead House Committee Book 5-6.</note></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social issues|education|health">social issues|education|health</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1857-01-03"></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>The following are the facts relating to the condition in which the body of Mrs. Purvis,<note>CD and Miss Coutts were protesting about the shameful treatment of the corpse of Margaret Purvis, who had died at St George’s Hospital, Hyde Park Corner. For full details see Richardson’s article.</note> a patient in St. George’s Hospital, who died there, was restored to the friends of the deceased. They have been collected from the testimony of three very respectable persons, by no means of a low class in life. It is hardly necessary to add, that they are all producible. </p>
+<p>When the body was claimed, it lay in the Dead House of the Hospital, covered with a sheet, but otherwise perfectly naked; though the deceased, at the time of her death, had good clothing of her own in the Hospital. It lay on a bench or table, close side by side with the body of a man, which was also only covered by a sheet. There was no appearance upon it of the face having been composed, or the lower jaw adjusted. There was no wrapper about the latter. The hair lay in disorder and confusion, tumbled about the head and face. In this condition, the two men who claimed it, separated it from its horrible and unnatural companionship, got some coverings upon it, and took it to the third of the three persons from whom this representation proceeds, one of the trained schoolmistresses, holding the best government certificates, and the principal mistress in Miss Burdett Coutts’s schools at Westminster.<note>Most of CD’s information seems to have come from Harriet Bragg, head-mistress of St Stephen’s School, Rochester Row, which was founded and funded by Miss Coutts. Margaret Purvis was the mother of Harriet Bragg’s pupil Ann Purvis, who subsequently became a pupil-teacher at the school.</note> Her position is described, in order that it may be understood that she is not an ignorant or irresponsible kind of woman.</p>
+<p>Notwithstanding that the two men had done what few kind offices they could do for the corpse while it was in the Dead House, with all consideration and gentleness, its appearance, even when it was received by this female friend, was so forlorn and shocking, that she hid it from the sight of the daughter of the deceased, until she had been able to perform those functions for it, which decency and humanity usually suggest. </p>
+<p>The dread of St. George’s Hospital (and naturally though perhaps unjustly, of all Hospitals) engendered in these people by the painful remembrances thus impressed on their minds, can scarcely be imagined. It has since happened that a pupil-teacher of the Schoolmistress fell ill. The latter shrank with horror from the idea of the poor girl’s going to St. George’s, as she might have done; and tended her in a private lodging until she died.<note>Although the hospital rebutted the criticism, two of the members of staff involved had already been dismissed for drunkenness and unauthorised absence, and reforms were subsequently put in place to ensure the decent treatment of the dead.</note></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

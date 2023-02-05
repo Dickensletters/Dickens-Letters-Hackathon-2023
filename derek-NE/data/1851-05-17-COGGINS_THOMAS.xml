@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THOMAS COGGINS,<note>Thomas Coggins (born c. 1830), merchant’s clerk, of 23 Kennington Street, Walworth; CD was replying to the address of Richard Allmond, banker’s clerk. Presumably both Coggins and Allmond were members of the vocal class at Walworth Institute (below).<note> 17 MAY 1851</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from MS facsimile, International Autograph Auctions, July 2009</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+		<addrLine>(envelope): T. Coggins Esquire | 23 Beresford Street | Walworth | London.
+		</addrLine>
+	</address>
+            <dateline>
+               <placeName>Broadstairs, Kent</placeName>
+               <date when="1851-05-17">Saturday Seventeenth May | 1851.<note> Address and date at foot of the letter.
+</note></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Mr. Charles Dickens presents his compliments to Mr. Coggins, and regrets that his engagements do not admit of his accepting the invitation of the vocal class of the Walworth Literary Institution.<note>The Walworth Literary and Scientific Institute, 21 Manor Place and 22 Carter Street, Keene’s Row, Walworth; founded Mar 45: see Pilgrim <hi rend="italic">Letters</hi> 6, p. 88n. CD went to an entertainment there by the comedian J. L. Toole (then still an amateur) (<hi rend="italic">To</hi> Mark Lemon, 7 Apr 52; Pilgrim <hi rend="italic">Letters</hi> 6, p. 637).</note></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MARY NICHOLS,<note>Mrs Mary Sargeant Neal Gove Nichols (1810-84; <hi rend="italic">Dictionary of American Biography</hi>), miscellaneous writer, reformer and water-cure practitioner; advocated mesmerism, temperance and dress reform. Published Experience in Water-Cure, New York, 1849, and several novels. With her second husband, Thomas Low Nichols (see Pilgrim Letters, 21 Apr 64, fn), established Nichols' <hi rend="italic">Journal of Health</hi> (Cincinnati) 1853, advocating free love, spiritualism and health reform. They published jointly <hi rend="italic">Marriage: Its History, Character, and Results</hi>, 1854. Settled in England on outbreak of American Civil War and conducted jointly a water-cure establishment in Great Malvern 1867-75; 1875-86 ed. jointly the <hi rend="italic">London Herald of Health</hi>.</note> 1 NOVEMBER 1864</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Huntington Library.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="editing|publishing|All the Year Round">editing|publishing|All the Year Round</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD’S HILL PLACE, | HIGHAM BY ROCHESTER, KENT</placeName>
+               <date when="1864-11-01">Tuesday First November 1864</date>
+            </dateline>
+            <salute>Dear Mrs. Nichols</salute>
+         </opener>
+         <p>It appears to me that you can not have received a letter I wrote to you from the office some weeks ago, in reference (as I suppose) to the very papers<note> Presumably further papers related to “A Trip to the Unholy Land”, on American life, coloured by the Civil War.
+</note> which are the subject of your complaint received yesterday. But it was certainly posted along with other letters which reached their respective destinations. You had written me a note about the papers, in which you mentioned that Mr. Froude<note>James Anthony Froude (1818-94; <hi rend="italic">Dictionary of National Biography</hi>). journalist, historian, and biographer of Carlyle: see further Pilgrim <hi rend="italic">Letters</hi> 10, p. 447n</note> had considered their general subject interesting to the public at this time and had therefore desired to have them for Fraser;<note><hi rend="italic">Fraser’s Magazine</hi>, which Froude edited, 1860-74.</note> and you added that you knew they were true—particularly referring, if I do not mistake, to a description of a Negro Preacher. In the letter I wrote you, I replied that I did not concur in Mr. Froude’s opinion—that I thought the subject unacceptable to the public, pending the miserable struggle— that I did not believe your compatriots were at all in a humour to receive the truth about anything, from this side of the water— and that I would rather leave them alone [   ]<note>CD deleted two or three letters.</note> for the time, altogether; under the impression that I should otherwise do more harm than good.<note>Clearly related to CD’s opinion in To Mrs Nichols, 9 Aug, about likely American responses during the conflict.</note> For these reasons (I added, as I remember) I declined the papers without reference to their merits, but they were in type and would you like to have proofs. No answer ever reached me.</p>
+<p>With the contents of my note, Mr. Wills<note>William Henry Wills (1810-80; <hi rend="italic">Dictionary of National Biography</hi>), one of CD’s most trusted friends, and assistant editor of <hi rend="italic">Household Words</hi> and <hi rend="italic">All the Year Round</hi>.</note> was unacquainted; but I said to him “I have written to Mrs. Nichols about those papers, and it is understood between her and me that they will not go in.” Since then, he has been very ill.<note>Wills had suffered since at least August from a boil on his leg and been unable to attend to office duties.</note> I suppose, writing now without having had an opportunity of communicating with him, that he found some memoranda on the papers that they were not for insertion, and forgot under what circumstances those notes were made. But the judgment exercised is most distinctly mine, and not his. And as to him, I am quite sure that he is incapable of treating you with the least intentional disrespect.</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

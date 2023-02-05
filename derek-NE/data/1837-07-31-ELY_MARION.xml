@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MARION ELY,<note>Marion Elizabeth Ely (1820-1913), daughter of Charles Ely and Sara, née Rutt; niece of Rachel Talfourd (1792-1875), wife of CD's friend Thomas Noon Talfourd (1795-1854).</note> [?LATE JULY 1837]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-23</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Armstrong Browning Library, Texas. On mourning paper. Date: handwriting and mourning paper support Summer 1837, and see below. Doughty Street / Saturday Morning</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="books|friends">books|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Doughty Street</placeName>
+               <date when="187,late July">?LATE JULY 1837</date>
+            </dateline>
+            <salute>My Dear Miss Ely.</salute>
+         </opener>
+         <p>Let me beg you if you can, to excuse my apparent neglect in not sending Paracelsus<note>Robert Browning’s second book, a dramatic poem, 1835, based on the historical Paracelsus (1493-1541), Swiss-born physician and mystic. The poem’s critical success launched Browning’s career. CD may have been prompted to borrow and read <hi rend="italic">Paracelsus</hi> by his first meeting with Browning, 26 June, in Macready’s dressing-room. The poem was reprinted in Poems, 2 vols, 1849, which 135 was in CD’s library at its 1878 sale Catalogue of the Library of CD, ed. J. H. Stonehouse).(</note> before. It looks very bad I know, but I had not forgotten it for an instant. I return it now, and am happy to have the opportunity of again wishing you a pleasant voyage and a happy six weeks’ stay in Paris;<note> Marion had returned by Oct: see Pilgrim <hi rend="italic">Letters</hi> 1, pp. 315, 321.
+</note> above all, let me entreat you not to be so happy as to forget to return in good and reasonable time.</p>
+         <closer>
+            <salute>Believe me Ever / Most faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

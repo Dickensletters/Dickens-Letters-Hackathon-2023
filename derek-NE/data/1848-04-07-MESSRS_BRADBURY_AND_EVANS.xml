@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To MESSRS BRADBURY &amp; EVANS,<note>Printers and publishers; CD’s publishers since transferring from Chapman &amp; Hall in 1844: see Pilgrim <hi rend="italic">Letters</hi> 4.</note> 7 APRIL 1848</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Österreichischen Nationalbibliothek.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="publishing|Dombey and Son|finances">publishing|Dombey and Son|finances</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace.</placeName>
+               <date when="1848-04-07">Seventh April 1848.</date>
+            </dateline>
+            <salute>My Dear B and E.</salute>
+         </opener>
+         <p>I have no doubt that we shall get as much for Dombey<note>CD completed writing Dombey <hi rend="italic">and</hi> Son on 23 or 24 Mar (Pilgrim <hi rend="italic">Letters</hi> 5, p. 263 &amp; n). The final double number is dated April (issued at the end of March).</note> as can be got for anything in these times<note>Politics and social unrest might be expected to distract people from fiction. Abroad the February Revolution in France deposed Louis-Philippe, while there were risings in Italy against the Austrians; at home, Chartist agitation was shortly to culminate in the Kennington Common rally of 10 April, while distress was widespread in the manufacturing towns (Pilgrim <hi rend="italic">Letters</hi> 5, pp. 253 <hi rend="italic">n</hi>.6, 254 &amp; <hi rend="italic">n</hi>.4, 273 &amp; <hi rend="italic">n</hi>.1). Sales of Dombey were strong throughout the serial publication, with no evidence of decline in the final number or subsequent volume publication: see Robert L. Patten, <hi rend="italic">CD and His Publishers</hi>, 1978, ch. 10.</note> – and so am very well satisfied. Is Kettle<note>Not otherwise identified: presumably a Bradbury &amp; Evans employee who also waited at table on a part-time basis.</note> so much within your controul that he can be lent to me next Tuesday?<note>The <hi rend="italic">Dombey</hi> dinner, 11 Apr, to celebrate completion of publication. Macready noted as also present Ainsworth, Thomas Beard, Browne, Henry Burnett, D’Orsay, Evans, Forster, George Hogarth, William Jerdan, Lemon, Frank Stone, Thackeray: see Pilgrim <hi rend="italic">Letters</hi> 5, p. 266<hi rend="italic">n</hi>. Bradbury was ill and unable to attend.</note>He waited on us for some twelve years, – and if I can get him, I would rather have him than a stranger. </p>
+         <closer>
+            <salute>Faithfully Yours alwys
+            </salute>
+            <signed>
+               <persName>CD</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

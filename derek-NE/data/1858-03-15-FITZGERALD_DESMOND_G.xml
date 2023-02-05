@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> DESMOND G. FITZGERALD,<note>Desmond G. Fitzgerald, analytical chemist; contributed "Natural Science. – Its Adaptation to the Youthful Mind" to <hi rend="italic">The School and the Teacher</hi>, 1 June 1858 (describing his own teaching of chemistry at a Middlesex school); his lecture, <hi rend="italic">Education</hi>, published as a pamphlet (London: Wyand, Son &amp; Co., 1858).</note> 15 MARCH 1858 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-17</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim <hi rend="italic">Letters</hi> 8, p. 530.| Text from facsimile in Bonhams online catalogue, May 2020.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="publishing|editing|Household Words">publishing|editing|Household Words</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House W.C.</placeName>
+               <date when="1858-03-15">Monday Fifteenth March 1858</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>I have read your papers.</p>
+<p>    I shall be happy to accept the verses entitled "Poetry and Philosophy"<note>In six stanzas, describing his teaching experience and his philosophy of teaching; the poem advocates reconciliation between poetry and philosophy; published in <hi rend="italic">Household Words</hi> 17 (17 Apr 1858): 420 (his only contribution to the journal).</note> if you will make the last stanza but one, plainer to my comprehension. I cannot make out that crown of bay which Science gives as incense to its God.<note>The fifth stanza reads: "And genius that would scorn the lowly way | Which leads to truth, although by millions trod, | Might humble violets twine with haughty bay, | And learn from children how to soar to God."</note></p>
+<p>The lone Heart's Recollections, are not suited to Household Words.</p>
+<p> The Ghost Story is an extremely old one. It is usually told of a gentleman who went down into one of the Vaults in Westminster abbey on a similar expedition.<note>Most likely referring to the story, repeated in various accounts including Joseph Taylor’s <hi rend="italic">Apparitions</hi>; Or, <hi rend="italic">The Mystery of Ghosts, Hobgoblins, and Haunted Houses Developed</hi> (Macdonald and Son, 1814), of a gentleman who undertakes a dare to venture into the royal vault at Westminster Abbey after midnight. He must stick a pen-knife into the ground to prove to his friends that he has completed the task; as he does so, the terrified man believes a ghost has taken hold of his clothes. The pen-knife, found sticking out of the man’s coat, is revealed to have been stabbed through the clothing from the inside, the gentleman effectively pinning himself to the ground.</note> It is very well told in your little paper, but its antiquity is a fatal objection.</p>
+<p>Desmond G FitzGerald Esquire.</p>
+         <closer>
+            <salute> Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> RAIKES CURRIE,<note>Raikes Currie (1801-81), banker and politician; Liberal MP for Northampton 1837-57. His country home was Sandling Park, Hythe, some four miles from Folkestone.</note> 10 AUGUST 1855</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-25</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS John Cave.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements">social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName> Folkestone </placeName>
+               <date when="1855-08-10"> Friday Evening|Tenth August 1855</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I was very sorry to have missed you and Gowran Vernon<note>The Hon Gowran Charles Vernon (1825-72), barrister, second son of Robert Vernon Smith, of Farming Woods, Thrapston, Northants, MP for Northampton from 1831 until 1859, when he was raised to the peerage as Baron Lyveden; Vernon's father was the son of "Bobus" Smith and nephew of Sydney, took the name of Vernon only, already authorized by Royal Licence for his issue in 1845. Gowran Vernon played Tom Saville in <hi rend="italic">Used Up</hi>, and Lord Rivers in <hi rend="italic">A Day after the Wedding</hi>. Gowan in <hi rend="italic">Little Dorrit</hi> was first called "Gowran".</note> (to whom I beg my kind regards) to day. After a morning’s work, I was ravaging the Downs at a great pedestrian rate when you called. I am anxious to say in explanation of the enclosed note,<note>Presumably from Mrs CD, declining Currie’s invitation.
+</note> that we have friends with us (as we almost always have when we are out of town), and therefore are unable to consult our own inclinations as to invitations. </p>
+
+Presumably from Mrs CD, declining Currie’s invitation.
+         <closer>
+            <salute>Very Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS|Raikes Currie Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

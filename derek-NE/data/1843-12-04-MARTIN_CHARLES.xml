@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> CHARLES MARTIN,<note>Charles Martin (1820-1906; <hi rend="italic">Dictionary of National Biography</hi>), portrait painter: see Pilgrim <hi rend="italic">Letters</hi> 3, p. 603 &amp;<hi rend="italic">nn</hi>. Martin had been commissioned to produce portraits of “Living Litterateurs”, the descriptions written by Peter Cunningham, Martin’s brother-in-law. CD’s portrait, published in the <hi rend="italic">Pictorial Times</hi>, 20 Apr 43, was the second in the series: see Pilgrim <hi rend="italic">Letters</hi> 3, p. 603 n.4; reproduced in the <hi rend="italic">Dickensian </hi>IV (1908), 58. CD arranged to meet Martin on either 3 or 4 Dec (To Martin, 2 Dec 43, Pilgrim <hi rend="italic">Letters</hi> 3, p. 603).</note> 4 DECEMBER 1843</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p> Mention in Caxton Hall catalogue, No. 316 (1895); MS 1 p.; addressed Charles Martin; dated Devonshire Terrace, 4 Dec 43. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="visual arts|portraits|celebrity">visual arts|portraits|celebrity</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Deonshire Terrace</placeName>
+               <date when="1843-12-04">1843-12-04</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

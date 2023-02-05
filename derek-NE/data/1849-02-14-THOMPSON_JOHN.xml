@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JOHN THOMPSON,<note>John Thompson (1822-71), CD’s trusted servant, c. 1841-67; he acted as dresser, secretary, and coachman. Stole money from CD's cash box, Nov 1866 (see Pilgrim <hi rend="italic">Letters</hi> 11, pp. 262, 268), but not dismissed outright; CD eventually facilitated his finding employment as a tobacconist</note> 14 FEBRUARY 1849</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-29</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>eplaces summary in Pilgrim <hi rend="italic">Letters</hi> 5, p. 494| Extract (aa) and text from facsimile of second page of 2-page letter (bb), in Bubb Kuyper online catalogue, May 2018.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="domestic issues">domestic issues</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Athenaeum Club</placeName>
+               <date when="">Wednesday Fourteenth February 1849</date>
+            </dateline>
+            <salute> John </salute>
+         </opener>
+         <p>Giving him directions for finding the key of his envelope-case in the round table in his study,<note>On this piece of furniture see Jennifer M. Ide, "A Table in Want of a Provenance: Dickens's Wellington Street Library Table", in Dickensian 115.1 (2019): 21-27</note> and asking him to make that, and the bunch of keys I send with this to enable you to open the drawer, into a little parcel, and put it into the small pocket of the great coata bwhich Topping<note>William Topping (1808-69), CD's groom and coachman.</note> is to bring down to me<note>at the [illegible]" deleted after "to me".</note> when he fetches me with the carriage, this afternoon<note>Thus in MS (no full stop).</note></p>
+         <closer>
+            <salute>CHARLES DICKENS
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

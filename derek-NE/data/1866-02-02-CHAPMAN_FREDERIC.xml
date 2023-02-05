@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> FREDERIC CHAPMAN,<note>Frederic (or Frederick) Chapman (1823-95), publisher. He became a partner of Chapman and Hall in 1847, and took over the firm when his cousin Edward Chapman (1804-80) retired in 1864. From 1865 he also published the <hi rend="italic">Fortnightly Review</hi>.</note> 2 FEBRUARY 1866</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Facsimile in Swann Auction Galleries catalogue, May 2013 </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="health,friends,publishing">health,friends,publishing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD’S HILL PLACE,HIGHAM BY ROCHESTER, KENT</placeName>
+               <date when="1866-02-02">Friday Second February 1866</date>
+            </dateline>
+            <salute>My Dear Sir  </salute>
+         </opener>
+         <p>I am very sorry to hear that your wife<note>Clara Chapman, née Woodin, whom Chapman married on 21 November 1861</note> is so ill, and also that you have but newly passed through other domestic misfortunes. I hope that your removal of your invalid<note>Chapman had taken her to Bournemouth, where she died on 28 February 1866.</note> may lead to better results, and of course could not expect to see you at such a time. </p>
+         <closer>
+            <salute>Faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS,Frederick Chapman Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

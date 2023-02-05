@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> RACHEL TALFOURD,<note>Rachel Talfourd (d. 1875), née Rachel Towill Rutt, married Thomas Talfourd 1822.</note> 17 MARCH 1854</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-22</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim <hi rend="italic">Letters</hi> 7, p. 295.|Text from facsimile in Ira &amp; Larry Goldberg Coins &amp; Collectibles online catalogue, June 2015.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id=""></interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1854-03-17">Seventeenth March, 1854| Friday</date>
+            </dateline>
+            <salute>My Dear Lady Talfourd,</salute>
+         </opener>
+         <p>When I heard, on Monday afternoon of the bereavement we both in our far different places so heavily deplore,<note>Thomas Noon Talfourd (1795-1854; <hi rend="italic">Oxford Dictionary of National Biography</hi>), writer, judge and politician, and very dear friend to CD, died suddenly on 13 March; CD gives a full account in his letter to John Poole of 17 March; see Pilgrim <hi rend="italic">Letters</hi> 7, pp. 294-5.</note> I went instantly to Russell Square. You were not long gone, and I left a note (such as I could write, in the first agitation of so sudden a shock) for Frank.<note>Talfourd’s eldest son, Francis Talfourd (1828-1862).</note></p>
+<p>Mrs. Dickens has called at your door every day since, but I have not obtruded myself upon you. For I well know (or have hoped so) that if I could be of the smallest service or comfort to you or to anybody dear to you, you would instinctively trust my love for my dear departed friend. I have written a brief remembrance of him for the Household Words of next week.<note>CD wrote, 'The chief delight of his life was to give delight to others'; see 'The Late Mr. Justice Talfourd', <hi rend="italic">Household Words</hi> 9 (25 March 1854): 117-18.</note> I venture to enclose it to you.<note>Probably one of the special issues, printed for friends on a black-bordered page, of CD’s <hi rend="italic">Household Words</hi> notice of Talfourd.</note> It consists of only a few plain words out of my heart, but they may speak to yours.</p>
+<p>God comfort you!</p>
+         <closer>
+            <salute>Ever Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

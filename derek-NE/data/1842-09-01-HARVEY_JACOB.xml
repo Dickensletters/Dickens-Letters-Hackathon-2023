@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JACOB HARVEY,<note>Jacob Harvey (1797-1848), Irish-born New York merchant: see Pilgrim <hi rend="italic">Letters</hi> 3, p. 318n.</note> 1 SEPTEMBER 1842</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS State University of New York, Buffalo.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|social issues|America|copyright|publishing">friends|social issues|America|copyright|publishing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>By Great Western. Second September 1842 | Jacob Harvey Esquire | New York | United States| PM 1 Sep 42. 
+	</address>
+            <dateline>
+               <placeName>Devonshire Terrace, York Gate|Regents Park London.</placeName>
+               <date when="1842-09-01">First September 1842</date>
+            </dateline>
+            <salute>My Dear Sir.</salute>
+         </opener>
+         <p>Just before I embarked for England, you kindly inclosed me a letter from a friend.<note>Not identified.</note> In a multitude of Trunks and Engagements, it was lost; and I do not remember the name of the writer. As there is nothing in the answer which<note>would deleted.</note> makes<note>s <hi rend="italic">added</hi>.</note> it any breach of confidence to make you a party thereunto, may I beg you to deliver it as follows? -</p>
+<p>“I always seek in drawing characters, for a mixture of Good and Evil – as<note>thoug[h] deleted.</note> the Almighty has created Human character after that fashion. It is commonly one of the weaknesses of my characters, that they drink spirituous liquors – just because that is one of the weaknesses of real men. They do not prosper in their fortunes, because of this taste (far from it), but in spite of it, through their better nature. I certainly do not advocate Temperance Doctrines and on<note><hi rend="italic">Written above caret</hi>: for crossed out below.</note> this plain ground<note><hi rend="italic">Written above caret</hi>: reason <hi rend="italic">crossed out below</hi>.</note> – my reason and sense of Justice are not at all convinced that men who can drink without abuse and excess, should be deprived of the enjoyment of drinking in moderation, because there are a vast number of men in the world who do not know what moderation is. A great many good qualities, and a great many genial feelings are brought out in good men by a cheerful Glass. I think Temperance may be as immoderate and irrational in its way, as abuse in its way; and what is called Total Abstinence is in my opinion<note>in my opinion <hi rend="italic">written above caret</hi>.</note> a good thing ridden to death<note>For CD’s continued objection to those who go the “whole hog” on an issue, see “Whole Hogs”, Household Words, 23 Aug 51, III, 505 and Pilgrim <hi rend="italic">Letters</hi> 6, pp. xi, 457 &amp; <hi rend="italic">n</hi>.6.</note> – just as Drunkenness is” – This, with my best regards to my esteemed correspondent. </p>
+<p> We are all well, and enjoying ourselves at the Seaside.<note>Though dating from Devonshire Terrace, as he did to his American correspondents at this time, CD had been in Broadstairs since 31 July or 1 Aug.</note> I shall be glad to hear that your health has improved, and that you are perpetually telling good stories to all your friends. Mrs. Dickens unites with me in cordial regards to Mrs. Harvey<note>Daughter of the New York doctor and botanist, David Hosack.</note> and your whole house. I learn that the New York Newspapers have been forging some passages under my hand.<note>See Pilgrim <hi rend="italic">Letters</hi> 3, p. 311 (<hi rend="italic">To</hi> Forster, [?30 or 31 Aug 42], <hi rend="italic">hn</hi> &amp; <hi rend="italic">nn</hi>) and Appendix B (pp. 625-7).</note> Nothing that American Newspapers can do (unless they should chance on something honest, or becoming a decent state of society) would surprise me in the least.  
+</p>
+<p>Jacob Harvey Esquire.  
+</p>
+         <closer>
+            <salute>My Dear Sir I am always / Faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

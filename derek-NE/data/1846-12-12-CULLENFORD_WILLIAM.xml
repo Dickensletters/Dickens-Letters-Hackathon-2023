@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> WILLIAM CULLENFORD,<note>William Cullenford (1797-1874), actor. First appeared in London, 1836; acted until his retirement in 1864. A founder of the General (later Royal) Theatrical Fund, 1839, and its secretary from 1839 until his death: see further Pilgrim <hi rend="italic">Letters</hi> 4, p. 467n.</note> 12 DECEMBER 1846</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS W. Hugh Peal Collection, University of Kentucky Libraries.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="France|public recognition|celebrity|charity|theatre">France|public recognition|celebrity|charity|theatre</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Paris. 48 Rue de Courcelles, St. Honoré.<note> After leaving Switzerland, where he had been living since June, CD arrived in Paris, 20 Nov. He stayed at the Hotel Brighton while looking for a house and took 48 Rue de Courcelles from 26 Nov.
+</note></placeName>
+               <date when="1846-12-12">Saturday Night Twelfth December 1846.</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>In consequence of your letter having been addressed Poste Restante, where I seldom send, and not having been forwarded here by the authorities (as it should have been) with my general correspondence,<note>Presumably CD had informed the Poste Restante service of his address from 26 Nov and expected post to be redirected to him.</note> your letter has remained unanswered longer than I – or you, I have no doubt – could have wished. I regret to say that I cannot make so sure of my arrangements, as to pledge myself to be in London to preside at a dinner of the General Theatrical Fund,<note>CD, a trustee of the Theatrical Fund, had presided at the Fund’s dinner, 6 Apr 46: see <hi rend="italic">The Speeches of CD</hi>, ed. K. J. Fielding, 1960, pp. 73-7.</note> in Passion week.<note>CD uses the then standard name for what is now generally called Holy Week, beginning on Palm Sunday, which commemorates Christ’s passion. All theatres were closed in the week beginning on Palm Sunday: actors used this week to arrange contracts with provincial managers and for evening functions – hence CD’s reference below to the Fund’s dinner being tied “to a particular Season”.</note> If the dinner had been contemplated for any day in May,<note>The date proposed was Monday, 29 Mar 47; CD in fact returned to England at the end of Feb.</note> I should have been delighted to engage myself to occupy the chair. But as the Fund is necessarily tied, for such a purpose, to a particular Season, I fear I must, this year, most reluctantly decline the honor the Directors offer me. In case I should return to England in time, I will attend the dinner, certainly.<note>CD attended and proposed the health of the evening’s chairman, W. C. Macready: see <hi rend="italic">Speeches</hi>, ed. Fielding, pp. 77-9.</note> And pray assure the Directors, if such an assurance be necessary, that my interest in their success, and my desire to promote it by any means in my power, continue unchecked. I may mention to you, in conclusion, that I have already returned an answer similar to this, to the Printers’ Pension Society, who begged me to preside at their Dinner in April.<note>CD presided at the Printers’ Pension Society annual dinner in 1843 and 1864: see <hi rend="italic">Speeches</hi>, ed. Fielding, pp. 36-40 &amp; 323-5.</note></p>
+<p>William Cullenford Esquire.</p>
+         <closer>
+            <salute>I am Dear Sir / Faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

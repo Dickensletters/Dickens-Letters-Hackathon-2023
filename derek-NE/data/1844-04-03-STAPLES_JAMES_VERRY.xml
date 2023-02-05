@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> J. V. STAPLES,<note>James Verry Staples, of Clifton, Bristol; friend of Mrs Evans of Bristol, mother of Frederick Mullet Evans.</note> 3 APRIL 1844</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Fay and Geoffrey Elliot Collection, Leeds University Library.| Private </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="A Christmas Carol|social issues">A Christmas Carol|social issues</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>Address: Mr. James Verry Staples |Stokes Croft School |Bristol. PM 13 Apr 44.
+	</address>
+            <dateline>
+               <placeName>1 Devonshire Terrace|York Gate Regents Park.</placeName>
+               <date when="1844-04-03">Third April 1844.</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>I have been very much gratified by the receipt of your interesting letter; and I assure you that it would have given me heartfelt satisfaction to have been in your place when you read my little Carol to the Poor in your neighbourhood.<note>Staples described the circumstances in a letter to Forster of 19 Mar 1872 (MS University of California, Los Angeles). Spending Christmas 1843 with Mrs Evans, who had received a copy of the <hi rend="italic">Carol</hi>, Staples decided to give a public reading to the Bristol Domestic Mission Institution; the result was “a room full of the very poor, who gave undivided attention”. The reading was spread over two evenings and so successful that it was repeated. Staples decided to tell CD of the reading, thus eliciting this letter, a copy of which he enclosed for Forster: see further Pilgrim <hi rend="italic">Letters</hi> 4, p. 95 n.2.</note> I have great faith in the Poor; to the best of my ability I always endeavour to present them in a favorable light to the rich; and I shall never cease, I hope, until I die, to advocate their being made as happy and as wise as the circumstances of their condition in its utmost improvement, will admit of their becoming.<note>Word (illegible) crossed out by CD.</note> I mention this to assure you of two things. Firstly, that I try to deserve their attention. And secondly, that any such marks of their approval and confidence as you relate to me, are most acceptable to my feelings, and go at once to my heart.</p>
+         <closer>
+            <salute>Believe me / Faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS | Mr James Verry Staples</persName>	
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

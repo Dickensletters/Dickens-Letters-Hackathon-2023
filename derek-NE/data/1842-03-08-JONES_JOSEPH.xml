@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> Joseph Jones<note>Joseph Stevens Jones, (d. 1877), Boston actor, playwright, and theatre manager, who dramatised Samuel Warren’s <hi rend="italic">Ten Thousand a Year</hi>. See Pilgrim <hi rend="italic">Letters</hi> 2, p. 202n.</note> 8 Marc[1842]h</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-01-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Facsimile in Between the Covers Rare Books online catalogue, October 2013, in third person.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">America,travel,social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>>United States Hotel<note>In Chestnut Street, Philadelphia.</note></placeName>
+               <date when="">Monday, June 17th, 1839.</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>
+Mr. Charles Dickens presents his compliments to Mr. Joseph Jones and begs through him to thank the Committee of the Hibernian Society,<note>The Ancient Order of Hibernians, an Irish Catholic fraternal organisation; its American branch was founded in New York City in 1833.</note> for their polite attention and kind invitation. It would have given Mr. Dickens great pleasure to accept it, but he leaves this city<note>Philadelphia, where CD stayed from 5-9 March, before moving on to Washington.</note> tomorrow morning and will be at [a]<note>Word probably missing through a tear in the page.</note> considerable distance from it on the seventeenth.
+	 </p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName></persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

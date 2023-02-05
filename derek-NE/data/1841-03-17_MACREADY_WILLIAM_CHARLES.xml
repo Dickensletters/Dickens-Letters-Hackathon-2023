@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> W. C. MACREADY,<note>William Charles Macready (1793-1873; <hi rend="italic">Dictionary of National Biography</hi>), the leading English actor of his generation: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 279n &amp; Pilgrim <hi rend="italic">Letters</hi> 2, p. 2n. His friendship with CD was unbroken from 1837.</note>? 17 MARCH 1841</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-07</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Klaus Schappert.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">books|social engagements|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1841-03-17">Wednesday Seventeenth March / 1841</date>
+            </dateline>
+            <salute>My Dear Macready</salute>
+         </opener>
+         <p>How are you disposed this morning? Will you walk down to Evans’s?<note>Messrs Evans, 93 Pall Mall, auctioneers.</note> I want to leave word about the books I have bought of poor Tom Hill’s,<note>Thomas Hill (1760-1840; <hi rend="italic">Dictionary of National Biography</hi>), retired dry-salter and book collector: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 329n. CD invited him to the <hi rend="italic">Pickwick</hi> dinner (18 Nov 37) and gave him presentation copies. His books and manuscripts auctioned 10-17 Mar 40; CD attended the first day and sent someone to bid for him on the second. The marked catalogue (British Library) shows his numerous purchases: see Pilgrim <hi rend="italic">Letters</hi> 2, p. 229, <hi rend="italic">nn</hi> 2 &amp; 4 and p. 238.</note> and shall be glad of your company if you will go. A word in answer.  </p>
+         <closer>
+            <salute>Faithfully Always 
+            </salute>
+            <signed>
+               <persName>CD</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

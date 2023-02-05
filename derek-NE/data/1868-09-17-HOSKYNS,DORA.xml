@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> DORA HOSKYNS,<note> Mrs Dorothea (Dora) Ann Eliza Hoskyns (<hi rend="italic">née</hi> Robinson), c.1839-1901; daughter of the Rev. George Stamp Robinson Bt, married Oct 1865 (Sir) Anthony Riley Hoskyns, RN (1828-1901), later G.C.B. and Admiral R.N. Mrs Hoskyns contributed “Old Harvest-Homes” to <hi rend="italic">All the Year Round</hi>, 10 Aug 67, XVIII, 164-8.
+</note> 17 SEPTEMBER 1868</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-01</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile on the website of John Wilson Manuscripts Ltd. Address: Miss<note>Thus in MS.</note> Dora Hoskyns | Cranford Hall | Kettering.<note>Home of Mrs Hoskyns’s father, the Rev. George Stamp Robinson, seventh Baronet (1797-1873).</note>  </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="All the Year Round|publishing|editing">All the Year Round|publishing|editing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND,</placeName>
+               <date when="1868-09-17">Thursday Seventeenth September 1868</date>
+            </dateline>
+            <salute>Thursday Seventeenth September 1868</salute>
+         </opener>
+         <p> I sincerely regret that I cannot have the pleasure of accepting the enclosed verses. But they are really unsuitable to these pages.
+
+</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS|Miss<note>Thus in MS.</note> Dora Hoskyns</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

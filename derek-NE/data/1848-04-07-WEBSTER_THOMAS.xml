@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To THOMAS WEBSTER,<note>Thomas Webster (1800-86), painter, particularly of children. ARA 1840; RA 1846. Exhibited frequently; in the RA exhibition 1847 his painting Instruction was described as ‘a little gem . . . one of the boasts of the year’ (Literary Gazette, 5 June).</note> 7 April 1848</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Emily Bell</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-01-02</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Stephen Weekes </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="visual arts|Nicholas Nickleby|Dombey and Son">visual arts|Nicholas Nickleby|Dombey and Son</interp>
+            </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>Seventh April 1848.
+               <placeName>DEVONSHIRE TERRACE</placeName>
+               <date when="1848-04-07">1848-04-07</date>
+            </dateline>
+            <salute>My Dear Sir.</salute>
+         </opener>
+         <p>If you will kindly let me know in what amount I stand indebted to you,<note>CD purchased the brimstone and treacle scene from <hi rend="italic">Nicholas Nickleby</hi>, which Webster painted as frontispiece for the Cheap edition; see Pilgrim <hi rend="italic">Letters</hi> 5, p. 203. The companion picture from <hi rend="italic">Dombey</hi>, mentioned in this letter, has not been found.</note> I shall be happy to discharge the pecuniary part of my obligation.</p>
+<p>I hope to send you, in the course of a week or so, the completed Dombey wherein you will find, at your leisure, that other subject for the companion picture.</p>
+<p>Accept my best thanks for the enduring pleasure you have given me, and believe me</p>
+         <closer>
+            <salute>
+Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

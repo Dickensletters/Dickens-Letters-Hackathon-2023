@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To HENRY LEWIS SMALE,<note>Henry Lewis Smale (baptised 1790), proctor and notary: see Pilgrim <hi rend="italic">Letters</hi> 3, p. 437.</note> 3 FEBRUARY 1843</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-15</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS University of Rhode Island Special Collections.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements|health|railway">social engagements|health|railway</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace </placeName>
+               <date when="1843-02-03"> Friday Morning Third February 1843
+
+</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>The months come round so fast, and this is such a short one,<note>CD often complained of the extra pressure of deadlines: see e.g. Pilgrim <hi rend="italic">Letters</hi> 1, pp. 405, 510 (“this most fraudulent month of eight and twenty days”).</note> that I shall not be able to have the pleasure of coming to dine with you until my February work has had its throat cut: which laudable deed I shall perform with all convenient despatch. I was hurried away unexpectedly to Bath, in the beginning of my January leisure,<note>After completing January’s stint on <hi rend="italic">Martin Chuzzlewit</hi> (Pilgrim <hi rend="italic">Letters</hi> 3, p. 425), CD was in Bath for a “few days” between 21 and 25 Jan; the purpose of his visit not known (Pilgrim <hi rend="italic">Letters</hi> 3, pp. 429n, 431).</note> and have since been reposing on some rheumatic laurels gathered on the Railway. I hear that while I was away, you saw the children; who were specially impressed by your manners and conversation. I beg to be remembered to all your house. And am</p>
+<P>H. Smale Esquire</P>
+         <closer>
+            <salute>My Dear Sir | Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

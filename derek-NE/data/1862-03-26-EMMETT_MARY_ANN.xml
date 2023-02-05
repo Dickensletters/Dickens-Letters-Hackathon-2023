@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To MARY ANN EMMETT,<note>Mary Ann Emmett (b. 1826), of 1 Cloudesley Square, Islington, sister of John Thomas Emmett, architect. Addressee of the envelope To Mrs Emmett, in Pilgrim <hi rend="italic">Letters</hi> 10, p. 88 (incorrectly identified as 'Mrs').</note> 26 MARCH 1862 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-2022</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Aberdeenshire Museums Service &amp; Discovery Centre. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="charity">charity</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND</placeName>
+               <date when="1862-03-26">Wednesday Twenty Sixth March 1862 </date>
+            </dateline>
+            <salute>Dear Madam</salute>
+         </opener>
+         <p>I shall be happy to take charge of the Ten Guineas so kindly and feelingly subscribed for Mrs Hughes,<note>Jane Ann Hughes (1818-77), left destitute on the death of her husband, the Rev. Stephen Roose Hughes (1814-62), Rector of Llaneugrad with Llanallgo, Anglesey. CD was aware of her plight; see To John Page Hopps, 7 March 1862, Pilgrim <hi rend="italic">Letters</hi> 10, p. 45. CD had met the rector and his wife on a visit to Wales, in the wake of the wreck of the Royal Charter on 26 October 1859; the victims included Robert and Peter Hogarth, the sons of Robert Hogarth, of Scremerston, near Berwick, younger brother of CD's father-in-law. CD stayed at Hughes’s rectory on 30 Dec 1859, and subsequently wrote an essay concerning the shipwreck for the opening instalment of 'The Uncommercial Traveller' (<hi rend="italic">All the Year Round</hi> 2, 28 Jan 1860: 321-6); he sent a draft to Hughes (who had buried 145 victims) for the correction of details. Jane Hughes had helped to identify the bodies. See To Roose Hughes, 10 Jan 1860, Pilgrim <hi rend="italic">Letters</hi> 9, pp. 196-7.</note> if you will have the goodness to forward that sum to me here, as may best suit your convenience. </p>
+<p>With great regret I learn on good authority that the poor lady is in need of all the help that can be rendered her.<note>Mary Emmett learned of Mrs. Hughes’s situation from the press, and, recalling 'The Uncommercial Traveller' article, wrote to CD on 24 March 1862 to ask him to convey to Mrs. Hughes the subscription she had collected from 'a few readers of "<hi rend="italic">All the Year Round</hi>”’. She wished that “the little gift should be anonymous” (Aberdeenshire Museums Service and Discovery Centre).</note>  </p>
+<p>Mrs Emmett </p>
+         <closer>
+            <salute>Dear Madam |Faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

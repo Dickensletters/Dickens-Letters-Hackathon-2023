@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> CHARLES SABINE,<note>Charles Sabine (1796-1859), solicitor and poet, of Oswestry, Shropshire. Friend and school-fellow at Mill Hill of CD’s friend Thomas Talfourd. Uncle of Shirley Brooks, of <hi rend="italic">Punch</hi>, who served articles with him 1830-3. Published <hi rend="italic">The Council of Constance</hi>, 1848, besides <hi rend="italic">Sylva Sacra</hi>, 1853, <hi rend="italic">The Jewel and Star</hi>, 1855, and other mainly religious verse. A strong Evangelical, he believed fervently in Christ's second coming and laid a place for Him at every meal (see G. S. Layard, <hi rend="italic">A Great 'Punch' Editor</hi>, 1907, p. 10; Pilgrim <hi rend="italic">Letters</hi> 5, p. 475n).</note> 24 APRIL 1849</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces mention in Pilgrim <hi rend="italic">Letters</hi> 5, p. 520.| Text from facsimile in Swann Auction Galleries catalogue, 2004.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="books|gifts">books|gifts</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1849-04-24">Twenty Fourth April 1849.</date>
+            </dateline>
+            <salute>"</salute>
+         </opener>
+         <p>Accept my thanks for your book<note>Probably <hi rend="italic">The Council of Constance, 1848</hi>. Sabine had already sent CD <hi rend="italic">A Little Book for Our Poor Little People</hi>, his 1849 vol. of poems; see Pilgrim <hi rend="italic">Letters</hi> 5, p. 475, and n.</note> and note, and believe me</p>
+         <closer>
+            <salute>Faithfully yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS| Faithfully yours</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

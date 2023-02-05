@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JULIA FORTESCUE,<note>Julia Sarah Hayfield Fortescue (1817-99), actress: see Pilgrim <hi rend="italic">Letters</hi> 2, p. 331<hi rend="italic">n</hi>. Played in a number of adaptations of CD’s works and several times with the Amateur Company organized by CD.</note> 21 JUNE 1847</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Gorringes (Lewes) on line catalogue, March 2005</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="theatre|charity">theatre|charity</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>Miss Fortescue | Theatre Royal Haymarket.<note>The Haymarket’s repertory consisted of standard and new plays, the performances determined by the draw of particular pieces and the engagement of particular actors. Fortescue’s only role at this end of the season was as Florence Wilmot in Robert Bell’s comedy, Temper (first night, 17 May): it ran almost nightly from its premiere to mid June.</note>
+	</address>
+            <dateline>
+               <placeName>Devonshire Terrace
+
+</placeName>
+               <date when="1847-06-27">Twenty First June 1847.</date>
+            </dateline>
+            <salute>Dear Miss Fortescue.</salute>
+         </opener>
+         <p>I don’t know whether you have heard that we, the old original amateurs of that very small Theatre in Dean Street,<note>A private theatre, 73 Dean Street, Soho, owned by Fanny (Frances) Kelly, with a seating capacity of about 500. The Amateur Company, organized by CD on his return from Italy, had acted Ben Jonson’s <hi rend="italic">Every Man in His Humour</hi> there, 20 Sep 45: see Forster, V, i, 380-1 and Pilgrim <hi rend="italic">Letters</hi> 4.</note> are going to act twice at Covent Garden for the benefit of Mr. Leigh Hunt<note>James Henry Leigh Hunt (1784-1859; <hi rend="italic">Dictionary of National Biography</hi>), essayist, critic and poet: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 341n. CD was planning a benefit performance by the Amateurs for Hunt, whose financial affairs were (as only too often) critical: see further Pilgrim Letters 5, p. 77 n.3.</note> whose distinguished literary name and services are, no doubt, known to you. But if you should have heard of it, I hope a sense of the impossibility of our thinking of doing anything of that kind without you, has also been present in your thoughts.</p>
+<p>The favor I have to ask of you, Managerially, is, that you will play your old part in Every Man in his Humour,<note>Fortescue had played Mistress Kitely: see PIlgrim <hi rend="italic">Letters</hi> 4, p. 363. In the event, she did not appear with the Amateurs in this revival.</note> on Wednesday 14th. of July, at Covent Garden Theatre, and Mrs. Ford in the Merry Wives of Windsor,<note><hi rend="italic">Merry Wives</hi> was not performed in 1847; in 1848, Fortescue appeared again with the Amateurs in the Merry Wives (15 May) and <hi rend="italic">Every Man in His Humour</hi> (17May) (Pilgrim <hi rend="italic">Letters</hi> 5, p. 303n).</note> on Monday the 19th. of July. I understand that Mr. Webster<note>Benjamin Nottingham Webster (1797-1882; <hi rend="italic">Dictionary of National Biography</hi>), actor and dramatist; lessee of the Theatre Royal, Haymarket since 1837.</note> has already informed Mr. Lemon<note>Mark Lemon (1809-70; <hi rend="italic">Dictionary of National Biography</hi>), playwright and editor of Punch 1841-70: see Pilgrim <hi rend="italic">Letters</hi> 3, p. 469<hi rend="italic">n</hi>. An active member of the Amateurs and a friend of Webster’s who had encouraged Lemon in his early years as playwright.</note> of his willingness to consent to such an arrangement, providing you have no objection. 
+</p>
+<p>We are going to act these same plays afterwards, for the same purpose, one at Manchester, and one at Liverpool.<note> The London performance was cancelled when Leigh Hunt was granted a pension, but the Amateurs acted for his benefit in Manchester (26 July) and Liverpool (28 July).
+</note> Of those representations we can speak, when I shall have the pleasure of seeing you. If I find, as I hope, that we yet live in your favorable remembrance, and that we may welcome you as our kind assistant again, I will beg Willmot<note>Spelt thus in MS; John Willmott, stage-manager and prompter at the Lyceum: had helped the Amateurs in 1845. His duties also included going in advance to Manchester and Liverpool to check the scenery and properties (Pilgrim <hi rend="italic">Letters</hi> 5, p. 119<hi rend="italic">n</hi>).</note> to send you a list of the Rehearsal callsa for Covent Gardena, commencing on Thursday the 8th. of July.<note>With the London performance cancelled, rehearsals for Manchester and Liverpool began on 17 July.</note> </p>
+<p>Allow me to assure you of, and to thank you for, the interest and pleasure with which I have seen you publicly, since our last meeting in private, and believe me 
+</p>
+         <closer>
+            <salute>Dear Miss Fortescue / Very faithfully Yours             </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

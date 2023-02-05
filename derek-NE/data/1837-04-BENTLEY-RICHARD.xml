@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To RICHARD BENTLEY,<note>Richard Bentley (1794-1871; <hi rend="italic">Dictionary of National Biography</hi>), prominent Victorian publisher, founder of Richard Bentley &amp; Son. See further Pilgrim <hi rend="italic">Letters</hi> 1, p. 164n. CD entered into agreement with Bentley (1836) for a novel (eventually to be <hi rend="italic">Barnaby Rudge</hi>) and edited <hi rend="italic">Bentley’s Miscellany</hi>, Jan 37-Jan 39. For the often difficult professional relationship between CD and Bentley, see Robert L. Patten, <hi rend="italic">CD and His Publishers</hi>, 1978, ch. 4.</note> [?EARLY APRIL 1837-LATE MARCH 1838]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-22</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Facsimile in Koller Auctions of Zurich online catalogue, June 2010. Date: CD moved to Doughty Street, Early Apr 37; “Esqre” rather than “Esquire” in subscription supports a date no later than Mar 38.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="publishing|Sketches by Boz">publishing|Sketches by Boz</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>48 Doughty Street. </placeName>
+               <date when="">Friday Evening</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>Wait till tomorrow. We shall put him out of sorts else, and retard the other.<note>Although not on mourning paper, the letter is possibly related to the negotiations in June 37 with the publisher Macrone over copyright of the <hi rend="italic">Sketches</hi> (Pilgrim <hi rend="italic">Letters</hi> 1, pp. 269-73); Forster, acting for CD, was also concerned about the terms under which CD was contracted to Bentley for two novels (<hi rend="italic">To</hi> Forster, ?9 June, ?14 June, ?15 June; Pilgrim <hi rend="italic">Letters</hi> 1, pp. 269-71). The days of the week for the two latter to Forster and this to Bentley (Wed, Thurs, Fri) would fit 14-16 June and CD may have been concerned on 16 June not to put Forster “out of sorts” by negotiations with Bentley and so “retard” the more immediately urgent negotiations with Macrone.</note></p>
+<p>Richard Bentley Esqre.</p>
+         <closer>
+            <salute> Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THOMAS HODGSKIN,<note>Thomas Hodgskin (1787-1869), economist and journalist: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 53n. He had joined the party of Cobden (below) and free trade and in Dec 45 he joined the <hi rend="italic">Daily News</hi>team: see Pilgrim <hi rend="italic">Letters</hi> 4, p. 445 &amp; <hi rend="italic">n</hi>.</note> [4 FEBRUARY 1846]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile on e-Bay, 10 June 2006. Date: CD is responding to Hodgskin’s reply to CD’s letter, 2 Feb 46: Wednesday is 4 Feb 46. | Private </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="The Daily News|publishing|social issues|politics|editing">The Daily News|publishing|social issues|politics|editing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF THE DAILY NEWS / WHITEFRIARS<note>The Daily News began publication, 21 Jan; CD resigned as editor, 9 Feb.</note>
+
+</placeName>
+               <date when="1846-02-04">Wednesday Night
+
+</date>
+            </dateline>
+            <salute>My Dear Sir.</salute>
+         </opener>
+         <p>I have found it so difficult to make any present arrangement in reference to the subject of your un-answered letter – consulting your feeling in reference to Mr. Danson<note>John Towne Danson (1817-98), journalist; private secretary to Benjamin Hawes, the radical politician, from 1844: see Pilgrim <hi rend="italic">Letters</hi> 4, p. 448<hi rend="italic">n</hi>. CD had offered him an “engagement to write leaders…on financial and commercial subjects” with the <hi rend="italic">Daily News</hi>.</note> – that I have been constrained to leave the matter where it stands. But there is very little difference between you and me, I assure you,<note>“in reference” deleted by CD.
+</note> on this head.<note>The Corn Laws and Richard Cobden. Cobden (1804-65; <hi rend="italic">Dictionary of National Biography</hi>), MP 1841-7, was a strong believer in free trade and a leader of the Anti-Corn Law League; he had published a letter addressed to Tenant Farmers in the Daily News, 31 Jan. Danson, at CD’s suggestion, had visited Hodgskin on the evening of Sunday, 1 Feb, to discuss the leaders, apparently written by both men for the <hi rend="italic">Daily News</hi>, on the subject of Cobden’s letter. Hodgskin clearly disagreed strongly with Danson’s approach; he may also have resented Danson’s leader and not his, being published in the first place: see further Pilgrim <hi rend="italic">Letters</hi> 4, p. 487, <hi rend="italic">n</hi>.2. CD later expressed his disagreement with Danson’s leader of 9 Feb, on the Prime Minister, Sir Robert Peel, and the repeal of the Corn Laws, to which Danson replied that CD’s “objections were not groundless”: see <hi rend="italic">To</hi> Danson, 9 Feb 46, Pilgrim <hi rend="italic">Letters</hi> 12 (Addenda), p. 600.</note>  </p>
+<p>Thomas Hodgskin Esquire</p>
+         <closer>
+            <salute>Faithfully Yours always
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> PATRICK ALLAN-FRASER,<note>Patrick Allan-Fraser (1813-1890; <hi rend="italic">Dictionary of National Biography</hi>), artist and architect. Born Patrick Allan, son of an Arbroath stocking weaver; successively, house painter and artist; assumed the additional name of Fraser 1851, after marrying in 1843 heiress of nearby estate of Hospitalfield. Devoted himself to managing his wife's estate and collecting works of art. Under his Will formed a Trust (1) to maintain Hospitalfield as an Art College for young students, and (2) to assist aged and infirm professional men, including specifically 'painters, sculptors or literary men'.</note> 22 MAY 1858</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-09</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Hospitalfield Arts Centre.<note>Archived with the material in the Hospitalfield Arts Centre are two items which belong to a later date in the sequence of this correspondence: a stamped printed receipt headed Guild of Literature and Art, 10 Lancaster Place, Strand, London, signed by W.H. Wills and dated 24 May 1858, acknowledging receipt of 'a donation' of £50; and a disintegrating envelope, postmarked 24 May 1858, and addressed (probably in Wills’s hand) to Fraser.</note> </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">charity|railway|Household Words|All the Year Round|legal matters</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House </placeName>
+               <date when="1858-05-22">Saturday Twenty Second May 1858</date>
+            </dateline>
+            <salute>My Dear Sir,</salute>
+         </opener>
+         <p>Let me thankfully acknowledge your generous draft for £50 in aid of the Guild<note>The Guild of Literature and Art, a self-help scheme for writers and artists, founded by CD and his friends in 1851.</note> Funds – for which the Honorary Secretary<note>William Henry Wills (1810-80; <hi rend="italic">Dictionary of National Biography</hi>), CD's personal secretary, one of his most trusted friends, and assistant editor of <hi rend="italic">Household Words</hi> and <hi rend="italic">All the Year Round</hi>. He also served as the Secretary for the Guild.</note> will send you a regular receipt.<note>For Fraser’s intended gift of Hawkesbury Hall to the Guild see To Fraser, 19 April, 3 May 1858, 12 May 1858; see also Michael Slater, 'Munificence Declined: New Letters about the Guild of Literature and Art', <hi rend="italic">Dickensian</hi> 111.1 (2015): 34-41.</note> 
+
+</p>
+<p>We will take the field, as soon as the forms permit us, in November next.<note>A reference to the Guild’s petitioning Parliament to allow the alterations to the 1854 Literary and Scientific Institutions Act, which would be required before the institution could accept Allan-Fraser’s proposed donation of Hawkesbury Hall.</note> Meanwhile and always, on railways on and off, by land and sea, may all safety happiness and prosperity be yours and Mrs Fraser’s!<note>Elizabeth Allan-Fraser (?1806-74).</note> </p>
+
+<p> Patrick Allan Fraser Esquire 
+
+</p>
+
+         <closer>
+            <salute>Very faithfully yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

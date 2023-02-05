@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> WILKIE COLLINS,<note>William Wilkie Collins (1824-89; <hi rend="italic">Dictionary of National Biography</hi>), novelist; eldest son of the painter William Collins; named after his father's intimate friend, Sir David Wilkie, RA. Called to the Bar Nov 1851; but, after exhibiting a landscape at RA 1849, made writing his career. Published his first story in Douglas Jerrold's <hi rend="italic">Illuminated Magazine</hi>, 1843; <hi rend="italic">Memoirs of the Life of William Collins, Esq</hi>., R.A., 2 vols, 1848; his first novel, <hi rend="italic">Antonina</hi>, 1850; and Rambles beyond Railways, based on a holiday in Cornwall, 1851. Met CD through Egg in 1851; thereafter, as Forster puts it, one of CD's "dearest and most valued friends" (<hi rend="italic">The Life of Charles Dickens</hi>, VI, V, 520). Dedicated his third novel, <hi rend="italic">Hide and Seek</hi>, 1854, to CD, "as a token of admiration and affection". Prolific contributor to both Household Words (from 24 Apr 52: "A Terribly Strange Bed") and All the Year Round (in which The Woman in White, <hi rend="italic">No Name</hi> and <hi rend="italic">The Moonstone</hi> appeared)</note> 16 DECEMBER 1857</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-28</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Paul Lewis.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|social engagements">friends|social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>Wilkie Collins Esquire | Care of Mr Anderson | Southborough | near Tunbridge Wells
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName>Tavistock House
+
+</placeName>
+               <date when="1857-12-16">Wednesday Sixteenth December | 1857</date>
+            </dateline>
+            <salute>My Dear Wilkie</salute>
+         </opener>
+         <p>Russell<note>William Howard Russell (1820-1907; <hi rend="italic">Dictionary of National Biography</hi>), war-correspondent and journalist. Reported the Crimean War for The Times; later reported the early stages of the American Civil War.</note> is just going to India,<note>The Indian 'Mutiny' (1857-8) had begun 10 May with the rising at Meerut and the seizure of Delhi; Lucknow was under siege from July to Nov. Russell arrived in India, Jan 58; he followed Sir Colin Campbell in the campaign to recapture Lucknow. <hi rend="italic">My Diary in India</hi>, 2 vols, 1860, based on his MS Diaries (MS TNL Archive).</note> and Delane<note>John Thadeus Delane (1817-79; <hi rend="italic">Dictionary of National Biography</hi>), editor of <hi rend="italic">The Times</hi>, 1841-77: see Pilgrim <hi rend="italic">Letters</hi> 7, p. 145n. CD had met him by 1847 and his intercourse with him in later years was “intimate and frequent” (Pilgrim <hi rend="italic">Letters</hi> 6, pp. vi, 527).</note> and he are coming to dine with me on Saturday at half past six. Will you come? Very quiet, and no party.<note>Collins was present. Russell noted (MS Diary, 19 Dec) Forster, Wills and Thackeray as also present; he found it “a very pleasant party”. He seems to have agreed to look out for Walter Dickens, serving in India, noting (MS Diary, 21 Feb 58) “Memo. Where is Charles Dickens Son”; and later sent news of Walter (see <hi rend="italic">To</hi> Russell, 7 July 58, Pilgrim <hi rend="italic">Letters</hi> 8, p. 599).</note></p>
+         <closer>
+            <salute>Ever Faithfully
+            </salute>
+            <signed>
+               <persName>CD</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

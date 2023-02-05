@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To [?JOHN POOLE],<note>John Poole (1786-1872; <hi rend="italic">Dictionary of National Biography</hi>: see Pilgrim <hi rend="italic">Letters</hi> 4, p. 672n), miscellaneous writer, particularly noted for his farces, the most successful, <hi rend="italic">Paul Pry</hi> (1825), giving him the soubriquet by which he is identified on this fragment by another hand than CD’s. He gave up writing about 1845, his health broken by heavy drinking, and lived in Paris: CD obtained a Civil List pension for him in December 1850 (see Pilgrim <hi rend="italic">Letters</hi> 6, pp. 233 and 239).</note> [?MAY 1862]2<note>The date is given at the end of the fragment in another hand than CD’s and in a different ink from “Paul Pry”. Poole had returned from Paris by June 1862 and was living in Kentish Town: see To Poole, 13 June 62, Pilgrim  <hi rend="italic">Letters</hi> 10, p. 93.</note></title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-03</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile of fragment in on-line catalogue of Live Auctioneers (14 April 2005). </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="publishing">publishing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1862-05">May 1862 </date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Many thanks for the curious and interesting MS.<note>Unidentified; possibly by Poole, though CD reported in 1850 that Poole, in “a prematurely shattered state”, was “perfectly unable to write” (To Lord John Russell, 18 Dec 50, Pilgrim <hi rend="italic">Letters</hi> 6, p. 239). CD’s description of Poole to Collins in October 1862 does not suggest any return of literary powers (Pilgrim <hi rend="italic">Letters</hi> 10, p. 138).</note>  </p>
+         <closer>
+            <salute>Faithfull Alwys 
+            </salute>
+            <signed>
+               <persName>CD!“Paul Pry”—M-S </persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

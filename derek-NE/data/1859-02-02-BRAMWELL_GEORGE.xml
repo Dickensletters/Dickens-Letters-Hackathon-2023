@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi>o BARON BRAMWELL,<note>Sir George William Wilshere Bramwell (1808-92; <hi rend="italic">Dictionary of National Biography</hi>), Judge of the Exchequer, 1856; Lord Justice, 1867-81. He had attended The Frozen Deep in London, 14 Jan 57 (<hi rend="italic">To</hi> Mrs Brown, 14 Jan 57, Pilgrim <hi rend="italic">Letters</hi> 8, p. 260). Bramwell was connected by marriage to Henry Austin; his younger brother, Henry Frith Bramwell, had acted in CD’s amateur production of J. H. Payne’s Clari in1833 (Pilgrim <hi rend="italic">Letters</hi> 1, p. 20 &amp; n). This is currently the only known surviving letter to Bramwell.
+</note> 2 FEBRUARY 1859</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Dan Calinescu. Address: Baron Bramwell | 3 Old Palace Yard | Westminster.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements|health|public readings|family">social engagements|health|public readings|family</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>TAVISTOCK HOUSE,
+|TAVISTOCK SQUARE, LONDON. W.C.</placeName>
+               <date when="1859-02-02">Wednesday Second February, 1859.</date>
+            </dateline>
+            <salute>My Dear Baron Bramwell.</salute>
+         </opener>
+         <p>It is with the greatest reluctance and regret, I assure you, that I resign the pleasure of dining with you to day. But I was seized upon, yesterday, by an unusually severe cold in the throat and chest, to which the consideration that I have to read tomorrow evening,<note><hi rend="italic">CD read the Christmas Carol and The Trial</hi> from Pickwick at St Martin’s Hall: one of two readings added to his London Christmas reading programme. On the Thursday, CD wrote to Wilkie Collins, “You have no idea what a cold I have! How I am to read tonight, I don’t know” (Pilgrim <hi rend="italic">Letters</hi> 9, p. 24).</note> forces me to attach more importance than I should otherwise bestow upon it. After arguing the matter with myself, with a prolixity worthy of Westminster Hall,<note>Part of the Palace of Westminster, used from medieval times as a law court; proverbial for legal wordiness. The bachelor lawyer in CD’s “The Ghost of Art” (<hi rend="italic">Household Words</hi>, 20 July 50, I, 385) characterizes it as having “too much talk and too much law”: see also Bleak House, ch. 24.</note> I am driven to the conclusion that I must get to bed at about your dinner-hour, and be mustard-poulticed and messed and made wretched in a variety of ways. If I went out tonight, I could have no reasonable hope of being fit for tomorrow.</p>
+<p>As my daughter<note>Presumably Mamie, who as elder daughter would now be CD’s companion when invited out.</note> has not the courage to face the Judicial Presence without paternal support, I take the burden of her excuses on my aching shoulders.</p>
+<p>Baron Bramwell</p>
+         <closer>
+            <salute>Believe me | Very faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

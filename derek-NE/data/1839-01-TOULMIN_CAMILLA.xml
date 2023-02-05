@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MISS CAMILLA TOULMIN,<note>Camilla Dufour Toulmin (1812-95; <hi rend="italic">Dictionary of National Biography</hi>), later Mrs Newton Crosland. Prolific novelist and contributor to periodicals from 1838.</note> [LATE JANUARY 1839]</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-22</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Phillip Pirages. Address (envelope): Miss Toulmin, 5 New Ormond Street. Date: news of the death of Mrs Maclean (“L.E.L.”; see below) was published in the London Courier, 1 Jan 39; Camilla Toulmin’s lines appeared in Bentley’s Miscellany, Feb 39.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Bentley's Miscellany|publishing">Bentley's Miscellany|publishing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+		<addrLine>5 New Ormond Street
+		</addrLine>
+	</address>
+            <dateline>
+               <placeName>Doughty Street </placeName>
+               <date when="">Friday afternoon<note>Address and date at foot of letter.</note></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Mr. Dickens presents his compliments to Miss Toulmin and begs to assure her that she shall see his proof of the lines on Mrs. Maclean’s death,<note>Letitia Elizabeth Landon (1802-38; <hi rend="italic">Dictionary of National Biography</hi>); poetess as “L.E.L.” Briefly engaged to John Forster, 1835. Married George Maclean, Governor of Cape Coast Colony, 1838; went with him to the Cape Coast, where she died mysteriously, Oct 38. <hi rend="italic">Her Life and Literary Remains</hi>, 2 vols, 1841, by Laman Blanchard.</note> directly it reaches his hands. Mr. Dickens may take this opportunity of saying that its return at Miss Toulmin’s earliest convenience will greatly oblige him.<note>Toulmin’s poem, “On the Death of Mrs. Maclean, (L.E.L.)”, was published in the Miscellany, Feb 39, V, 144.
+</note></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

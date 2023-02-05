@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> HENRY COLBURN,<note>Henry Colburn (d.1855), publisher and magazine proprietor. Founded the <hi rend="italic">New Monthly Magazine</hi> (1814), <hi 		rend="italic">Literary Gazette</hi> (1817), <hi rend="italic">Court Journal</hi> (1829), and held interests in the <hi rend="italic">Athenaeum and Sunday Times</hi>.
+ 	Brought out the first editions of Evelyn's Diary 1819 and Pepys's <hi rend="italic"> Diary</hi> 1825. Disraeli, Bulwer, Hook, Marrya Ainsworth and Lady Morgan were among the authors he published. 	Had a highly unsatisfactory partnership with Richard Bentley 1829-32. His opportunism earned him many enemies, <hi rend="italic">Fraser's Magazine</hi> describing him as the 'Prince Paramount of 	Puffers and Quacks' (I [1830], 320). Published The <hi rend="italic">Pic Nic Papers</hi>, edited by CD, 1841. His widow, Eliza Ann, married John Forster in 1856.</note> 30 MAY 1840</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">Pic Nic Papers,editing,travel
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-01-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">Pic Nic Papers,editing,travel</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+		<address>
+		
+		</address>
+            <dateline>
+               <placeName>Elm Cottage, Petersham, Surrey<note>D had rented Elm Cottage from 30 Apr to 31 Aug 1839.</note></placeName>
+               <date when="">May 30th 1840</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>
+What do you wish me to do with the tale<note>Unidentified; possibly a contribution for CD to consider for inclusion in <hi rend="italic">The Pic Nic Papers</hi>, contracted for publication by Colburn in 1838 but not published until 1841.</note> which you left here t'other day? As it was left without any note or explanation, I am quite at sea about it.
+	</p>
+	 <p>
+	I am going to Broadstairs for a month, early on Monday Morning. If you wish to communicate with me on the subject, a letter addressed to me there, will find me readily.
+	</p>
+         <closer>
+            <salute>
+			Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

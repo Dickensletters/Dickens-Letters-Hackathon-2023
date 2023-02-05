@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JOHN HUGHES,<note>John Hughes (1790-1857; <hi rend="italic">Dictionary of National Biography</hi>), author and artist: publications included <hi rend="italic">Views in the South of France…after Original Sketches</hi> by J. H., 1825, and Lays of Past Days, 1850. Father of Thomas Hughes (author of <hi rend="italic">Tom Brown’s Schooldays</hi>) and William Hughes (see Pilgrim <hi rend="italic">Letters</hi> 1, p. 466 &amp; nn). Friend of Richard Harris Barham, author of the <hi rend="italic">Ingoldsby Legends</hi>, which began first to appear in <hi rend="italic">Bentley’s Miscellany</hi>, for which Hughes and his mother supplied material. Hughes himself published in Bentley’s, including “Walter Childe” (Canto I), Bentley’s, vol. III (1 May 1838), pp. 433ff. CD’s formality in opening and closing, on the face of it surprising between editor and contributor, arises because Hughes’s contributions, like Barham’s own, were transmitted directly to Bentley (<hi rend="italic">The Life and Letters of the Rev. Richard Harris Barham…By His Son, 2 vols</hi>, 1870, II, 20).</note> 8 MAY 1838</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p> Text from facsimile in on-line catalogue. Victor Gulotta Collection, May 2011.
+
+</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements">social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>T48 Doughty Street.</placeName>
+               <date when="1838-05-08">Tuesday May 8th. 1838
+
+</date>
+            </dateline>
+            <salute>Sir.</salute>
+         </opener>
+         <p>I very much regret that the number of similar engagements I have already formed, will prevent my acting as a Vice President at your next Anniversary Dinner,<note>Not traced; possibly the Literary Fund Anniversary Dinner.</note> but I hope to be more fortunate on another occasion.</p>
+<p>I am Sir | Very truly Yours</p>
+<p>John Hughes Esquire</p>
+         <closer>
+            <salute>I am Sir | Very truly Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

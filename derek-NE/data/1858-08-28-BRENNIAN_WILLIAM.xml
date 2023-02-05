@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> WILLIAM BRENNIAN,<note>William Henry Nassau Brennian (1827-85), teacher, librarian and lawyer’s clerk in Lurgan; District Secretary of the Orange Order.</note>, 28 AUGUST 1858 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-09</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from the <hi rend="italic">Belfast News-Letter</hi> 6 September 1858.<note>CD is replying to a letter from William Brennian of 26 August; both letters were published under the heading 'ORANGEISM AND CHARLES DICKENS'. Brennian, who describes himself as 'a member of the Orange Institution, and the master of one of its lodges', is querying CD’s hostile reference to the Orange flag in <hi rend="italic">American Notes</hi> (1842). See William F. Long and Paul Schlicke, 'Dickens and Orangeism', <hi rend="italic">Dickensian</hi> 111.3 (2015): 146-53.</note> </p>
+<p>But I remember that it became known to me when I was in personal communication with a gentleman in public position in the place – himself a very staunch Orangeman, indeed – who had lately been exerting himself, without the least compromise of his opinions, to moderate some indiscretions of his brethren which had done great mischief. I afterwards spoke of it to a Government officer, who told me exactly what is stated in my book.<note>CD wrote, 'one man was killed on the same occasion; and from the very window whence he received his death, the very flag which shielded his murderer (not only in the commission of his crime, but from its consequences), was displayed again on the occasion of the public ceremony performed by the Governor General, to which I have just adverted. Of all the colours in the rainbow, there is but one which could be so employed: I need not say that flag was orange.'</note> I believe it was very generally known, and the statement has never within my knowledge been disputed. </p>
+<p>But your temperate remonstrance presents to me what never occurred to me before – that I might have limited my allusions to the Orange flag, especially to its association with that particular place and time. I hope I desire nothing more than to be generously just in all things. The book will shortly be reprinted in a library edition of my writings, now in course of publication; and I will take care that the passage shall so stand, and that my meaning shall be made plain.<note>The passage remained unchanged.</note> I am, Sir, your faithful servant, </p>
+<p>Mr. W.H.N. Brennian </p>
+
+
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="American Notes|Canada|Ireland">American Notes|Canada|Ireland</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Imperial Hotel, Belfast,</placeName>
+               <date when="1858-08-28">Saturday, 28th August, 1858.</date>
+            </dateline>
+            <salute>SIR –</salute>
+         </opener>
+         <p>I answer your letter very readily, and I assure you that I appreciate its good spirit and reciprocate its good will. 
+
+</p>
+<p>So many years have passed since I wrote the book to which you refer me,3 and so many new facts and fancies have busied my mind since then, that I have not the slightest recollection of the details of the long dismissed case in which you take an interest. I am, therefore, quite unable to answer your heads of inquiry.
+
+</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

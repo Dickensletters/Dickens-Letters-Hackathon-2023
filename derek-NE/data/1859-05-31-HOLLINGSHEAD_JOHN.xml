@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JOHN HOLLINGSHEAD,<note>John Hollingshead (1827-1904; <hi rend="italic">Dictionary of National Biography</hi>), writer and journalist: see PIlgrim , p. 389 and <hi rend="italic">Letters</hi> 8, p. 389 and n.</note> 31 MAY 1859</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces catalogue extract (aa),Text from digitised facsimile in eBay website (Gideon Antiques), April 2002</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="editing,All the Year Round,Household Words">editing,All the Year Round,Household Words</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND</placeName>
+               <date when="1859-05-31">Friday Thirty First May 1859</date>
+            </dateline>
+            <salute>Dear Mr. Hollingshead</salute>
+         </opener>
+         <p>I have given your letter my best consideration and I hope that you will believe that it would be a pleasure to me to accept the request it prefers, if my existing arrangements here reasonably admitted of my doing so. But they do not. Without entering into details that would make the fact as plain to you as it is to myself, I beg you to receive the assurance from me. aAt all times, I should be most ready and willing to make money matters easy to your convenience – to discuss with you on any subjects that may arise in your mind – to make your work as certain, as useful, that may arise in your mind – to make your work as certain, as useful, and as agreeable to you as it can be made. I hope my desire to render our connexion both profitable and pleasant to you in all ways will, – for thetime at all events, – so express itself as to serve in place of your proposed arrangement.<note>i.e. a formal contract; Hollingshead wrote more than 30 articles for <hi rend="italic">All the Year Round</hi> 1859-61.</note>a</p>
+<p>Let me add that I do not see any objection to your now collecting your contributions to Household Words.<note>His first collection was <hi rend="italic">Under Bow Bells</hi>, published Oct 59. CD asked him not to publish his <hi rend="italic">All the Year Round</hi> articles at that time: see Pilgrim <hi rend="italic">Letters</hi> 9, p. 102 and n.</note></p>
+         <closer>
+            <salute>Believe me always / Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS, J. Hollingshead Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

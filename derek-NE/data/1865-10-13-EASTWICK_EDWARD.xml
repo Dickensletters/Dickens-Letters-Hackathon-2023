@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> EDWARD EASTWICK,<note>Edward Backhouse Eastwick (1814-83; <hi rend="italic">Dictionary of National Biography</hi>), orientalist and diplomat: see Pilgrim <hi rend="italic">Letters</hi> 11, p. 5nn.</note> 13 OCTOBER 1865</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-16</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Joseph Rubinfine Autographs. Address: Edward Eastwick Esquire | 38 Thurlow Square | S.W. PM. OC 13 65.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">editing|All the Year Round|publishing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND,</placeName>
+               <date when="1865-10-13">Friday Thirteenth October 1865</date>
+            </dateline>
+            <salute>My Dear Mr. Eastwick</salute>
+         </opener>
+         <p>As we have now two serial stories<note><hi rend="italic">At the Bar</hi> by Charles Collins and <hi rend="italic">Half a Million of Money</hi> by Amelia B. Edwards.</note> publishing in these pages together, I wish to give each of your papers a separate name, so that each may seem, for the time being, complete.<note>CD later noted that the public have a tendency, “having more than two serial stories to bear in mind at one time, to jumble them all together, and do justice to none of them” (Pilgrim <hi rend="italic">Letters</hi> 12, p. 443). Eastwick’s papers on Venezuela, where he had been Commissioner for arranging Venezuela loans 1864 and 1867, appeared in All the Year Round, 4 Nov 65 – 28 Apr 66, XIV, 343 – XV, 366. There is no reference to the individual papers being part of a series. The <hi rend="italic">All the Year Round</hi> volume indexes, though, give not only the specific titles, but also a general title, “Venezuela”, as well as alternative titles: e.g. “Erminia”, <hi rend="italic">All the Year Round</hi>, 28 Apr 66, XV, 366, is indexed also under “Venezuela” and “Valencia, The Beauties of”.</note> Will you let me know what title you would prefer for your first chapter,<note>“To Venezuela: Sailing on a Friday”, <hi rend="italic">All the Year Round</hi>, 4 Nov 65, XIV, 343.</note> and will you let me have some more Manuscript to send to the Printer? It is unnecessary to remark, perhaps, that when you collect your papers, you can either use these separate headings as titles of chapters, or abolish them altogether.<note>Eastwick’s Venezuela: or, <hi rend="italic">Sketches of Life in a South American Republic; with a History of the Loan of 1864</hi> (1868), retains the <hi rend="italic">All the Year Round</hi> headings with minor variations and additions.</note></p>
+<p> The Printer will send you a Revise<note>A proof taken after corrections in the <hi rend="italic">All the Year Round</hi> office of the preliminary proof.</note> of the first paper, and you can then append a title to the Proof.
+
+</p>
+         <closer>
+            <salute>Faithfully Yours alwys 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKEN | Edward Eastwick EsquireS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

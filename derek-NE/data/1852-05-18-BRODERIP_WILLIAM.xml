@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> <hi rend="italic">To</hi> William J. BRODERIP,<note>William John Broderip, FRS (1789-1859; <hi rend="italic">Dictionary of National Biography</hi>), lawyer and naturalist; magistrate at Westminster Police Court: see Pilgrim <hi rend="italic">Letters</hi> 7, p. 136n.</note> 18 MAY 1852</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-12</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Extract inWalter T. Spencer catalogue No. 69 (1895); <hi rend="italic">MS</hi> 2 pp.; addressed W. J. Broderip; dated 18 May 52.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Urania Cottage|legal matters|Bleak House">Urania Cottage|legal matters|Bleak House</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1852-05-18">18 MAY 1852</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>I write briefly,<note>Clearly about a case for Urania Cottage, the home for homeless women established by CD. CD had urged Broderip to recommend cases (26 July 50, Pilgrim <hi rend="italic">Letters</hi> 6, p. 136) and presumably refers to Sarah Youngman's admission (To Broderip, 25 May 52, Pilgrim <hi rend="italic">Letters</hi> 6, p. 683).</note> being surrounded at this moment (in the spirit) with no end of brickmakers’ babies and forms of phantoms all calling out of the gloom, ‘Take me next,’ ‘Look at me,’ ‘It’s my [turn],’<note>Source reads “time”. CD was at work on <hi rend="italic">Bleak House</hi>, No. 4 (chs 11-13); he refers to ch. 8, the brickmaker’s house and the death of Jenny’s child. The plan for No. 4 shows he thought of developing this line, then rejected it for the present: “The Brickmaker’s Family? No”.</note>… </p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To WILLIAM COX BENNETT,<note>William Cox Bennett (1814-97), poet and miscellaneous writer. Secretary of the Greenwich Society for the Diffusion of Useful Knowledge; an active supporter of popular education. Had published <hi rend="italic">My Sonnets</hi> (Greenwich: Henry S. Richardson, 1843), and <hi rend="italic">Songs and Ballads</hi> (Greenwich: H. Richardson, 1845). At the time of his death CD had two presentation copies of Bennett's works in his library; see J.H. Stonehouse (ed), <hi rend="italic">Catalogue of the Library of Charles Dickens from Gadshill (London: Piccadilly Fountain Press, 1935)</hi>, p. 12.</note> 6 NOVEMBER 1850
+
+</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Replaces extract in Pilgrim <hi rend="italic">Letters</hi> 6, p. 205.
+Text from facsimile in Books &amp; Bidders online catalogue, Nov 2020.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="books|gifts">books|gifts</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>W. C. Bennett Esquire | 11 Croom's Hill Grove | Greenwich. PM 6 Nov 1850. 
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName>Devonshire Terrace</placeName>
+               <date when="1850-11-06">Sixth November 1850. </date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>  I hasten to acknowledge the receipt of your book,<note>Bennett's Poems, reprinting two of his contributions to <hi rend="italic">Household Words</hi>, had been published by Chapman &amp;amp; Hall 1 Nov 1850.</note> and the very gratifying terms in which you have the kindness to present it to me. I assure you that I feel them strongly, and that you can have no more interested or approving reader than I have been for a long time.</p>
+         <closer>
+            <salute>Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

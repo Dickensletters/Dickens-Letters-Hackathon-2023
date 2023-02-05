@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MESSRS ESSELL KNIGHT AND ARNOLD,<note>Solicitors and clerks to the Rochester Magistrates.</note> 6 SEPTEMBER 1866</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-04</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Facsimile in International Autograph Auctions online catalogue, June 2013 </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="domestic issues,legal matters">domestic issues,legal matters</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD'S HILL PLACE,HIGHAM BY ROCHESTER, KENT.</placeName>
+               <date when="1866-09-06">Thursday Sixth September 1866</date>
+            </dateline>
+            <salute>Dear Sirs </salute>
+         </opener>
+         <p>Allow me to thank you for your letter of yesterday’s date. </p>
+<p>The lime trees<note>CD wished to plant a row of lime-trees on the side of the high-road along the whole wall-frontage of his property. See Pilgrim <hi rend="italic">Letters</hi> 11, p. 240; dated 4 September 1866.</note> will probably be planted about a month hence. I will take care that Mr Langford<hi rend="italic">Perhaps George Langford, of 17 Edwin St, Gravesend, acting on behalf of the Magistrates.</hi> has good notice of my gardener’s being ready for the work. </p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS,Messrs. Essell Knight and Arnold.</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

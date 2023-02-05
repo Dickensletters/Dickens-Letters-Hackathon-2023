@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To CLARISSA CATTERMOLE,1 13 SEPTEMBER 1868</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-22</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Seymour Adelman Letters and Documents Collection, Special Collections Department, Bryn Mawr College Library.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="The Old Curiosity Shop|Barnaby Rudge|charity|friends|illustrations|politics">The Old Curiosity Shop|Barnaby Rudge|charity|friends|illustrations|politics</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD’S HILL PLACE, | HIGHAM BY ROCHESTER, KENT</placeName>
+               <date when="1868-09-13">Sunday Thirteenth September, 1868</date>
+            </dateline>
+            <salute>My Dear Mrs. Cattermole.
+
+</salute>
+         </opener>
+         <p>I cannot undertake to make any explanation to Forster, or to convey anything to him that you have not yourself written. The course to take in reference to seeking a pension<note>Cattermole, the co-illustrator of <hi rend="italic">The Old Curiosity Shop</hi> and <hi rend="italic">Barnaby Rudge</hi>, had died, 24 July, “Very, very poor. Family quite unprovided for; debt and distress” (<hi rend="italic">To</hi> Wills, 26 July 68, Pilgrim <hi rend="italic">Letters</hi> 12, pp. 158-9), and CD was assisting his family.</note> is to memorialize Mr. D’Israeli, the Prime Minister.<note> Disraeli had been Prime Minister since Feb. The Memorial was presented to Disraeli shortly before his resignation (Dec 68); it was presented again, to Gladstone, early in 1869 (<hi rend="italic">To</hi> W. P. Frith, [19] Jan 69; Pilgrim <hi rend="italic">Letters</hi> 12, p. 277): nothing came of it.</note> It is the only course I know of. The Memorial need set forth no more than is in the “Appeal”.<note>While doubting the usefulness of an appeal, even before Cattermole’s death (<hi rend="italic">To</hi> Mrs Cattermole, 2 July 68 in Pilgrim <hi rend="italic">Letters</hi> 12, pp. 144-5), CD drafted an Appeal (see Appx E) and opened an account at Coutts, which he controlled (<hi rend="italic">To</hi> W. P. Frith, 16 Nov 68, Pilgrim Letters 12, p. 221). CD sent Mrs Cattermole a cheque for just over £542 in Apr 69, the entire sum collected (Pilgrim Letters 12, pp. 332-3 &amp; <hi rend="italic">nn</hi>).</note> It should be signed by the best known Painters, and, so signed, I think would attract attention. I doubt Quin’s<note>Dr F. H. F. Quin (1799-1878; <hi rend="italic">Dictionary of National Biography</hi>), homoeopathic physician. Presumably Mrs Cattermole had suggested his medical testimony would reinforce her case</note> being of any use in the matter, and it came to my knowledge but yesterday that Lytton<note>Edward George Bulwer-Lytton, Bart, later 1st Baron Lytton (1803-73; <hi rend="italic">Dictionary of National Biography</hi>), writer and politician.</note> is not on such terms with the Government that he will ask any favors of them. He had, in another case,<note> Not traced.
+</note> just refused to do so.</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>Cd</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MARY NICHOLS,<note>Mrs Mary Sargeant Neal Gove Nichols (1810-84; <hi rend="italic">Dictionary of American Biography</hi>), miscellaneous writer, reformer and water-cure practitioner; advocated mesmerism, temperance and dress reform. Published <hi rend="italic">Experience in Water-Cure</hi>, New York, 1849, and several novels. With her second husband, Thomas Low Nichols (see Pilgrim <hi rend="italic">Letters</hi>, 21 Apr 64, fn), established Nichols' <hi rend="italic">Journal of Health</hi> (Cincinnati) 1853, advocating free love, spiritualism and health reform. They published jointly <hi rend="italic">Marriage: Its History, Character, and Results</hi>, 1854. Settled in England on outbreak of American Civil War and conducted jointly a water-cure establishment in Great Malvern 1867-75; 1875-86 ed. jointly the London Herald of Health.</note> 25 JULY 1863</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-09</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Huntington Library.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="All the Year Round">All the Year Round</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND</placeName>
+               <date when="1863-07-25">Saturday Twenty Fifth July 1863.</date>
+            </dateline>
+            <salute>My Dear Madam.</salute>
+         </opener>
+         <p>As I announced the Trip in the Unholy Land, “in two parts”,<note>A fictive account of an Englishman’s visit to America during the Civil War, suggesting the conflicting loyalties of Americans; it appeared in <hi rend="italic">All the Year Round</hi>: as “two chapters”, 18 and 25 July (IX, 500, 524).</note> and as the enclosed MS resumes it and would be inconsistent with that announcement, I cannot have the pleasure of accepting the paper</p>
+<p>For any long story, continued from No. to No. there is no opening at present in these pages.You will the better understand the assurance [ ]<note>Word deleted by CD.</note> I give you on this head, when I explain that we have four such compositions already by us.<note>Not certainly identified; Elizabeth Gaskell’s <hi rend="italic">A Dark Night’s Work</hi> and Charles Reade’s <hi rend="italic">Very Hard Cash</hi> (published vol. issue as Hard Cash) were both running in vol. IX; Henry Spicer’s <hi rend="italic">A White Hand and a Black Thumb</hi> began in vol. X; and G. A. Sala’s <hi rend="italic">Quite Alone</hi and Charles Lever’s <hi rend="italic">A Rent in a Cloud</hi> in vol. XI.</note> The subject of the story you suggest, moreover, is a very very difficult one. In connexion with it, many things need to be known and treated of, which would demand unusual powers.</p>
+<p> “The Orders and Disorders of [     ]<note>Word deleted by CD.</note> charity” is a title suggestive of a very useful paper on a very fruitful subject.<note>No such paper appeared in <hi rend="italic">All the Year Round</hi>.</note> But it would require a pretty [     ]<note>Word deleted by CD.</note> accurate knowledge of the working of our English charitable Institutions, and of the faults in that working. As to the sisterhood of St. Vincent de Paul,<note>The nursing order, the Sisters of Charity, founded in France, 1633, by St Vincent de Paul (1581-1660).</note> it is essential to remember that a sisterhood is easy of establishment in a Roman Catholic community, far less easy in a Protestant community. As to the latter, the difficulties in the way of that kind of combination must be set against the blessings of civil and religious liberty and of the Reformation.
+
+
+</p>
+<p>I repeat from my heart what you write of your country.<note>The progress of the American Civil War; news of the Battle of Gettysburg (1-3 July) was in <hi rend="italic">The Times</hi>, 6-20 July.</note> “It is all very awful to me.” I wish I could discern through the whirl and uproar, any tokens of that “purification by blood and fire,”<note>Biblical in tone, but not a quotation; presumably a quotation from Mrs Nichols’s article.</note> but I confess I see none.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

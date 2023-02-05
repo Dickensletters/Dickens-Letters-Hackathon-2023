@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MARION ELY,<note>Marion Elizabeth Ely (1820-1913), daughter of Charles Ely and Sara, <hi rend="italic">née</hi> Rutt; niece of Rachel Talfourd (1792-1875), wife of CD's friend Thomas Noon Talfourd (1795-1854).</note> 27 FEBRUARY 1855</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-17</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Free Library of Philadelphia.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|theatre|social engagements|Household Words|family">friends|theatre|social engagements|Household Words|family</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1855-02-27">Twenty Seventh February 1855</date>
+            </dateline>
+            <salute>My Dear Miss Ely.</salute>
+         </opener>
+         <p>I was at the Olympic<note>The programme was <hi rend="italic">Tit for Tat</hi> (see below); <hi rend="italic">A Lucky Friday</hi>; and <hi rend="italic">The Yellow Dwarf</hi> and the <hi rend="italic">King of the Golden Mines</hi>.</note> last night (Tit for Tat,<note>By Francis (Frank) Talfourd (Talfourd’s eldest son) and Alfred Wigan, based on a French vaudeville; its first night was 22 Jan. For Frank Talfourd’s earlier theatrical interests, see Pilgrim <hi rend="italic">Letters</hi> 3, p. 602n.</note> excellent, and your protegé<note>CD jokes about Marion’s enthusiasm for the actor rather than meaning formal support or sponsorship.</note> Robson marvellously good),<note>Thomas Frederick Robson, originally Brownbill (?1822-64; <hi rend="italic">Dictionary of National Biography</hi>), actor and manager; made his reputation in comedy, farce and especially burlesque. Joint manager of the Olympic theatre, 1857, where he produced professionally Wilkie Collins’s <hi rend="italic">The Lighthouse</hi>, taking CD’s role of Aaron Gurnock: see further Pilgrim <hi rend="italic">Letters</hi> 8, pp. 394, 418 &amp;amp; nn. Because of his small figure, he became known as “the great little Robson”. He played Sowerby, whose jealousy is provoked by Thornby’s courting of his wife; in Act II, Sowerby in turn (tit for tat) successfully arouses the jealousy of the now-married Thornby. <hi rend="italic">The Times</hi> (23 Jan) reported the “laughter of the audience was innocent throughout the piece”.</note> and did not find your note until I came home at midnight. If I had had it sooner, I have a strong suspicion that I should have been better pleased with my box-company, and worse with my stage entertainers – for then I should have been at the Princess’s<note>Oxford Street, Marylebone, under Charles Kean’s management; the programme was Dion Boucicault’s Louis XI (adapted from the French of Casimir Delavigne) and <hi rend="italic">Harlequin Bluebeard</hi>; or <hi rend="italic">The Great Bashaw</hi>. Louis XI, essentially “a one-part piece”, gave Kean histrionic opportunities he took fully, the audience being “overpowered by the marvellous delineation of character” (<hi rend="italic">The Times</hi>, 15 Jan); CD, though, did not admire Kean as an actor: see Pilgrim <hi rend="italic">Letters</hi> 5, p. 545 &amp;amp. n.</note> with you. Catherine<note> Catherine Dickens (1815-79), CD's wife
+</note> told me you wished to have one of the reprinted little papers.<note>Presumably one of the special reprintings on black-bordered paper that CD had made in Mar 54 of his <hi rend="italic">Household Words</hi> obituary notice of Talfourd’s death: “The Late Mr. Justice Talfourd”, <hi rend="italic">Household Words</hi>, 25 Mar 54 (IX, 117).</note> I am truly sorry to tell you that I have not one left. I dispersed them at the time among those whom I had known in that association, and they were soon gone.  </p>
+<p>Miss Ely.</p>
+         <closer>
+            <salute>Ever believe me / Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

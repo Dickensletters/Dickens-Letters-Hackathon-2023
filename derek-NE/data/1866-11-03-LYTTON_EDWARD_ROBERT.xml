@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THE HON. ROBERT LYTTON,<note>Edward Robert Lytton (1831-91; <hi rend="italic">Dictionary of National Biography</hi>), diplomat and poet (as “Owen Meredith”). The only son and second child of Edward Bulwer Lytton; dropped his first name to avoid confusion with his father. His diplomatic career began in 1850; Viceroy of India, 1876-80. Through his father he early became intimate with Forster, a close friend and literary advisor. Succeeded to his father’s barony, 1873, and created 1st Earl of Lytton, 1880: see further Pilgrim <hi rend="italic">Letters</hi> 7, p. 694n.</note> 3 NOVEMBER [1866]<note>Incorrectly dated 1868 in Bonham’s catalogue (there was no Xmas No. in 1868).</note></title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-06</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Extracts in Bonham’s catalogue, 20 June 2004(aa) &amp; Jarndyce catalogue, CXCV,Winter 2011-12. Envelope addressed Robert Lytton at the British Legation, Lisbon, dated <hi rend="italic">Office of All the Year Round</hi>, 3 November [1866].</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="All the Year Round|friends">All the Year Round|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1866-11-03"></date>
+            </dateline>
+            <salute>(a) My Dear Robert Lytton (a)</salute>
+         </opener>
+         <p>I received your letter and packet here last night...Mrs. Brackenbury’s<note>Priscilla Brackenbury (1830-1924), née Russell, daughter of Sir Henry Russell (1783-1852; diplomat); married George Brackenbury in 1865, a diplomat who had been Acting Consul at Cadiz in 1851, Madrid in 1858, Charente, France in 1864, and the Philippine Islands 1864-66, before becoming Consul at Lisbon in 1866.</note> brothers are both friends of friends,<note>Sir Charles Russell (1826-83, <hi rend="italic">Dictionary of National Biography</hi>), third baronet and army officer who fought in the Crimean War with the 3rd battalion, fighting at the battle of the Alma and the siege of Sevastopol, and George Russell (1829-98), fourth baronet, barrister, Recorder for Wokingham, County Court Judge (1874-1885) and Conservative MP for East Berkshire. A third brother, Henry Russell (1819-1847) had died in Cairo, Egypt at the age of 27.</note> and I know her story very well—I mean her own personal history. Of course I am (as you are) interested in her, and should be heartily glad to serve her. (a) I have written so much of the Xmas No.<note>“Mugby Junction”, <hi rend="italic">All the Year Round</hi> Extra Xmas No., 10 Dec. CD wrote four out of the eight items: in <hi rend="italic">To</hi> Halliday, 3 November, he notes, in accepting a proposal for the No., “the mass of contributions now tumbling in” (Pilgrim <hi rend="italic">Letters</hi> 11 p. 262).</note> myself—half of it—that the small space available renders selection among the avalanche of contributions, twice as difficult as usual. Besides which, there are in Mrs. Brackenbury’s paper<note>Brackenbury’s “House-Hunting in Lisbon”, <hi rend="italic">All the Year Round</hi>, 9 Mar 67 (XVII, 246). Lytton was posted at Lisbon, 1865-8.</note> such manifest evidences of inexperience, that I fear it could not hold its own, even in the usual annual struggle with expert writers. But it is too good to return. Pray tell her that I accept it with much pleasure for insertion in an ordinary number, and that I will touch it with a gentle hand, and see to its not being long on the outer steps of the Temple.(a)<note>Biblical in tone, but not a quotation.</note> The remembrance of a summer greeting from your charming wife<note>Lytton had married Edith (née Villiers, 1841-1936) in Oct 64.
+</note> is always fresh with me. It is late in the day to congratulate you on such an acquisition, but as I shall never forget her face and voice, and as I can never be indifferent to your happiness, I feel some sort of right to plead better late than never.</p>
+         <closer>
+            <salute>Affectionately yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

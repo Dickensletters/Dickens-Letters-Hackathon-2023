@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To MARK LEMON, 24 JUNE 1852</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Shaun Springer.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|theatre|charity">friends|theatre|charity</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1852-06-24">Twenty Fourth June 1852</date>
+            </dateline>
+            <salute>Wednesday – I mean / Thursday</salute>
+         </opener>
+         <p>My Dear Mark. I think we shall do more, alone, tomorrow night.<note>CD was preparing for further performances by the Amateur Company in aid of the Guild of Literature and Art: see further Pilgrim <hi rend="italic">Letters</hi> 6. The repertoire was Bulwer Lytton’s <hi rend="italic">Not So Bad As We Seem</hi> (reduced by CD to three acts from five); J. R. Planché’s <hi rend="italic">Charles XII</hi>; and two farces: Lemon and CD’s Mr Nightingale’s Diary, and <hi rend="italic">Two o’Clock in the Morning</hi>, adapted from the French by Mrs Catherine Gore (as <hi rend="italic">A Good Night’s Rest</hi>; or, <hi rend="italic">Two in the Morning</hi>, 1839; revised by Charles Mathews, 1840). The Company gave eight performances: Nottingham (23 Aug); Derby (25 Aug); Newcastle (27 Aug); Sunderland (28 Aug); Sheffield (30 Aug); Manchester (1,2 Sep); Liverpool (3 Sep), generally with great success.</note> The point must now be decided<note>To settle which of the farces, essentially two-handers for CD and Lemon, should be played where. They had both played in <hi rend="italic">Mr Nightingale</hi> in May 51. CD had first played in Mrs Gore’s version of <hi rend="italic">Two o’Clock in the MorningM</hi> in Montreal, 1842, and revived it for himself and Lemon in 1845 and in 1848: see Pilgrim <hi rend="italic">Letters</hi> 3, pp. 236-7 and n, Pilgrim <hi rend="italic">Letters</hi> 4, pp. 347-8 and n. It was decided to play both farces every night, but Two o’Clock in the Morning was dropped after Nottingham, it being “impossible to get anything out of it after the scream of <hi rend="italic">Mr. Nightingale’s Diary</hi>”, a printed announcement of withdrawal being distributed at the doors (<hi rend="italic">To</hi> Forster, 29 Aug 52; Pilgrim <hi rend="italic">Letters</hi> 6, p. 748).</note> as they cry for Bills in the country.  </p>
+         <closer>
+            <salute>Faithfully Ever 
+            </salute>
+            <signed>
+               <persName>CD</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> ANGUS FLETCHER,<note>Angus Fletcher of Dunans (1805-75), advocate; a cousin of the sculptor and friend of CD of the same name. In writing to Macready, enclosing this letter, CD called him “a capital fellow to know”; Macready called on Fletcher, 3 Mar (To Macready, 27 Feb 46; Pilgrim <hi rend="italic">Letters</hi> 4, p. 509 &amp; <hi rend="italic">n</hi>.).</note> 27 FEBRUARY 1846 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Free Library of Philadelphia.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements|friends">social engagements|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>London. 1 Devonshire Terrace / York Gate Regents Park</placeName>
+               <date when="1846-02-07">Twenty Seventh February 1846.</date>
+            </dateline>
+            <salute>My Dear Sir.</salute>
+         </opener>
+         <p>Since those remote times when I had the pleasure of passing some happy hours in your society, I have heard wild legends concerning you – darkly shadowing forth the possibility of your entrance into the blessed state,<note>Fletcher married Harriet Eugenia (1815-89), daughter of Eugene Callanan of Lisbon, in 1845.</note> and furthermore of your presenting yourself in Italy, when I was there, a year ago. As you never came, I am induced to think you may possibly be in Edinburgh; and if so, allow me to present to you, one of my dearest and most valued friends, in the person of Mr. Macready. His name is not strange to you; nor will he be long, I think.</p>
+<p>Mrs. Dickens begs to be cordially remembered to you.</p>
+         <closer>
+            <salute>Always Believe me / Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS | Angus Fletcher Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

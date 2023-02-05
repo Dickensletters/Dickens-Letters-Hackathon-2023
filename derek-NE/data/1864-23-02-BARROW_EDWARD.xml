@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> EDWARD BARROW,<note>Edward Barrow (1798-1869), CD’s maternal uncle; Parliamentary reporter on the <hi rend="italic">Mirror of Parliament</hi> and later on the <hi rend="italic">Morning Herald</hi>. Member of the Newspaper Press Fund from January 1859: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 49n.</note> 23 FEBRUARY 1864</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-07</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p> Text from Charles Wells, “Written in a Library: A Dickens Letter”, <hi rend="italic">Bristol Times and Mirror</hi>, 7 Aug 1920, p. 10; addressed Edward Barrow; dated Gloucester Place, Hyde Park Gardens, 23 February 1864.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family|India">family|India</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1864-02-23">1864-02-23</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Many thanks for your letter. Another of my boys<note>Francis Jeffrey (1844-86), CD’s third son; he had left England for India on 20 Dec 6<note>CD used this subjunctive mood elsewhere: see To Adams, 25 Feb 64, and To Knight, 1 Mar 64 (Pilgrim <hi rend="italic">Letters</hi> 10, pp. 362, 366).</note>, on his way to join the Bengal Mounted Police.</note> would arrive3 out at Calcutta when his brother<note>Walter Landor (1841-63), CD’s second son; he had been a Lieutenant in the 2nd Highlanders stationed in India; died of aneurism of the aorta, 31 Dec 63 (see further To Miss Burdett Coutts, 12 Feb 64, Pilgrim <hi rend="italic">Letters</hi> 10, pp. 355-6).</note> had been dead a month, confidently expecting to see him after six years. When a family are widely dispersed this is in the course of Nature. The ranks must be closed up and the march must go on.<note>Not apparently a quotation, though from 1861 CD uses a similar sentiment when exhorting correspondents in situations of loss (e.g. To Mrs Brown, 3 Nov 61, Pilgrim <hi rend="italic">Letters</hi> 9, p. 494; To Forster, 22 Dec 68, Pilgrim <hi rend="italic">Letters</hi> 12, p. 252).</note> </p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName></persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

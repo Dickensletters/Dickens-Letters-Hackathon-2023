@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MRS BROOKFIELD,<note>Jane Octavia Brookfield, née Elton (1821-96); married (1841) the Rev. William Henry Brookfield (1809-74; <hi rend="italic">Dictionary of National Biography</hi>). CD had met her in Lausanne, July 46 (Vol. IV, pp. 591-2): see further Pilgrim <hi rend="italic">Letters</hi> 9, p. 47nn.</note> 29 MAY 1866</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-20</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Extract in Bloomsbury Book Auctions, May 2007; MS 2 pp.; addressed Mrs Brookfield; dated 6 Southwick Place<note>CD had taken 6 Southwick Place, Hyde Park, from 26 Feb to mid June, for the convenience of his London and Provincial series of readings (Pilgrim <hi rend="italic">Letters</hi> 9, Appx A) and for the benefit of Mamie during the London Season.</note> (on Gad’s Hill headed paper), Tuesday, 29 May 66.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends">friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1866-05-29"> 1866-05-29</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>It most unfortunately happens that we are engaged for every day you mention, and that indeed I am engaged for every day until we go back to Gad’s Hill. But I shall look for an opportunity of getting my recompense at Gad’s Hill, and of persuading you and Brookfield to come and look at the Kentish hops.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

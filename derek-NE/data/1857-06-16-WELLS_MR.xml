@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To MR WELLS,1 16 JUNE 1857</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Extract in the <hi rend="italic">Morning Post</hi>, 12 Oct 1857; quoted by William Blanchard Jerrold in his letter to the Editor, dated 10 Oct 57.<note>William Blanchard Jerrold, eldest son of Douglas JerroldDouglas William Jerrold (1803-57; <hi rend="italic">Dictionary of National Biography</hi>), writer and wit; author of over 60 plays; one of CD's close friends.</note>; his letter is an angry response to CD’s letter to The Times, 6 Oct, justifying the Committee’s efforts to raise money for Mrs Jerrold and her daughter. Jerrold felt it was a slight on his father’s memory and maintained that, contrary to reports that he died penniless, he had provided for them. He quotes the above letter (‘directed to be submitted to me’), as proof of CD’s change of mind. For letters referring to the death of Jerrold and the initiation of the Jerrold Fund, see Pilgrim Letters 8, pp. 344-366; for CD and Arthur Smith’s two letter to The Times, see ibid., pp. 423 and 463 and nn.</p>
+<p>I, too, was excessively mortified and indignant to see that nonsense (I forget where) about poor dear Jerrold, and his not having ‘left a sixpence.’ But we all have to bear our share of such dunderheaded small talk; and I don’t think it practicable to contradict this obscure stupidity now. It is clearly not for us to contradict it, who take such pains in every movement, from the smallest to the least, associated with our departed friend, to place him on a footing apart from all solicitation. In inviting artists to sing, actors to play, and the Queen herself to come to one of the performances, I have invariably said in all the letters that what we put forward ‘in remembrance’ of him is to speak for itself, and no entreaty orrepresentation is to be made to any human being. If this print of a jackass’ hoof should last so long, it is rubbed out in a moment, when our little campaign is over, by a well-considered few lines from William Jerrold to the Times, or from me, if he would prefer it, simply stating the truth.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Friends|charity|Queen Victoria">Friends|charity|Queen Victoria</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName> Gadshill </placeName>
+               <date when="1857-06-16"> June 16</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

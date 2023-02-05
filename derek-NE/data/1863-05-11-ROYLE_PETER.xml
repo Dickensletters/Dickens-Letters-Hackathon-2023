@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> <hi rend="italic">To</hi> PETER ROYLE,<note>Peter Royle (1818-91), surgeon, with premises at 27 Lever St., Manchester. A lifelong Conservative, he was active in municipal politics, and was chairman of the Manchester Board of Overseers of the Poor in the 1850s and 60s. Royle also played a key role in treating the victims of Asiatic Cholera in Manchester in 1853 (<hi rend="italic">Leeds Mercury</hi>, 13 Nov. 1891).</note> 11 MAY 1863</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-04</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Huntington Library</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="health,finances,family">health,finances,family</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Gad’s Hill Place, Higham</placeName>
+               <date when="1863-05-11">Eleventh May 1863. </date>
+            </dateline>
+            <salute>Dear Sir </salute>
+         </opener>
+         <p>Having paid Dr. Whitehead,<note>James Whitehead (1812-85), surgeon, with premises at 87 Mosley Street, Manchester. He specialised in the diseases of women and children, and in 1856 he (together with August Schoepf Merei) founded the Clinical Hospital and Dispensary for Children (later Manchester Clinical Hospital for Women and Children).</note> I had no intention of imposing a loss upon you. But I have suffered so severely from paying the debts of others, that I feel it really necessary to set you right. Enclosed is a cheque for the amount in question.<note>The circumstances of CD’s payment to Royle not traced, but are most likely to be in connection with a family member. CD’s accounts show a payment on 14 May 63 of £8.2.6 (MS Coutts).</note></p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS,Peter Royle Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

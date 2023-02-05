@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> CAPTAIN HENRY CHADS,<note>Henry Chads (1819-1906; <hi rend="italic">Dictionary of National Biography</hi>), captain, 1848, son of Sir Henry Ducie Chads. Sir Henry, a Rear-Admiral, was commander-in-chief at Cork, 1856-8, and his son was Flag-Captain to his father at Queenstown.</note> 31 AUGUST 1858</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-15</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Scott J. Winslow, New Hampshire, catalogue 18 Aug 2006.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="public readings|celebrity|Ireland">public readings|celebrity|Ireland</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Imperial Hotel, Cork<note>CD arrived in Cork, 30 Aug, from Belfast and gave three Readings there; he was in Limerick, 1 Sep.</note></placeName>
+               <date when=“1858-08-31”>Tuesday Thirty First August | 1858.</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Mr. Charles Dickens presents his compliments to Captain Chads, and is very cordially obliged by his kind letter. It would have afforded Mr. Dickens the greatest pleasure and interest, if he could possibly have accepted the courteous invitation<note>CD consistently refused all offers of hospitality during the Readings.</note> of Captain Chads. But unfortunately his time is so fully occupied, that he has only one poor quarter of an hour for Queenstown.<note>Now Cobh, some 12 miles by road south-east of Cork.</note></p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

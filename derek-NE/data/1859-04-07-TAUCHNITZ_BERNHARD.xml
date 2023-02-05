@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> BERNHARD TAUCHNITZ,<note>Baron Bernhard Christian Tauchnitz (1816-95), publisher, of Leipzig. Born at Schleinitz; nephew of the publisher Karl Tauchnitz. Founded his own firm in Leipzig in 1837. The firm began its “Collection of British Authors” Sep 1841 with Bulwer Lytton’s <hi rend="italic">Pelham. Pickwick Papers, Oliver Twist, and American Notes</hi> had appeared before the end of 1842, and Nicholas Nickleby in June 1843. He and CD became friendly, and CD sent Charley to Leipzig to learn German (see below). According to John Forster, Tauchnitz always paid liberally. He wrote to Forster after CD’s death: “All Mr Dickens’s works have been published under agreement by me. My intercourse with him lasted nearly twenty-seven years. The first of his letters dates in October 1843, and his last at the close of March, 1870 [see <hi rend="italic">To</hi> Tauchnitz, 31 March 1870]. Our long relations were not only never troubled by the least disagreement, but were the occasion of most hearty personal feeling; and I shall never lose the sense of his kind and friendly nature. On my asking him his terms for Edwin Drood, he replied, ‘Your terms shall be mine.’” (John Forster, <hi rend="italic">The Life of Charles Dickens</hi>, ed. J.W.T. Ley [London: Cecil Palmer, 1928], p. 807n).</note> 7 APRIL 1859</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in the possession of Dietmar Böhnke.
+
+Replaces extracts (aa) in Pilgrim Letters 9, p. 48.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Germany|A Tale of Two Cities|publishing|finances|All the Year Round|David Copperfield
+|Bleak House|Little Dorrit">Germany|A Tale of Two Cities|publishing|finances|All the Year Round|David Copperfield
+|Bleak House|Little Dorrit</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>aOFFICE OF ALL THE YEAR ROUND</placeName>
+               <date when="1859-04-07">Thursday Seventh April 1859</date>
+            </dateline>
+            <salute>My dear Sir</salute>
+         </opener>
+         <p>I duly received your kind letter and its enclosure of a bill at 3 days after sight fora £30. aAccept my thanks.</p>
+<p>Any arrangement that you may wish to make in respect of this Periodical<note>CD's journal All the Year Round.</note> after it shall have come into existence, I will at once consent to.</p>
+<p>My story will be published in it, in weekly portions. It will also be published by Messrs. Chapman and Hall in monthly parts of the same size and price as Copperfield, Bleak House, Little Dorrit etc. Of these monthly parts there will be 8.a<note>A Tale of Two Cities appeared June-December 1859. Each part featured two illustrations and a wrapper design by Phiz (Hablot Knight Browne); see Pilgrim <hi rend="italic">Letters</hi> 9, p. 48 and nn. Tauchnitz paid CD £110 in total for publication of <hi rend="italic">A Tale of Two Cities</hi>, in monthly parts; for details see To Tauchnitz, 18 April 1859.</note> Perhaps you may not consider it too much, to pay for this story, half of<note> "of" written below caret.
+</note> what you paid for Little Dorrit. aYou shall have the latter sheets in advance of their publication, as heretofore.a</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

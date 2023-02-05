@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To BERNHARD TAUCHNITZ,<note>Baron Bernhard Christian Tauchnitz (1816-95), publisher, of Leipzig. Born at Schleinitz; nephew of the publisher Karl Tauchnitz. Founded his own firm in Leipzig in 1837. The firm began its “Collection of British Authors” Sep 1841 with Bulwer Lytton’s <hi rend="italic">Pelham. Pickwick Papers, Oliver Twist, and American Notes</hi> had appeared before the end of 1842, and Nicholas Nickleby in June 1843. He and CD became friendly, and CD sent Charley to Leipzig to learn German (see below). According to John Forster, Tauchnitz always paid liberally. He wrote to Forster after CD’s death: “All Mr Dickens’s works have been published under agreement by me. My intercourse with him lasted nearly twenty-seven years. The first of his letters dates in October 1843, and his last at the close of March, 1870 [see <hi rend="italic">To</hi> Tauchnitz, 31 March 1870]. Our long relations were not only never troubled by the least disagreement, but were the occasion of most hearty personal feeling; and I shall never lose the sense of his kind and friendly nature. On my asking him his terms for Edwin Drood, he replied, ‘Your terms shall be mine.’” (John Forster, <hi rend="italic">The Life of Charles Dickens</hi>, ed. J.W.T. Ley [London: Cecil Palmer, 1928], p. 807n).</note> 2 APRIL 1853</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in the possession of Dietmar Böhnke.<note>Böhnke published his transcription (featuring some errors) of this letter, together with brief annotation, in "The Correspondence between Charles Dickens and Bernhard Tauchnitz: General Observations and Newly Discovered Letters", <hi rend="italic">Archiv für das Studium der neueren Sprachen und Literaturen</hi> (Berlin: Erich Schmidt Verlag, 2013), pp. 320-1.</note></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">publishing|family|Germany|finances|A Child's History of England||Household Words|Christmas</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House, London. </placeName>
+               <date when="1853-04-02">Second April, 1853.</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>I perfectly agree in all the suggestions you so kindly make in your letter, as to paying Dr Müller.<note>Professor O. C. Müller, 6 Tauchaer Strasse, Leipzig, a schoolmaster with whom CD's son Charley (1837-96) lived for six months in 1853, in order to learn German. See To Angela Burdett Coutts, 1 Apr 1853, Pilgrim <hi rend="italic">Letters</hi> 7, p. 56. Charley's stay at Leipzig was paid for by Dickens's friend and benefactor Angela Burdett Coutts. The overall cost was c. £300; see <hi rend="italic">To</hi> Angela Burdett Coutts, 15 Jan 1854 &amp;amp; 2 March 1855, Pilgrim <hi rend="italic">Letters</hi> 7, pp. 244, 553. Tauchnitz paid Charley's expenses locally and deducted the amount from payments due on account from Tauchnitz to CD. The only payments made by CD directly for Charley's German expenses were one for £25 on 28 February 1853, shown in the bank ledger of Coutts &amp; Co. as "Germany", and one for £5 on 2 March 1853, listed as "Charles's sundries".</note> If you will have the goodness to do as you propose, I shall be very much obliged to you.</p>
+<p>
+Your interest in Charley and <note>Two words ("your [illegible]") deleted after "and"</note> the terms in which you mention him, fill his mother<note>Catherine Dickens, née Hogarth (1815-79), CD's wife.</note> and myself with delight and gratitude. I assure you that he is truly sensible of the uncommon kindness he has received from your amiable family, and that in all his letters he refers to it, and to every member of your household, with the greatest affection and regard. His heart is quite won.</p>
+<p>
+I do not think the third and last Volume of the Child's History will be ready for publication before October or November. We shall probably publish, so as to have the complete little work in good time for Christmas.<note>The third volume of <hi rend="italic">A Child’s History of England</hi> was published by Bradbury &amp;amp; Evans on 24 Dec 1853 (though the date 1854 featured on the title page).</note> But as it advances towards its completion, I will not fail to let you know exactly when you can have the concluding sheets.<note>For the arrangement concerning <hi rend="italic">A Child's History of England</hi> see To Tauchnitz, 31 Mar 1852. Tauchnitz published the work in two volumes in 1853-4.</note>
+</p>
+<p>
+Mrs Dickens unites with me in cordial regards and thanks to yourself and family, And I am my Dear Sir</p>
+
+<p>The Chevalier Bernhard Taüchnitz8<note>Thus in MS. The "ü" occurred commonly in German script of the time, to distinguish it from "n".</note></p>
+         <closer>
+            <salute>Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

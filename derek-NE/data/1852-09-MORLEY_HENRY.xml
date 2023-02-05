@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> ?HENRY MORLEY,<note>Probably Henry Morley (1822-94; <hi rend="italic">Dictionary of National Biography</hi>), apothecary, journalist, and literary scholar. Intended for the medical profession, and studied medicine, as well as arts subjects, at King's College, London, 1838-43, acting as one of the editors of the College magazine for two years. LSA 1843, and in practice 1844-8; after losing his apothecary practice through his partner's dishonesty he conducted schools in Manchester and Liverpool until he moved to London in June 1851. Published his first book of verse, <hi rend="italic">Sunrise in Italy</hi>, 1848, and began writing on sanitation for the <hi rend="italic">Journal of Public Health</hi> in 1849; when the journal ceased publication John Forster agreed to publish a new series of "How to Make Home Unhealthy" in the <hi rend="italic">Examiner</hi>, which had already reprinted the first two articles. Morley met Forster – whom he already admired as a "first-rate man, generous and high-minded" – when he visited London in July 1850, and Forster then engaged him as a paid leader-writer on the <hi rend="italic">Examiner</hi>. He was on the staff of CD's journals <hi rend="italic">Household Words</hi> (1851-9) and <hi rend="italic">All the Year Round</hi> (1859-65), and contributed many articles to both publications.</note> ?SEPTEMBER 1852</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile (fragment) in Bonham's online catalogue, March 2011.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="theatre|journalism">theatre|journalism</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1852-09-01">1852-09-01</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p> My impression that many of the Parisian Theatres are subsidized, is derived from my eye-sight remembrance of the length of their list, which is annually published in the French papers.<note>In Oct 1852, Morley published "The Theatres of Paris" (<hi rend="italic">Household Words</hi> 6 [2 Oct 1852]: 63-9), which focuses on the financial side of theatrical production in the French capital. It includes the observations that "There has been published in Paris, during the present year, the result of an elaborate inquiry into the statistics of the theatres", and that "the French Government...  is accustomed also to make compensatory presents to [theatres], and to help them out of difficulty by subventions" (pp. 63, 65).</note></p>
+
+
+<p>What an unfortunate pair of Corsican Brothers<note> Dion Boucicault's melodrama <hi rend="italic">The Corsican Brothers; or the Vendetta,</hi> first performed in 1852, was adapted from Eugène Grange's and Xavier de Montépin's play <hi rend="italic">Les frères corses</hi>, first performed in Paris in 1850 with Charles Fechter in the roles of the twin brothers. The play was based on the 1844 novella by Alexandre Dumas, père, in which two brothers, separated at birth, can still feel each other's emotions, even at a distance.
+</note> you are! Regard<note>Thus in MS.</note> to the present sufferer –</p>
+
+
+         <closer>
+            <salute>  Ever Faithfully
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

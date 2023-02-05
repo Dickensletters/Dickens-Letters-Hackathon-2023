@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THE GOVERNORS OF THE FOUNDLING HOSPITAL,<note>The Foundling Hospital, Guilford St, now the Thomas Coram Foundation for Children: see Pilgrim <hi rend="italic">Letters</hi> 2, p. 34n. CD and Wills described the Hospital and its work in 'Received, a Blank Child', <hi rend="italic">Household Words</hi> 7 (19 March 1853): 49-53.</note> 9 JULY 1852</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-08</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Bloomsbury Auctions online catalogue, March 2015.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Urania Cottage|charity<">Urania Cottage|charity</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House, Tavistock Square
+
+</placeName>
+               <date when="1852-07-09">Friday Ninth July 1852.</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>I beg to state to the Governors of the Foundling Hospital that I have read the printed paper describing the qualifications they require in their Matron; and that I very earnestly and strongly recommend Mrs Morson<note>Georgiana Morson (née Collin, ?1817-1880), matron of Urania Cottage 1849-54. See Pilgrim <hi rend="italic">Letters</hi> 6, pp. 703 and 710; CD was ‘very sorry to hear’ that Mrs Morson was making this application, which was not successful.</note> to their favorable consideration.</p>
+<p>
+For upwards of three years, I have had constant opportunities of observing Mrs Morson’s capacity for the administration of such an office.<note>For CD’s account of Urania Cottage, see his article 'Home for Homeless Women', <hi rend="italic">Household Words</hi> 7 (23 April 1853): 169-75. See also Jenny Hartley, <hi rend="italic">Charles Dickens and the House of Fallen Women</hi> (2009).</note> She has been, during that time the principal directress of an establishment for the reclamation and training of young women, which is maintained by the munificence of Miss Burdett Coutts<note>Angela Georgina Burdett Coutts (1814-1906; <hi rend="italic">Oxford Dictionary of National Biography</hi>), philanthropist and long-standing friend of CD, with whom she collaborated on Urania Cottage and other social work projects.</note>, and with the management of which I am intimately associated. She is a lady of great discretion, of remarkable sweetness of temper, and has a power of uniting firmness with conciliation in a very remarkable and uncommon manner. I have never known her to make a mistake even under circumstances of great difficulty, and I have invariably found that those under her care have become attached to her. She is accustomed to method, order, punctuality, and to a habit of sound and judicious observation. I would entrust her, myself, with the duties to which she now aspires, in preference to any lady I have ever seen in a similar capacity.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

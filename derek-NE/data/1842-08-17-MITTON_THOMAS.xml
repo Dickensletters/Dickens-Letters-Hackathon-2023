@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">T</hi>o THOMAS MITTON,<note>Thomas Mitton (1812-78), solicitor, one of CD’s closest friends. Son of Thomas Mitton, publican, of Battle Bridge (the district now known as King's Cross), where the Mitton and Dickens families may at some time have been neighbours – perhaps in The Polygon, where the Dickenses were living 1827-8. In recollections given to the <hi rend="italic">Evening Times</hi> when she was 95, Mitton's sister Mary Ann claimed to have known CD well as a small girl. Mitton and CD were clerks together for a short time during 1828-9 in Charles Molloy's office, 8 New Square, Lincoln's Inn, where Mitton served his articles. He acted as CD’s solicitor for twenty years.</note> 17 AUGUST 1842</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Composite text from facsimile in Bonhams online catalogue, Nov 2012 (aa) and transcription by Michael Slater (bb).</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|finances|legal matters|family|publishing">friends|finances|legal matters|family|publishing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>Thomas Mitton Esquire | 23 Southampton Buildings | Chancery Lane | London
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName> aBroadstairs </placeName>
+               <date when="1842-08-16">Wednesday Seventeenth August | 1842</date>
+            </dateline>
+            <salute>My Dear Mitton.</salute>
+         </opener>
+         <p>I think we have got out of the whole Wheeler business,<note>Unidentified; presumably a creditor for debt incurred by CD's father, John Dickens. CD's choice of phrasing could mean either that the debt was paid in full, or that a discounted arrangement was reached.</note> admirably. And I think my father is a great Jackass<note>The incorrigibility of John Dickens (who had been exiled to Alphington, in Devon) caused CD significant anxiety; see, for example, Pilgrim Letters 3, pp. 190-1, 285, 336. CD paid Mitton £45 on 15 July, £100 on 3 Sept, and £100 on 31 October (CD's accounts, Coutts's Bank), to service his father's debts, and for other tasks (see below). CD had ceased to communicate directly with his father on financial matters.</note> – which is not a novel sentiment with me, by any means.</p>
+<p>  I am rather horrified by your statement of the account between us<note>CD's surprise at the size of Mitton's bill may be accounted for by detailing the various responsibilities he undertook on CD's behalf in this period; these included not only servicing John Dickens's debts, but also undertaking legal services for negotiations with publishers and other matters, and paying the rent on Devonshire Terrace while CD was in America.
+5. CD's bank statement.</note> – for I fear (though I really don't know) that I have very little money – and I did not expect you to come down upon me so soon. Your reasons, however, are of course undeniable; and I have written to Coutts's, ina bconsequence for my Book.<note>CD's bank statement.
+</note>
+<note> I hope to finish my first volume<note>The first volume of American Notes ended with chapter 8, describing CD's sojourn in Washington</note> by the end or middle of next week. If I don't complete it by that time, it can only be, please God, a very few days later. As soon as I am quite sure I will write to you, and name another day for our dinner together in Southampton Buildings – I take it for granted the hour will be 6 O'Clock?</note>
+
+</p>
+<p>   At the same time I will bring a blank cheque with me – and some proofs<note>Of <hi rend="italic">American Notes</hi>.</note> to read. </p>
+<p>All well, I am happy to say – and Toby<note>CD's son Charley (1837-96), nicknamed "Flaster Floby", a corruption of "Master Toby"; see <hi rend="italic">To</hi> Henry Austin, in Pilgrim <hi rend="italic">Letters</hi> 3, p. 331.</note> illustrious in his renewed vigor and sunburnt face.</p>
+         <closer>
+            <salute>                                                           Always Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

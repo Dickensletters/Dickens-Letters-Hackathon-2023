@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> FREDERICK DICKENS,<note> Frederick William Dickens (“Fred”; 1820-68), John Dickens’s second son and fourth child. CD was concerned with his education and secured him employment, principally a post in the Treasury, 1839. On good terms with CD and Catherine during their engagement and earlier married life; useful in various of CD’s affairs (e.g. the Knebworth theatricals, 1850-51). Problems arose over his marriage to Anne Weller (1848) and his increasing debts: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 47<hi rend="italic">n</hi>, and later vols.</note> 10 OCTOBER 1850
+
+</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-15</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Private.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family|finances">family|finances</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Broadstairs</placeName>
+               <date when="1850-10-10">Thursday Night Tenth October 1850</date>
+            </dateline>
+            <salute>My Dear Frederick.</salute>
+         </opener>
+         <p>You must not suppose that the item you extract from my sum of objection, though a great one, is the total.<note>Fred had proposed that CD stand security for a loan to cover debts of about £600 (Pilgrim <hi rend="italic">Letters</hi> 6, pp. 180n, 198). CD refused to be security, stressing particularly (presumably the “item” Fred referred to) his unease at the thought “of bequeathing such an obligation” to any of his (CD’s) children who might outlive him (<hi rend="italic">To</hi> Fred, 26 Sep, Pilgrim <hi rend="italic">Letters</hi> 6, p. 180).</note> Many other objections of the strongest kind to the recurrence of such a responsibility would remain, if that were disposed of. [ ]<note> Illegible word deleted.
+</note> I will not say that I have not the confidence I could desire, in you, as to money matters. It is enough for me to say, that I know enough of the world to have a horror of the very name— security. If I were security for you, and you were false to me, you never could pay me back the value of that broken trust, and never could set up my confidence again. I wish to ask this. If I am ready to be security for you to a Life office, on the Insurance of both our lives—to which, distinctly understand I do not commit or pledge myself in any way— could not the money be borrowed as a loan, to be repaid (principal and interest) at £50 a year.<note>On 25 Oct, CD wrote to W. B. Hodge, secretary and actuary of the General Reversionary and Investment Co., introducing Fred and asking whether the Company did such loans or, failing that, whether Hodge could advise Fred on such business (Pilgrim <hi rend="italic">Letters</hi> 6, pp. 197-8). The matter had not been settled by 28 Nov (<hi rend="italic">To</hi> Frederick Dickens, Pilgrim <hi rend="italic">Letters</hi> 6, p. 220), while Fred confirmed CD’s doubts by ordering goods beyond the value CD had guaranteed (To Widger, 3 Jan 51, Pilgrim Letters 6, pp. 255-6).</note> I believe that it could, and that instead of loading yourself with irons for life, you could wear them for an ascertained number of years, with the hope of throwing them off, while you [ ]<note> Illegible word deleted.</note> had yet a term of active life before you.
+
+</p>
+         <closer>
+            <salute>Affectionately
+            </salute>
+            <signed>
+               <persName> CD</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

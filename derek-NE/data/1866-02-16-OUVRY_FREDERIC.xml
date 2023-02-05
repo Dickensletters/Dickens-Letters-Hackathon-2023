@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To FREDERIC OUVRY,<note>Frederic Ouvry (1814-81), CD's solicitor from 1856. Son of Peter Aimé Ouvry, of the Ordnance Office, descendant of an old French family; nephew of John Payne Collier. Partner in Robinson, King, and Ouvry, 13 Tokenhouse Yard, 1837; partner in Farrer, Ouvry, with his brothers-in-law F. W. and W. J. Farrer, 66 Lincoln's Inn Fields (Miss Coutts's solicitors), 1855-81. Fellow of Society of Antiquaries 1848; Treasurer 1854; President 1876. A well-known book collector.</note> 16 February 1866 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-09</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS<note>This note, in the hand of W.H. Wills, was a statement by CD in response to a letter by James Bowen May, 10 Feb 1866. For details of this altercation see Angus Easson and Margaret Brown, 'A Generous (if Unlucky) Gift: Wills and the Brougham', <hi rend="italic">Dickensian</hi> 112.1 (2016): 31-5.</note> Charles Dickens Museum. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="legal matters|finances">legal matters|finances</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName></placeName>
+               <date when="1866-02-16"></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Most of the statements in Mr Bowen May’s letter<note>James Bowen May (1813-99). Solicitor, of Bolton House, 67 Russell Square. He wrote to CD on 10 Feb 1866</note> are absolutely false. I never was threatened with legal proceedings by Kings &amp;amp; Co.<note>W. Kings &amp;amp; Co., of 100-101 Long Acre, Drury Lane, manufacturer of miniature broughams.</note> I paid for a brougham I bought of them at the very time the money was due for it.<note>The brougham was in fact purchased by W.H. Wills.</note> I had cause of complaint against them; but never refused to pay them one shilling of repairs which they demanded of me. </p>
+<p>I am not the writer of the article of which they complain,<note>Samuel Sidney, 'Carriages and Their Changes', <hi rend="italic">All the Year Round</hi> 15 (13 Jan 1866): 11-15.</note> nor are they (Messrs Kings &amp; Co) referred to in it; nor did the slightest communication with reference to Messrs Kings &amp; Co pass between the writer and me. This plain fact can be proved by both of us; and, under these circumstances, Mr. Dickens positively refuses to gratify the desire of Messrs Kings &amp; Co to get a large gratuitous advertisement through these pages. </p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

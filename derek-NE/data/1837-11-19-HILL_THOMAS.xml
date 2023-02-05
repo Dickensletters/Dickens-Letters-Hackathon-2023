@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THOMAS HILL,<note>Thomas Hill (1760-1840; <hi rend="italic">Dictionary of National Biography</hi>), retired drysalter (dealer in chemical products) and book-collector; in his prosperous days a lavish host at his Sydenham villa. A comic, eccentric, but popular figure, he was the original of the amiable know-all Hull in Theodore Hook's <hi rend="italic">Gilbert Gurney</hi> (1835). For CD's esteem for him see Pilgrim <hi rend="italic">Letters</hi> 2, pp. 111-12. For his many purchases at the sale of Hill's library, see Pilgrim <hi rend="italic">Letters</hi> 2, pp. 229-30, 249-50 &amp; nn.</note> [19 NOVEMBER 1837] </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-29</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Bonhams online catalogue, May 2020.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|Pickwick Papers">friends|Pickwick Papers</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Doughty Street</placeName>
+               <date when="1837-11-19"> Sunday </date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>Very many thanks for the papers,<note> Unidentified </note> which I will safely return, – and also for the opportunity of perusing Mr Hook's<note>Theodore Edward Hook (1788-1841; <hi rend="italic">Dictionary of National Biography</hi>), writer, wit and vigorous lampooner; contributed to <hi rend="italic">Bentley's Miscellany</hi>. Though CD did not get to know him well, as he had hoped, he commented sensitively on his death in a letter to Washington Irving (Pilgrim <hi rend="italic">Letters</hi> 2, p. 396).</note> note. I assure you that I am most anxious to improve an acquaintance with him, and shall be delighted if we ever grow intimate, as I hope we may when the wind takes lodgings in some other quarter.<note>CD's joke relates to the proverb "When the wind is in the east, 'tis neither good for man nor beast".</note></p>
+<p> I am sorry you were not with us last night.<note>The dinner to mark the completion of <hi rend="italic">The Pickwick Papers</hi> was held at the Prince of Wales Hotel, Leicester Place, Leicester Square, on Saturday 18 Nov. CD had invited Hill to the event (Pilgrim <hi rend="italic">Letters</hi> 1, p. 329).</note> It went off exceedingly well.</p>
+<p>Thomas Hill Esqre.</p>
+         <closer>
+            <salute>  Ever Faithfully and Sincerely Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

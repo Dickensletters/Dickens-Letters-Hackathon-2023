@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> HENRY WHITWORTH JONES, 12 JUNE 1857</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-21</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="theatre|charity|friends|clubs">theatre|charity|friends|clubs</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+		<addrLine>H Whitworth Esquire | No.16 Adelaide Road North | Finchley Road | St Johns Wood.
+		</addrLine>
+	</address>
+            <dateline>
+               <placeName>Garrick Club </placeName>
+               <date when="1857-06-12"> Friday Twelfth June, 1857</date>
+            </dateline>
+            <salute>My Dear Whitworth.</salute>
+         </opener>
+         <p>You will readily understand the enclosed Proof.<note>A proof of the programme for the Fund “In Remembrance of the late Mr. Douglas Jerrold”: see <hi rend="italic">To</hi> Collins, 12 June 57, Pilgrim <hi rend="italic">Letters</hi> 8, p. 348 &amp; Appx D.</note> I have no doubt I may rely, on the Frozen Deep occasion,<note><hi rend="italic">The Frozen Deep</hi> was performed for the Jerrold Fund at the Gallery of Illustration, Regent Street, 11 July; four further performances were subsequently arranged by CD for the Fund.</note> on the strongest-looking Seaman that was ever reduced to the confines of starvation.<note>Jones presumably played a Mute Seaman, as he had in January; the expedition, on the verge of starvation, is reduced to grinding bones for soup. See <hi rend="italic">To</hi>1 Jones, 2 Jan 1857</note> Call for one Rehearsal shall be sent in due course.</p>
+<p>H. Whitworth Esquire
+
+</p>
+         <closer>
+            <salute>Ever Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

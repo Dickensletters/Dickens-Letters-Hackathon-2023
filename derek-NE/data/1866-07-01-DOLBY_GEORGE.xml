@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> GEORGE DOLBY,<note>George Dolby (1831-1900), manager of CD’s reading tours, 1866-70, on behalf of Chappell &amp; Co. Became a personal friend of CD; author of <hi rend="italic">Charles Dickens as I Knew Him</hi> (1885).</note> 1 JULY 1866 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-10</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Forum Auctions online catalogue, July 2017</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements|public readings|friends">social engagements|public readings|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD’S HILL PLACE
+
+HIGHAM BY ROCHESTER, KEN</placeName>
+               <date when="1866-07-01">Sunday First July, 1866. </date>
+            </dateline>
+            <salute>My Dear Dolby</salute>
+         </opener>
+         <p>As I have with great ingenuity hit upon a day that will not suit you,<note>See <hi rend="italic">To</hi> George Dolby, 26 June 1866.</note> let us now try to hit upon one that <hi rend="italic">will</hi> </p>
+<p>I have written to Mr Chappell,<note> Samuel Arthur Chappell (1834-1904), youngest son of Samuel Chappell, of Chappell &amp; Co., music publishers, and a member of the firm that organised CD’s public readings.
+</note> and told him that you will confer with him, and propose a time to me<note>"to me" written above caret.</note> that will meet the convenience of both of you.<note>Presumably to discuss the possibility of another reading tour; see <hi rend="italic">To</hi> Arthur Chappell, 2 Aug 1866, in Pilgrim <hi rend="italic">Letters</hi> 11, p. 229.</note> </p>
+<p>What do you say to Monday, Tuesday, and Wednesday, the 16th, 17th and 18th.<note>By 15 July, CD was at Gad’s Hill for the summer season and had invited 'family visitors' to stay; see To The Marquis Townshend, 15 Jul 1866, Pilgrim <hi rend="italic">Letters</hi> 11, p. 223.</note> If those days will not do, propose any others in July, except the 11th.<note>CD came to London on 11 Jul; see To Frederic Ouvry, 11 Jul 1866, in Pilgrim <hi rend="italic">Letters</hi> 11, p. 222.</note> </p>
+<p>George Dolby Esquire </p>
+         <closer>
+            <salute>Faithfully Yours always
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

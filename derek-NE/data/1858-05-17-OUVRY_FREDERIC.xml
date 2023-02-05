@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> FREDERIC OUVRY,<note>Frederic Ouvry (1814-81) CD’s solicitor from 1856.</note>, 17 MAY 1858
+
+</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Hospitalfield Arts Centre.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="charity|legal matters">charity|legal matters</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1858-05-17">Seventeenth May 1858</date>
+            </dateline>
+            <salute>My Dear Sir,</salute>
+         </opener>
+         <p>You will perceive from the enclosed letter of the Honorary Solicitor to the Guild<note>Mr Wordsworth, Honorary Solicitor for the Guild of Literature and Art, a self-help scheme for writers and artists, founded by CD and his friends in 1851. See To Patrick Allan-Fraser 19 April 1858.</note> that under the English law we must apply to Parliament for leave to amend our Act, and that we cannot even register a Petition having that object, until next November.<note>CD proposed that Ouvry seek an amendment to the 1854 Literary and Scientific Institutions Act (which incorporated the Guild of Literature and Art), so as to enable the organisation to accept a gift of Hawkesbury Hall in Warwickshire, from Patrick Allan-Fraser (1813-90). See To Ouvry, [?10 May 1858], Pilgrim Letters 8, p. 562. See also Michael Slater, "Munificence Declined: New Letters about the Guild of Literature and Art", Dickensian 111.1 (2015): 34-41.</note></p>
+<p>The delay is excessively unpalatable and irksome to me; but I fear it is [           ]<note>Letter torn; words missing.</note> it and there is no possible hope of [      ]<note>Letter torn; words missing.
+</note> at any earlier moment.</p>
+<p>Frederic Ouvry Esquire</p>
+         <closer>
+            <salute>Believe me ever|Very faithfully yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

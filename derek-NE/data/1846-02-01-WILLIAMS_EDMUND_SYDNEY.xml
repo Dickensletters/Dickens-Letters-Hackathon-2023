@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> EDMUND SYDNEY WILLIAMS,<note>Edmund Sydney Williams (1817-91) of Williams &amp; Norgate, 19 Henrietta St, Covent Garden and 2 Queen's Passage; known to be Bernhard Tauchnitz's London agent by 1850, when CD sent him proofs of <hi rend="italic">David Copperfield</hi>.</note> 1 FEBRUARY 1846</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Facsimile in the possession of Dietmar Boehnke.<note>This letter was part of a group which came to light in Leipzig, in the Tauchnitz firm’s archive, which was sold in the early 1990s. Before the items were dispersed the original Dickens letters were photocopied by the family of Dietmar Boehnke of the University of Leipzig. These photocopies were kindly shared with the Dickens Letters project.</note></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="publishing|Germany|copyright">publishing|Germany|copyright</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Devonshire Terrace,</placeName>
+               <date when="1846-02-01">First February 1846</date>
+            </dateline>
+            <salute>Faithfully Yours</salute>
+         </opener>
+         <p><p>I have handed your note to them; and have informed them, for the second time, that I am anxious to oblige Mr. Tauchnitz<note>Baron Bernhard Christian Tauchnitz (1816-95), publisher, of Leipzig. Born at Schleinitz; nephew of the publisher Karl Tauchnitz. Founded his own firm in Leipzig in 1837. The firm began its “Collection of British Authors” Sep 1841 with Bulwer Lytton’s Pelham. <hi rend="italic">Pickwick Papers</hi>, <hi rend="italic">Oliver Twist</hi>, and <hi rend="italic">American Notes</hi> had appeared before the end of 1842, and <hi rend="italic">Nicholas Nickleby</hi> in June 1843. He and CD became friendly, and CD sent Charley to Leipzig to learn German. According to John Forster, Tauchnitz always paid liberally. He wrote to Forster after CD’s death: “All Mr Dickens’s works have been published under agreement by me. My intercourse with him lasted nearly twenty-seven years. The first of his letters dates in October 1843, and his last at the close of March, 1870 [see <hi rend="italic">To</hi> Tauchnitz, 31 March 1870]. Our long relations were not only never troubled by the least disagreement, but were the occasion of most hearty personal feeling; and I shall never lose the sense of his kind and friendly nature. On my asking him his terms for Edwin Drood, he replied, ‘Your terms shall be mine’” (John Forster, <hi rend="italic">The Life of Charles Dickens</hi>, ed. J.W.T. Ley, p. 807n).</note> in all possible respects, as he behaved in a very honorable manner on the last occasion of my having any communication with him, observing my invariable principle in such matters. I do not wish to interfere beyond this.</p>
+<p>I believed the arrangement to have been made long ago, and was surprised last night to hear anything from you to the contrary.</p>
+</p>
+<p>Sydney Williams Esquire</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

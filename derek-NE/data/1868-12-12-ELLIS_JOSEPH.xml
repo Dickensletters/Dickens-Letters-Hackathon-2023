@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> <hi rend="italic">To</hi> JOSEPH ELLIS,<note>Joseph Ellis the younger (1815-91); manager of the Bedford Hotel, Brighton, 1845-65. Became leading spirit in the Brighton Literary Society and published two vols of poetry, 1869 and 1876. See N.C. Peyrouton, "When the Wine Merchant Wrote to Dickens: The Dickens-Ellis Correspondence", <hi rend="italic">Dickensian</hi> 57 (1961): 105-11.</note> [12] DECEMBER 1868
+
+</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-22</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Quero et adamo, Switzerland. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="public readings|travel">public readings|travel</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+		<addrLine> Joseph Ellis Esquire | Monks| Balcombe | Sussex. PM Edinburgh 13 Dec 68.
+		</addrLine>
+	</address>
+            <dateline>
+               <placeName>Kennedy’s Hotel, Edinburgh<note>CD was in Scotland, 5-19 Dec, as part of the Farewell series of readings.</note></placeName>
+               <date when="1868-12-12">Saturday Eleventh December<note>Saturday was 12 Dec.</note> | 1868</date>
+            </dateline>
+            <salute>Dear Mr. Ellis</salute>
+         </opener>
+         <p>I am reading in Scotland, and your letter of the fifth has just now found me here. The book<note>Not identified; for his gift of a volume of poems (Meletae, 1869), see Pilgrim <hi rend="italic">Letters</hi> 12, p. 363 &amp; n.
+</note> has not come with it, but I have no doubt it awaits me at home. I thank you for it beforehand, and beg to assure you that your second terrible “threat” cannot too soon be carried into execution.<note>Not identified; possibly the sending of <hi rend="italic">Meletae</hi>.</note></p>
+	<p>Joseph Ellis Esquire
+	</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

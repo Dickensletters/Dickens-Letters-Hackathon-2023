@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> GEORGE HENRY LEWES,<note>George Henry Lewes (1817-78; <hi rend="italic">Dictionary of National Biography</hi>), writer and critic; grandson of the actor, C.L. Lewes. Educated at schools in London, Jersey, Brittany, Germany and Austria. Tried work of varying kinds: in a notary's office, in a Russian merchant's counting-house, as a medical student, on the stage. Became friends with CD and performed in CD’s production of <hi rend="italic">Every Man</hi> in His Humour in 1847. Wrote the literary and theatrical reviews for the Leader, which he founded with Leigh Hunt in 1850. Lived with Mary Ann Evans (George Eliot) from 1854 until his death</note> 18 FEBRUARY 1853
+
+</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Composite text from facsimile (first page only) in Stargardt Autographenhandlung online catalogue, Feb 2020 (aa) and auction house's transcription (bb).</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="Bleak House|science|friends">Bleak House|science|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1853-02-18">Friday Eighteenth February 1853.</date>
+            </dateline>
+            <salute> My Dear Lewes.
+
+</salute>
+         </opener>
+         <p> I have been very closely and constantly occupied during the last ten days, and still am,<note>CD took on added responsibility for editing <hi rend="italic">Household Words</hi> at this time, while his sub-editor W.H. Wills was debilitated by an eye problem; see Pilgrim <hi rend="italic">Letters</hi> 7, pp. 27, 36.</note> or I should have written you a private note to shew you only I believe you to be quite as wrong now, about the spontaneous combustion question,<note>Lewes objected to CD's depiction of the death of Krook by spontaneous combustion in chapter 32 of Bleak House (published 1 Dec 1852). He had accused CD, in the Leader's "Literature" column, 11 Dec 1852, of picking up the idea of spontaneous combustion "among the curiosities of his reading"; he added, "Captain Marryat, it may be remembered, employed the same equivocal incident in Jacob Faithful." After CD had inserted a list of his authorities in <hi rend="italic">Bleak House</hi>, chapter 33 (published 1 Jan 1853), Lewes attacked him again in the Leader, on 15 Jan 1853. Lewes also published "Two Letters to Charles Dickens" in the <hi rend="italic">Leader,</hi> on 5 and 12 Feb 1853. In the first piece he included a list of "authorities of ... commanding eminence" who refuted the possibility of spontaneous combustion.</note> as you were in the beginning. I hope to do so, early in the next week.<note>CD wrote to Lewes as promised, on 25 February, providing evidence to counter Lewes's argument; see Pilgrim <hi rend="italic">Letters</hi> 7, pp. 28-31.</note></p>
+<p> In the meantime I have received the enclosed from a Subject who always appears to me to be in himselfa ba most terrific case of spontaneous combustion – of ink.<note> Unidentified </note> I have not read it, and send it to you just as it comes to meb </p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

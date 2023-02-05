@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> E. F. PIGOTT,<note>Edward Frederick Smyth Pigott, journalist; proprietor of the Leader, 1852-8: see Pilgrim <hi rend="italic">Letters</hi> 7, p. 571 & n. A close friend of Wilkie Collins, who represented him as Migott in “The Cruise of the Tomtit” (<hi rend="italic">Household Words</hi>, 22 Dec 55, XII, 490), CD had got to know Pigott well during 1855. He had played Captain Ebsworth in CD’s production of The <hi rend="italic">Frozen Deep</hi>, Jan 57 (photograph, Pilgrim <hi rend="italic">Letters</hi> 8, frontispiece; playbill, <hi rend="italic">Under the Management of Mr. Charles Dickens</hi>, ed. Robert Louis Brannan, 1966, p. 7).</note> 12 MARCH 1857</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-13</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Dan Calinescu.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements|friends">social engagements|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when=“1857-03-12”>Thursday Twelfth March 1857
+
+</date>
+            </dateline>
+            <salute>My Dear Pigott</salute>
+         </opener>
+         <p>Will you come and dine with us on Monday next at 6 sharp? We have no party. Thackeray’s daughters<note>Anne Isabella, “Annie” (1837-1919; <hi rend="italic">Dictionary of National Biography</hi>), novelist and essayist, and Harriet Marian, “Minnie” (1838-75; <hi rend="italic">Dictionary of National Biography</hi>).</note> are coming to see the girls that day, but otherwise we are en famille.</p>
+         <closer>
+            <salute>Ever Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

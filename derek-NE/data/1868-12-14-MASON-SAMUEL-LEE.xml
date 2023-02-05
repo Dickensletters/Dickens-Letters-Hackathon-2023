@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> SAMUEL LACK MASON,<note>Samuel Lack Mason (1837-1889), General Manager of the North British Railway, operators of the east coast route in Scotland.</note> 14 DECEMBER 1868</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-22</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Jarndyce Dickens catalogue CLXV, 2005.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="travel|public readings|railway">travel|public readings|railway</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Kennedy’s Hotel, Prince’s Street</placeName>
+               <date when="1868-12-14">Monday Night Fourteenth December | 1868</date>
+            </dateline>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>I beg to assure you that I am truly sensible of the kindness and courtesy of your letter received to-night, and that I thank you for it cordially. It will be a great comfort to me to avail myself of your most obliging offer<note>Mason, after attending a reading (presumably that of 11 Dec), arranged for a saloon carriage to be brought from King’s Cross for CD’s return to London, as more “convenient for sleeping in” than those available in Edinburgh: see <hi rend="italic">To</hi> Hogarth, 18 Dec 68, Pilgrim <hi rend="italic">Letters</hi> 12, p. 251.</note> next Saturday night, by the 10 p.m. Train from here to King’s Cross.</p>
+<p>Samuel L. Mason Esquire</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

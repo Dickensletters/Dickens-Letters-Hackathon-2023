@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> GEORGE ROBERT GLEIG,<note>George Robert Gleig (1796-1888), author and Chaplain-General of the armed forces, 1844-75. His History of the British Empire in India, 1830-5, and Story of the Battle of Waterloo, 1848, were in the Gad's Hill library at CD's death.
+</note> 3 JULY 1861</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-04</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Private</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id=""></interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND,</placeName>
+               <date when="1861-07-03">Wednesday Third July 1861.</date>
+            </dateline>
+            <salute>My Dear Gleig,</salute>
+         </opener>
+         <p>I am always delighted when I can find promise in a new aspirant.<note>CD used Gleig as an intermediary to communicate with Amelia Edwards, who contributed ‘Picking up Terrible Company’ to ‘Tom Tiddler's Ground’. See Pilgrim <hi rend="italic">Letters</hi> 9, p. 455 (To Gleig, 16 September 1861).</note> Pray do me the favor to address the Ghost story to me personally, here. You may rely upon my reading it myself and giving it my best and earliest attention.</p>
+         <closer>
+            <salute>Faithfully Yours always
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS,The Rev. G.R. Gleig </persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

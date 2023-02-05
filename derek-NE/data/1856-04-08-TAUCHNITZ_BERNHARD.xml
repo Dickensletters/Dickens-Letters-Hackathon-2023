@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To BERNHARD TAUCHNITZ,<NOTE><note>Baron Bernhard Christian Tauchnitz (1816-95), publisher, of Leipzig. Born at Schleinitz; nephew of the publisher Karl Tauchnitz. Founded his own firm in Leipzig in 1837. The firm began its “Collection of British Authors” Sep 1841 with Bulwer Lytton’s <hi rend="italic">Pelham. Pickwick Papers, Oliver Twist, and American Notes</hi> had appeared before the end of 1842, and Nicholas Nickleby in June 1843. He and CD became friendly, and CD sent Charley to Leipzig to learn German (see below). According to John Forster, Tauchnitz always paid liberally. He wrote to Forster after CD’s death: “All Mr Dickens’s works have been published under agreement by me. My intercourse with him lasted nearly twenty-seven years. The first of his letters dates in October 1843, and his last at the close of March, 1870 [see <hi rend="italic">To</hi> Tauchnitz, 31 March 1870]. Our long relations were not only never troubled by the least disagreement, but were the occasion of most hearty personal feeling; and I shall never lose the sense of his kind and friendly nature. On my asking him his terms for Edwin Drood, he replied, ‘Your terms shall be mine.’” (John Forster, <hi rend="italic">The Life of Charles Dickens</hi>, ed. J.W.T. Ley [London: Cecil Palmer, 1928], p. 807n).</note></NOTE> 8 APRIL 1856</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-2022</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Böhnke published his transcription, with brief annotation, in "The Correspondence between Charles Dickens and Bernhard Tauchnitz: General Observations and Newly Discovered Letters", <hi rend="italic">Archiv für das Studium der neueren Sprachen und Literaturen</hi> (Berlin: Erich Schmidt Verlag, 2013), p. 325.| Replaces extract aa in Pilgrim Letters 8, p. 85 and extract bb in Pilgrim Letters 8, p. 93.<note>Extract bb is erroneously dated 18 Apr 1856 in Pilgrim <hi rend="italic">Letters</hi> 8, p. 93</note></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">Germany|finances|publishing|Household Words|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>49 Champs Elysées, Paris </placeName>
+               <date when="1856-04-08">Tuesday Eighth April, 1856</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I beg to acknowledge the safe receipt of your draft at 30 days after sight<note>The phrase "30 days after sight " refers to the fact that Tauchnitz's bill could be cashed by CD 30 days after the date stated on the bill, thus allowing time for the necessary funds to be transferred to the account on which the bill is drawn</note> on Messrs Johnston and Co. of London,<note> H &amp; I Johnston &amp; Co., bankers at 28 Cannon Street, London.
+</note> for £50 sterling, being the half-yearly payment due to Household Words.<note>See <hi rend="italic">To</hi> Bradbury &amp; Evans, 4 April 1856, forwarding “£100 due from M. Tauchnitz to Household Words, to last month. I send it in a bill of M. Tauchnitz’s for £50, and in a cheque of my own for £50” (Pilgrim <hi rend="italic">Letters</hi> 8, pp. 80-81 and n). This is one of the few instances where a £50 payment by Tauchnitz, intended for the <hi rend="italic">Household Words</hi> account with Coutts &amp; Co., ended up in CD's personal bank account. CD remitted the £50 to <hi rend="italic">Household Words</hi> on 7 April 1856. For other instances of £50 payments ending up in CD's personal account see <hi rend="italic">To</hi> Tauchnitz, 31 March 1852, and 7 Oct 1856.</note></p>
+<p>I also duly notice your announcement that you desire to terminate the existing agreement at the expiration of a year from this time<note>Tauchnitz issued <hi rend="italic">Household Words</hi> in 36 volumes in the "Collection of British Authors" series, from 1851 to 1856. He reprinted the entire contents of the first 12 volumes of CD's journal, and part of the 13th. The series was probably discontinued because not all the material from CD's journal was well suited to the German market – especially not the pieces on contemporary British political and social issues. Tauchnitz continued to print extracts from Household Words (mainly the works of fiction) until 1859. See <hi rend="italic">To</hi> Tauchnitz, 7 Oct 1856. See also Anne Lohrli, <hi rend="italic">Household Words: Table of Contents, List of Contributors and Their Contributions</hi> (Toronto: University of Toronto Press, 1973), p. 48.</note></p>
+<p>aHaving thus disposed of business, let me have the pleasure of adding that we all unite in kindest regards to Mrs Tauchnitz<note>Henriette von Tauchnitz, née Morgenstern (1817-96).</note>and your family, and that we shall all remember our meeting here with great pleasure, and shall always look forward to a renewal of that friendship –– somewhere.abLeipzig is at present among my castles in the air, mes châteaux en Espagne,<note>A French expression meaning to daydream, or to have flights of fancy, originating in Guillaume de Lorris's Roman de la Rose (c.  1235). See also <hi rend="italic">Chaucer's Romaunt of the Rose</hi>, lines 2573-4: "Thou shalt make castels than in Spayne, | And dreme of Ioye, al but in vayne".</note> but perhaps Germany and I may make a personal acquaintance yet.b<note>CD passed through what is now Germany twice in 1845 and 1846, but never visited Leipzig.</note></p>
+<p></p>
+         <closer>
+            <salute>My Dear Sir| Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

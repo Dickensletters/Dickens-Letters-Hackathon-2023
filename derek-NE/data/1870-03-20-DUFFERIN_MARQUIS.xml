@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THE MARQUIS OF DUFFERIN AND AVA,<note>Frederick Temple Hamilton-Temple Blackwood (1826-1902), son of 4th Baron Dufferin and Clandeboye; 1st Marquis of Dufferin and Ava, of Clandeboye, Co. Down, diplomat and administrator; Under-Secretary War Office 1866-8; Governor General of Canada 1872-8; Viceroy of India 1884-8; Ambassador in Paris 1891-6. See Leon Litvack, 'Dickens, Irish Friends and Family Ties: New Letters to James Emerson Tennent and Lord Dufferin', in <hi rend="italic">Dickensian</hi> 110.1 (2014), 47-53.</note> 20 MARCH 1870</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-06</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Public Record Office of Northern Ireland </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">social engagements,friends,Ireland,All the Year Round</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>5 Hyde Park Place W<note>CD had rented 5 Hyde Park Place from Thomas Milner Gibson, for the period January to June 1870.</note></placeName>
+               <date when="1870-03-20">Twentieth March 1870.</date>
+            </dateline>
+            <salute>My Dear Lord Dufferin.</salute>
+         </opener>
+         <p>Our bright little Mrs. Finlay<note>Janet Finlay, daughter of Alexander Russel (1814-76), editor of the Scotsman newspaper in Edinburgh, where her husband Francis Dalziel Finlay (see below) had done his training. On the occasion of Finlay’s engagement, CD wrote to him about his anticipated meeting of the fiancée: ‘I hope you will make as good a report of me as you can, beforehand. For it is but fair that she should be prepared to like me, when I am in such an admirable state of preparation to like her’ (Pilgrim <hi rend="italic">Letters</hi> 10, p. 436; dated 10 October 1864).</note> is coming to dine here (with her husband)<note>Francis Dalziel Finlay (1832-1917), proprietor and editor, from 1857-74, of the Northern Whig. He was instrumental in promoting CD’s public readings in Belfast in 1858, 1867, and 1869. He also arranged for CD the purchase of an Irish jaunting car, which was used to ferry guests from Gad’s Hill to Higham station; see Pilgrim <hi rend="italic">Letters</hi> 8, p. 645. Finlay’s obituary in <hi rend="italic">The Times</hi> stated that once he took charge of the <hi rend="italic">Northern Whig</hi> he ‘introduced ideas and methods till then unknown in Irish journalism’, including a so-called ‘London Letter’, initially written by the journalist Edmund Yates (1831-94), who was a regular contributor to <hi rend="italic"></hi>All the Year Round.</note> next Wednesday at 7. We have no party, as we heard but now of their intention. I fear so short and informal a notice is not likely to find you disengaged; but if you could come, it would afford my daughter<note>Mamie Dickens.</note> and myself much pleasure, and would make Belfast joyful.</p>
+         <closer>
+            <salute>Believe me,Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS,The Lord Dufferin</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

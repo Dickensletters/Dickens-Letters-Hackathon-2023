@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JAMES RUSSELL LOWELL,<note>James Russell Lowell (1819-91; <hi rend="italic">Dictionary of American Biography</hi>), man of letters, poet and teacher; succeeded Henry Wadsworth Longfellow as Smith Professor of French and Spanish at Harvard University, 1857-61. He attended CD's opening reading in Boston on 2 Dec 1867; in advance of the event, on 18 Nov, he wrote to CD's publisher James T. Fields: "Don't fail to get me tickets, and for the first night. I should like to see his reception. It will leave a picture on the brain. And why should I not be there to welcome him, as well as Tom, Dick, or Harry?" (M. A. DeWolfe Howe, <hi rend="italic">Memories of a Hostess.  A Chronicle of Eminent Friendships Drawn Chiefly from the Diaries of Mrs. James T. Fields</hi> [Boston: Atlantic Monthly Press, 1922], p. 141n).</note> 31 DECEMBER 1867 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-28</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Swann Auction Galleries online catalogue, Feb 2018. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">America|public readings|social engagements|health</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Westminster Hotel, New York<note>In Irving Place, New York City; CD took up residence there on 9 Dec 1867.</note></placeName>
+               <date when="1867-12-31">New Years<note>Thus in MS.</note> Eve, 1867 </date>
+            </dateline>
+            <salute>My Dear Mr Lowell</salute>
+         </opener>
+         <p> I have been unwell,<note>CD disclosed to several correspondents that he had been unwell; see To Mary Dickens, 30 Dec 1867; <hi rend="italic">To</hi> W.H. Wills, 30 Dec 1867, and <hi rend="italic">To</hi> Charles Eliot Norton, 31 Dec 1867 (Pilgrim <hi rend="italic">Letters</hi> 11, pp. 526-9). His suffering from "low action of the heart" (<hi rend="italic">To</hi> John Forster, [?25 Dec 1867], in Pilgrim <hi rend="italic">Letters</hi> 11, p. 523) caused concern for his physician, who recommended cancelling the readings for a few days (<hi rend="italic">To</hi> J.T. Fields, 29 Dec 1867, in Pilgrim <hi rend="italic">Letters</hi> 11, p. 525).</note> or I should have sooner written to tell you that the disengaged day in my calendar is Wednesday February 26th.<note>CD confirmed the meeting in a letter to Lowell on February 13, 1868, in which he agreed to dine with him and his daughter Mabel (Pilgrim <hi rend="italic">Letters</hi> 12, p. 51). The meeting is also confirmed in a letter to Oliver Wendell Holmes (Pilgrim <hi rend="italic">Letters</hi> 11, p. 520).</note></p>
+<p>Many happy New Years to you and yours!</p>
+<p>Professor James Russell Lowell</p>
+         <closer>
+            <salute>Faithfully Yours ever
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

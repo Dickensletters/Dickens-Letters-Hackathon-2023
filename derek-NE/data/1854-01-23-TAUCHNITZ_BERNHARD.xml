@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> BERNHARD TAUCHNITZ,<note><note>Baron Bernhard Christian Tauchnitz (1816-95), publisher, of Leipzig. Born at Schleinitz; nephew of the publisher Karl Tauchnitz. Founded his own firm in Leipzig in 1837. The firm began its “Collection of British Authors” Sep 1841 with Bulwer Lytton’s <hi rend="italic">Pelham. Pickwick Papers, Oliver Twist, and American Notes</hi> had appeared before the end of 1842, and Nicholas Nickleby in June 1843. He and CD became friendly, and CD sent Charley to Leipzig to learn German (see below). According to John Forster, Tauchnitz always paid liberally. He wrote to Forster after CD’s death: “All Mr Dickens’s works have been published under agreement by me. My intercourse with him lasted nearly twenty-seven years. The first of his letters dates in October 1843, and his last at the close of March, 1870 [see <hi rend="italic">To</hi> Tauchnitz, 31 March 1870]. Our long relations were not only never troubled by the least disagreement, but were the occasion of most hearty personal feeling; and I shall never lose the sense of his kind and friendly nature. On my asking him his terms for Edwin Drood, he replied, ‘Your terms shall be mine.’” (John Forster, <hi rend="italic">The Life of Charles Dickens</hi>, ed. J.W.T. Ley [London: Cecil Palmer, 1928], p. 807n).</note></note> 23 JANUARY 1854</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in the possession of Dietmar Böhnke.| Replaces extract in Pilgrim Letters 7, p. 256.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="family|Germany|education|friends|Italy|Christmas">family|Germany|education|friends|Italy|Christmas</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1854-01-23">Monday Night Twenty Third January | 1854.</date>
+            </dateline>
+            <salute>My Dear Sir.</salute>
+         </opener>
+         <p>I received by Charley<note>Charles Culliford Boz Dickens ("Charley", 1837-96), CD's eldest son.</note> when he came home for his christmas holidays, a letter from Dr Müller<note>Professor O. C. Müller, 6 Tauchaer Strasse, Leipzig, a schoolmaster with whom Charley Dickens lived for six months in 1853, in order to learn German. See To Angela Burdett Coutts, 1 Apr 1853, Pilgrim <hi rend="italic">Letters</hi> 7, p. 56. See also To Tauchnitz, 2 Apr 1853.</note> of a nature very honorable to the Doctor's<note>"his" deleted; "the Doctor's" written above caret.</note> forethought and truthfulness, asking me to consider what I thought would be best for Charley's<note>"Charley's" written over "his".</note> future disposal. I have written him by this same post, a letter in reply which I fear you will have the trouble of explaining to him, and which I therefore will not repeat here. But I think and hope you will agree with me that my reasons, therein briefly stated, for proposing to leave Charley at Leipzig only another six months, are sound and judicious.<note>CD wrote to Angela Burdett Coutts on 18 Jan 1854, to say that he and Charley had “had a little talk together” about sending him to Germany as an "inducement to application," so that he could return home "to begin life" (Pilgrim <hi rend="italic">Letters</hi> 7, pp. 252-3). On Charley’s progress see Dietmar Böhnke, “The Lost Leipzig Letters: Charles Dickens,Bernhard Tauchnitz and the German Connection”, in Stefan Welz and Elmar Schenkel (eds.), <hi rend="italic">Dickens on the Move: Travels and Transformations, Charles Dickens Bicentenary, Conference 2012</hi>, Leipzig, Frankfurt am Main, Peter Lang, 2014, pp. 162-4. See also Pilgrim <hi rend="italic">Letters</hi> 7, 478n: “Tangible results of Charley’s education were three plays edited for English students of German.” In the event, Charley stayed until December 1854, as is clear from CD’s letter to Arthur Ryland of 6 Dec 1854, asking about business openings in Birmingham: “My eldest boy, now 18, comes home from Leipzig tomorrow. He wishes to enter mercantile life, and I am casting about for the best opening for him. He has been educated at Eton, has lived two years in Germany, and his name is my name, and he is an accomplished and creditable fellow” (Pilgrim Letters 7, p. 478)</note></p>
+<p>I have looked over the memoranda of our accounts etc. which you had the kindness to forward to me while I was in Italy.<note>CD was travelling in Switzerland and Italy with Wilkie Collins and Augustus Egg, Oct-Dec 1853.</note> Nothing can be clearer. If you will have the kindness to continue to make the needful payments to Dr Müller and to charge them against me,<note>This would have consisted of amounts due to CD for publishing rights, after subtracting amounts due to Tauchnitz for paying Charley's bills locally for his period of tuition in Germany. CD made a payment of £12 on 9 December 1854, shown in the bank ledger of Coutts &amp; Co. only as "Leipsig". It seems probable that this £12 was the outcome of the Tauchnitz/Dickens account.</note> you will increase the very great obligation I already owe you, and which no arithmetical figures can ever express.</p>
+<p>Mrs Dickens<note>atherine Dickens, née Hogarth (1815-79).</note> and her sister<note>Georgina Hogarth (1827-1917).</note> unite with me in best regards to yourself and family. I am always my Dear Sir</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> THE MARQUIS OF DUFFERIN AND AVA,1<note>Frederick Temple Hamilton-Temple Blackwood (1826-1902), son of 4th Baron Dufferin and Clandeboye; 1st Marquis of Dufferin and Ava, of Clandeboye, Co. Down, diplomat and administrator; Under-Secretary War Office 1866-8; Governor General of Canada 1872-8; Viceroy of India 1884-8; Ambassador in Paris 1891-6. See Leon Litvack, 'Dickens, Irish Friends and Family Ties: New Letters to James Emerson Tennent and Lord Dufferin', in <note>Dickensian</note> 110.1 (2014), 47-53</note> 15 SEPTEMBER 1868</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-06</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Public Record Office of Northern Ireland</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">public readings,friends,social engagements,Ireland</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD'S HILL PLACE,HIGHAM BY ROCHESTER, KENT.<note></note></placeName>
+               <date when="1869-09-15">Tuesday Fifteenth September 1868</date>
+            </dateline>
+            <salute>My Dear Lord Dufferin </salute>
+         </opener>
+         <p>I should have answered your kind note much sooner, but that it seemed absurd to do so, without knowing when I am coming to Belfast. It is now arranged (these things being settled for me), that January is to be the time for my short visit.<note>CD’s ‘Farewell’ tour of Ireland included two readings in Belfast, on 8 and 15 January 1869.</note> </p>
+<p>I am most cordially obliged to Lady Dufferin<note>Hariot Georgina Hamilton-Temple-Blackwood, Marchioness of Dufferin and Ava (1843-1936).</note> and yourself for your proffered hospitality, and I thank you sincerely. But the work on such occasions is so very hard, that I long ago found any private enjoyment to be quite incompatible with it. I travel with a staff of whom the greatest exactness in business is required, and I never leave them.<note>CD travelled to Ireland in the company of his manager George Dolby and his sister-in-law Georgina Hogarth.</note> I invariably live at an hotel with my Secretary, and stick to my post as though it was a matter of life or death. There is not the least merit in this devotion, for I could not get on with out it. </p>
+<p>If you should fortunately be at home when I come to Belfast, I shall hope to express my thanks in person, and to have the honor of being presented to Lady Dufferin. In the meantime and always, Believe me</p>
+         <closer>
+            <salute>Very faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS,The Lord Dufferin</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> FANNY BENNETT,<note>A music teacher and amateur singer, “long valued” in Liverpool, who had occasionally assisted “charitable objects” (<hi rend="italic">Liverpool Mercury</hi>, 8 Apr 1869).</note> 8 APRIL 1869</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-11</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Lawrences Auctioneers, Somerset</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="social engagements">social engagements</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+	<address>
+	<addrLine>Miss Fanny Bennett | 11 Seymour Street | Liverpool.
+	</addrLine>
+	</address>
+            <dateline>
+               <placeName>Adelphi Hotel Liverpool </placeName>
+               <date when="1869-04-08"> Thursdy Eighth April 1869.<note>Address and date at foot of letter: the “a” omitted from “Thursday”. CD read in Liverpool, 5, 6 and 8, 9 April.</note></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Mr. Charles Dickens presents his compliments to Miss Fanny Bennett and regrets that he could not have the pleasure of availing himself of her courteous invitation to attend her concert last night.<note>Miss Bennett gave her “annual concert” at the Lord Nelson Street concert hall (formerly the Socialist or Owenite Hall of Science), with the Mayor and his party in attendance. She sang several pieces “with excellent taste”, including Sir Henry Bishop’s Echo song, which was encored (Liverpool Mercury, 8 Apr 1869).</note> But he found himself obliged to remain within doors for rest all the evening.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

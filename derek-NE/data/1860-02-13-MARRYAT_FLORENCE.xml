@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> FLORENCE MARRYAT,<note>Florence Marryat (1838-99; <hi rend="italic">Oxford Dictionary of National Biography</hi>), daughter of Capt. Frederick Marryat (1792-1848; DNB: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 339n), prolific novelist, playwright, writer on spiritualism, actress and singer. Author of <hi rend="italic">Life and Letters of Captain Marryat</hi>, 2 vols, 1872; ed. <hi rend="italic">London Society</hi>, a monthly magazine, 1872-6.</note> 13 FEBRUARY 1860 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-09</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Bonhams online catalogue, March 2016. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="editing|All the Year Round|friends">editing|All the Year Round|friends</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>TAVISTOCK HOUSE|TAVISTOCK SQUARE| LONDON. W.C</placeName>
+               <date when="1860-02-13">Monday Thirteenth February 1860</date>
+            </dateline>
+            <salute>Dear Miss Marryat.</salute>
+         </opener>
+         <p>You have no idea of the labor inseparable from the editing of such a Journal as All The Year Round, when you suppose it within the bounds of possibility that2 those who discharge such duties can give critical reasons for the rejection of papers. To read proffered contributions honestly, and communicate a perfectly unprejudiced decision respecting every one of them to its author or authoress, is a task of the magnitude of which you evidently have no conception. </p>
+<p>Mr Wills,<note>William Henry Wills (1810-80; <hi rend="italic">Dictionary of National Biography</hi>), journalist, one of CD’s most trusted friends; assistant editor and part-proprietor of <hi rend="italic">Household Words</hi> and <hi rend="italic">All the Year Round</hi>.</note> whom you seem to mistrust, was so clear about that paper of yours which you suppose to have been accepted by me without his intervention (as I read your note), that he first shewed it to me in print. He feels quite sure that I should take it, and I did. </p>
+<p>Pray consider, rationally, that I could in no case have but one object and one interest – to get the best writing possible. In your case I should have the additional inducement (if I wanted it) to be very careful in the remembrance of my responsibility, that your name is associated with an old friend<note>Her father, Frederick Marryat, a prolific novelist, whose work CD admired.</note> and a great regard.</p>
+<p>I cannot, however, alter what seems to be the fact regarding this story (for instance), any more<note>'any more' added above caret.</note> than I can alter my eyesight or my hearing. I do not deem it suitable to my Journal. You ask me to pass my pen over the paragraphs which displease me. Surely that is scarcely reasonable. I do not think it is a good story. I think its leading incident common-place, and one that would require for its support some special observation of character, or strength of dialogue, or happiness of description. I do not find any of these sustaining qualities in it. I am not interested in the young people, therefore, and I cannot put away from myself the unfortunate belief that the readers of All The Year Round would not be interested in them. Thus it comes about, that I have the pain of returning the paper, when I would five hundred thousand times rather have the pleasure of accepting it.</p>
+         <closer>
+            <salute>Faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS<note>At the foot of the page, another hand has written: 'addressed to Miss Florence Marryat'.</note></persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

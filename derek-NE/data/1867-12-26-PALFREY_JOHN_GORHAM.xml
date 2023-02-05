@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> JOHN GORHAM PALFREY,<note>John Gorham Palfrey (1796-1881; <hi rend="italic">Dictionary of American Biography</hi>), former Unitarian minister, later, liberal politician, editor and proprietor, <hi rend="italic">North American Review</hi>, 1835-42, and regular contributor; best known for his <hi rend="italic">History of New England</hi> (4 vols, 1858-75). He played a leading role in the early history of Harvard Divinity School. CD had met him in Boston in Feb 1842, and in London in 1856.</note> 26 DECEMBER 1867</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-28</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Swann Auction Galleries online catalogue, Feb 2018.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|America<">friends|America</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Westminster Hotel, New York City<note>In Irving Place; CD took up residence there on 9 Dec 1867.</note></placeName>
+               <date when="1867-12-26">Twenty Sixth December, 1867</date>
+            </dateline>
+            <salute>Dear Doctor Palfrey</salute>
+         </opener>
+         <p> I have this morning received your letter herewith safely, and am truly glad to have it.<note>CD had a “mistake” concerning Palfrey (untraced) brought to his attention by his Boston publisher and close friend, James T. Fields, on 19 Dec 1867 (Pilgrim <hi rend="italic">Letters</hi> 11 p. 515-16). The note “astounded” CD, who was clearly worried that the error could be interpreted by Palfrey as by “intention and design”. He met with Palfrey on 22 Dec while in Boston for two nights of readings, and returned to New York on 25 Dec 1867.</note> Will you kindly present my compliments to Miss Palfrey,<note>Sarah Hammond Palfrey (1823-1914).</note> and tell her that I have not forgotten a line or two of direction I am to write for her when I next come to Boston<note>Thus in MS (no full stop).</note></p>
+         <closer>
+            <salute>  Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

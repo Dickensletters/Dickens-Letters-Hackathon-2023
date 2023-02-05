@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MR WINCKWORTH,<note>Of Stephen Winckworth Silver &amp; Co., “emigrant’s fitting out warehouse”, 3 &amp;amp; 4 Bishopsgate Within: see Pilgrim <hi rend="italic">Letters</hi> 6, p. 182n.</note> 3 OCTOBER 1853</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-25</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Invaluable on-line catalogue, June 2010.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="health|travel">health|travel</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+18
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House </placeName>
+               <date when="1853-10-03">Monday Third October 1853.<note>Address and date at foot of letter.</note></date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Mr. Charles Dickens begs Mr. Winckworth to be so good as to fill the accompanying case of bottles;<note>.CD was preparing for his European journey, 10 Oct-11 Dec, with Wilkie Collins and Augustus Egg. Laudanum was a painkiller and soporific; sal volatile (smelling salts) could be inhaled or taken in water; ginger was used for upset stomachs and bowels. These bottles were intended as a general precaution, but especially since Collins suffered from neuralgia and rheumatism. For CD’s medicine chests on his two American tours, see Pilgrim <hi rend="italic">Letters</hi> 3, p. 226 &amp; n; Pilgrim <hi rend="italic">Letters</hi> 11, p. 448 &amp;amp; n; David Dickens &amp; Norman Jacoby, “CD’s Travelling Medicine Chest”, Dickensian, 92 (Spring 1996), 19-24.</note>one with Laudanum, one with sal volatile, and one with the best powdered ginger. He also begs to have a large box—as it is to travel with, it should be strong—of the pills according to Dr. Southwood Smith’s<note>Thomas Southwood Smith, MD (1788-1861; <hi rend="italic">Dictionary of National Biography</hi>), sanitary reformer: see Pilgrim <hi rend="italic">Letters</hi> 2, p. 164n.</note> prescription which is in Mr. Winckworth’s possession.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

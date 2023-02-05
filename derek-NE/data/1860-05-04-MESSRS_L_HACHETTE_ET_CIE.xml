@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> MESSRS L. HACHETTE ET CIE,<note>Publishers, of 14 rue Pierre-Sarrazin, founded in 1826 by Louis Christophe Hachette (1800-64); see further Pilgrim <hi rend="italic">Letters</hi> 7, p. 759n. CD had agreed terms with Hachette for the translation of all his published novels in Jan 1856 (Pilgrim <hi rend="italic">Letters</hi> 8, pp. 22-3, 39-40).</note> 4 MAY 1860</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Pierre Bergé &amp;amp; associés catalogue, November 2010.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="A Tale of Two Cities|publishing|France|finances<">A Tale of Two Cities|publishing|France|finances</interp>
+         </interpGrp>
+      186</profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>TAVISTOCK HOUSE,|TAVISTOCK SQUARE, LONDON. W.C.</placeName>
+               <date when="1860-05-04">Mardi 4 Mai, 1860.</date>
+            </dateline>
+            <salute>Messieurs
+
+</salute>
+         </opener>
+         <p>J’ai reçu votre lettre avec beaucoup de plaisir. Je suis charmé que vous […]<note>“avez” written above word crossed out.</note> avez entrepris la traduction de “The Tale of Two Cities”,<note>The last episode appeared in <hi rend="italic">All the Year Round</hi>, II, 93-5, 26 Nov 59; the volume issue appeared 21 Nov. Translated as <hi rend="italic">Paris et Londres</hi> en 1793, 1861, by Mme Loreau in Hachette’s series, “Bibliothèque des meilleurs romans étrangers”.</note> et que cette ouvrage soit connue en France. Voila un de mes espoirs les plus ardents, en l’ecrivant. Suivant vos instructions, j’ai disposé sur vous (par le moyen de mes banquiers) à deux jours de vue, pour deux mille francs.<note>The original agreement (above) paid CD £440 for all his novels to that date; 2,000 francs was £80.</note> Veuillez accepter, Messieurs, mes remerciements et l’assurance de ma plus haute consideration.</p>
+         <closer>
+            <salute>à Messrs. L. Hachette &amp;amp; Cie: CHARLES DICKENS
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

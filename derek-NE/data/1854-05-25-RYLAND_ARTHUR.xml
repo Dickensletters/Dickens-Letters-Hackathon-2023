@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> ARTHUR RYLAND,<note>Arthur Ryland (1807-77), solicitor: see Pilgrim <hi rend="italic">Letters</hi> 4, p. 29n. Founder of the Birmingham and Midland Institute in 1853.</note> 25 MAY 1854</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in John Wilson Manuscripts Ltd. catalogue, 2003.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="charity">charity</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Tavistock House</placeName>
+               <date when="1854-05-25">Thursday Twenty Fifth May | 1854.
+
+</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>I have gone over the list<note>A list of people to ask to give readings or lectures in aid of the Institute (above) compiled by the Canvassing Committee; Bulwer Lytton was among those applied to: see Vol. VII, p. 478 and n.</note> with great interest, I assure you, and am extremely glad to have the pleasure of hearing from you again.</p>
+<p>Mrs. Dickens and her sister unite in kindest regards.</p>
+         <closer>
+            <salute> Always My Dear Sir,Very faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS, Arthur Ryland Esquire.</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

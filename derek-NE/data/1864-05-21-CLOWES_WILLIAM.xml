@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WILLIAM CLOWES,<note>William Clowes (1807-83; <hi rend="italic">Dictionary of National Biography</hi>), son of William Clowes (1779-1847; <hi rend="italic">Dictionary of National Biography</hi>), of William Clowes &amp;amp; Sons, printers. Clowes Snr had made an approach to CD in 1841 (Pilgrim Letters 3, p. 517 &amp; n.3, and Corrigenda, above). In 1864 CD chose Clowes Jnr as printer of <hi rend="italic">Our Mutual Friend</hi> (first No. published 30 Apr 64), for some volumes of the CD Edition, and later for Edwin Drood. Clowes was established at 32 Duke St, Stafford St, Blackfriars and 14 Charing Cross. He was also linked with the Caxton Press at Beccles, Suffolk, run by his son and nephew after the original owner absconded; subsequently Clowes &amp;amp; Clowes.</note> 21 MAY 1864</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-21</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Beccles and District Museum. On mourning paper.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="All the Year Round|editing">All the Year Round|editing</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>GAD’S HILL PLACE, | HIGHAM BY ROCHESTER, KENT.
+
+</placeName>
+               <date when="1864-05-21">Saturday Evening Twenty First May 1864</date>
+            </dateline>
+            <salute>My Dear Sir</salute>
+         </opener>
+         <p>Will you have the kindness to assure Mr. Bentley<note>Richard Bentley (1794-1871; <hi rend="italic">Dictionary of National Biography</hi>), publisher: see Pilgrim <hi rend="italic">Letters</hi> 1, p. 164n. For CD’s early relations with him, see Robert L. Patten, CD and <hi rend="italic">His Publishers</hi>, 1978, ch. 4. Later in severe financial difficulties; Clowes was appointed one of the “inspectors” under whose supervision the firm was carried on: see Pilgrim <hi rend="italic">Letters</hi> 8, p. 403 &amp;amp; n, and Royal A. Gettman, <hi rend="italic">A Victorian Publisher: A Study of the Bentley Papers</hi>, 1960, pp. 25-6.</note> from me, in reference to the subject of his letter, that we have no present opening in <hi rend="italic">All The Year Round</hi> for a long serial story.<note>Clowes, as an “inspector” of Bentley’s affairs, was presumably acting to secure possible profits through serialisation. Quite apart from any unwillingness to become directly involved in Bentley’s business dealings, CD was running in <hi rend="italic">All the Year Round</hi> G. A. Sala’s <hi rend="italic">Quite Alone</hi> (concluded 12 Nov 64), overlapping it with Percy Fitzgerald’s <hi rend="italic">Never Forgotten</hi> (from 3 Sep 64), itself succeeded by Amelia B. Edwards’s <hi rend="italic">Half a Million of Money</hi> (from 22 Apr 65).</note></p>
+<p>William Clowes Esquire
+</p>
+         <closer>
+            <salute>Faithfully Yours
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS<note>Attached to this letter is a fragment of an envelope, with the opening of the final line of the address (“Blac” = “Blackfriars”) and CD’s signature; the signature suggests a significantly earlier date than that of this letter.</note></persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

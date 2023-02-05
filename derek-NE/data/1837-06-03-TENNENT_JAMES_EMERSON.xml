@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> James Emerson Tennent, <note>Sir James Emerson Tennent (1804-69), politician and author; son of William Emerson, took the name of Tennent 1832, after marriage. MP for Belfast 1832-7, 1838-41, 1842-5, and for Lisburn 1852; secretary to India Board 1841-3, knighted 1845, civil secretary to colonial government of Ceylon 1845-50; secretary to Poor Law Board Mar-Dec 1852. Elected FRS 1862 and created a baronet 1867. Published several works on Greece, where he travelled and fought (meeting Byron) in 1824, and on Ceylon; contributed to Disraeli's newspaper The Press in 1853. Probably long known to CD, as an early friend and fellow law-student of Forster, and a member of the Macready circle by 1836; <hi rend="italic">Our Mutual Friend</hi> dedicated to him. See Leon Litvack, "Dickens, Irish Friends and Family Ties: New Letters to James Emerson Tennent and Lord Dufferin" in <hi rend="italic">Dickensian</hi> 110.1 (2014): 47-53.</note> June 1837</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">social engagements,family
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-01-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            social engagements,family
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+		<address><addrLine>
+		|James Emerson Tennent Esqre M.P.|25 Duke Street| Westminister|
+			</addrLine>
+		</address>
+            <dateline>
+               <placeName>Elm Cottage, Petersham, Surrey<note>D had rented Elm Cottage from 30 Apr to 31 Aug 1839.</note></placeName>
+               <date when="">May 30th 1840</date>
+            </dateline>
+            <salute>My Dear Sir,</salute>
+         </opener>
+         <p>I fear that by this time you will have set <hi rend="italic">me</hi> down as the rudest of <hi rend="italic">your</hi> chance acquaintances. If so, let me make my apology in one word. On the night on which I was to have dined with you at Richmond, a very dear young relative was taken ill in my house, and after a few hours’ suffering died.<note>CD’s sister-in-law, Mary Hogarth, died suddenly on 7 May 1837.</note> It has been a heavier blow to me than I could describe were I disposed; and for a few weeks it has completely overwhelmed me.<note>See, for example, letter to William Harrison Ainsworth: ‘I have been so much unnerved and hurt by the loss of the dear girl whom I loved, after my wife, more deeply and fervently than anyone on earth, that I have been compelled for once to give up all idea of my monthly work, and to try a fortnight's rest and quiet. We have hired a very small cottage here, and have repaired hither for a little change of air and scene’ (Pilgrim <hi rend="italic">Letters</hi> 6, p. 260; dated 17 May 1837).</note> </p>
+	 <p>
+I take the earliest opportunity of saying that I most cordially reciprocate the wishes you are kind enough to express for the furtherance of our acquaintance which I am sincerely desirous to improve. I am staying with Mrs. Dickens at a cottage of twelve feet square in Hampstead just now;<note>Dickens was staying at North End, Hampstead with Catherine, in order to allow her to recover from the miscarriage she suffered after her sister Mary’s sudden death.</note>  but I have given you our address in town at the commencement of this epistle, and unless some nefarious person purloins this valuable autograph,<note> This comment may be meant as a joke, on account of the elaborately flourishing signature which Dickens had adopted by this time; but it may also relate to the esteem he felt he had gained in the eyes of his public and of other writers. For Dickens’s assessment of his own reputation in 1837 see Michael Slater, <hi rend="italic">Charles Dickens</hi> (New Haven and London: Yale University Press, 2009), p. 99.
+</note> shall hope to see you again before long.
+	</p>
+         <closer>
+            <salute>
+Meantime my Dear Sir, believe me
+Very faithfully Yours
+
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS
+James Emerson Tennent Esquire<note>The MS shows ditto marks below Tennent’s name; this is a shorthand to indicate his address as it would appear on the envelope (25 Duke Street).</note></persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

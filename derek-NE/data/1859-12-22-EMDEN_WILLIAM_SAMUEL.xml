@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> WILLIAM SAMUEL EMDEN,<note>William Samuel Emden (?1801-72), theatre manager and playwright; lessee and manager of the Olympic Theatre from 10 Aug 57, of which he had previously been treasurer: see Pilgrim <hi rend="italic">Letters</hi> 8, p. 394<hi rend="italic">n</hi>.</note> 22 DECEMBER 1859</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-02-23</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in unnamed catalogue, January 2001.<note>The facsimile is cut off at the left hand margin which removes [My] [a] and the initials [W. S.] of the addressee.</note></p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id=""></interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>TAVISTOCK HOUSE,TAVISTOCK SQUARE, LONDON. W.C.</placeName>
+               <date when="1859-12-22">Thursday Twenty Second December, 1859</date>
+            </dateline>
+            <salute> My] Dear Sir
+
+</salute>
+         </opener>
+         <p>If you should happen to have [a] vacant box tonight,<note>Four pieces were advertised for the evening: <hi rend="italic">A Base Imposter; The Head of the Family; Medea; Tom Noddy’s Secret</hi>.</note> my daughters would be happy to occupy it.</p>
+         <closer>
+            <salute>Faithfully Yours 
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS | [W. S.] Emden Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

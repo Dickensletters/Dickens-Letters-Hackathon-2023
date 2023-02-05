@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> T. HOLMES,<note>Perhaps Thomas Knox Holmes (1809-93), solicitor, of Holmes and Co., 18 123 Abingdon St: see Pilgrim <hi rend="italic">Letters</hi> 9, p. 542n; CD’s form of address suggests he knew him well.</note> 18 DECEMBER 1861</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-01</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from facsimile in Jarndyce Dickens catalogue, CLXV.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="public readings">public readings</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>All The Year Round Office</placeName>
+               <date when="1861-12-18">Wednesday Eighteenth December / 1861.</date>
+            </dateline>
+            <salute>My Dear Holmes.|I just missed you here.</salute>
+         </opener>
+         <p>To day I am obliged to go out of town,<note>CD, originally away for a month on a Reading Tour (the remaining engagements postponed after Prince Albert’s death, 14 December), had certainly returned to London by 18 December. Letters of 19 December, when CD was dealing with “a raging sea of correspondence” (To Baylis, 19 Dec), are dated variously from the <hi rend="italic">All the Year Round office</hi> and Gad’s Hill.</note> and I am not likely to be back here before 10 at night. But tomorrow from 10 until 1⁄2 past 1 I am sure to be here. I hope there may be nothing amiss that would have disturbed the peace of poor dear Arthur.<note>Arthur Smith (1825-61; <hi rend="italic">Dictionary of National Biography</hi>); acted as business manager to his brother, Albert, for his entertainments, 1852-60; organized CD’s readings 1858 and 1861. Smith, whom CD called “the man who is never to be replaced” (<hi rend="italic">To</hi> Tracey, 26 Dec, Pilgrim <hi rend="italic">Letters</hi> 9, p. 553), had died 1 October. Possibly Holmes was involved with Smith’s legal affairs.</note> </p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS|T. Holmes Esquire</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

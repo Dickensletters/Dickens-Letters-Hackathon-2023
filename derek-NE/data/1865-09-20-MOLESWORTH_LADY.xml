@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> LADY MOLESWORTH,<note>Lady Molesworth, née Andalusia Carstairs (c.1809-88; <hi rend="italic">Dictionary of National Biography</hi>), actress and singer; widow of Sir William Molesworth, Bt (1810-55): see Pilgrim <hi rend="italic">Letters</hi> 10, p.85n.</note> 20 SEPTEMBER 1865</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-03-20</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>MS Private.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="friends|family|France|dogs|railway|health">friends|family|France|dogs|railway|health</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>OFFICE OF ALL THE YEAR ROUND
+
+</placeName>
+               <date when="1865-09-20">Wednesday Twentieth September 1865
+
+</date>
+            </dateline>
+            <salute>My Dear Lady Molesworth</salute>
+         </opener>
+         <p>I have been in France for the last fortnight or so,<note>Actually a week: 9-16 Sep, in Boulogne and Paris.</note> and find your welcome note on my return. Its enclosure has been duly forwarded to the Editor and Proprietor of that truly national Journal, the Gad’s Hill Gazette.<note>Henry Fielding Dickens: for the “Gazette”, see Pilgrim <hi rend="italic">Letters</hi> 10, p. 281 n.3 and <hi rend="italic">Dickensian</hi>, XXV (1929), 255.
+</note></p>
+<p>London is so intensely hot, that I got up and went out to a Fire in the neighbourhood here a night or two ago – to cool myself. Paris was hot enough last week,<note>The heat in London and France was excessive: CD reported having slight sunstroke in Paris (Pilgrim <hi rend="italic">Letters</hi> 11, p.91), where only on 27 Sep did The Times report the heat as “now” abating.</note> but it had not the unspeakable staleness of London. Our dear Chorley,<note>Henry Fothergill Chorley (1808-72; <hi rend="italic">Dictionary of National Biography</hi>), music critic and miscellaneous writer: see Pilgrim <hi rend="italic">Letters</hi> 5, p. 360n. Left Gad’s Hill about 16 Aug (<hi rend="italic">To</hi> Pauline Viardot, Pilgrim <hi rend="italic">Letters</hi> 11, p. 82). A heavy drinker in his last years, he was of concern to his friends: see <hi rend="italic">To</hi> Lady Molesworth, 12 May 68, and <hi rend="italic">To</hi> Mrs Lehmann, 3 Feb 69, Pilgrim <hi rend="italic">Letters</hi> 12, pp. 106, 286 &amp; <hi rend="italic">nn</hi>.</note> being at Gad’s in August before going abroad for his holiday, comported himself to admiration. Only on the day on which he went away, was there the faintest sign upon him of a loose screw. He was going to cross that night, and it had been blowing stiffly. I have a strong impression that he took some opium, and not liquor. He suddenly fell into intensely low spirits, and looked at himself in the glass with great mournfulness. One of our visitors expressing wonder at this, another said: – “But do you think he can ever look in the glass and be in good spirits?”
+</p>
+
+<p> I made an effort in Paris to see the Africaine<note><hi rend="italic">L’Africaine</hi> (“The African Maiden”) by Giacomo Meyerbeer (1791-1864). Premiered posthumously, Paris Opéra, 28 Apr 65.</note> at the Grand Opera,<note>The Salle Le Pelletier, home of the Paris Opéra, 1821-73.</note> but was too hot to get across the doorstep. I made another effort to see the piece<note><hi rend="italic">Les deux soeurs</hi> (“The Two Sisters”) by Emile de Girardin; first performed 16 Aug.
+</note> at the Vaudeville<note>At the corner of the Rue de la Chaussée-d’Antin and the Boulevard des Capucines.
+</note> about which there was the disturbance between Girardin<note>Emile de Girardin, writer, journalist and politician; founder and owner of the conservative <hi rend="italic">La Presse</hi>: see Pilgrim Letters 8, p. 34 &amp; n.</note> and Dumas fils.<note>Alexandre Dumas (1824-95), son of the novelist. Best known for his play, La dame aux camélias (1852), later turned into a novel. The original disturbance dated back to Apr 65, with production at the Théâtre Français of Le supplice <hi rend="italic">d’une femme</hi> (“The Sufferings of a Wife”).Written originally by Girardin, the Français had called in Dumas, who effectively rewrote it. Presented anonymously, both Girardin and Dumas subsequently claimed credit for its great success. Girardin then wrote <hi rend="italic">Les deux soeurs</hi> to prove he could succeed unassisted. The result was a failure, though it continued to be performed, supported by Girardin’s newspaper and a claque. It achieved one purpose: to get Girardin talked about.</note> Same result. I made another effort to see the Show-Piece at the Porte St. Martin.<note><hi rend="italic">La femme et l’empereur</hi> (“The Wife and the Emperor”) by Marc Fournier, manager of the theatre, on the Boulevard St Martin.</note> No better success. Out of the Champs Elysées, I swooned into Franconi’s;<note>The circus and equestrian display, directed by Adolphe Franconi, on the Champs Elysées at Rond Pont.</note> but the very horses were lazy, and the only creature taking any trouble about any thing was the vicious Mule who pitched off all riders. He seemed to have an intention in him. Fechter<note>Charles Albert Fechter (1824-79; <hi rend="italic">Dictionary of National Biography</hi>), actor, at first in Paris; came to London, 1860, and from then acted in English: see Pilgrim <hi rend="italic">Letters</hi> 9, p. 405n. He was on a summer tour to Glasgow, Liverpool and Manchester.</note> has been doing wonders in Glasgow, and getting a great deal of money.
+</p>
+<p>
+My daughter Mary has been fishing for Trout in Scotland – it is unnecessary to add has caught none. I have a new dog<note> Sultan, an Irish bloodhound, the gift of Percy Fitzgerald: <hi rend="italic">To</hi> Fitzgerald, 23 Sep 65, in Pilgrim <hi rend="italic">Letters</hi> 11, pp. 95-6.
+</note> (Irish, but not Feanian)<note>Spelt thus in MS; the Fenian Brotherhood, founded 1858 by John O’Mahony (1816-77; <hi rend="italic">Dictionary of National Biography</hi>), agitated for an Irish Republic. Sultan, who was vicious, had eventually to be put down.</note> who has the horrible quality of hating small dogs, and who “took” Bouncer,<note>Mamie’s white Pomeranian: see Pilgrim <hi rend="italic">Letters</hi> 9, p. 309 n.4.</note> like a pill, on the very first morning of his being established in the Stable Yard. Somebody chucked him under the chin, and he brought her up again – A little surprised, but not hurt. The St. Bernard<note>Linda, the puppy of a St Bernard brought over byAlbert Smith; acquired by late 1857 (Pilgrim <hi rend="italic">Letters</hi> 8, p. 489 &amp; n).
+</note> has been dreadfully ill of canker in the ear; and her human way of expressing her being in pain, and entreating [ ]<note>Two or three illegible letters crossed out.</note> sympathy, has been very moving indeed. I am not surprised by what you tell me of our friend B.O.<note>.Ralph Bernal Osborne, né Ralph Bernal (1808-82; <hi rend="italic">Dictionary of National Biography</hi>), Liberal politician. Married 1844 Catherine Isabella, heiress of Sir Thomas Osborne, Bt, and took his wife’s name: see Pilgrim <hi rend="italic">Letters</hi> 10, p. 85n.</note> But is not Mrs. B.O.<note>CD had met her at least by Spring 1844: <hi rend="italic">To</hi> Miss Osborne, 3 Apr 44, Pilgrim <hi rend="italic">Letters</hi> 4, p. 93 &amp; n.</note> of the ice icy? I used to know her before she was married, and used to like her; but, seeing her in her own house last Season, thought hers a most unsatisfactory petrefaction.
+</p>
+<p>My report of myself is – All right. I had a touch of Neuralgia all through August (I almost always have when I am hard at work), but I got rid of it within a few hours of crossing from Folkestone. That Railway accident occurred on the 9th. of June.<note>The Staplehurst railway accident: see To Beard, 10 June, Pilgrim <hi rend="italic">Letters</hi> 11, p. 49 &amp; nn.
+</note> I have not been able to bear an Express Train since, until this last week, when I was able to conquer the disagreeable sensations that beset me. The oddest of these, was, an impression, against my own senses and knowledge and against all reason, that the carriage was turning over; and it is curious that it invariably seemed to be turning over, – not on the side on which it really did pitch in the accident, but on the other side. I send this to the address of your note. It will reach you somewhere in course of time, I dare say. Let me not forget to add that I wear all my orders over the left, and am descended from Adam de Clay<note>A hit at claims to aristocratic descent: CD comes from Adam (formed of common clay) and is related to Cain, the first murderer; compare the mock genealogy of <hi rend="italic">Chuzzlewit</hi>, ch.1.</note> – direct line – had the first Murderer in my family, and the first ruffian of every degree.</p>
+<p>P.S. I address you in town; seeing that you are due at the Mansion of the fair and stately W.<note> Unidentified </note>
+</p>
+         <closer>
+            <salute>Ever affectionately Yours 
+            </salute>
+            <signed>
+               <persName>CD</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

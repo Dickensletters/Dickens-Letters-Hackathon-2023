@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Washington Irving,<note>Washington Irving (1783-1859), American author and diplomat. His Sketch-Book provided an important model for CD’s <hi rend="italic">Sketches by Boz</hi>. CD met him on his American tour in 1842, during which Irving supported CD’s call for an international copyright agreement for authors.</note> 12 April 1845</title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-01-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Facsimile in Christie’s online catalogue, June 2013</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="">Italy,America,friends,family</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+
+            <dateline>
+               <placeName>Palazzo Peschiere, Genoa,</placeName>
+               <date when="">Monday, June 17th, 1839.</date>
+            </dateline>
+            <salute>My Dear Irving.</salute>
+         </opener>
+         <p>Captain Cunynghame<note>Thus in MS. Sir Arthur Augustus Thurlow Cunyngham (1812-84), who held the rank of Captain in the Buffs (3rd [East Kent] Regiment of Foot) in 1845; afterwards General. He had evidently met CD in Genoa; see Pilgrim <hi rend="italic">Letters</hi> 4, p. 360n (To Cunyngham, 21 August 1845).</note> of the English army who was aide-de-camp to Lord Saltoun<note>Alexander Fraser, 17th Lord Saltoun (1785-1853), Scottish peer who fought in the Napoleonic wars and the first Anglo-Chinese War.</note> in China, is leaving this place for a short trip to Spain; and I cannot forbear giving him this note to you. You will like him very much, I am sure; and it will be a happiness to me to see some one who has been in recent communication with you – as I hope he will have been, when he and I meet in England next Midsummer.</p>
+<p>
+I wish I could hope to meet you there, or anywhere, my dear Irving, were it only for as short a time as would suffice for the dispatch of such another Mint Julep as we disposed of at Baltimore.<note>Footnote to Pilgrim <hi rend="italic">Letters</hi> 3, p. 70 observes that CD’s first words on meeting Irving were: ‘What will you drink, a mint juleep [sic] or a gin cocktail?’ and that, having said goodbye to CD in Washington, followed him to Baltimore for a further farewell.</note> But I don’t despair of seeing your face, and shaking your hand again, one of these days in some remote place or other.
+</p>
+CD’s mis-spelling of Lewis Gaylord Clark, editor of <hi rend="italic">The Knickerbocker</hi>, with whom CD and Irving dined together (Pilgrim Letters 3, p. 79n). He was twin brother of Willis Gaylord Clark (1808–41), poet and editor.
+<p>
+Mrs. Dickens sends you her love, and hopes you have not forgotten her. I hope you have not forgotten Clarke’s5 twin-brother either.
+</p>
+         <closer>
+            <salute>
+Ever Faithfully Yours,Charles, Dickens, His Excellency,Washington Irving
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS, Washington Irving</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

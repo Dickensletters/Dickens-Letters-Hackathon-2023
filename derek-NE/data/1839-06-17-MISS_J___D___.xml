@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To MISS J___ D___,<note>Unidentified; but Miss D____'s first initial is revealed in To Miss J____ D____, 17 June 1839. <hi rend="italic">The Glasgow Evening Citizen</hi> expands on the history of the addressee: "Miss D____ got back to Glasgow, where she was married, and in such a position of comfort, that on Mr. Dickens's first visit to this city [in July 1841], she found him out, and desired him to accept repayment of the sums he had advanced, at which, in her own simple phrase, 'he only laughed.' Now [1870], however, somewhat advanced in years, her husband completely invalided, and herself broken down in health, she is again in need of aid. These original letters of Mr. Dickens, which she has so long treasured, she is now anxious to dispose of to any benevolent admirer of the distinguished author, and it will afford a curious illustration of the fruitfulness of good actions, if they should prove, once more, a source of hope and relief, to one who seems a thoroughly deserving, if a somewhat romantic and unfortunate person. The letters may be seen at our office."</note> 17 JUNE 1839 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2022-04-30</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text from <hi rend="italic">Glasgow Evening Citizen</hi>, 15 June 1870, p. 3.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id="charity">charity</interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>Elm Cottage, Petersham, Surrey<note>CD had rented Elm Cottage from 30 Apr to 31 Aug 1839.</note></placeName>
+               <date when="1839-06-17">Monday, June 17th, 1839. 
+
+</date>
+            </dateline>
+            <salute></salute>
+         </opener>
+         <p>Mr Dickens is living out of town for the summer, and being much occupied just now, has not an opportunity of making any inquiry relative to the letter he has received, signed "J­­­­____ D­­­____."</p>
+<p>  As no opportunity would arise until the middle of next week, and as Mr Dickens regrets that some days have already elapsed since the letter was received, his only way of judging of the probable truth of the statements made in it is by referring to the letter itself, and allowing his judgement to be guided by the terms and manner in which it is couched.</p>
+<p>  It <hi rend="italic">looks</hi> like truth. Mr Dickens would be extremely unwilling to suppose that such an appeal could be made – and by a woman – for mere purposes of imposition. Under this impression, he encloses a trifle towards the alleviation of the writer's distress and the attainment of her honest object; regretting that, with many other claims upon him, he cannot afford more, and sincerely trusting that better prospects may open upon her before long.</p>
+         <closer>
+            <salute>
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>

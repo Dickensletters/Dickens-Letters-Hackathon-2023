@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="italic">To</hi> GEORGE FAWCETT ROWE,<note>George Fawcett Rowe (1834-89), actor and playwright.</note> 25 DECEMBER 1866 </title>
+            <author>
+               <orgName>The Charles Dickens Letters Project</orgName>
+            </author>
+            <bibl><hi rend="italic">Charles Dickens Letters Project</hi>, ed. Leon Litvack, Katie Brandt, Emily Bell, and Jeremy Parrott (London: Dickens Fellowship), DickensLetters.com.</bibl>
+            <respStmt xml:id="EB">
+               <resp>Encoded by </resp>
+               <persName>Aisling Reid</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>The Dickens Fellowship</orgName>
+            </publisher>
+            <date>2021-01-31</date>
+            <availability>
+               <p>No part of any work within this web-based publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic mechanical, photocopying, recording or otherwise, without the prior permission of the Editor of <hi rend="italic">The Dickensian</hi>, acting in behalf of the publishers, the Dickens Fellowship.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Quoted in Booth’s Theatre (New York) programme, week ending 23 Jan. 1875, relating to a performance of Micawber staged by Rowe. </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <interpGrp type="themes">
+            <interp xml:id=""></interp>
+         </interpGrp>
+      </profileDesc>
+  </teiHeader>
+
+  <text>
+      <body>
+         <opener>
+            <dateline>
+               <placeName> Gad’s Hill<note>Printed thus in source; unclear whether the letter was written on Gad’s Hill letterhead.</note> </placeName>
+               <date when="1866-12-25">December 25th, 1866  </date>
+            </dateline>
+            <salute>Mr Dear Mr Rowe,</salute>
+         </opener>
+         <p>I have always refused my consent when it has been a question as to the dramatization of my largest works. In this case I comply with much pleasure, and I trust your rendering of "Micawber”<note><hi rend="italic">Little Em’ly</hi>, adapted by Andrew Halliday; performed at the Olympic, London, in December 1869, and often revived; Rowe played the role of Micawber. For details see H. Philip Bolton, <hi rend="italic">Dickens Dramatized</hi>, 1987, pp. 328-9. See also Malcolm Morley, 'Stage Appearances of Copperfield', <hi rend="italic">Dickensian</hi> 49 (1953): 77-85, in which he notes 'Dickens expressed his great satisfaction with the production' (p. 79).</note> may be as successful as your "Lavater”<note>J.R. Planché’s two-act comic drama, <hi rend="italic">Lavater the Physiognomist</hi>, or, Not a Bad Judge.</note> which I witnessed the other evening.</p>
+         <closer>
+            <salute>Faithfully Yours,
+            </salute>
+            <signed>
+               <persName>CHARLES DICKENS</persName>
+            </signed>
+         </closer>
+      </body>
+  </text>
+</TEI>
